@@ -92,23 +92,26 @@ function Shell({ theme, cycleTheme, children }) {
     <div className="page">
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
-        <div className="topnav-menu" ref={menuRef}>
-          <button className={`menu-btn${menuOpen ? ' open' : ''}`}
-                  aria-expanded={menuOpen} aria-haspopup="menu" aria-label="選單"
-                  onClick={() => setMenuOpen((o) => !o)}>
-            <span /><span /><span />
+        <div className="topnav-right">
+          <button className="theme-btn" onClick={cycleTheme}
+                  title={theme === 'dark' ? '切換明亮模式' : '切換暗黑模式'}
+                  aria-label={theme === 'dark' ? '切換明亮模式' : '切換暗黑模式'}>
+            {theme === 'dark' ? '☀' : '☾'}
           </button>
-          {menuOpen && (
-            <div className="menu-panel" role="menu">
-              <a role="menuitem" href="#/trends">趨勢文字雲</a>
-              <a role="menuitem" href="#/tech">每日一技</a>
-              <a role="menuitem" href="#/archive">歷期報告</a>
-              <button role="menuitem" className="menu-theme" onClick={cycleTheme}>
-                <span className="menu-theme-icon" aria-hidden="true">{theme === 'dark' ? '☀' : '☾'}</span>
-                {theme === 'dark' ? '明亮模式' : '暗黑模式'}
-              </button>
-            </div>
-          )}
+          <div className="topnav-menu" ref={menuRef}>
+            <button className={`menu-btn${menuOpen ? ' open' : ''}`}
+                    aria-expanded={menuOpen} aria-haspopup="menu" aria-label="選單"
+                    onClick={() => setMenuOpen((o) => !o)}>
+              <span /><span /><span />
+            </button>
+            {menuOpen && (
+              <div className="menu-panel" role="menu">
+                <a role="menuitem" href="#/trends">趨勢文字雲</a>
+                <a role="menuitem" href="#/tech">每日一技</a>
+                <a role="menuitem" href="#/archive">歷期報告</a>
+              </div>
+            )}
+          </div>
         </div>
       </nav>
       {children}

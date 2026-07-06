@@ -77,10 +77,17 @@ a { color: inherit; }
   font-size: 0.9rem;
 }
 .brand { font-family: var(--serif); font-weight: 700; text-decoration: none; letter-spacing: 0.02em; }
+.topnav-right { display: flex; align-items: center; gap: 12px; }
+.theme-btn {
+  background: none; border: none; cursor: pointer;
+  width: 26px; height: 26px; padding: 0;
+  color: var(--ink-2); font-size: 0.95rem; line-height: 1;
+}
+.theme-btn:hover { color: var(--ink-1); }
 .topnav-menu { position: relative; }
 .menu-btn {
   background: none; border: none; cursor: pointer;
-  width: 34px; height: 34px; padding: 8px 6px;
+  width: 26px; height: 26px; padding: 7px 4px;
   display: flex; flex-direction: column; justify-content: space-between;
 }
 .menu-btn span {
@@ -90,9 +97,9 @@ a { color: inherit; }
 }
 .menu-btn:hover span { background: var(--ink-1); }
 /* 開啟時三線變 ✕ */
-.menu-btn.open span:nth-child(1) { transform: translateY(8.25px) rotate(45deg); }
+.menu-btn.open span:nth-child(1) { transform: translateY(5.25px) rotate(45deg); }
 .menu-btn.open span:nth-child(2) { opacity: 0; }
-.menu-btn.open span:nth-child(3) { transform: translateY(-8.25px) rotate(-45deg); }
+.menu-btn.open span:nth-child(3) { transform: translateY(-5.25px) rotate(-45deg); }
 .menu-panel {
   position: absolute; top: calc(100% + 10px); right: 0; z-index: 40;
   min-width: 180px;
@@ -110,16 +117,12 @@ a { color: inherit; }
   .menu-panel { animation: none; }
   .menu-btn span { transition: none; }
 }
-.menu-panel a, .menu-panel .menu-theme {
+.menu-panel a {
   display: flex; align-items: center; gap: 10px;
   width: 100%; padding: 10px 18px;
   font-size: 0.92rem; color: var(--ink-2); text-decoration: none;
-  background: none; border: none; cursor: pointer; text-align: left;
-  font-family: inherit;
 }
-.menu-panel a:hover, .menu-panel .menu-theme:hover { color: var(--ink-1); background: color-mix(in srgb, var(--ink-1) 5%, transparent); }
-.menu-panel .menu-theme { border-top: 1px solid var(--hairline); margin-top: 6px; padding-top: 12px; }
-.menu-theme-icon { font-size: 1rem; line-height: 1; }
+.menu-panel a:hover { color: var(--ink-1); background: color-mix(in srgb, var(--ink-1) 5%, transparent); }
 
 /* ============ 刊頭 ============ */
 .masthead { text-align: center; padding: 44px 0 28px; border-bottom: 3px double var(--hairline); position: relative; }
