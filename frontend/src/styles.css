@@ -69,6 +69,13 @@ a { color: inherit; }
   position: fixed; inset: 0; z-index: -1;
   width: 100vw; height: 100vh;
   pointer-events: none;
+  /* 重整/初載時煙霧緩緩浮現，避免第一幀「啪」一下出現的突兀感 */
+  opacity: 0;
+  animation: smoke-in 1.1s ease-out 0.1s forwards;
+}
+@keyframes smoke-in { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .bg-smoke { animation: none; opacity: 1; }
 }
 .bg-aurora {
   position: fixed; inset: 0; z-index: -1;

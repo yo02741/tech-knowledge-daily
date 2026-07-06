@@ -73,6 +73,11 @@ function cssColor(name, fallback) {
 
 export default function AuroraGL({ onFail }) {
   const ref = useRef(null)
+  const sceneRef = useRef(null) // { gl, U, drawOnce } — init 一次後共用
+  // onFail 走 ref：inline callback 每次 render 都是新 function，
+  // 若放進 init 的依賴陣列，effect 會反覆重跑並 loseContext（畫面凍結成殘影）
+  const onFailRef = useRef(onFail)
+  onFailRef.current = onFail
   const [themeTick, setThemeTick] = useState(0)
 
   useEffect(() => {
@@ -81,11 +86,30 @@ export default function AuroraGL({ onFail }) {
     return () => ob.disconnect()
   }, [])
 
+  /* 主題色 uniform 更新（獨立於 init）：WebGL context 不能重建——
+     loseContext 後同一個 canvas 拿不回新 context，畫面會凍在最後一幀（殘影）。
+     所以 context 只建一次，換主題只改顏色。 */
+  const applyTheme = (gl, U) => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark'
+    gl.uniform3fv(U.base, cssColor('--page', dark ? '#0d0d0d' : '#f9f9f7'))
+    gl.uniform3fv(U.c1, cssColor('--dom-ai', '#2a78d6'))
+    gl.uniform3fv(U.c2, cssColor('--dom-uiux', '#4a3aa7'))
+    gl.uniform3fv(U.c3, cssColor('--dom-software', '#1baf7a'))
+    gl.uniform1f(U.mix, dark ? 0.5 : 0.34)
+    gl.uniform1f(U.grain, dark ? 0.05 : 0.035)
+  }
+  useEffect(() => {
+    const s = sceneRef.current
+    if (!s || themeTick === 0) return
+    applyTheme(s.gl, s.U)
+    s.drawOnce() // reduced-motion 沒有迴圈，主題變更也要補畫一幀
+  }, [themeTick])
+
   useEffect(() => {
     const canvas = ref.current
     if (!canvas) return
     const gl = canvas.getContext('webgl', { antialias: false, depth: false })
-    if (!gl) { onFail?.(); return }
+    if (!gl) { onFailRef.current?.(); return }
 
     const compile = (type, src) => {
       const s = gl.createShader(type)
@@ -97,26 +121,24 @@ export default function AuroraGL({ onFail }) {
     gl.attachShader(prog, compile(gl.VERTEX_SHADER, VERT))
     gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, FRAG))
     gl.linkProgram(prog)
-    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { onFail?.(); return }
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { onFailRef.current?.(); return }
     gl.useProgram(prog)
 
     // 全螢幕三角形（比兩個三角形的 quad 少一次 fragment 重疊）
     const buf = gl.createBuffer()
     gl.bindBuffer(gl.ARRAY_BUFFER, buf)
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW)
-    const loc = gl.getAttribLocation(prog, 'a')
-    gl.enableVertexAttribArray(loc)
-    gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0)
+    const aLoc = gl.getAttribLocation(prog, 'a')
+    gl.enableVertexAttribArray(aLoc)
+    gl.vertexAttribPointer(aLoc, 2, gl.FLOAT, false, 0, 0)
 
-    const U = (n) => gl.getUniformLocation(prog, n)
-    const dark = document.documentElement.getAttribute('data-theme') === 'dark'
-    gl.uniform3fv(U('u_base'), cssColor('--page', dark ? '#0d0d0d' : '#f9f9f7'))
-    gl.uniform3fv(U('u_c1'), cssColor('--dom-ai', '#2a78d6'))
-    gl.uniform3fv(U('u_c2'), cssColor('--dom-uiux', '#4a3aa7'))
-    gl.uniform3fv(U('u_c3'), cssColor('--dom-software', '#1baf7a'))
-    gl.uniform1f(U('u_mix'), dark ? 0.5 : 0.34)
-    gl.uniform1f(U('u_grain'), dark ? 0.05 : 0.035)
-    const uRes = U('u_res'), uT = U('u_t'), uMouse = U('u_mouse')
+    const loc = (n) => gl.getUniformLocation(prog, n)
+    const U = {
+      base: loc('u_base'), c1: loc('u_c1'), c2: loc('u_c2'), c3: loc('u_c3'),
+      mix: loc('u_mix'), grain: loc('u_grain'),
+    }
+    applyTheme(gl, U)
+    const uRes = loc('u_res'), uT = loc('u_t'), uMouse = loc('u_mouse')
 
     // 煙霧本來就柔，用半解析度渲染省 GPU（再被瀏覽器放大，看不出差）
     const scale = Math.min(window.devicePixelRatio, 2) * 0.5
@@ -149,6 +171,13 @@ export default function AuroraGL({ onFail }) {
       if (!reduced) raf = requestAnimationFrame(frame)
     }
     frame() // reduced-motion 也畫一張靜態煙霧，只是不動
+    sceneRef.current = {
+      gl, U,
+      drawOnce: () => {
+        gl.uniform1f(uT, (performance.now() - t0) / 1000)
+        gl.drawArrays(gl.TRIANGLES, 0, 3)
+      },
+    }
 
     const onVis = () => {
       cancelAnimationFrame(raf)
@@ -161,9 +190,10 @@ export default function AuroraGL({ onFail }) {
       window.removeEventListener('resize', resize)
       window.removeEventListener('pointermove', onMove)
       document.removeEventListener('visibilitychange', onVis)
+      sceneRef.current = null
       gl.getExtension('WEBGL_lose_context')?.loseContext()
     }
-  }, [themeTick, onFail])
+  }, []) // init 只跑一次；主題變更走 uniform 更新、onFail 走 ref，都不重建 context
 
   return <canvas className="bg-smoke" ref={ref} aria-hidden="true" />
 }
