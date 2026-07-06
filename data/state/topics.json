@@ -17,7 +17,10 @@
     }
    ],
    "status": "new",
-   "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代"
+   "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
+   "terms": [
+    "Fable 5"
+   ]
   },
   "codex-claude-interop": {
    "display": "OpenAI Codex ↔ Claude Code 互操作",
@@ -35,7 +38,11 @@
     }
    ],
    "status": "new",
-   "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex"
+   "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
+   "terms": [
+    "Codex",
+    "Claude Code"
+   ]
   },
   "claude-code-skills-eco": {
    "display": "Claude Code skills 生態爆發",
@@ -57,7 +64,11 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "Agent Skills",
+    "caveman"
+   ]
   },
   "astryx-design-system": {
    "display": "facebook/astryx 開源設計系統",
@@ -75,7 +86,10 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "astryx"
+   ]
   },
   "sql-over-orm": {
    "display": "ORM 之爭再起：直接學 SQL",
@@ -93,7 +107,11 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "ORM",
+    "SQL"
+   ]
   },
   "postgres-19-graphs": {
    "display": "Postgres 19 Property Graphs",
@@ -112,7 +130,10 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "Postgres 19"
+   ]
   },
   "onprem-vs-cloud": {
    "display": "自架伺服器 vs 雲端成本重估",
@@ -131,7 +152,10 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "On-prem"
+   ]
   },
   "design-ai-prototyping": {
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
@@ -151,7 +175,11 @@
     }
    ],
    "status": "new",
-   "note": ""
+   "note": "",
+   "terms": [
+    "Figma",
+    "AI Prototyping"
+   ]
   }
  }
 }

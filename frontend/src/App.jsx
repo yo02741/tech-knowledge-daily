@@ -454,9 +454,10 @@ function layoutCloud(items, seedStr, W, H) {
   const weights = items.map((i) => i.weight)
   const wMin = Math.min(...weights), wMax = Math.max(...weights)
   const fontSize = (w) => {
-    if (wMax === wMin) return 46
-    const t = (Math.log(w + 1) - Math.log(wMin + 1)) / (Math.log(wMax + 1) - Math.log(wMin + 1))
-    return 17 + t * (66 - 17)
+    if (wMax === wMin) return 48
+    // sqrt 比 log 保留更多中段對比，雲的層次感較好
+    const t = (Math.sqrt(w) - Math.sqrt(wMin)) / (Math.sqrt(wMax) - Math.sqrt(wMin))
+    return 15 + t * (76 - 15)
   }
   const placed = []
   const words = []
@@ -466,14 +467,14 @@ function layoutCloud(items, seedStr, W, H) {
     ctx.font = `700 ${fs}px Georgia, "Noto Serif TC", serif`
     const tw = ctx.measureText(it.label).width
     const th = fs * 1.08
-    const vertical = words.length > 0 && it.label.length <= 12 && rand() < 0.4
-    const bw = (vertical ? th : tw) + 8
-    const bh = (vertical ? tw : th) + 6
+    const vertical = words.length > 0 && it.label.length <= 12 && rand() < 0.35
+    const bw = (vertical ? th : tw) + 6
+    const bh = (vertical ? tw : th) + 4
     const angle0 = rand() * Math.PI * 2
     let pos = null
-    for (let step = 0; step < 3000 && !pos; step++) {
-      const t = step * 0.3
-      const r = 1.8 * t * 0.28
+    for (let step = 0; step < 4000 && !pos; step++) {
+      const t = step * 0.25
+      const r = 0.42 * t
       const x = W / 2 + r * Math.cos(t + angle0)
       const y = H / 2 + r * 0.62 * Math.sin(t + angle0) // 壓成橢圓貼合畫布比例
       if (x - bw / 2 < 2 || x + bw / 2 > W - 2 || y - bh / 2 < 2 || y + bh / 2 > H - 2) continue
@@ -520,7 +521,7 @@ function TrendsCloud() {
             <a key={w.slug} href={`#/${w.last_seen}`} role="listitem">
               <text x={w.x} y={w.y}
                     textAnchor="middle" dominantBaseline="middle"
-                    className={`cw-${w.status}${stale ? ' cw-stale' : ''}`}
+                    className={`cd-${w.domain || 'software'}${stale ? ' cw-stale' : ''}`}
                     fontSize={w.fs}
                     transform={w.vertical ? `rotate(90 ${w.x.toFixed(1)} ${w.y.toFixed(1)})` : undefined}>
                 {w.label}
@@ -532,18 +533,20 @@ function TrendsCloud() {
       </svg>
 
       <div className="cloud-legend">
-        {Object.entries(STATUS).map(([key, s]) => (
-          <span key={key} className={`badge st-${key}`}>
-            <span className="badge-icon" aria-hidden="true">{s.icon}</span>{s.label}
+        {DOMAINS.map((d) => (
+          <span key={d} className="legend-chip">
+            <span className={`legend-swatch cd-${d}`} aria-hidden="true">●</span>
+            {DOMAIN_META[d].label}
           </span>
         ))}
-        <span className="legend-note">點字跳到該話題最近出現的一期</span>
+        <span className="legend-note">淡色＝今天未出現 · 點字跳到該話題最近一期</span>
       </div>
 
       <section className="cloud-rank">
         <h2 className="section-label">熱度排行</h2>
         <ol>
-          {cloud.items.slice(0, 20).map((it, i) => (
+          {/* 一個 topic 會展開成多個雲詞條（slug#n），排行榜只列主詞條 */}
+          {cloud.items.filter((it) => !it.slug.includes('#')).slice(0, 20).map((it, i) => (
             <li key={it.slug}>
               <span className="rank-no">{i + 1}</span>
               <a href={`#/${it.last_seen}`}>{it.display}</a>

@@ -240,8 +240,13 @@ def analyze(date: str, commit: bool, raw_root: str | None = None,
 
 
 def build_cloud(date: str, days: int, ledger_path: str | None = None) -> dict:
-    """近 days 天各 topic 熱度加總（文字雲權重）。0 權重（窗內無熱度）排除。"""
+    """近 days 天各 topic 熱度加總（文字雲權重）。0 權重（窗內無熱度）排除。
+
+    一個 topic 可貢獻多個雲顯示詞（topic 的 `terms` 欄位，帶大小寫、1-3 個；
+    缺時退回最短 alias）——「Codex ↔ Claude Code」這種雙主角話題兩個詞都要
+    出現。同 topic 的第 2、3 個詞權重遞減，避免灌水。"""
     ledger = load_json(ledger_path or LEDGER_PATH, {"last_run": "", "topics": {}})
+    decay = [1.0, 0.7, 0.5]
     items = []
     for slug, t in ledger["topics"].items():
         weight = sum(h["heat"] for h in t.get("history", [])
@@ -249,16 +254,18 @@ def build_cloud(date: str, days: int, ledger_path: str | None = None) -> dict:
         if weight <= 0:
             continue
         aliases = t.get("aliases", [])
-        items.append({
-            "slug": slug,
-            "display": t.get("display", slug),
-            # 文字雲用短標籤（最短別名）——長標題排不成緊密的雲
-            "label": min(aliases, key=len) if aliases else t.get("display", slug),
-            "weight": round(weight, 1),
-            "status": t.get("status", "ongoing"),
-            "domain": t.get("domain", ""),
-            "last_seen": t.get("last_seen", ""),
-        })
+        terms = t.get("terms") or ([min(aliases, key=len)] if aliases
+                                   else [t.get("display", slug)])
+        for i, term in enumerate(terms[:3]):
+            items.append({
+                "slug": f"{slug}#{i}" if i else slug,
+                "display": t.get("display", slug),
+                "label": term,
+                "weight": round(weight * decay[i], 1),
+                "status": t.get("status", "ongoing"),
+                "domain": t.get("domain", ""),
+                "last_seen": t.get("last_seen", ""),
+            })
     items.sort(key=lambda i: -i["weight"])
     return {"date": date, "window_days": days, "items": items}
 
@@ -273,6 +280,7 @@ def cmd_add_topic(args) -> None:
     ledger["topics"][args.slug] = {
         "display": args.display,
         "aliases": args.alias,
+        "terms": args.term,
         "domain": args.domain,
         "first_seen": today,
         "last_seen": today,
@@ -401,6 +409,8 @@ def main() -> int:
     p.add_argument("--display", required=True)
     p.add_argument("--domain", required=True, choices=["ai", "software", "devops", "uiux"])
     p.add_argument("--alias", action="append", required=True)
+    p.add_argument("--term", action="append", default=[],
+                   help="文字雲顯示詞（1-3 個、帶大小寫，如 'Claude Code'）；缺時用最短 alias")
     p.add_argument("--date", required=True, help="首見日（通常是今天）")
     p.add_argument("--note", default="")
 

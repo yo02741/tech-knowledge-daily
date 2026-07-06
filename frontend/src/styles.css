@@ -11,6 +11,11 @@
   --spark-line: #86b6ef;      /* sequential 250：de-emphasis 走勢線 */
   --good: #0ca30c;
   --critical: #d03b3b;
+  /* 文字雲群集色（categorical palette：藍/aqua/橘/violet） */
+  --dom-ai: #2a78d6;
+  --dom-software: #1baf7a;
+  --dom-devops: #eb6834;
+  --dom-uiux: #4a3aa7;
   --serif: Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", "PMingLiU", serif;
   --sans: system-ui, -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
 }
@@ -25,17 +30,23 @@
     --border: rgba(255, 255, 255, 0.10);
     --accent: #3987e5;
     --spark-line: #5598e7;
+    --dom-ai: #3987e5;
+    --dom-software: #1baf7a;
+    --dom-devops: #d95926;
+    --dom-uiux: #9085e9;
   }
 }
 :root[data-theme="light"] {
   --page: #f9f9f7; --surface-1: #fcfcfb; --ink-1: #0b0b0b; --ink-2: #52514e;
   --ink-3: #898781; --hairline: #e1e0d9; --border: rgba(11,11,11,0.10);
   --accent: #2a78d6; --spark-line: #86b6ef;
+  --dom-ai: #2a78d6; --dom-software: #1baf7a; --dom-devops: #eb6834; --dom-uiux: #4a3aa7;
 }
 :root[data-theme="dark"] {
   --page: #0d0d0d; --surface-1: #1a1a19; --ink-1: #ffffff; --ink-2: #c3c2b7;
   --ink-3: #898781; --hairline: #2c2c2a; --border: rgba(255,255,255,0.10);
   --accent: #3987e5; --spark-line: #5598e7;
+  --dom-ai: #3987e5; --dom-software: #1baf7a; --dom-devops: #d95926; --dom-uiux: #9085e9;
 }
 
 /* ============ 基底 ============ */
@@ -442,12 +453,17 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
   transition: fill 0.12s ease;
 }
 .cloud-svg a { text-decoration: none; }
-.cloud-svg a:hover text { fill: var(--accent); opacity: 1; }
-.cw-new { color: var(--accent); }
-.cw-rising { color: var(--good); }
-.cw-ongoing { color: var(--ink-2); }
-.cw-fading { color: var(--ink-3); }
-.cw-stale { opacity: 0.55; }
+.cloud-svg a:hover text { opacity: 1; filter: brightness(1.25); }
+.cd-ai { color: var(--dom-ai); }
+.cd-software { color: var(--dom-software); }
+.cd-devops { color: var(--dom-devops); }
+.cd-uiux { color: var(--dom-uiux); }
+.cw-stale { opacity: 0.5; }
+.legend-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.8rem; color: var(--ink-2);
+}
+.legend-swatch { font-size: 0.7rem; line-height: 1; }
 
 .cloud-legend {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
