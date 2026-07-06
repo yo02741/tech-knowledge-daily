@@ -31,8 +31,9 @@ function readPalette() {
   const dark = document.documentElement.getAttribute('data-theme') === 'dark'
   return {
     dark,
-    bg: dark ? '#08080f' : tok('--page', '#f9f9f7'),
-    star: dark ? '#8f9bd4' : '#b9b7ac',
+    // 霧色要貼近容器的 CSS 漸層背景（.galaxy-wrap），遠處物件才會自然淡進背景
+    fog: dark ? '#0a0a16' : '#e9edf4',
+    star: dark ? '#8f9bd4' : '#7d8296',
     dom: {
       ai: tok('--dom-ai', '#2a78d6'),
       software: tok('--dom-software', '#1baf7a'),
@@ -66,7 +67,9 @@ export default function Galaxy({ cloud, onFail }) {
     /* ── ① init：場景三件套 scene / camera / renderer ─────────────── */
     let renderer
     try {
-      renderer = new THREE.WebGLRenderer({ antialias: true })
+      // alpha:true → canvas 透明，天空背景交給 .galaxy-wrap 的 CSS 漸層
+      //（scene.background 只吃單色，漸層天空用 CSS 做又便宜又跟主題連動）
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
     } catch {
       onFail?.()
       return
@@ -76,9 +79,8 @@ export default function Galaxy({ cloud, onFail }) {
     wrap.appendChild(renderer.domElement)
 
     const scene = new THREE.Scene()
-    scene.background = new THREE.Color(pal.bg)
     // 霧讓遠處詞條淡出，製造縱深；起迄距離抓「最遠詞條再往後一點」
-    scene.fog = new THREE.Fog(pal.bg, 110, 220)
+    scene.fog = new THREE.Fog(pal.fog, 110, 220)
 
     const camera = new THREE.PerspectiveCamera(55, 1, 0.1, 400)
     camera.position.set(0, 22, 118)
@@ -151,8 +153,8 @@ export default function Galaxy({ cloud, onFail }) {
     }
     starGeo.setAttribute('position', new THREE.BufferAttribute(starPos, 3))
     const starMat = new THREE.PointsMaterial({
-      color: pal.star, size: pal.dark ? 0.9 : 0.7,
-      transparent: true, opacity: pal.dark ? 0.8 : 0.5, sizeAttenuation: true,
+      color: pal.star, size: pal.dark ? 0.9 : 1.0,
+      transparent: true, opacity: pal.dark ? 0.8 : 0.65, sizeAttenuation: true,
     })
     scene.add(new THREE.Points(starGeo, starMat))
 

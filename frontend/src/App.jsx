@@ -90,6 +90,8 @@ function Shell({ theme, cycleTheme, children }) {
   }, [])
   return (
     <div className="page">
+      {/* 全站底層：緩慢漂移的色暈 + 遮罩，永遠墊在內容之下 */}
+      <div className="bg-aurora" aria-hidden="true"><span /><span /><span /></div>
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
         <div className="topnav-right">

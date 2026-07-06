@@ -61,6 +61,53 @@ body {
 }
 a { color: inherit; }
 
+/* ============ 全站底景：漂移色暈（aurora） ============ */
+/* z-index:-1 落在 body 背景色（canvas 層）之上、所有內容之下。
+   三團模糊色暈用群集色極低調漂移，::after 蓋一層紙色遮罩壓住彩度。 */
+.bg-aurora {
+  position: fixed; inset: 0; z-index: -1;
+  overflow: hidden; pointer-events: none;
+}
+.bg-aurora span {
+  position: absolute;
+  width: 55vmax; height: 55vmax; border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.16;
+  will-change: transform;
+}
+.bg-aurora span:nth-child(1) {
+  background: radial-gradient(circle, var(--dom-ai), transparent 65%);
+  top: -18vmax; left: -12vmax;
+  animation: aurora-a 52s ease-in-out infinite alternate;
+}
+.bg-aurora span:nth-child(2) {
+  background: radial-gradient(circle, var(--dom-uiux), transparent 65%);
+  bottom: -22vmax; right: -14vmax;
+  animation: aurora-b 67s ease-in-out infinite alternate;
+}
+.bg-aurora span:nth-child(3) {
+  background: radial-gradient(circle, var(--dom-software), transparent 65%);
+  top: 32%; left: 52%;
+  opacity: 0.10;
+  animation: aurora-c 79s ease-in-out infinite alternate;
+}
+.bg-aurora::after {
+  content: ''; position: absolute; inset: 0;
+  background: color-mix(in srgb, var(--page) 55%, transparent);
+}
+/* 暗色底吃色重，透明度要拉高、遮罩放輕才看得見流動 */
+:root[data-theme="dark"] .bg-aurora span { opacity: 0.22; }
+:root[data-theme="dark"] .bg-aurora span:nth-child(3) { opacity: 0.13; }
+:root[data-theme="dark"] .bg-aurora::after {
+  background: color-mix(in srgb, var(--page) 40%, transparent);
+}
+@keyframes aurora-a { to { transform: translate3d(20vw, 14vh, 0) scale(1.18); } }
+@keyframes aurora-b { to { transform: translate3d(-18vw, -11vh, 0) scale(1.12); } }
+@keyframes aurora-c { to { transform: translate3d(-14vw, 9vh, 0) scale(0.88); } }
+@media (prefers-reduced-motion: reduce) {
+  .bg-aurora span { animation: none; }
+}
+
 .page {
   max-width: 700px;
   margin: 0 auto;
@@ -500,6 +547,11 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
   margin: 18px 0;
   border: 1px solid var(--hairline);
   overflow: hidden;
+  /* 天空底：canvas 是透明的（alpha:true），漸層在這裡做，跟主題連動 */
+  background: radial-gradient(120% 90% at 50% 32%, #f8fafc 0%, #e9edf4 55%, #dde3ee 100%);
+}
+:root[data-theme="dark"] .galaxy-wrap {
+  background: radial-gradient(120% 90% at 50% 32%, #131322 0%, #0a0a16 60%, #06060c 100%);
 }
 .galaxy-wrap canvas { display: block; width: 100%; height: 100%; touch-action: none; }
 .galaxy-hint {
