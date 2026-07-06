@@ -1,0 +1,16 @@
+[
+ {
+  "date": "2026-07-06",
+  "weekday": "一",
+  "tldr_count": 4,
+  "topic_count": 8,
+  "top_topic": "OpenAI Codex ↔ Claude Code 互操作"
+ },
+ {
+  "date": "2026-07-05",
+  "weekday": "日",
+  "tldr_count": 1,
+  "topic_count": 1,
+  "top_topic": "Fable 5 使用期限與遷移策略"
+ }
+]

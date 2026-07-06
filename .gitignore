@@ -1,0 +1,19 @@
+# 原始抓取資料不進版控（保留 14 天由 fetch_all.sh 清理）
+data/raw/
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+
+# site/ 只版控 data/（報告 JSON 是 source of truth），build 產物可重建
+site/index.html
+site/assets/
+
+# Firebase
+.firebase/
+firebase-debug.log
+*.log
+
+# 個人化內容不進公開 repo
+PROFILE.md
+reports/

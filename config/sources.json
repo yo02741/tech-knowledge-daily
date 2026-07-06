@@ -1,0 +1,68 @@
+{
+  "retention_days": 14,
+  "reddit_mode": "rss",
+  "subreddits": [
+    "ClaudeAI",
+    "LocalLLaMA",
+    "MachineLearning",
+    "programming",
+    "ExperiencedDevs",
+    "webdev",
+    "devops",
+    "web_design",
+    "UXDesign"
+  ],
+  "github": {
+    "since": "daily",
+    "languages": ["", "python", "typescript"]
+  },
+  "hn": {
+    "front_page_limit": 30,
+    "min_points_24h": 50,
+    "recent_limit": 50
+  },
+  "source_scale": {
+    "github": 0.3
+  },
+  "unassigned_min_heat": 60,
+  "unassigned_max_items": 15,
+  "unassigned_max_per_source": 6,
+  "domains": {
+    "ai": {
+      "weight": 3,
+      "keywords": [
+        "llm", "claude", "anthropic", "gpt", "openai", "gemini", "deepseek",
+        "qwen", "llama", "mistral", "agent", "agentic", "mcp", "rag",
+        "fine-tun", "finetun", "transformer", "copilot", "cursor",
+        "claude code", "prompt", "inference", "context window", "token",
+        "diffusion", "multimodal", "opus", "sonnet", "haiku", "fable"
+      ]
+    },
+    "software": {
+      "weight": 2,
+      "keywords": [
+        "react", "vue", "svelte", "typescript", "javascript", "python",
+        "rust", "golang", " go ", "node", "deno", "bun", "frontend",
+        "backend", "api", "framework", "database", "postgres", "sqlite",
+        "compiler", "wasm"
+      ]
+    },
+    "devops": {
+      "weight": 1,
+      "keywords": [
+        "kubernetes", "k8s", "docker", "container", "ci/cd", "terraform",
+        "aws", "gcp", "azure", "cloudflare", "deploy", "observability",
+        "sre", "incident", "outage"
+      ]
+    },
+    "uiux": {
+      "weight": 1,
+      "keywords": [
+        "design system", "ui design", "ux", "user experience", "figma",
+        "css", "tailwind", "typography", "accessibility", "a11y",
+        "animation", "interaction design", "design token", "dark mode",
+        "component library"
+      ]
+    }
+  }
+}

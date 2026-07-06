@@ -1,0 +1,157 @@
+{
+ "last_run": "2026-07-06",
+ "topics": {
+  "fable5-lifecycle": {
+   "display": "Fable 5 使用期限與遷移策略",
+   "aliases": [
+    "fable"
+   ],
+   "domain": "ai",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 1159.6,
+     "mentions": 7
+    }
+   ],
+   "status": "new",
+   "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代"
+  },
+  "codex-claude-interop": {
+   "display": "OpenAI Codex ↔ Claude Code 互操作",
+   "aliases": [
+    "codex"
+   ],
+   "domain": "ai",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 3176.8,
+     "mentions": 6
+    }
+   ],
+   "status": "new",
+   "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex"
+  },
+  "claude-code-skills-eco": {
+   "display": "Claude Code skills 生態爆發",
+   "aliases": [
+    "claude code skill",
+    "claude skills",
+    "awesome-claude-code",
+    "agent skills",
+    "skills for claude code"
+   ],
+   "domain": "ai",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 1229.3,
+     "mentions": 4
+    }
+   ],
+   "status": "new",
+   "note": ""
+  },
+  "astryx-design-system": {
+   "display": "facebook/astryx 開源設計系統",
+   "aliases": [
+    "astryx"
+   ],
+   "domain": "uiux",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 156.6,
+     "mentions": 1
+    }
+   ],
+   "status": "new",
+   "note": ""
+  },
+  "sql-over-orm": {
+   "display": "ORM 之爭再起：直接學 SQL",
+   "aliases": [
+    "orm"
+   ],
+   "domain": "software",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 200.0,
+     "mentions": 1
+    }
+   ],
+   "status": "new",
+   "note": ""
+  },
+  "postgres-19-graphs": {
+   "display": "Postgres 19 Property Graphs",
+   "aliases": [
+    "postgres 19",
+    "property graph"
+   ],
+   "domain": "software",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 40.0,
+     "mentions": 1
+    }
+   ],
+   "status": "new",
+   "note": ""
+  },
+  "onprem-vs-cloud": {
+   "display": "自架伺服器 vs 雲端成本重估",
+   "aliases": [
+    "on-premises",
+    "on-prem"
+   ],
+   "domain": "devops",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 100.0,
+     "mentions": 1
+    }
+   ],
+   "status": "new",
+   "note": ""
+  },
+  "design-ai-prototyping": {
+   "display": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "aliases": [
+    "figma",
+    "prototyping",
+    "prototype"
+   ],
+   "domain": "uiux",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "history": [
+    {
+     "date": "2026-07-06",
+     "heat": 106.7,
+     "mentions": 2
+    }
+   ],
+   "status": "new",
+   "note": ""
+  }
+ }
+}
