@@ -37,4 +37,4 @@
 
 ## CI 每日管線與雙層報告
 
-`.github/workflows/daily-pipeline.yml` 每日 08:07（台北）自動：fetch → analyze → `gen_report.py` 產**模板報告**（`generated: "template"`，純統計無個人化）→ `store_firestore.py` 存 Firestore（資料儲存層）→ push → 串 deploy-pages。本機 `/daily` 遇模板報告走升級模式，以 Claude 完整版覆寫。gen_report 絕不覆寫 Claude 版（除非 --force）。
+`.github/workflows/daily-pipeline.yml` 每日 08:07（台北）自動：fetch → analyze → `gen_report.py` 產**模板報告**（`generated: "template"`，含確定性選卡的 `tech_intro` 每日一技）→ `trend_state.py cloud` 產趨勢雲資料（近 14 天）→ `store_firestore.py` 存 Firestore（資料儲存層）→ push → 串 deploy-pages。本機 `/daily` 遇模板報告走升級模式，以 Claude 敘事版覆寫（tech_intro 沿用）。gen_report 絕不覆寫 Claude 版（除非 --force）。

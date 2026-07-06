@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { fetchIndex, fetchReport } from './data.js'
-import { StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
+import { fetchIndex, fetchReport, fetchCloud } from './data.js'
+import { STATUS, StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
 
 const DOMAINS = ['ai', 'software', 'devops', 'uiux']
 const DOMAIN_META = {
@@ -19,6 +19,7 @@ function useHashRoute() {
   }, [])
   const h = hash.replace(/^#\/?/, '')
   if (h === 'archive') return { view: 'archive' }
+  if (h === 'trends') return { view: 'trends' }
   const m = /^(\d{4}-\d{2}-\d{2})(?:\/([a-z]+-\d+))?$/.exec(h)
   if (m) return { view: 'issue', date: m[1], anchor: m[2] || null }
   return { view: 'issue', date: null } // 最新一期
@@ -54,7 +55,9 @@ export default function App() {
     <Shell theme={theme} cycleTheme={cycleTheme}>
       {route.view === 'archive'
         ? <Archive index={index} />
-        : <Issue index={index} date={route.date || index[0].date} anchor={route.anchor} />}
+        : route.view === 'trends'
+          ? <TrendsCloud />
+          : <Issue index={index} date={route.date || index[0].date} anchor={route.anchor} />}
     </Shell>
   )
 }
@@ -66,6 +69,7 @@ function Shell({ theme, cycleTheme, children }) {
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
         <div className="topnav-right">
+          <a href="#/trends">趨勢</a>
           <a href="#/archive">歷期</a>
           <button className="theme-btn" onClick={cycleTheme}
                   title={`主題：${theme}`} aria-label="切換深淺色主題">{themeIcon}</button>
@@ -73,7 +77,7 @@ function Shell({ theme, cycleTheme, children }) {
       </nav>
       {children}
       <footer className="colophon">
-        <span>tech-knowledge-daily — 熱度與狀態由管線計算，行動建議對照 PROFILE 產生</span>
+        <span>tech-knowledge-daily — 每日自動抓取 HN / GitHub Trending / Reddit，熱度與狀態由管線計算</span>
       </footer>
       <BackToTop />
     </div>
@@ -193,6 +197,8 @@ function Issue({ index, date, anchor }) {
           </ul>
         </section>
       )}
+
+      {report.tech_intro && <TechIntro card={report.tech_intro} />}
 
       {report.data_quality?.length > 0 && (
         <section className="dq">
@@ -317,6 +323,124 @@ function Topic({ topic }) {
         </p>
       )}
     </article>
+  )
+}
+
+const CARD_DOMAIN = {
+  ai: 'AI', frontend: '前端', backend: '後端', uiux: 'UI/UX', devops: 'DevOps',
+}
+
+/* 每日一技：題庫確定性輪播的技術小卡（嵌在當期報告的 tech_intro 欄位） */
+function TechIntro({ card }) {
+  return (
+    <section className="tech-intro">
+      <h2 className="section-label">每日一技 <span className="label-note">DAILY TECH 101</span></h2>
+      <article className="tech-card">
+        <div className="tech-tags">
+          <span className="wf-tag">{CARD_DOMAIN[card.domain] || card.domain}</span>
+          {card.level && <span className="wf-tag">{card.level}</span>}
+        </div>
+        <h3 className="tech-term">{card.term}</h3>
+        {card.tagline && <p className="tech-tagline">{card.tagline}</p>}
+        {(card.intro || []).map((p, i) => <p className="tech-p" key={i}>{p}</p>)}
+        {card.links?.length > 0 && (
+          <p className="sources">
+            {card.links.map((l, i) => (
+              <a key={i} href={l.url} target="_blank" rel="noreferrer" className="source-pill">{l.label}</a>
+            ))}
+          </p>
+        )}
+      </article>
+    </section>
+  )
+}
+
+/* 確定性 PRNG（mulberry32）：以日期為種子，雲的排列每天固定、跨訪問一致 */
+function seededShuffle(arr, seedStr) {
+  let seed = 0
+  for (const ch of seedStr) seed = (seed * 31 + ch.charCodeAt(0)) >>> 0
+  const rand = () => {
+    seed = (seed + 0x6d2b79f5) >>> 0
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+  const out = [...arr]
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1))
+    ;[out[i], out[j]] = [out[j], out[i]]
+  }
+  return { shuffled: out, rand }
+}
+
+function TrendsCloud() {
+  const [cloud, setCloud] = useState(null)
+  const [error, setError] = useState(null)
+  useEffect(() => {
+    fetchCloud().then(setCloud).catch((e) => setError(String(e)))
+  }, [])
+
+  if (error) return <p className="status-msg">讀取趨勢雲失敗：{error}</p>
+  if (!cloud) return <p className="status-msg">載入中…</p>
+  if (!cloud.items.length) return <p className="status-msg">趨勢雲還沒有資料——ledger 需要累積幾天熱度。</p>
+
+  const weights = cloud.items.map((i) => i.weight)
+  const wMin = Math.min(...weights), wMax = Math.max(...weights)
+  const scale = (w) => {
+    if (wMax === wMin) return 1.6
+    const t = (Math.log(w + 1) - Math.log(wMin + 1)) / (Math.log(wMax + 1) - Math.log(wMin + 1))
+    return 0.85 + t * (2.6 - 0.85)
+  }
+  const { shuffled, rand } = seededShuffle(cloud.items, cloud.date)
+
+  return (
+    <section className="trends fade-swap">
+      <header className="masthead">
+        <p className="kicker">TREND CLOUD · 近 {cloud.window_days} 天</p>
+        <h1>趨勢雲</h1>
+        <p className="dateline">統計至 {fmtDate(cloud.date)} · 字越大，近期越火</p>
+      </header>
+
+      <div className="cloud" role="list">
+        {shuffled.map((it) => {
+          const s = STATUS[it.status] || STATUS.ongoing
+          const stale = it.last_seen !== cloud.date
+          return (
+            <a key={it.slug} role="listitem"
+               className={`cloud-word cw-${it.status}${stale ? ' cw-stale' : ''}`}
+               style={{ fontSize: `${scale(it.weight).toFixed(2)}rem`,
+                        marginInline: `${(4 + rand() * 18).toFixed(0)}px` }}
+               href={`#/${it.last_seen}`}
+               title={`${it.display}｜近${cloud.window_days}天熱度 ${fmtHeat(it.weight)}｜最近出現 ${it.last_seen}`}>
+              {it.display}
+            </a>
+          )
+        })}
+      </div>
+
+      <div className="cloud-legend">
+        {Object.entries(STATUS).map(([key, s]) => (
+          <span key={key} className={`badge st-${key}`}>
+            <span className="badge-icon" aria-hidden="true">{s.icon}</span>{s.label}
+          </span>
+        ))}
+        <span className="legend-note">點字跳到該話題最近出現的一期</span>
+      </div>
+
+      <section className="cloud-rank">
+        <h2 className="section-label">熱度排行</h2>
+        <ol>
+          {cloud.items.slice(0, 20).map((it, i) => (
+            <li key={it.slug}>
+              <span className="rank-no">{i + 1}</span>
+              <a href={`#/${it.last_seen}`}>{it.display}</a>
+              <StatusBadge status={it.status} />
+              <span className="rank-heat">{fmtHeat(it.weight)}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </section>
   )
 }
 

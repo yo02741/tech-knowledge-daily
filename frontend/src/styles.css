@@ -428,6 +428,82 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
   .back-to-top, .back-to-top:hover .btt-arrow { animation: none; }
 }
 
+/* ============ 趨勢雲 ============ */
+.cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 14px 0;
+  padding: 40px 8px 28px;
+}
+.cloud-word {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  color: var(--ink-2);
+  transition: color 0.12s ease;
+}
+.cloud-word:hover { color: var(--accent) !important; }
+.cw-new { color: var(--accent); }
+.cw-rising { color: var(--good); }
+.cw-ongoing { color: var(--ink-2); }
+.cw-fading { color: var(--ink-3); }
+.cw-stale { opacity: 0.55; }
+
+.cloud-legend {
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+  gap: 10px;
+  padding: 6px 0 10px;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  padding-block: 12px;
+}
+.legend-note { font-size: 0.75rem; color: var(--ink-3); margin-left: 6px; }
+
+.cloud-rank { padding-top: 30px; }
+.cloud-rank ol { list-style: none; }
+.cloud-rank li {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 2px;
+  font-size: 0.92rem;
+}
+.cloud-rank li + li { border-top: 1px solid var(--hairline); }
+.rank-no {
+  font-family: var(--serif); font-weight: 700; color: var(--ink-3);
+  width: 1.6em; text-align: right; flex-shrink: 0;
+}
+.cloud-rank a { color: var(--ink-1); text-decoration: none; flex: 1; min-width: 0; }
+.cloud-rank a:hover { color: var(--accent); }
+.rank-heat { font-variant-numeric: tabular-nums; color: var(--ink-2); }
+
+/* ============ 每日一技 ============ */
+.tech-intro { padding-top: 34px; }
+.tech-card {
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 22px 24px;
+  background: var(--surface-1);
+  position: relative;
+}
+.tech-card::before {
+  content: "";
+  position: absolute; top: -1px; left: 24px; right: auto;
+  width: 56px; border-top: 3px solid var(--accent);
+}
+.tech-tags { display: flex; gap: 8px; margin-bottom: 10px; }
+.tech-term {
+  font-family: var(--serif);
+  font-size: 1.45rem; font-weight: 700; line-height: 1.35;
+}
+.tech-tagline {
+  font-family: var(--serif);
+  color: var(--ink-2); font-size: 0.98rem;
+  margin: 4px 0 12px;
+}
+.tech-p { font-size: 0.92rem; color: var(--ink-2); margin-bottom: 8px; }
+
 /* ============ 雜項 ============ */
 .status-msg { padding: 60px 0; text-align: center; color: var(--ink-3); }
 .colophon {

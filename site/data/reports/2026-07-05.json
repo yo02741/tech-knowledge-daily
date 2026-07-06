@@ -76,5 +76,22 @@
    "source": "報告產生方式",
    "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
   }
- ]
+ ],
+ "tech_intro": {
+  "id": "do-feature-flag",
+  "domain": "devops",
+  "term": "Feature Flag",
+  "tagline": "程式碼先上線，功能開關另外控制",
+  "intro": [
+   "新功能包在開關後面部署上去，先對內部或 1% 使用者打開，驗證沒問題再全量——出事關掉開關即可，不用緊急回滾部署。",
+   "進階玩法是 A/B 實驗與按用戶分群；技術債提醒：旗子要定期清，長滿過期開關的程式碼是災難現場。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Martin Fowler：Feature Toggles",
+    "url": "https://martinfowler.com/articles/feature-toggles.html"
+   }
+  ]
+ }
 }

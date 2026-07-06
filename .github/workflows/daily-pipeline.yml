@@ -46,10 +46,11 @@ jobs:
           set -e
           if [ "$rc" != 0 ] && [ "$rc" != 2 ]; then exit "$rc"; fi
 
-      - name: Analyze + 模板報告 + 校驗
+      - name: Analyze + 模板報告 + 趨勢雲 + 校驗
         run: |
           uv run scripts/trend_state.py analyze --date "$DATE" $COMMIT_FLAG
           uv run scripts/gen_report.py --date "$DATE"
+          uv run scripts/trend_state.py cloud --date "$(date -u +%F)" --days 14
           uv run scripts/publish.py
 
       - name: Store to Firestore（best-effort，不擋管線）

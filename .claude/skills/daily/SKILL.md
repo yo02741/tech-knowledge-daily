@@ -21,9 +21,10 @@ argument-hint: "[議題名（可選，深挖模式）]"
    - 一次性雜訊（單日梗文、與技術趨勢無關）→ 忽略
    - 新增/併入後 **重跑步驟 4**（同日重跑會覆蓋當日 history，安全），讓新 topic 拿到正確熱度與 top_items。
 7. **寫報告** `site/data/reports/<日期>.json`（schema 見下）。
-8. `uv run scripts/publish.py`（校驗+index；校驗失敗＝報告不合格，修完才准 push）。
-9. `uv run scripts/store_firestore.py --date <日期>`（Firestore 資料儲存；無憑證自動跳過）。
-10. `git add site/data data/state && git commit -m "report: <日期>" && git push`——push 觸發 GitHub Actions build 前端並部署 GitHub Pages。push 失敗（離線等）報告仍完成，提示稍後手動 push。
+8. `uv run scripts/trend_state.py cloud --date <日期> --days 14`（更新趨勢雲資料 `site/data/trend-cloud.json`）。
+9. `uv run scripts/publish.py`（校驗+index；校驗失敗＝報告不合格，修完才准 push）。
+10. `uv run scripts/store_firestore.py --date <日期>`（Firestore 資料儲存；無憑證自動跳過）。
+11. `git add site/data data/state && git commit -m "report: <日期>" && git push`——push 觸發 GitHub Actions build 前端並部署 GitHub Pages。push 失敗（離線等）報告仍完成，提示稍後手動 push。
 
 ## 帶參數：深挖模式（例 `/daily fable 5 退役`）
 
@@ -46,9 +47,13 @@ argument-hint: "[議題名（可選，深挖模式）]"
     "software": [], "devops": [], "uiux": []
   },
   "radar": [{"title": "...", "note": "一行", "url": "https://..."}],
-  "data_quality": [{"source": "reddit-*", "note": "RSS fallback，分數為估值"}]
+  "data_quality": [{"source": "reddit-*", "note": "RSS fallback，分數為估值"}],
+  "tech_intro": {"id": "ai-context-window", "domain": "ai", "term": "...", "tagline": "...",
+                 "intro": ["...", "..."], "level": "入門", "links": [{"label": "...", "url": "https://..."}]}
 }
 ```
+
+`tech_intro` = 每日一技術簡介：`site/data/tech-cards.json` 的題庫卡片**原樣嵌入**，由 gen_report.py `pick_tech_card()` 依日期確定性選卡（同日必同卡）。/daily 升級模式**沿用不改**既有的 tech_intro；報告缺這欄時用 `uv run scripts/gen_report.py --date <日期> --inject-tech-intro` 補。
 
 ## 品質硬規則
 
@@ -62,3 +67,4 @@ argument-hint: "[議題名（可選，深挖模式）]"
 - 四個群集固定為 ai（AI 趨勢）/ software（前後端）/ devops / uiux（UI/UX），優先序照此順序；每 domain section 最多 4 個 topic，寧缺勿濫，無熱點就空陣列（前端 catalog tab 會顯示「今日無」）。
 - `data_quality`：照抄 trends.json 的 source_health 非 ok 項 + fetch_all 的失敗訊息。
 - 語言：全部繁體中文（標題内的專有名詞保留英文）。
+- **補卡規則**：本機 /daily 執行時，若當日熱點涉及題庫沒有的重要概念，新增 1 張卡進 `site/data/tech-cards.json`——id 格式 `<domain前綴>-<slug>`（前綴照既有慣例：`ai-`/`fe-`/`be-`/`ux-`/`do-`）、白話繁中、`intro` 兩段、連結用穩定官方文件。**不刪不改既有卡**（日期輪轉依賴檔案內順序，只能 append 到檔尾）。

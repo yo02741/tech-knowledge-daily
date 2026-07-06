@@ -1,0 +1,70 @@
+{
+ "date": "2026-07-06",
+ "window_days": 14,
+ "items": [
+  {
+   "slug": "codex-claude-interop",
+   "display": "OpenAI Codex ↔ Claude Code 互操作",
+   "weight": 3176.8,
+   "status": "new",
+   "domain": "ai",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "display": "Claude Code skills 生態爆發",
+   "weight": 1229.3,
+   "status": "new",
+   "domain": "ai",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "display": "Fable 5 使用期限與遷移策略",
+   "weight": 1159.6,
+   "status": "new",
+   "domain": "ai",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "sql-over-orm",
+   "display": "ORM 之爭再起：直接學 SQL",
+   "weight": 200.0,
+   "status": "new",
+   "domain": "software",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "astryx-design-system",
+   "display": "facebook/astryx 開源設計系統",
+   "weight": 156.6,
+   "status": "new",
+   "domain": "uiux",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "display": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "weight": 106.7,
+   "status": "new",
+   "domain": "uiux",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "onprem-vs-cloud",
+   "display": "自架伺服器 vs 雲端成本重估",
+   "weight": 100.0,
+   "status": "new",
+   "domain": "devops",
+   "last_seen": "2026-07-06"
+  },
+  {
+   "slug": "postgres-19-graphs",
+   "display": "Postgres 19 Property Graphs",
+   "weight": 40.0,
+   "status": "new",
+   "domain": "software",
+   "last_seen": "2026-07-06"
+  }
+ ]
+}

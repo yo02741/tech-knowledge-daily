@@ -257,5 +257,22 @@
    "source": "本期版本",
    "note": "下午重抓刷新版（覆寫中午版）：codex 互操作熱度日內上漲、新增 UI/UX 群集兩個 topic（新來源 r/web_design、r/UXDesign 已生效）"
   }
- ]
+ ],
+ "tech_intro": {
+  "id": "ai-context-window",
+  "domain": "ai",
+  "term": "Context Window",
+  "tagline": "模型一次「看得見」的文字量上限",
+  "intro": [
+   "LLM 每次推理只能處理固定長度的輸入＋輸出（以 token 計），這個範圍就是 context window。超出的內容模型完全不知道，就像跟一個只記得最近幾頁對話的人聊天。",
+   "窗口越大越能塞進整份文件或整個程式庫，但成本與延遲也隨之上升，所以「怎麼挑重點塞進窗口」（檢索、摘要、壓縮）成了一門工程學。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Anthropic：Context windows",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows"
+   }
+  ]
+ }
 }

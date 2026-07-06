@@ -55,6 +55,16 @@ def validate_report(path: str) -> list[str]:
             for s in t.get("sources", []):
                 if not re.match(r"https?://", s.get("url", "")):
                     errs.append(f"{name}: sections.{dom}[{i}] 來源 URL 非法 {s.get('url')!r}")
+    ti = r.get("tech_intro")  # 選配欄位：每日一技術簡介卡片；存在時才校驗
+    if ti is not None:
+        for k in ("term", "domain"):
+            if not ti.get(k):
+                errs.append(f"{name}: tech_intro 缺 {k}")
+        if not isinstance(ti.get("intro"), list) or not ti.get("intro"):
+            errs.append(f"{name}: tech_intro 缺 intro（要非空 list）")
+        for j, ln in enumerate(ti.get("links", [])):
+            if not re.match(r"https?://", ln.get("url", "")):
+                errs.append(f"{name}: tech_intro links[{j}] URL 非法 {ln.get('url')!r}")
     return errs
 
 

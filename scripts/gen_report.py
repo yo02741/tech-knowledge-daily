@@ -10,6 +10,7 @@
 語意歸類 unassigned_hot、重寫 what/why_hot 敘事與 tldr）。
 
   gen_report.py --date 2026-07-06 [--out PATH] [--force]
+  gen_report.py --date 2026-07-06 --inject-tech-intro   # 只補既有報告缺的 tech_intro
 
 已存在非模板（Claude 版）報告時跳過不覆寫，除非 --force。
 """
@@ -24,6 +25,25 @@ DOMS = ["ai", "software", "devops", "uiux"]
 PREFIX = {"ai": "ai", "software": "sw", "devops": "do", "uiux": "ux"}
 DOM_ZH = {"ai": "AI", "software": "前後端", "devops": "DevOps", "uiux": "UI/UX"}
 STATUS_ZH = {"new": "新爆發", "rising": "上升", "ongoing": "持續", "fading": "退燒"}
+CARD_DOMAINS = ["ai", "frontend", "backend", "uiux", "devops"]  # 每日一技術：domain 輪轉順序
+
+
+def pick_tech_card(date_str: str) -> dict:
+    """每日一技術簡介：由日期確定性選卡（同一天永遠同一張，題庫輪完前不重複）。
+
+    days = 距 1970-01-01 天數；domain = CARD_DOMAINS[days % 5]；
+    該 domain 的卡按 tech-cards.json 檔案內順序取第 (days // 5) % 張。
+    """
+    path = os.path.join(ROOT, "site", "data", "tech-cards.json")
+    with open(path, encoding="utf-8") as f:
+        cards = json.load(f)
+    y, m, d = map(int, date_str.split("-"))
+    days = (datetime.date(y, m, d) - datetime.date(1970, 1, 1)).days
+    domain = CARD_DOMAINS[days % len(CARD_DOMAINS)]
+    pool = [c for c in cards if c.get("domain") == domain]
+    if not pool:
+        raise SystemExit(f"gen_report: tech-cards.json 沒有 domain={domain} 的卡")
+    return pool[(days // len(CARD_DOMAINS)) % len(pool)]
 
 
 def main() -> int:
@@ -31,9 +51,29 @@ def main() -> int:
     ap.add_argument("--date", required=True)
     ap.add_argument("--out", help="輸出路徑（預設 site/data/reports/<date>.json）")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--inject-tech-intro", action="store_true",
+                    help="只對既有報告補缺的 tech_intro（不論 template/claude 版），不做其他事")
     args = ap.parse_args()
 
     out = args.out or os.path.join(ROOT, "site", "data", "reports", f"{args.date}.json")
+
+    if args.inject_tech_intro:
+        if not os.path.exists(out):
+            raise SystemExit(f"gen_report: 找不到 {out}，--inject-tech-intro 只補既有報告")
+        with open(out, encoding="utf-8") as f:
+            report = json.load(f)
+        if "tech_intro" in report:
+            print(f"gen_report: {args.date} 已有 tech_intro"
+                  f"（{report['tech_intro'].get('id')}），不動")
+            return 0
+        card = pick_tech_card(args.date)
+        report["tech_intro"] = card
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+        print(f"gen_report: {args.date} 補入 tech_intro（{card['domain']}/{card['id']}）-> {out}")
+        return 0
+
     if os.path.exists(out) and not args.force:
         with open(out, encoding="utf-8") as f:
             existing = json.load(f)
@@ -104,6 +144,7 @@ def main() -> int:
         "date": args.date,
         "weekday": "一二三四五六日"[datetime.date(y, m, d).weekday()],
         "generated": "template",
+        "tech_intro": pick_tech_card(args.date),
         "tldr": tldr,
         "sections": sections,
         "radar": radar,

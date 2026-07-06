@@ -10,7 +10,9 @@
                                           --commit 才寫回 ledger（深挖/重算用乾跑）
   add-topic <slug> --display "..." --domain ai --alias "a" [--alias "b"] [--note "..."]
   add-alias <slug> "<新別名>"
-  selftest                                內建三天假資料驗證狀態轉移
+  cloud --date 2026-07-06 [--days 14] [--out site/data/trend-cloud.json]
+                                          近 N 天熱度加總 → 文字雲資料
+  selftest                                內建假資料驗證狀態轉移與 cloud 權重
 
 狀態機：new(首見) / rising(≥1.5×前3日均且mentions≥2) / ongoing / fading(<0.5×或
 消失但5日內出現過)；>14天未見 prune。數字全由本 script 算，agent 只做語意歸類。
@@ -237,6 +239,27 @@ def analyze(date: str, commit: bool, raw_root: str | None = None,
     return trends
 
 
+def build_cloud(date: str, days: int, ledger_path: str | None = None) -> dict:
+    """近 days 天各 topic 熱度加總（文字雲權重）。0 權重（窗內無熱度）排除。"""
+    ledger = load_json(ledger_path or LEDGER_PATH, {"last_run": "", "topics": {}})
+    items = []
+    for slug, t in ledger["topics"].items():
+        weight = sum(h["heat"] for h in t.get("history", [])
+                     if 0 <= date_diff_days(date, h["date"]) < days)
+        if weight <= 0:
+            continue
+        items.append({
+            "slug": slug,
+            "display": t.get("display", slug),
+            "weight": round(weight, 1),
+            "status": t.get("status", "ongoing"),
+            "domain": t.get("domain", ""),
+            "last_seen": t.get("last_seen", ""),
+        })
+    items.sort(key=lambda i: -i["weight"])
+    return {"date": date, "window_days": days, "items": items}
+
+
 def cmd_add_topic(args) -> None:
     ledger = load_json(LEDGER_PATH, {"last_run": "", "topics": {}})
     if args.slug in ledger["topics"]:
@@ -345,7 +368,18 @@ def selftest() -> int:
                 ledger_path=ledger_path, config_path=cfg_path)
         assert json.dumps(load_json(ledger_path), sort_keys=True) == before
 
-        print("selftest: 全部通過（new→rising→fading、prune、估值折價、乾跑不污染）")
+        # cloud：14 天窗加總 day1(210)+day2(855)+day3(0)；2 天窗只含 day2、day3
+        cloud = build_cloud("2026-01-03", 14, ledger_path=ledger_path)
+        foo_c = next(i for i in cloud["items"] if i["slug"] == "foo-launch")
+        assert foo_c["weight"] == 210 + 855, foo_c
+        cloud2 = build_cloud("2026-01-03", 2, ledger_path=ledger_path)
+        foo_c2 = next(i for i in cloud2["items"] if i["slug"] == "foo-launch")
+        assert foo_c2["weight"] == 855, foo_c2  # day1 在 2 天窗外、day3 為 0
+        # 窗內全 0 → 不進雲
+        cloud3 = build_cloud("2026-01-04", 1, ledger_path=ledger_path)
+        assert all(i["slug"] != "foo-launch" for i in cloud3["items"]), cloud3
+
+        print("selftest: 全部通過（new→rising→fading、prune、估值折價、乾跑不污染、cloud 權重）")
         return 0
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -371,6 +405,11 @@ def main() -> int:
     p.add_argument("slug")
     p.add_argument("new_alias")
 
+    p = sub.add_parser("cloud")
+    p.add_argument("--date", required=True)
+    p.add_argument("--days", type=int, default=14)
+    p.add_argument("--out", default=os.path.join(ROOT, "site", "data", "trend-cloud.json"))
+
     sub.add_parser("selftest")
 
     args = ap.parse_args()
@@ -383,6 +422,10 @@ def main() -> int:
         cmd_add_topic(args)
     elif args.cmd == "add-alias":
         cmd_add_alias(args)
+    elif args.cmd == "cloud":
+        cloud = build_cloud(args.date, args.days)
+        save_json(args.out, cloud)
+        print(f"cloud: {len(cloud['items'])} topics（{args.days} 天窗）-> {args.out}")
     elif args.cmd == "selftest":
         return selftest()
     return 0
