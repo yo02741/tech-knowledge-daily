@@ -50,7 +50,18 @@ jobs:
         with:
           path: site
 
+      # Pages 後端間歇性「Deployment failed, try again later」（2026-07-06 實測
+      # 成功率約五成），失敗自動補打兩槍
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - id: retry1
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - if: steps.deployment.outcome == 'failure' && steps.retry1.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
   deploy-firebase:
