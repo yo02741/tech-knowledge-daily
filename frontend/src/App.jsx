@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { fetchIndex, fetchReport, fetchCloud } from './data.js'
 import { STATUS, StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
 
@@ -531,9 +531,17 @@ function layoutCloud(items, seedStr, W, H) {
   return words
 }
 
+// three + troika 拆成獨立 chunk：只有進星系模式才下載（主 bundle 零增量）
+const Galaxy = lazy(() => import('./Galaxy.jsx'))
+
 function TrendsCloud() {
   const [cloud, setCloud] = useState(null)
   const [error, setError] = useState(null)
+  // 桌機預設星系、手機預設平面（效能與流量保守）；選擇記憶下次沿用
+  const [mode, setMode] = useState(() =>
+    localStorage.getItem('trends-mode')
+    || (window.matchMedia('(max-width: 600px)').matches ? 'flat' : 'galaxy'))
+  useEffect(() => { localStorage.setItem('trends-mode', mode) }, [mode])
   useEffect(() => {
     fetchCloud().then(setCloud).catch((e) => setError(String(e)))
   }, [])
@@ -555,24 +563,39 @@ function TrendsCloud() {
         <p className="dateline">統計至 {fmtDate(cloud.date)} · 字越大，近期越火</p>
       </header>
 
-      <svg className="cloud-svg" viewBox={`0 0 ${W} ${H}`} role="list"
-           aria-label="近期趨勢文字雲">
-        {words.map((w) => {
-          const stale = w.last_seen !== cloud.date
-          return (
-            <a key={w.slug} href={`#/${w.last_seen}/${w.slug.split('#')[0]}`} role="listitem">
-              <text x={w.x} y={w.y}
-                    textAnchor="middle" dominantBaseline="middle"
-                    className={`cd-${w.domain || 'software'}${stale ? ' cw-stale' : ''}`}
-                    fontSize={w.fs}
-                    transform={w.vertical ? `rotate(90 ${w.x.toFixed(1)} ${w.y.toFixed(1)})` : undefined}>
-                {w.label}
-                <title>{`${w.display}｜近${cloud.window_days}天熱度 ${fmtHeat(w.weight)}｜最近出現 ${w.last_seen}`}</title>
-              </text>
-            </a>
-          )
-        })}
-      </svg>
+      <div className="trends-mode" role="tablist" aria-label="趨勢雲顯示模式">
+        <button role="tab" aria-selected={mode === 'flat'}
+                className={mode === 'flat' ? 'on' : ''}
+                onClick={() => setMode('flat')}>平面</button>
+        <button role="tab" aria-selected={mode === 'galaxy'}
+                className={mode === 'galaxy' ? 'on' : ''}
+                onClick={() => setMode('galaxy')}>星系</button>
+      </div>
+
+      {mode === 'galaxy' ? (
+        <Suspense fallback={<p className="status-msg">星系引擎載入中…</p>}>
+          <Galaxy cloud={cloud} onFail={() => setMode('flat')} />
+        </Suspense>
+      ) : (
+        <svg className="cloud-svg" viewBox={`0 0 ${W} ${H}`} role="list"
+             aria-label="近期趨勢文字雲">
+          {words.map((w) => {
+            const stale = w.last_seen !== cloud.date
+            return (
+              <a key={w.slug} href={`#/${w.last_seen}/${w.slug.split('#')[0]}`} role="listitem">
+                <text x={w.x} y={w.y}
+                      textAnchor="middle" dominantBaseline="middle"
+                      className={`cd-${w.domain || 'software'}${stale ? ' cw-stale' : ''}`}
+                      fontSize={w.fs}
+                      transform={w.vertical ? `rotate(90 ${w.x.toFixed(1)} ${w.y.toFixed(1)})` : undefined}>
+                  {w.label}
+                  <title>{`${w.display}｜近${cloud.window_days}天熱度 ${fmtHeat(w.weight)}｜最近出現 ${w.last_seen}`}</title>
+                </text>
+              </a>
+            )
+          })}
+        </svg>
+      )}
 
       <div className="cloud-legend">
         {DOMAINS.map((d) => (
@@ -581,7 +604,9 @@ function TrendsCloud() {
             {DOMAIN_META[d].label}
           </span>
         ))}
-        <span className="legend-note">淡色＝今天未出現 · 點字跳到該話題最近一期</span>
+        <span className="legend-note">
+          淡色＝今天未出現 · {mode === 'galaxy' ? '點字看詳情再跳該期' : '點字跳到該話題最近一期'}
+        </span>
       </div>
 
       <section className="cloud-rank">

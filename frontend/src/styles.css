@@ -477,6 +477,71 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 }
 
 /* ============ 趨勢雲 ============ */
+.trends-mode {
+  display: flex; justify-content: center; gap: 0;
+  margin: 20px 0 0;
+}
+.trends-mode button {
+  background: none; border: 1px solid var(--border); cursor: pointer;
+  padding: 5px 22px; font-size: 0.85rem; color: var(--ink-2);
+  font-family: inherit;
+}
+.trends-mode button:first-child { border-radius: 3px 0 0 3px; border-right: none; }
+.trends-mode button:last-child { border-radius: 0 3px 3px 0; }
+.trends-mode button.on {
+  color: var(--ink-1); border-color: var(--ink-3);
+  background: color-mix(in srgb, var(--ink-1) 6%, transparent);
+}
+
+/* ---- 星系模式 ---- */
+.galaxy-wrap {
+  position: relative;
+  height: clamp(360px, 62vh, 560px);
+  margin: 18px 0;
+  border: 1px solid var(--hairline);
+  overflow: hidden;
+}
+.galaxy-wrap canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.galaxy-hint {
+  position: absolute; bottom: 8px; left: 0; right: 0;
+  text-align: center; font-size: 0.72rem; color: var(--ink-3);
+  pointer-events: none;
+}
+.galaxy-tip {
+  position: absolute; z-index: 5;
+  transform: translate(-50%, calc(-100% - 14px));
+  background: var(--surface-1); border: 1px solid var(--hairline);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  padding: 6px 12px; pointer-events: none; white-space: nowrap;
+  display: flex; flex-direction: column; gap: 1px;
+}
+.galaxy-tip strong { font-size: 0.82rem; color: var(--ink-1); }
+.galaxy-tip span { font-size: 0.72rem; color: var(--ink-3); }
+.galaxy-card {
+  position: absolute; z-index: 6; left: 14px; bottom: 14px;
+  max-width: 320px;
+  background: var(--surface-1); border: 1px solid var(--hairline);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+  padding: 14px 18px;
+  animation: menu-in 0.16s ease-out;
+}
+.galaxy-card-title {
+  font-family: var(--serif); font-weight: 700; font-size: 1rem;
+  color: var(--ink-1); padding-right: 22px;
+}
+.galaxy-card-meta {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 0.78rem; color: var(--ink-2); margin: 6px 0 8px;
+}
+.galaxy-card-link { font-size: 0.85rem; color: var(--accent); text-decoration: none; }
+.galaxy-card-link:hover { text-decoration: underline; }
+.galaxy-card-close {
+  position: absolute; top: 6px; right: 8px;
+  background: none; border: none; cursor: pointer;
+  font-size: 1.1rem; color: var(--ink-3); line-height: 1;
+}
+.galaxy-card-close:hover { color: var(--ink-1); }
+
 .cloud-svg {
   display: block;
   width: 100%;
