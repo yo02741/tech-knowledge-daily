@@ -77,15 +77,49 @@ a { color: inherit; }
   font-size: 0.9rem;
 }
 .brand { font-family: var(--serif); font-weight: 700; text-decoration: none; letter-spacing: 0.02em; }
-.topnav-right { display: flex; align-items: center; gap: 16px; }
-.topnav-right a { color: var(--ink-2); text-decoration: none; }
-.topnav-right a:hover { color: var(--ink-1); }
-.theme-btn {
-  background: none; border: 1px solid var(--border); border-radius: 50%;
-  width: 30px; height: 30px; color: var(--ink-2); cursor: pointer; font-size: 0.95rem;
-  line-height: 1;
+.topnav-menu { position: relative; }
+.menu-btn {
+  background: none; border: none; cursor: pointer;
+  width: 34px; height: 34px; padding: 8px 6px;
+  display: flex; flex-direction: column; justify-content: space-between;
 }
-.theme-btn:hover { color: var(--ink-1); border-color: var(--ink-3); }
+.menu-btn span {
+  display: block; height: 1.5px; width: 100%;
+  background: var(--ink-2); border-radius: 1px;
+  transition: transform 0.22s ease, opacity 0.18s ease;
+}
+.menu-btn:hover span { background: var(--ink-1); }
+/* 開啟時三線變 ✕ */
+.menu-btn.open span:nth-child(1) { transform: translateY(8.25px) rotate(45deg); }
+.menu-btn.open span:nth-child(2) { opacity: 0; }
+.menu-btn.open span:nth-child(3) { transform: translateY(-8.25px) rotate(-45deg); }
+.menu-panel {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 40;
+  min-width: 180px;
+  background: var(--surface-1);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  padding: 6px 0;
+  animation: menu-in 0.16s ease-out;
+}
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .menu-panel { animation: none; }
+  .menu-btn span { transition: none; }
+}
+.menu-panel a, .menu-panel .menu-theme {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; padding: 10px 18px;
+  font-size: 0.92rem; color: var(--ink-2); text-decoration: none;
+  background: none; border: none; cursor: pointer; text-align: left;
+  font-family: inherit;
+}
+.menu-panel a:hover, .menu-panel .menu-theme:hover { color: var(--ink-1); background: color-mix(in srgb, var(--ink-1) 5%, transparent); }
+.menu-panel .menu-theme { border-top: 1px solid var(--hairline); margin-top: 6px; padding-top: 12px; }
+.menu-theme-icon { font-size: 1rem; line-height: 1; }
 
 /* ============ 刊頭 ============ */
 .masthead { text-align: center; padding: 44px 0 28px; border-bottom: 3px double var(--hairline); position: relative; }

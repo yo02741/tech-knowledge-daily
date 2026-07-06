@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { fetchIndex, fetchReport, fetchCloud } from './data.js'
 import { STATUS, StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
 
@@ -21,21 +21,25 @@ function useHashRoute() {
   if (h === 'archive') return { view: 'archive' }
   if (h === 'trends') return { view: 'trends' }
   if (h === 'tech') return { view: 'tech' }
-  const m = /^(\d{4}-\d{2}-\d{2})(?:\/([a-z]+-\d+))?$/.exec(h)
+  // 錨點接受 topic id（ai-1）或 ledger slug（codex-claude-interop）
+  const m = /^(\d{4}-\d{2}-\d{2})(?:\/([a-z0-9-]+))?$/.exec(h)
   if (m) return { view: 'issue', date: m[1], anchor: m[2] || null }
   return { view: 'issue', date: null } // 最新一期
 }
 
 function useTheme() {
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'auto')
+  // 首次進站以系統偏好為初值，之後只在亮/暗之間切換
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('theme')
+    if (saved === 'light' || saved === 'dark') return saved
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  })
   useEffect(() => {
-    const root = document.documentElement
-    if (theme === 'auto') root.removeAttribute('data-theme')
-    else root.setAttribute('data-theme', theme)
+    document.documentElement.setAttribute('data-theme', theme)
     localStorage.setItem('theme', theme)
   }, [theme])
-  const cycle = () => setTheme(theme === 'auto' ? 'dark' : theme === 'dark' ? 'light' : 'auto')
-  return [theme, cycle]
+  const toggle = () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))
+  return [theme, toggle]
 }
 
 export default function App() {
@@ -66,17 +70,45 @@ export default function App() {
 }
 
 function Shell({ theme, cycleTheme, children }) {
-  const themeIcon = theme === 'auto' ? '◐' : theme === 'dark' ? '☾' : '☀'
+  const [menuOpen, setMenuOpen] = useState(false)
+  const menuRef = useRef(null)
+  useEffect(() => {
+    if (!menuOpen) return
+    const onDown = (e) => { if (!menuRef.current?.contains(e.target)) setMenuOpen(false) }
+    const onKey = (e) => { if (e.key === 'Escape') setMenuOpen(false) }
+    document.addEventListener('pointerdown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [menuOpen])
+  useEffect(() => {
+    const onHash = () => setMenuOpen(false)
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [])
   return (
     <div className="page">
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
-        <div className="topnav-right">
-          <a href="#/trends">趨勢</a>
-          <a href="#/tech">一技</a>
-          <a href="#/archive">歷期</a>
-          <button className="theme-btn" onClick={cycleTheme}
-                  title={`主題：${theme}`} aria-label="切換深淺色主題">{themeIcon}</button>
+        <div className="topnav-menu" ref={menuRef}>
+          <button className={`menu-btn${menuOpen ? ' open' : ''}`}
+                  aria-expanded={menuOpen} aria-haspopup="menu" aria-label="選單"
+                  onClick={() => setMenuOpen((o) => !o)}>
+            <span /><span /><span />
+          </button>
+          {menuOpen && (
+            <div className="menu-panel" role="menu">
+              <a role="menuitem" href="#/trends">趨勢文字雲</a>
+              <a role="menuitem" href="#/tech">每日一技</a>
+              <a role="menuitem" href="#/archive">歷期報告</a>
+              <button role="menuitem" className="menu-theme" onClick={cycleTheme}>
+                <span className="menu-theme-icon" aria-hidden="true">{theme === 'dark' ? '☀' : '☾'}</span>
+                {theme === 'dark' ? '明亮模式' : '暗黑模式'}
+              </button>
+            </div>
+          )}
         </div>
       </nav>
       {children}
