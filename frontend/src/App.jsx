@@ -117,9 +117,16 @@ function Issue({ index, date, anchor }) {
     fetchReport(date).then(setReport).catch((e) => setError(String(e)))
   }, [date])
 
-  // 深連結 #/<date>/<topic-id>：報告渲染完成後捲到該熱點
+  // 深連結 #/<date>/<topic-id|slug>：報告渲染完成後捲到該熱點
   useEffect(() => {
-    if (report && anchor) document.getElementById(anchor)?.scrollIntoView()
+    if (!report || !anchor) return
+    let el = document.getElementById(anchor)
+    if (!el) {
+      // 趨勢雲用 ledger slug 連過來，對應回該期的 topic id
+      const hit = Object.values(report.sections || {}).flat().find((t) => t.slug === anchor)
+      if (hit) el = document.getElementById(hit.id)
+    }
+    el?.scrollIntoView()
   }, [report, anchor])
 
   const pos = index.findIndex((e) => e.date === date)
@@ -518,7 +525,7 @@ function TrendsCloud() {
         {words.map((w) => {
           const stale = w.last_seen !== cloud.date
           return (
-            <a key={w.slug} href={`#/${w.last_seen}`} role="listitem">
+            <a key={w.slug} href={`#/${w.last_seen}/${w.slug.split('#')[0]}`} role="listitem">
               <text x={w.x} y={w.y}
                     textAnchor="middle" dominantBaseline="middle"
                     className={`cd-${w.domain || 'software'}${stale ? ' cw-stale' : ''}`}
@@ -549,7 +556,7 @@ function TrendsCloud() {
           {cloud.items.filter((it) => !it.slug.includes('#')).slice(0, 20).map((it, i) => (
             <li key={it.slug}>
               <span className="rank-no">{i + 1}</span>
-              <a href={`#/${it.last_seen}`}>{it.display}</a>
+              <a href={`#/${it.last_seen}/${it.slug}`}>{it.display}</a>
               <StatusBadge status={it.status} />
               <span className="rank-heat">{fmtHeat(it.weight)}</span>
             </li>

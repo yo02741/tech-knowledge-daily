@@ -99,6 +99,7 @@ def main() -> int:
         titles = "；".join(f"「{i['title'][:60]}」" for i in items[:3])
         sections[d].append({
             "id": tid,
+            "slug": tp["slug"],
             "title": tp["display"],
             "status": tp["status"],
             "heat_today": tp["heat_today"],

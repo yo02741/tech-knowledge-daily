@@ -22,7 +22,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS_DIR = os.path.join(ROOT, "site", "data", "reports")
 
-TOPIC_REQUIRED = ("id", "title", "status", "what", "why_hot", "sources")
+TOPIC_REQUIRED = ("id", "slug", "title", "status", "what", "why_hot", "sources")
 STATUSES = {"new", "rising", "ongoing", "fading"}
 
 

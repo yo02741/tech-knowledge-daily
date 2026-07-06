@@ -1,278 +1,286 @@
 {
- "date": "2026-07-06",
- "weekday": "一",
- "generated": "claude",
- "tldr": [
-  {
-   "title": "Fable 5 明天退役，最後一天要拿它做什麼",
-   "text": "Claude Fable 5 僅供應至 07/07，r/ClaudeAI 整天都在退役前衝刺模式：使用心得與遷移策略文湧現，包括讓 Fable 親自把工作準則蒸餾進 CLAUDE.md、交棒給後繼模型的做法；系統提示外流 repo 與 sqlite-utils 實戰案例同日上榜。",
-   "deadline": "07-07",
-   "topic_ref": "ai-1"
+  "date": "2026-07-06",
+  "weekday": "一",
+  "generated": "claude",
+  "tldr": [
+    {
+      "title": "Fable 5 明天退役，最後一天要拿它做什麼",
+      "text": "Claude Fable 5 僅供應至 07/07，r/ClaudeAI 整天都在退役前衝刺模式：使用心得與遷移策略文湧現，包括讓 Fable 親自把工作準則蒸餾進 CLAUDE.md、交棒給後繼模型的做法；系統提示外流 repo 與 sqlite-utils 實戰案例同日上榜。",
+      "deadline": "07-07",
+      "topic_ref": "ai-1"
+    },
+    {
+      "title": "Claude Code 可以委派 Codex 了，熱度還在爬",
+      "text": "OpenAI 官方 codex-plugin-cc 中午 +1.5k 星、到下午熱度又漲一成，穩坐今日榜首。兩大 harness 陣營首次官方互通，「用對手家模型當獨立第二意見」從 hack 變成受支援的工作流——正好補上 Fable 退役後 review/verify 環節的缺口。",
+      "deadline": null,
+      "topic_ref": "ai-2"
+    },
+    {
+      "title": "skills 生態爆發，harness 有現成可撿",
+      "text": "caveman（省 token 手法，+1k 星）、awesome-claude-code 精選、337 個 skills/agents 大合集同日連環上榜。合集類 repo 正在變成 skills 生態的新發現管道。",
+      "deadline": null,
+      "topic_ref": "ai-3"
+    },
+    {
+      "title": "設計圈開始把 Claude 當原型工具",
+      "text": "r/UXDesign 熱帖在問「怎麼從 Figma 轉到 Claude 做快速原型」，配上 r/ClaudeAI 零程式背景做出產品的案例——「設計稿直接生可互動原型」的工作流正在成形，UI/UX 群集首日就有真信號。",
+      "deadline": null,
+      "topic_ref": "ux-2"
+    }
+  ],
+  "sections": {
+    "ai": [
+      {
+        "id": "ai-1",
+        "slug": "fable5-lifecycle",
+        "title": "Fable 5 使用期限與遷移策略",
+        "status": "new",
+        "heat_today": 1159.6,
+        "heat_trend": [
+          1159.6
+        ],
+        "what": "Claude Fable 5（Claude 5 家族首發）僅供應至 07/07，社群進入退役前衝刺：r/ClaudeAI 湧現使用心得與遷移策略文，包括讓 Fable 自己寫 CLAUDE.md 給 Opus/Sonnet 接手、訂閱方案夠不夠用的討論；GitHub 上 system_prompts_leaks 收錄了 Fable 5 系統提示；HN 則有 simonw 用 Fable 寫完 sqlite-utils 4.0rc2 的實例（總花費 $149）。",
+        "why_hot": "硬期限只剩一天，「最後一天要拿它做什麼」成為集體話題；下午熱度較中午略降（前頁輪替），但整天穩定佔據 r/ClaudeAI 版面。",
+        "sources": [
+          {
+            "label": "r/ClaudeAI：Fable written CLAUDE.MD (+Migration) for Opus/Sonnet",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1unuitf/fable_written_claudemd_migration_for_opussonnet/"
+          },
+          {
+            "label": "r/ClaudeAI：I misunderstood Fable at first, now I get it",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1uo1xpz/i_misunderstood_fable_at_first_now_i_get_it/"
+          },
+          {
+            "label": "HN：sqlite-utils 4.0rc2, mostly written by Claude Fable",
+            "url": "https://news.ycombinator.com/item?id=48791708"
+          },
+          {
+            "label": "GitHub：asgeirtj/system_prompts_leaks",
+            "url": "https://github.com/asgeirtj/system_prompts_leaks"
+          }
+        ]
+      },
+      {
+        "id": "ai-2",
+        "slug": "codex-claude-interop",
+        "title": "OpenAI Codex ↔ Claude Code 互操作",
+        "status": "new",
+        "heat_today": 3176.8,
+        "heat_trend": [
+          3176.8
+        ],
+        "what": "OpenAI 官方推出 codex-plugin-cc：在 Claude Code 內把 code review 或整段任務委派給 Codex，登 GitHub Trending 榜首且熱度從中午到下午持續上漲；HN 同步在討論 GPT-5.6 Sol Ultra 將進 Codex；周邊還有 CodexBar（雙家用量監控）與 OmniRoute（231+ provider 免費 gateway）。",
+        "why_hot": "兩大 harness 陣營官方互通是頭一遭，「用對手家模型當第二意見」從 hack 變成受支援的工作流；今日熱度最高且日內持續走升。",
+        "sources": [
+          {
+            "label": "GitHub：openai/codex-plugin-cc",
+            "url": "https://github.com/openai/codex-plugin-cc"
+          },
+          {
+            "label": "HN：GPT-5.6 Sol Ultra will be in Codex",
+            "url": "https://news.ycombinator.com/item?id=48799614"
+          },
+          {
+            "label": "GitHub：steipete/CodexBar",
+            "url": "https://github.com/steipete/CodexBar"
+          }
+        ]
+      },
+      {
+        "id": "ai-3",
+        "slug": "claude-code-skills-eco",
+        "title": "Claude Code skills 生態爆發",
+        "status": "new",
+        "heat_today": 1229.3,
+        "heat_trend": [
+          1229.3
+        ],
+        "what": "skills 相關專案連環上 GitHub Trending：caveman（「why use many token when few token do trick」的省 token skill，+1k 星）、awesome-claude-code 精選合集、337 個 skills/agents/plugins 大合集、垂直領域的 marketing skills。",
+        "why_hot": "skills 開放後長尾生態成形，從通用工具到垂直領域都有人在發佈，合集類 repo 成為新的發現管道。",
+        "sources": [
+          {
+            "label": "GitHub：JuliusBrussee/caveman",
+            "url": "https://github.com/JuliusBrussee/caveman"
+          },
+          {
+            "label": "GitHub：hesreallyhim/awesome-claude-code",
+            "url": "https://github.com/hesreallyhim/awesome-claude-code"
+          },
+          {
+            "label": "GitHub：alirezarezvani/claude-skills（337 合集）",
+            "url": "https://github.com/alirezarezvani/claude-skills"
+          }
+        ]
+      }
+    ],
+    "software": [
+      {
+        "id": "sw-1",
+        "slug": "sql-over-orm",
+        "title": "ORM 之爭再起：直接學 SQL",
+        "status": "new",
+        "heat_today": 200.0,
+        "heat_trend": [
+          200.0
+        ],
+        "what": "r/programming 當日最熱討論「What ORMs have taught me: just learn SQL」：作者盤點多年 ORM 使用經驗，結論是 ORM 抽象在 join、聚合、遷移這些關鍵處反而增加成本，主張把 SQL 當第一級技能。留言區照例分成生產力派與控制派。",
+        "why_hot": "ORM vs SQL 是常青戰場，但在 AI 輔助寫 SQL 越來越順的當下，「還需要 ORM 嗎」有了新的討論角度。",
+        "sources": [
+          {
+            "label": "r/programming：What ORMs have taught me: just learn SQL",
+            "url": "https://www.reddit.com/r/programming/comments/1uo1w91/what_orms_have_taught_me_just_learn_sql/"
+          }
+        ]
+      },
+      {
+        "id": "sw-2",
+        "slug": "postgres-19-graphs",
+        "title": "Postgres 19 Property Graphs",
+        "status": "new",
+        "heat_today": 40.0,
+        "heat_trend": [
+          40.0
+        ],
+        "what": "Postgres 19 將支援 SQL/PGQ 標準的 property graph 查詢：不用外掛圖資料庫，直接在關聯表上宣告圖結構、用 GRAPH_TABLE 語法查關係路徑。r/programming 有詳細解讀文。",
+        "why_hot": "「關聯資料庫吃掉圖資料庫使用場景」是 Postgres 每個大版本的固定劇本，這次輪到 graph query。",
+        "sources": [
+          {
+            "label": "r/programming：Understanding Postgres 19 Property Graphs",
+            "url": "https://www.reddit.com/r/programming/comments/1uo93ap/understanding_postgres_19_property_graphs/"
+          }
+        ]
+      }
+    ],
+    "devops": [
+      {
+        "id": "do-1",
+        "slug": "onprem-vs-cloud",
+        "title": "自架伺服器 vs 雲端成本重估",
+        "status": "new",
+        "heat_today": 100.0,
+        "heat_trend": [
+          100.0
+        ],
+        "what": "r/devops 當日最熱：「什麼時候自架伺服器比 AWS/Azure/VPS 便宜？」討論串在算帳——穩定負載、可預測流量、GPU 工作負載的情境下，自架回本點比多數人以為的早；反方主張人力維運成本被低估。",
+        "why_hot": "雲端帳單疲勞是這兩年 devops 圈的持續情緒，加上 AI 工作負載（本地推論）給了自架新理由。",
+        "sources": [
+          {
+            "label": "r/devops：When does an on-premises server become cheaper?",
+            "url": "https://www.reddit.com/r/devops/comments/1uobn4g/when_does_an_onpremises_server_become_cheaper/"
+          }
+        ]
+      }
+    ],
+    "uiux": [
+      {
+        "id": "ux-1",
+        "slug": "astryx-design-system",
+        "title": "facebook/astryx 開源設計系統",
+        "status": "new",
+        "heat_today": 156.6,
+        "heat_trend": [
+          156.6
+        ],
+        "what": "Meta 開源 astryx：完整可客製的設計系統（元件庫 + design token），上 GitHub Trending。大廠級設計系統開源不常見，通常意味著配套的元件實作與文件品質都到位。",
+        "why_hot": "單日 +469 星；設計系統類專案在前端圈自帶擴散力，且掛 facebook 名號。",
+        "sources": [
+          {
+            "label": "GitHub：facebook/astryx",
+            "url": "https://github.com/facebook/astryx"
+          }
+        ]
+      },
+      {
+        "id": "ux-2",
+        "slug": "design-ai-prototyping",
+        "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+        "status": "new",
+        "heat_today": 106.7,
+        "heat_trend": [
+          106.7
+        ],
+        "what": "r/UXDesign 熱帖在問「怎麼實際從 Figma 轉到 Claude 做快速原型」——設計師想跳過交付規格、直接讓 AI 生可互動原型；r/ClaudeAI 同日有零程式背景使用者迭代 250 次做出成品的案例文。",
+        "why_hot": "設計工具圈正在消化「AI 直接產出可用介面」對傳統 design-to-dev 交付流程的衝擊，UXDesign 版罕見地在認真討論工作流轉移。",
+        "sources": [
+          {
+            "label": "r/UXDesign：How did you transition from Figma to Claude for prototyping",
+            "url": "https://www.reddit.com/r/UXDesign/comments/1uo4oww/how_did_you_actually_transition_from_figma_to/"
+          },
+          {
+            "label": "r/ClaudeAI：零程式背景、250 次迭代做出成品",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1uomrr8/retired_disabled_army_combat_vet_no_coding/"
+          }
+        ]
+      }
+    ]
   },
-  {
-   "title": "Claude Code 可以委派 Codex 了，熱度還在爬",
-   "text": "OpenAI 官方 codex-plugin-cc 中午 +1.5k 星、到下午熱度又漲一成，穩坐今日榜首。兩大 harness 陣營首次官方互通，「用對手家模型當獨立第二意見」從 hack 變成受支援的工作流——正好補上 Fable 退役後 review/verify 環節的缺口。",
-   "deadline": null,
-   "topic_ref": "ai-2"
-  },
-  {
-   "title": "skills 生態爆發，harness 有現成可撿",
-   "text": "caveman（省 token 手法，+1k 星）、awesome-claude-code 精選、337 個 skills/agents 大合集同日連環上榜。合集類 repo 正在變成 skills 生態的新發現管道。",
-   "deadline": null,
-   "topic_ref": "ai-3"
-  },
-  {
-   "title": "設計圈開始把 Claude 當原型工具",
-   "text": "r/UXDesign 熱帖在問「怎麼從 Figma 轉到 Claude 做快速原型」，配上 r/ClaudeAI 零程式背景做出產品的案例——「設計稿直接生可互動原型」的工作流正在成形，UI/UX 群集首日就有真信號。",
-   "deadline": null,
-   "topic_ref": "ux-2"
+  "radar": [
+    {
+      "title": "Zuckerberg：AI agent 開發比預期慢",
+      "note": "行業風向對照組——熱度下午仍在漲，與 agent 工具鏈爆發同日並存的反向訊號",
+      "url": "https://news.ycombinator.com/item?id=48767058"
+    },
+    {
+      "title": "Zackriya-Solutions/meetily — 隱私優先 AI 會議助理",
+      "note": "連兩輪高熱，本地優先 AI 工具持續走強",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "title": "ogulcancelik/herdr — 終端 agent multiplexer",
+      "note": "與多 agent 派工工作流同題，可觀察其調度介面設計",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "title": "alibaba/page-agent — 網頁內 GUI agent",
+      "note": "in-page JS 控網頁，瀏覽器自動化新路線",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "title": "usestrix/strix — 開源 AI 滲透測試工具",
+      "note": "AI 安全工具化的新樣本，留意其授權與範圍控管設計",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "title": "CoplayDev/unity-mcp — Unity 的 MCP bridge",
+      "note": "MCP 生態往遊戲引擎擴散",
+      "url": "https://github.com/CoplayDev/unity-mcp"
+    },
+    {
+      "title": "cheahjs/free-llm-api-resources",
+      "note": "免費 LLM 推論資源清單，備援選項庫",
+      "url": "https://github.com/cheahjs/free-llm-api-resources"
+    },
+    {
+      "title": "EU Council 快速通道推 Chat Control",
+      "note": "政策面，關注加密與隱私工具生態衝擊",
+      "url": "https://news.ycombinator.com/item?id=48793393"
+    }
+  ],
+  "data_quality": [
+    {
+      "source": "reddit-*（全部 9 個 sub）",
+      "note": "Reddit 無 OAuth 的 .json 已被封鎖，全部走 RSS fallback，分數為排名衰減估值（×0.5 折）；webdev 與 web_design 首輪 429，冷卻重試後成功"
+    },
+    {
+      "source": "本期版本",
+      "note": "下午重抓刷新版（覆寫中午版）：codex 互操作熱度日內上漲、新增 UI/UX 群集兩個 topic（新來源 r/web_design、r/UXDesign 已生效）"
+    }
+  ],
+  "tech_intro": {
+    "id": "ai-context-window",
+    "domain": "ai",
+    "term": "Context Window",
+    "tagline": "模型一次「看得見」的文字量上限",
+    "intro": [
+      "LLM 每次推理只能處理固定長度的輸入＋輸出（以 token 計），這個範圍就是 context window。超出的內容模型完全不知道，就像跟一個只記得最近幾頁對話的人聊天。",
+      "窗口越大越能塞進整份文件或整個程式庫，但成本與延遲也隨之上升，所以「怎麼挑重點塞進窗口」（檢索、摘要、壓縮）成了一門工程學。"
+    ],
+    "level": "入門",
+    "links": [
+      {
+        "label": "Anthropic：Context windows",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows"
+      }
+    ]
   }
- ],
- "sections": {
-  "ai": [
-   {
-    "id": "ai-1",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "new",
-    "heat_today": 1159.6,
-    "heat_trend": [
-     1159.6
-    ],
-    "what": "Claude Fable 5（Claude 5 家族首發）僅供應至 07/07，社群進入退役前衝刺：r/ClaudeAI 湧現使用心得與遷移策略文，包括讓 Fable 自己寫 CLAUDE.md 給 Opus/Sonnet 接手、訂閱方案夠不夠用的討論；GitHub 上 system_prompts_leaks 收錄了 Fable 5 系統提示；HN 則有 simonw 用 Fable 寫完 sqlite-utils 4.0rc2 的實例（總花費 $149）。",
-    "why_hot": "硬期限只剩一天，「最後一天要拿它做什麼」成為集體話題；下午熱度較中午略降（前頁輪替），但整天穩定佔據 r/ClaudeAI 版面。",
-    "sources": [
-     {
-      "label": "r/ClaudeAI：Fable written CLAUDE.MD (+Migration) for Opus/Sonnet",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1unuitf/fable_written_claudemd_migration_for_opussonnet/"
-     },
-     {
-      "label": "r/ClaudeAI：I misunderstood Fable at first, now I get it",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uo1xpz/i_misunderstood_fable_at_first_now_i_get_it/"
-     },
-     {
-      "label": "HN：sqlite-utils 4.0rc2, mostly written by Claude Fable",
-      "url": "https://news.ycombinator.com/item?id=48791708"
-     },
-     {
-      "label": "GitHub：asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks"
-     }
-    ]
-   },
-   {
-    "id": "ai-2",
-    "title": "OpenAI Codex ↔ Claude Code 互操作",
-    "status": "new",
-    "heat_today": 3176.8,
-    "heat_trend": [
-     3176.8
-    ],
-    "what": "OpenAI 官方推出 codex-plugin-cc：在 Claude Code 內把 code review 或整段任務委派給 Codex，登 GitHub Trending 榜首且熱度從中午到下午持續上漲；HN 同步在討論 GPT-5.6 Sol Ultra 將進 Codex；周邊還有 CodexBar（雙家用量監控）與 OmniRoute（231+ provider 免費 gateway）。",
-    "why_hot": "兩大 harness 陣營官方互通是頭一遭，「用對手家模型當第二意見」從 hack 變成受支援的工作流；今日熱度最高且日內持續走升。",
-    "sources": [
-     {
-      "label": "GitHub：openai/codex-plugin-cc",
-      "url": "https://github.com/openai/codex-plugin-cc"
-     },
-     {
-      "label": "HN：GPT-5.6 Sol Ultra will be in Codex",
-      "url": "https://news.ycombinator.com/item?id=48799614"
-     },
-     {
-      "label": "GitHub：steipete/CodexBar",
-      "url": "https://github.com/steipete/CodexBar"
-     }
-    ]
-   },
-   {
-    "id": "ai-3",
-    "title": "Claude Code skills 生態爆發",
-    "status": "new",
-    "heat_today": 1229.3,
-    "heat_trend": [
-     1229.3
-    ],
-    "what": "skills 相關專案連環上 GitHub Trending：caveman（「why use many token when few token do trick」的省 token skill，+1k 星）、awesome-claude-code 精選合集、337 個 skills/agents/plugins 大合集、垂直領域的 marketing skills。",
-    "why_hot": "skills 開放後長尾生態成形，從通用工具到垂直領域都有人在發佈，合集類 repo 成為新的發現管道。",
-    "sources": [
-     {
-      "label": "GitHub：JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman"
-     },
-     {
-      "label": "GitHub：hesreallyhim/awesome-claude-code",
-      "url": "https://github.com/hesreallyhim/awesome-claude-code"
-     },
-     {
-      "label": "GitHub：alirezarezvani/claude-skills（337 合集）",
-      "url": "https://github.com/alirezarezvani/claude-skills"
-     }
-    ]
-   }
-  ],
-  "software": [
-   {
-    "id": "sw-1",
-    "title": "ORM 之爭再起：直接學 SQL",
-    "status": "new",
-    "heat_today": 200.0,
-    "heat_trend": [
-     200.0
-    ],
-    "what": "r/programming 當日最熱討論「What ORMs have taught me: just learn SQL」：作者盤點多年 ORM 使用經驗，結論是 ORM 抽象在 join、聚合、遷移這些關鍵處反而增加成本，主張把 SQL 當第一級技能。留言區照例分成生產力派與控制派。",
-    "why_hot": "ORM vs SQL 是常青戰場，但在 AI 輔助寫 SQL 越來越順的當下，「還需要 ORM 嗎」有了新的討論角度。",
-    "sources": [
-     {
-      "label": "r/programming：What ORMs have taught me: just learn SQL",
-      "url": "https://www.reddit.com/r/programming/comments/1uo1w91/what_orms_have_taught_me_just_learn_sql/"
-     }
-    ]
-   },
-   {
-    "id": "sw-2",
-    "title": "Postgres 19 Property Graphs",
-    "status": "new",
-    "heat_today": 40.0,
-    "heat_trend": [
-     40.0
-    ],
-    "what": "Postgres 19 將支援 SQL/PGQ 標準的 property graph 查詢：不用外掛圖資料庫，直接在關聯表上宣告圖結構、用 GRAPH_TABLE 語法查關係路徑。r/programming 有詳細解讀文。",
-    "why_hot": "「關聯資料庫吃掉圖資料庫使用場景」是 Postgres 每個大版本的固定劇本，這次輪到 graph query。",
-    "sources": [
-     {
-      "label": "r/programming：Understanding Postgres 19 Property Graphs",
-      "url": "https://www.reddit.com/r/programming/comments/1uo93ap/understanding_postgres_19_property_graphs/"
-     }
-    ]
-   }
-  ],
-  "devops": [
-   {
-    "id": "do-1",
-    "title": "自架伺服器 vs 雲端成本重估",
-    "status": "new",
-    "heat_today": 100.0,
-    "heat_trend": [
-     100.0
-    ],
-    "what": "r/devops 當日最熱：「什麼時候自架伺服器比 AWS/Azure/VPS 便宜？」討論串在算帳——穩定負載、可預測流量、GPU 工作負載的情境下，自架回本點比多數人以為的早；反方主張人力維運成本被低估。",
-    "why_hot": "雲端帳單疲勞是這兩年 devops 圈的持續情緒，加上 AI 工作負載（本地推論）給了自架新理由。",
-    "sources": [
-     {
-      "label": "r/devops：When does an on-premises server become cheaper?",
-      "url": "https://www.reddit.com/r/devops/comments/1uobn4g/when_does_an_onpremises_server_become_cheaper/"
-     }
-    ]
-   }
-  ],
-  "uiux": [
-   {
-    "id": "ux-1",
-    "title": "facebook/astryx 開源設計系統",
-    "status": "new",
-    "heat_today": 156.6,
-    "heat_trend": [
-     156.6
-    ],
-    "what": "Meta 開源 astryx：完整可客製的設計系統（元件庫 + design token），上 GitHub Trending。大廠級設計系統開源不常見，通常意味著配套的元件實作與文件品質都到位。",
-    "why_hot": "單日 +469 星；設計系統類專案在前端圈自帶擴散力，且掛 facebook 名號。",
-    "sources": [
-     {
-      "label": "GitHub：facebook/astryx",
-      "url": "https://github.com/facebook/astryx"
-     }
-    ]
-   },
-   {
-    "id": "ux-2",
-    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-    "status": "new",
-    "heat_today": 106.7,
-    "heat_trend": [
-     106.7
-    ],
-    "what": "r/UXDesign 熱帖在問「怎麼實際從 Figma 轉到 Claude 做快速原型」——設計師想跳過交付規格、直接讓 AI 生可互動原型；r/ClaudeAI 同日有零程式背景使用者迭代 250 次做出成品的案例文。",
-    "why_hot": "設計工具圈正在消化「AI 直接產出可用介面」對傳統 design-to-dev 交付流程的衝擊，UXDesign 版罕見地在認真討論工作流轉移。",
-    "sources": [
-     {
-      "label": "r/UXDesign：How did you transition from Figma to Claude for prototyping",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1uo4oww/how_did_you_actually_transition_from_figma_to/"
-     },
-     {
-      "label": "r/ClaudeAI：零程式背景、250 次迭代做出成品",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uomrr8/retired_disabled_army_combat_vet_no_coding/"
-     }
-    ]
-   }
-  ]
- },
- "radar": [
-  {
-   "title": "Zuckerberg：AI agent 開發比預期慢",
-   "note": "行業風向對照組——熱度下午仍在漲，與 agent 工具鏈爆發同日並存的反向訊號",
-   "url": "https://news.ycombinator.com/item?id=48767058"
-  },
-  {
-   "title": "Zackriya-Solutions/meetily — 隱私優先 AI 會議助理",
-   "note": "連兩輪高熱，本地優先 AI 工具持續走強",
-   "url": "https://github.com/Zackriya-Solutions/meetily"
-  },
-  {
-   "title": "ogulcancelik/herdr — 終端 agent multiplexer",
-   "note": "與多 agent 派工工作流同題，可觀察其調度介面設計",
-   "url": "https://github.com/ogulcancelik/herdr"
-  },
-  {
-   "title": "alibaba/page-agent — 網頁內 GUI agent",
-   "note": "in-page JS 控網頁，瀏覽器自動化新路線",
-   "url": "https://github.com/alibaba/page-agent"
-  },
-  {
-   "title": "usestrix/strix — 開源 AI 滲透測試工具",
-   "note": "AI 安全工具化的新樣本，留意其授權與範圍控管設計",
-   "url": "https://github.com/usestrix/strix"
-  },
-  {
-   "title": "CoplayDev/unity-mcp — Unity 的 MCP bridge",
-   "note": "MCP 生態往遊戲引擎擴散",
-   "url": "https://github.com/CoplayDev/unity-mcp"
-  },
-  {
-   "title": "cheahjs/free-llm-api-resources",
-   "note": "免費 LLM 推論資源清單，備援選項庫",
-   "url": "https://github.com/cheahjs/free-llm-api-resources"
-  },
-  {
-   "title": "EU Council 快速通道推 Chat Control",
-   "note": "政策面，關注加密與隱私工具生態衝擊",
-   "url": "https://news.ycombinator.com/item?id=48793393"
-  }
- ],
- "data_quality": [
-  {
-   "source": "reddit-*（全部 9 個 sub）",
-   "note": "Reddit 無 OAuth 的 .json 已被封鎖，全部走 RSS fallback，分數為排名衰減估值（×0.5 折）；webdev 與 web_design 首輪 429，冷卻重試後成功"
-  },
-  {
-   "source": "本期版本",
-   "note": "下午重抓刷新版（覆寫中午版）：codex 互操作熱度日內上漲、新增 UI/UX 群集兩個 topic（新來源 r/web_design、r/UXDesign 已生效）"
-  }
- ],
- "tech_intro": {
-  "id": "ai-context-window",
-  "domain": "ai",
-  "term": "Context Window",
-  "tagline": "模型一次「看得見」的文字量上限",
-  "intro": [
-   "LLM 每次推理只能處理固定長度的輸入＋輸出（以 token 計），這個範圍就是 context window。超出的內容模型完全不知道，就像跟一個只記得最近幾頁對話的人聊天。",
-   "窗口越大越能塞進整份文件或整個程式庫，但成本與延遲也隨之上升，所以「怎麼挑重點塞進窗口」（檢索、摘要、壓縮）成了一門工程學。"
-  ],
-  "level": "入門",
-  "links": [
-   {
-    "label": "Anthropic：Context windows",
-    "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows"
-   }
-  ]
- }
 }

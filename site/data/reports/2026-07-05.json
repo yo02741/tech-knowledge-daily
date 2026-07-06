@@ -1,97 +1,98 @@
 {
- "date": "2026-07-05",
- "weekday": "日",
- "generated": "template",
- "tldr": [
-  {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 309（持續），共 1 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-1"
-  }
- ],
- "sections": {
-  "ai": [
-   {
-    "id": "ai-1",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "ongoing",
-    "heat_today": 309.0,
-    "heat_trend": [
-     1462.5,
-     309.0
+  "date": "2026-07-05",
+  "weekday": "日",
+  "generated": "template",
+  "tldr": [
+    {
+      "title": "[AI] Fable 5 使用期限與遷移策略",
+      "text": "熱度 309（持續），共 1 則討論；重點連結見對應段落。",
+      "deadline": null,
+      "topic_ref": "ai-1"
+    }
+  ],
+  "sections": {
+    "ai": [
+      {
+        "id": "ai-1",
+        "slug": "fable5-lifecycle",
+        "title": "Fable 5 使用期限與遷移策略",
+        "status": "ongoing",
+        "heat_today": 309.0,
+        "heat_trend": [
+          1462.5,
+          309.0
+        ],
+        "what": "當日 1 則相關討論：「sqlite-utils 4.0rc2, mostly written by Claude Fable (for abo」。",
+        "why_hot": "熱度 309、狀態「持續」——由管線統計自動判定。",
+        "sources": [
+          {
+            "label": "hn：sqlite-utils 4.0rc2, mostly written by Cla",
+            "url": "https://news.ycombinator.com/item?id=48791708"
+          }
+        ]
+      }
     ],
-    "what": "當日 1 則相關討論：「sqlite-utils 4.0rc2, mostly written by Claude Fable (for abo」。",
-    "why_hot": "熱度 309、狀態「持續」——由管線統計自動判定。",
-    "sources": [
-     {
-      "label": "hn：sqlite-utils 4.0rc2, mostly written by Cla",
-      "url": "https://news.ycombinator.com/item?id=48791708"
-     }
+    "software": [],
+    "devops": [],
+    "uiux": []
+  },
+  "radar": [
+    {
+      "title": "Organic Maps",
+      "note": "hn · 熱度 1014（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48794446"
+    },
+    {
+      "title": "OpenPrinter",
+      "note": "hn · 熱度 720（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48797916"
+    },
+    {
+      "title": "If you're a button, you have one job",
+      "note": "hn · 熱度 676（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48790689"
+    },
+    {
+      "title": "Introduction to Compilers and Language Design (2021)",
+      "note": "hn · 熱度 634（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48793454"
+    },
+    {
+      "title": "It's not about physical vs. digital games, it's about ownership",
+      "note": "hn · 熱度 528（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48794750"
+    },
+    {
+      "title": "EU Council forces Chat Control via fast-track",
+      "note": "hn · 熱度 514（未歸戶）",
+      "url": "https://news.ycombinator.com/item?id=48793393"
+    }
+  ],
+  "data_quality": [
+    {
+      "source": "回溯模式",
+      "note": "本期為事後回溯：僅 HN 歷史資料（分數為現在累計值），Reddit/GitHub 無歷史排行；未寫入趨勢 ledger"
+    },
+    {
+      "source": "報告產生方式",
+      "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+    }
+  ],
+  "tech_intro": {
+    "id": "do-feature-flag",
+    "domain": "devops",
+    "term": "Feature Flag",
+    "tagline": "程式碼先上線，功能開關另外控制",
+    "intro": [
+      "新功能包在開關後面部署上去，先對內部或 1% 使用者打開，驗證沒問題再全量——出事關掉開關即可，不用緊急回滾部署。",
+      "進階玩法是 A/B 實驗與按用戶分群；技術債提醒：旗子要定期清，長滿過期開關的程式碼是災難現場。"
+    ],
+    "level": "入門",
+    "links": [
+      {
+        "label": "Martin Fowler：Feature Toggles",
+        "url": "https://martinfowler.com/articles/feature-toggles.html"
+      }
     ]
-   }
-  ],
-  "software": [],
-  "devops": [],
-  "uiux": []
- },
- "radar": [
-  {
-   "title": "Organic Maps",
-   "note": "hn · 熱度 1014（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48794446"
-  },
-  {
-   "title": "OpenPrinter",
-   "note": "hn · 熱度 720（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48797916"
-  },
-  {
-   "title": "If you're a button, you have one job",
-   "note": "hn · 熱度 676（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48790689"
-  },
-  {
-   "title": "Introduction to Compilers and Language Design (2021)",
-   "note": "hn · 熱度 634（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48793454"
-  },
-  {
-   "title": "It's not about physical vs. digital games, it's about ownership",
-   "note": "hn · 熱度 528（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48794750"
-  },
-  {
-   "title": "EU Council forces Chat Control via fast-track",
-   "note": "hn · 熱度 514（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48793393"
   }
- ],
- "data_quality": [
-  {
-   "source": "回溯模式",
-   "note": "本期為事後回溯：僅 HN 歷史資料（分數為現在累計值），Reddit/GitHub 無歷史排行；未寫入趨勢 ledger"
-  },
-  {
-   "source": "報告產生方式",
-   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
-  }
- ],
- "tech_intro": {
-  "id": "do-feature-flag",
-  "domain": "devops",
-  "term": "Feature Flag",
-  "tagline": "程式碼先上線，功能開關另外控制",
-  "intro": [
-   "新功能包在開關後面部署上去，先對內部或 1% 使用者打開，驗證沒問題再全量——出事關掉開關即可，不用緊急回滾部署。",
-   "進階玩法是 A/B 實驗與按用戶分群；技術債提醒：旗子要定期清，長滿過期開關的程式碼是災難現場。"
-  ],
-  "level": "入門",
-  "links": [
-   {
-    "label": "Martin Fowler：Feature Toggles",
-    "url": "https://martinfowler.com/articles/feature-toggles.html"
-   }
-  ]
- }
 }

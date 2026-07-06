@@ -40,7 +40,7 @@ argument-hint: "[議題名（可選，深挖模式）]"
   "tldr": [{"title": "一句話標題", "text": "2-3 句的簡短敘述（發生什麼、為何重要）",
             "deadline": "07-07 或 null", "topic_ref": "ai-1 或 null"}],
   "sections": {
-    "ai": [{"id": "ai-1", "title": "...", "status": "new|rising|ongoing|fading",
+    "ai": [{"id": "ai-1", "slug": "<ledger slug（趨勢雲深連結錨點用）>", "title": "...", "status": "new|rising|ongoing|fading",
             "heat_today": 540, "heat_trend": [210, 540],
             "what": "...", "why_hot": "...",
             "sources": [{"label": "HN 討論", "url": "https://..."}]}],
