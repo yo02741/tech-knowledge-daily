@@ -1,7 +1,6 @@
 import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { fetchIndex, fetchReport, fetchCloud } from './data.js'
 import { STATUS, StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
-import AuroraGL from './AuroraGL.jsx'
 
 const DOMAINS = ['ai', 'software', 'devops', 'uiux']
 const DOMAIN_META = {
@@ -89,17 +88,10 @@ function Shell({ theme, cycleTheme, children }) {
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
-  // 底景：WebGL 色霧（shader 內建滑鼠流場擾動）；GL 起不來退回 CSS 色暈
-  const [glOk, setGlOk] = useState(true)
   return (
     <div className="page">
-      {glOk
-        ? <AuroraGL onFail={() => setGlOk(false)} />
-        : (
-          <div className="bg-aurora" aria-hidden="true">
-            <span /><span /><span /><span />
-          </div>
-        )}
+      {/* 全站底層：緩慢漂移的色暈 + 遮罩，永遠墊在內容之下 */}
+      <div className="bg-aurora" aria-hidden="true"><span /><span /><span /></div>
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
         <div className="topnav-right">
