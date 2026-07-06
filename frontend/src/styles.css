@@ -72,40 +72,57 @@ a { color: inherit; }
   position: absolute;
   width: 55vmax; height: 55vmax; border-radius: 50%;
   filter: blur(70px);
-  opacity: 0.16;
-  will-change: transform;
+  opacity: 0.26;
+  will-change: transform, translate;
+  /* 滑鼠視差：--mx/--my 由 JS 寫入（-0.5..0.5），--par 是每團的深度係數。
+     用獨立的 translate 屬性，不跟 transform 上的漂移動畫打架。 */
+  translate: calc(var(--mx, 0) * var(--par, 40) * 1px)
+             calc(var(--my, 0) * var(--par, 40) * 1px);
+  transition: translate 0.9s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 .bg-aurora span:nth-child(1) {
   background: radial-gradient(circle, var(--dom-ai), transparent 65%);
   top: -18vmax; left: -12vmax;
+  --par: 70;
   animation: aurora-a 52s ease-in-out infinite alternate;
 }
 .bg-aurora span:nth-child(2) {
   background: radial-gradient(circle, var(--dom-uiux), transparent 65%);
   bottom: -22vmax; right: -14vmax;
+  --par: -55;
   animation: aurora-b 67s ease-in-out infinite alternate;
 }
 .bg-aurora span:nth-child(3) {
   background: radial-gradient(circle, var(--dom-software), transparent 65%);
   top: 32%; left: 52%;
-  opacity: 0.10;
+  opacity: 0.17;
+  --par: 110;
   animation: aurora-c 79s ease-in-out infinite alternate;
+}
+.bg-aurora span:nth-child(4) {
+  background: radial-gradient(circle, var(--dom-devops), transparent 65%);
+  top: -14vmax; right: 4vw;
+  width: 42vmax; height: 42vmax;
+  opacity: 0.15;
+  --par: -90;
+  animation: aurora-b 61s ease-in-out infinite alternate-reverse;
 }
 .bg-aurora::after {
   content: ''; position: absolute; inset: 0;
-  background: color-mix(in srgb, var(--page) 55%, transparent);
+  background: color-mix(in srgb, var(--page) 38%, transparent);
 }
 /* 暗色底吃色重，透明度要拉高、遮罩放輕才看得見流動 */
-:root[data-theme="dark"] .bg-aurora span { opacity: 0.22; }
-:root[data-theme="dark"] .bg-aurora span:nth-child(3) { opacity: 0.13; }
+:root[data-theme="dark"] .bg-aurora span { opacity: 0.32; }
+:root[data-theme="dark"] .bg-aurora span:nth-child(3) { opacity: 0.2; }
+:root[data-theme="dark"] .bg-aurora span:nth-child(4) { opacity: 0.18; }
 :root[data-theme="dark"] .bg-aurora::after {
-  background: color-mix(in srgb, var(--page) 40%, transparent);
+  background: color-mix(in srgb, var(--page) 26%, transparent);
 }
 @keyframes aurora-a { to { transform: translate3d(20vw, 14vh, 0) scale(1.18); } }
 @keyframes aurora-b { to { transform: translate3d(-18vw, -11vh, 0) scale(1.12); } }
 @keyframes aurora-c { to { transform: translate3d(-14vw, 9vh, 0) scale(0.88); } }
 @media (prefers-reduced-motion: reduce) {
-  .bg-aurora span { animation: none; }
+  .bg-aurora span { animation: none; transition: none; translate: none; }
 }
 
 .page {
