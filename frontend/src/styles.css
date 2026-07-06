@@ -429,23 +429,20 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 }
 
 /* ============ 趨勢雲 ============ */
-.cloud {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  gap: 14px 0;
-  padding: 40px 8px 28px;
+.cloud-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 26px 0 18px;
 }
-.cloud-word {
+.cloud-svg text {
   font-family: var(--serif);
   font-weight: 700;
-  line-height: 1.25;
-  text-decoration: none;
-  color: var(--ink-2);
-  transition: color 0.12s ease;
+  fill: currentColor;
+  transition: fill 0.12s ease;
 }
-.cloud-word:hover { color: var(--accent) !important; }
+.cloud-svg a { text-decoration: none; }
+.cloud-svg a:hover text { fill: var(--accent); opacity: 1; }
 .cw-new { color: var(--accent); }
 .cw-rising { color: var(--good); }
 .cw-ongoing { color: var(--ink-2); }
@@ -479,6 +476,18 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 .rank-heat { font-variant-numeric: tabular-nums; color: var(--ink-2); }
 
 /* ============ 每日一技 ============ */
+.tech-hero { padding-top: 8px; }
+.tech-hero .tech-intro { padding-top: 26px; }
+.tech-past { padding-top: 34px; }
+.tech-past ul { list-style: none; }
+.past-tech { padding: 12px 2px; }
+.past-tech + .past-tech { border-top: 1px solid var(--hairline); }
+.past-tech-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.past-date { font-size: 0.78rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.past-term { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; }
+.past-tech .tech-tagline { margin: 2px 0 0; font-size: 0.88rem; }
+.past-tech .tech-p { margin-top: 8px; }
+
 .tech-intro { padding-top: 34px; }
 .tech-card {
   border: 1px solid var(--hairline);

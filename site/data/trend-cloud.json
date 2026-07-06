@@ -5,6 +5,7 @@
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
+   "label": "codex",
    "weight": 3176.8,
    "status": "new",
    "domain": "ai",
@@ -13,6 +14,7 @@
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
+   "label": "agent skills",
    "weight": 1229.3,
    "status": "new",
    "domain": "ai",
@@ -21,6 +23,7 @@
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
+   "label": "fable",
    "weight": 1159.6,
    "status": "new",
    "domain": "ai",
@@ -29,6 +32,7 @@
   {
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
+   "label": "orm",
    "weight": 200.0,
    "status": "new",
    "domain": "software",
@@ -37,6 +41,7 @@
   {
    "slug": "astryx-design-system",
    "display": "facebook/astryx 開源設計系統",
+   "label": "astryx",
    "weight": 156.6,
    "status": "new",
    "domain": "uiux",
@@ -45,6 +50,7 @@
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "label": "figma",
    "weight": 106.7,
    "status": "new",
    "domain": "uiux",
@@ -53,6 +59,7 @@
   {
    "slug": "onprem-vs-cloud",
    "display": "自架伺服器 vs 雲端成本重估",
+   "label": "on-prem",
    "weight": 100.0,
    "status": "new",
    "domain": "devops",
@@ -61,6 +68,7 @@
   {
    "slug": "postgres-19-graphs",
    "display": "Postgres 19 Property Graphs",
+   "label": "postgres 19",
    "weight": 40.0,
    "status": "new",
    "domain": "software",

@@ -20,6 +20,7 @@ function useHashRoute() {
   const h = hash.replace(/^#\/?/, '')
   if (h === 'archive') return { view: 'archive' }
   if (h === 'trends') return { view: 'trends' }
+  if (h === 'tech') return { view: 'tech' }
   const m = /^(\d{4}-\d{2}-\d{2})(?:\/([a-z]+-\d+))?$/.exec(h)
   if (m) return { view: 'issue', date: m[1], anchor: m[2] || null }
   return { view: 'issue', date: null } // 最新一期
@@ -57,7 +58,9 @@ export default function App() {
         ? <Archive index={index} />
         : route.view === 'trends'
           ? <TrendsCloud />
-          : <Issue index={index} date={route.date || index[0].date} anchor={route.anchor} />}
+          : route.view === 'tech'
+            ? <TechPage index={index} />
+            : <Issue index={index} date={route.date || index[0].date} anchor={route.anchor} />}
     </Shell>
   )
 }
@@ -70,6 +73,7 @@ function Shell({ theme, cycleTheme, children }) {
         <a href="#/" className="brand">每日技術熱點</a>
         <div className="topnav-right">
           <a href="#/trends">趨勢</a>
+          <a href="#/tech">一技</a>
           <a href="#/archive">歷期</a>
           <button className="theme-btn" onClick={cycleTheme}
                   title={`主題：${theme}`} aria-label="切換深淺色主題">{themeIcon}</button>
@@ -197,8 +201,6 @@ function Issue({ index, date, anchor }) {
           </ul>
         </section>
       )}
-
-      {report.tech_intro && <TechIntro card={report.tech_intro} />}
 
       {report.data_quality?.length > 0 && (
         <section className="dq">
@@ -331,10 +333,10 @@ const CARD_DOMAIN = {
 }
 
 /* 每日一技：題庫確定性輪播的技術小卡（嵌在當期報告的 tech_intro 欄位） */
-function TechIntro({ card }) {
+function TechIntro({ card, bare = false }) {
   return (
     <section className="tech-intro">
-      <h2 className="section-label">每日一技 <span className="label-note">DAILY TECH 101</span></h2>
+      {!bare && <h2 className="section-label">每日一技 <span className="label-note">DAILY TECH 101</span></h2>}
       <article className="tech-card">
         <div className="tech-tags">
           <span className="wf-tag">{CARD_DOMAIN[card.domain] || card.domain}</span>
@@ -352,6 +354,77 @@ function TechIntro({ card }) {
         )}
       </article>
     </section>
+  )
+}
+
+/* 每日一技獨立頁：今日卡片 + 往期回顧（各期報告的 tech_intro 就地取材） */
+function TechPage({ index }) {
+  const [cards, setCards] = useState(null)
+  const [error, setError] = useState(null)
+  useEffect(() => {
+    const dates = index.slice(0, 14).map((e) => e.date) // 最近 14 期就夠回顧
+    Promise.all(dates.map((d) => fetchReport(d).catch(() => null)))
+      .then((reports) => setCards(
+        reports
+          .map((r, i) => r?.tech_intro ? { date: dates[i], card: r.tech_intro } : null)
+          .filter(Boolean)
+      ))
+      .catch((e) => setError(String(e)))
+  }, [index])
+
+  if (error) return <p className="status-msg">讀取失敗：{error}</p>
+  if (!cards) return <p className="status-msg">載入中…</p>
+  if (!cards.length) return <p className="status-msg">還沒有任何一技卡片。</p>
+
+  const [today, ...past] = cards
+  return (
+    <section className="tech-page fade-swap">
+      <header className="masthead">
+        <p className="kicker">DAILY TECH 101</p>
+        <h1>每日一技</h1>
+        <p className="dateline">每天一個技術概念 · 五領域輪流 · {fmtDate(today.date)}</p>
+      </header>
+
+      <div className="tech-hero">
+        <TechIntro card={today.card} bare />
+      </div>
+
+      {past.length > 0 && (
+        <section className="tech-past">
+          <h2 className="section-label">往期回顧</h2>
+          <ul>
+            {past.map(({ date, card }) => <PastTechRow key={date} date={date} card={card} />)}
+          </ul>
+        </section>
+      )}
+    </section>
+  )
+}
+
+function PastTechRow({ date, card }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <li className="past-tech expandable" onClick={() => setOpen(!open)}>
+      <div className="past-tech-head">
+        <span className="past-date">{date}</span>
+        <span className="wf-tag">{CARD_DOMAIN[card.domain] || card.domain}</span>
+        <span className="past-term">{card.term}</span>
+        <span className={`chevron${open ? ' open' : ''}`} aria-hidden="true">▾</span>
+      </div>
+      <p className="tech-tagline">{card.tagline}</p>
+      {open && (
+        <div className="fade-swap" onClick={(e) => e.stopPropagation()}>
+          {(card.intro || []).map((p, i) => <p className="tech-p" key={i}>{p}</p>)}
+          {card.links?.length > 0 && (
+            <p className="sources">
+              {card.links.map((l, i) => (
+                <a key={i} href={l.url} target="_blank" rel="noreferrer" className="source-pill">{l.label}</a>
+              ))}
+            </p>
+          )}
+        </div>
+      )}
+    </li>
   )
 }
 
@@ -373,6 +446,48 @@ function seededShuffle(arr, seedStr) {
   return { shuffled: out, rand }
 }
 
+/* 經典文字雲排版：由大到小沿阿基米德螺旋找位、AABB 碰撞檢測、部分直排。
+   canvas 量測字寬；同一天（同種子）版面固定。回傳含座標的 word 陣列。 */
+function layoutCloud(items, seedStr, W, H) {
+  const { rand } = seededShuffle([], seedStr)
+  const ctx = document.createElement('canvas').getContext('2d')
+  const weights = items.map((i) => i.weight)
+  const wMin = Math.min(...weights), wMax = Math.max(...weights)
+  const fontSize = (w) => {
+    if (wMax === wMin) return 46
+    const t = (Math.log(w + 1) - Math.log(wMin + 1)) / (Math.log(wMax + 1) - Math.log(wMin + 1))
+    return 17 + t * (66 - 17)
+  }
+  const placed = []
+  const words = []
+  const sorted = [...items].sort((a, b) => b.weight - a.weight)
+  for (const it of sorted) {
+    const fs = fontSize(it.weight)
+    ctx.font = `700 ${fs}px Georgia, "Noto Serif TC", serif`
+    const tw = ctx.measureText(it.label).width
+    const th = fs * 1.08
+    const vertical = words.length > 0 && it.label.length <= 12 && rand() < 0.4
+    const bw = (vertical ? th : tw) + 8
+    const bh = (vertical ? tw : th) + 6
+    const angle0 = rand() * Math.PI * 2
+    let pos = null
+    for (let step = 0; step < 3000 && !pos; step++) {
+      const t = step * 0.3
+      const r = 1.8 * t * 0.28
+      const x = W / 2 + r * Math.cos(t + angle0)
+      const y = H / 2 + r * 0.62 * Math.sin(t + angle0) // 壓成橢圓貼合畫布比例
+      if (x - bw / 2 < 2 || x + bw / 2 > W - 2 || y - bh / 2 < 2 || y + bh / 2 > H - 2) continue
+      const hit = placed.some((p) =>
+        Math.abs(x - p.x) < (bw + p.bw) / 2 && Math.abs(y - p.y) < (bh + p.bh) / 2)
+      if (!hit) pos = { x, y }
+    }
+    if (!pos) continue // 擠不進畫布的小字放棄（排行榜仍列出）
+    placed.push({ ...pos, bw, bh })
+    words.push({ ...it, ...pos, fs, vertical })
+  }
+  return words
+}
+
 function TrendsCloud() {
   const [cloud, setCloud] = useState(null)
   const [error, setError] = useState(null)
@@ -380,18 +495,14 @@ function TrendsCloud() {
     fetchCloud().then(setCloud).catch((e) => setError(String(e)))
   }, [])
 
+  const W = 700, H = 430
+  const words = useMemo(
+    () => cloud ? layoutCloud(cloud.items, cloud.date, W, H) : [],
+    [cloud])
+
   if (error) return <p className="status-msg">讀取趨勢雲失敗：{error}</p>
   if (!cloud) return <p className="status-msg">載入中…</p>
   if (!cloud.items.length) return <p className="status-msg">趨勢雲還沒有資料——ledger 需要累積幾天熱度。</p>
-
-  const weights = cloud.items.map((i) => i.weight)
-  const wMin = Math.min(...weights), wMax = Math.max(...weights)
-  const scale = (w) => {
-    if (wMax === wMin) return 1.6
-    const t = (Math.log(w + 1) - Math.log(wMin + 1)) / (Math.log(wMax + 1) - Math.log(wMin + 1))
-    return 0.85 + t * (2.6 - 0.85)
-  }
-  const { shuffled, rand } = seededShuffle(cloud.items, cloud.date)
 
   return (
     <section className="trends fade-swap">
@@ -401,22 +512,24 @@ function TrendsCloud() {
         <p className="dateline">統計至 {fmtDate(cloud.date)} · 字越大，近期越火</p>
       </header>
 
-      <div className="cloud" role="list">
-        {shuffled.map((it) => {
-          const s = STATUS[it.status] || STATUS.ongoing
-          const stale = it.last_seen !== cloud.date
+      <svg className="cloud-svg" viewBox={`0 0 ${W} ${H}`} role="list"
+           aria-label="近期趨勢文字雲">
+        {words.map((w) => {
+          const stale = w.last_seen !== cloud.date
           return (
-            <a key={it.slug} role="listitem"
-               className={`cloud-word cw-${it.status}${stale ? ' cw-stale' : ''}`}
-               style={{ fontSize: `${scale(it.weight).toFixed(2)}rem`,
-                        marginInline: `${(4 + rand() * 18).toFixed(0)}px` }}
-               href={`#/${it.last_seen}`}
-               title={`${it.display}｜近${cloud.window_days}天熱度 ${fmtHeat(it.weight)}｜最近出現 ${it.last_seen}`}>
-              {it.display}
+            <a key={w.slug} href={`#/${w.last_seen}`} role="listitem">
+              <text x={w.x} y={w.y}
+                    textAnchor="middle" dominantBaseline="middle"
+                    className={`cw-${w.status}${stale ? ' cw-stale' : ''}`}
+                    fontSize={w.fs}
+                    transform={w.vertical ? `rotate(90 ${w.x.toFixed(1)} ${w.y.toFixed(1)})` : undefined}>
+                {w.label}
+                <title>{`${w.display}｜近${cloud.window_days}天熱度 ${fmtHeat(w.weight)}｜最近出現 ${w.last_seen}`}</title>
+              </text>
             </a>
           )
         })}
-      </div>
+      </svg>
 
       <div className="cloud-legend">
         {Object.entries(STATUS).map(([key, s]) => (

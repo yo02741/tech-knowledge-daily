@@ -248,9 +248,12 @@ def build_cloud(date: str, days: int, ledger_path: str | None = None) -> dict:
                      if 0 <= date_diff_days(date, h["date"]) < days)
         if weight <= 0:
             continue
+        aliases = t.get("aliases", [])
         items.append({
             "slug": slug,
             "display": t.get("display", slug),
+            # 文字雲用短標籤（最短別名）——長標題排不成緊密的雲
+            "label": min(aliases, key=len) if aliases else t.get("display", slug),
             "weight": round(weight, 1),
             "status": t.get("status", "ongoing"),
             "domain": t.get("domain", ""),
