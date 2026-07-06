@@ -14,7 +14,8 @@ const FRAG = `
 precision highp float;
 uniform vec2 u_res;
 uniform float u_t;
-uniform vec2 u_mouse;   // -0.5..0.5，JS 端已做慣性平滑
+uniform vec2 u_mpos;    // 游標 uv 位置（y 向上），JS 端平滑
+uniform vec2 u_vel;     // 攪動速度：滑鼠移動的慣性衰減向量，靜止時歸零
 uniform vec3 u_base;    // 紙色（--page）
 uniform vec3 u_c1;      // --dom-ai
 uniform vec3 u_c2;      // --dom-uiux
@@ -41,11 +42,22 @@ void main() {
   float t = u_t * 0.018; // 流速：慢到像呼吸
 
   // 兩層 domain warp：q 扭 p、r 再扭一次，煙霧的「捲」就是這裡來的。
-  // 滑鼠混進第二層的座標：游標移動時流場跟著歪，體感是「煙被推了一下」。
-  vec2 m = u_mouse * 0.55;
   vec2 q = vec2(fbm(p + t), fbm(p + vec2(5.2, 1.3) - t * 0.7));
-  vec2 r = vec2(fbm(p + 2.4 * q + m + vec2(1.7, 9.2)),
-                fbm(p + 2.4 * q - m + vec2(8.3, 2.8)));
+
+  // 滑鼠攪動：像用手指劃過煙——
+  // fall  = 高斯距離衰減（只攪游標附近，遠處不動）
+  // swirl = 垂直於徑向的分量（攪動時捲出漩渦，不是整片平移）
+  // turb  = 擾動本身再過一層 fbm（連攪動都是亂流，不是均勻的力）
+  // u_vel 只在滑鼠「移動」時有值，停下來就衰減 → 煙慢慢回到自然流
+  vec2 mp = u_mpos * vec2(u_res.x / u_res.y, 1.0) * 1.7;
+  vec2 d = p - mp;
+  float fall = exp(-dot(d, d) * 2.4);
+  vec2 swirl = vec2(-d.y, d.x);
+  float turb = 0.55 + 0.9 * fbm(p * 2.6 + t * 2.5);
+  vec2 stir = (u_vel * 1.5 + swirl * length(u_vel) * 1.3) * fall * turb;
+
+  vec2 r = vec2(fbm(p + 2.4 * q + stir + vec2(1.7, 9.2)),
+                fbm(p + 2.4 * q - stir * 0.6 + vec2(8.3, 2.8)));
   float f = fbm(p + 2.1 * r);
 
   // 三色調和：f 決定藍↔紫的走向，q.y 再滲一點綠
@@ -138,7 +150,8 @@ export default function AuroraGL({ onFail }) {
       mix: loc('u_mix'), grain: loc('u_grain'),
     }
     applyTheme(gl, U)
-    const uRes = loc('u_res'), uT = loc('u_t'), uMouse = loc('u_mouse')
+    const uRes = loc('u_res'), uT = loc('u_t')
+    const uMpos = loc('u_mpos'), uVel = loc('u_vel')
 
     // 煙霧本來就柔，用半解析度渲染省 GPU（再被瀏覽器放大，看不出差）
     const scale = Math.min(window.devicePixelRatio, 2) * 0.5
@@ -151,11 +164,17 @@ export default function AuroraGL({ onFail }) {
     resize()
     window.addEventListener('resize', resize)
 
-    // 滑鼠：目標值 → 每幀慣性趨近（0.03 = 很沉的慣性，煙才不會抖）
-    let tx = 0, ty = 0, mx = 0, my = 0
+    // 滑鼠 → 攪動模型：位置（px,py）給局部性，「移動增量」累積成速度向量
+    //（vx,vy），每幀衰減 —— 手停了擾動就慢慢散掉，煙回歸自然流。
+    let px = 0.5, py = 0.5       // 游標 uv（y 向上）
+    let mpx = 0.5, mpy = 0.5     // 平滑後的游標位置
+    let vx = 0, vy = 0           // 攪動速度（慣性衰減）
     const onMove = (e) => {
-      tx = e.clientX / window.innerWidth - 0.5
-      ty = 0.5 - e.clientY / window.innerHeight // GL 的 y 向上
+      const nx = e.clientX / window.innerWidth
+      const ny = 1 - e.clientY / window.innerHeight // GL 的 y 向上
+      vx += (nx - px) * 5
+      vy += (ny - py) * 5
+      px = nx; py = ny
     }
     window.addEventListener('pointermove', onMove, { passive: true })
 
@@ -163,10 +182,14 @@ export default function AuroraGL({ onFail }) {
     let raf = 0
     const t0 = performance.now()
     const frame = () => {
-      mx += (tx - mx) * 0.03
-      my += (ty - my) * 0.03
+      vx *= 0.93; vy *= 0.93 // 攪動衰減：停手約一秒內散掉
+      const sp = Math.hypot(vx, vy)
+      if (sp > 0.9) { vx *= 0.9 / sp; vy *= 0.9 / sp } // 甩太快也不炸掉
+      mpx += (px - mpx) * 0.2
+      mpy += (py - mpy) * 0.2
       gl.uniform1f(uT, (performance.now() - t0) / 1000)
-      gl.uniform2f(uMouse, mx, my)
+      gl.uniform2f(uMpos, mpx, mpy)
+      gl.uniform2f(uVel, vx, vy)
       gl.drawArrays(gl.TRIANGLES, 0, 3)
       if (!reduced) raf = requestAnimationFrame(frame)
     }
