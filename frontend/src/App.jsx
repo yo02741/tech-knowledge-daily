@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { fetchIndex, fetchReport, fetchCloud } from './data.js'
 import { STATUS, StatusBadge, DeadlineChip, Sparkline, fmtHeat, fmtDate } from './bits.jsx'
+import AuroraGL from './AuroraGL.jsx'
 
 const DOMAINS = ['ai', 'software', 'devops', 'uiux']
 const DOMAIN_META = {
@@ -88,32 +89,17 @@ function Shell({ theme, cycleTheme, children }) {
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
-  // 滑鼠視差：把游標位置（-0.5..0.5）寫進 CSS 變數，四團色暈各自乘上
-  // 不同的深度係數（正負交錯）→ 移動滑鼠時底景像一疊玻璃紙在傾斜
-  const auroraRef = useRef(null)
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    let raf = 0, x = 0, y = 0
-    const apply = () => {
-      raf = 0
-      auroraRef.current?.style.setProperty('--mx', x.toFixed(3))
-      auroraRef.current?.style.setProperty('--my', y.toFixed(3))
-    }
-    const onMove = (e) => {
-      x = e.clientX / window.innerWidth - 0.5
-      y = e.clientY / window.innerHeight - 0.5
-      if (!raf) raf = requestAnimationFrame(apply) // rAF 節流：一幀最多寫一次
-    }
-    window.addEventListener('pointermove', onMove, { passive: true })
-    return () => { window.removeEventListener('pointermove', onMove); cancelAnimationFrame(raf) }
-  }, [])
+  // 底景：WebGL 色霧（shader 內建滑鼠流場擾動）；GL 起不來退回 CSS 色暈
+  const [glOk, setGlOk] = useState(true)
   return (
     <div className="page">
-      {/* 全站底層：緩慢漂移的色暈 + 遮罩，永遠墊在內容之下 */}
-      <div className="bg-aurora" aria-hidden="true" ref={auroraRef}>
-        <span /><span /><span /><span />
-        <i className="bg-spot" /> {/* 跟著游標走的聚光暈 */}
-      </div>
+      {glOk
+        ? <AuroraGL onFail={() => setGlOk(false)} />
+        : (
+          <div className="bg-aurora" aria-hidden="true">
+            <span /><span /><span /><span />
+          </div>
+        )}
       <nav className="topnav">
         <a href="#/" className="brand">每日技術熱點</a>
         <div className="topnav-right">

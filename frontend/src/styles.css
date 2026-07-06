@@ -61,9 +61,15 @@ body {
 }
 a { color: inherit; }
 
-/* ============ 全站底景：漂移色暈（aurora） ============ */
-/* z-index:-1 落在 body 背景色（canvas 層）之上、所有內容之下。
-   三團模糊色暈用群集色極低調漂移，::after 蓋一層紙色遮罩壓住彩度。 */
+/* ============ 全站底景 ============ */
+/* 主路徑：WebGL 色霧（.bg-smoke，shader 做流動與滑鼠擾動）；
+   .bg-aurora 是 WebGL 不可用時的 CSS 色暈 fallback。
+   兩者都 z-index:-1，落在 body 背景色之上、所有內容之下。 */
+.bg-smoke {
+  position: fixed; inset: 0; z-index: -1;
+  width: 100vw; height: 100vh;
+  pointer-events: none;
+}
 .bg-aurora {
   position: fixed; inset: 0; z-index: -1;
   overflow: hidden; pointer-events: none;
@@ -73,30 +79,22 @@ a { color: inherit; }
   width: 55vmax; height: 55vmax; border-radius: 50%;
   filter: blur(70px);
   opacity: 0.26;
-  will-change: transform, translate;
-  /* 滑鼠視差：--mx/--my 由 JS 寫入（-0.5..0.5），--par 是每團的深度係數。
-     用獨立的 translate 屬性，不跟 transform 上的漂移動畫打架。 */
-  translate: calc(var(--mx, 0) * var(--par, 40) * 1px)
-             calc(var(--my, 0) * var(--par, 40) * 1px);
-  transition: translate 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
 }
 .bg-aurora span:nth-child(1) {
   background: radial-gradient(circle, var(--dom-ai), transparent 65%);
   top: -18vmax; left: -12vmax;
-  --par: 200;
   animation: aurora-a 52s ease-in-out infinite alternate;
 }
 .bg-aurora span:nth-child(2) {
   background: radial-gradient(circle, var(--dom-uiux), transparent 65%);
   bottom: -22vmax; right: -14vmax;
-  --par: -160;
   animation: aurora-b 67s ease-in-out infinite alternate;
 }
 .bg-aurora span:nth-child(3) {
   background: radial-gradient(circle, var(--dom-software), transparent 65%);
   top: 32%; left: 52%;
   opacity: 0.17;
-  --par: 320;
   animation: aurora-c 79s ease-in-out infinite alternate;
 }
 .bg-aurora span:nth-child(4) {
@@ -104,25 +102,7 @@ a { color: inherit; }
   top: -14vmax; right: 4vw;
   width: 42vmax; height: 42vmax;
   opacity: 0.15;
-  --par: -260;
   animation: aurora-b 61s ease-in-out infinite alternate-reverse;
-}
-/* 聚光暈：中心點跟著游標，最直觀的互動回饋。z-index 抬到遮罩之上 */
-.bg-spot {
-  position: absolute; z-index: 1;
-  left: 50%; top: 50%;
-  width: 64vmin; height: 64vmin;
-  margin: -32vmin 0 0 -32vmin;
-  border-radius: 50%;
-  background: radial-gradient(circle,
-    color-mix(in srgb, var(--accent) 13%, transparent), transparent 62%);
-  translate: calc(var(--mx, 0) * 100vw) calc(var(--my, 0) * 100vh);
-  transition: translate 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
-  will-change: translate;
-}
-:root[data-theme="dark"] .bg-spot {
-  background: radial-gradient(circle,
-    color-mix(in srgb, var(--accent) 17%, transparent), transparent 62%);
 }
 .bg-aurora::after {
   content: ''; position: absolute; inset: 0;
@@ -139,8 +119,7 @@ a { color: inherit; }
 @keyframes aurora-b { to { transform: translate3d(-18vw, -11vh, 0) scale(1.12); } }
 @keyframes aurora-c { to { transform: translate3d(-14vw, 9vh, 0) scale(0.88); } }
 @media (prefers-reduced-motion: reduce) {
-  .bg-aurora span { animation: none; transition: none; translate: none; }
-  .bg-spot { display: none; }
+  .bg-aurora span { animation: none; }
 }
 
 .page {
