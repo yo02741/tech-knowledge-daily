@@ -1,58 +1,58 @@
 {
- "date": "2026-07-06",
+ "date": "2026-07-07",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 3176.8,
-   "status": "new",
+   "weight": 5945.1,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 2223.8,
-   "status": "new",
+   "weight": 4161.6,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-06"
-  },
-  {
-   "slug": "claude-code-skills-eco",
-   "display": "Claude Code skills 生態爆發",
-   "label": "Agent Skills",
-   "weight": 1229.3,
-   "status": "new",
-   "domain": "ai",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1159.6,
-   "status": "new",
+   "weight": 3629.4,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "display": "Claude Code skills 生態爆發",
+   "label": "Agent Skills",
+   "weight": 1778.3,
+   "status": "fading",
+   "domain": "ai",
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 860.5,
-   "status": "new",
+   "weight": 1244.8,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
    "weight": 200.0,
-   "status": "new",
+   "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-06"
   },
@@ -61,7 +61,7 @@
    "display": "facebook/astryx 開源設計系統",
    "label": "astryx",
    "weight": 156.6,
-   "status": "new",
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-06"
   },
@@ -70,7 +70,7 @@
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "SQL",
    "weight": 140.0,
-   "status": "new",
+   "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-06"
   },
@@ -78,17 +78,17 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 106.7,
-   "status": "new",
+   "weight": 121.0,
+   "status": "fading",
    "domain": "uiux",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "onprem-vs-cloud",
    "display": "自架伺服器 vs 雲端成本重估",
    "label": "On-prem",
    "weight": 100.0,
-   "status": "new",
+   "status": "fading",
    "domain": "devops",
    "last_seen": "2026-07-06"
   },
@@ -96,17 +96,17 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 74.7,
-   "status": "new",
+   "weight": 84.7,
+   "status": "fading",
    "domain": "uiux",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-07"
   },
   {
    "slug": "postgres-19-graphs",
    "display": "Postgres 19 Property Graphs",
    "label": "Postgres 19",
    "weight": 40.0,
-   "status": "new",
+   "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-06"
   }
