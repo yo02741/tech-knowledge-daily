@@ -204,6 +204,21 @@ function Issue({ index, date, anchor }) {
         </Drawer>
       )}
 
+      {/* 今日新訊：當日未歸戶熱點——每天保證全新，是「新知感」的主要來源 */}
+      {report.fresh?.length > 0 && (
+        <section className="fresh">
+          <h2 className="section-label">今日新訊<span className="fresh-kicker">NEW TODAY</span></h2>
+          <ul className="fresh-list">
+            {report.fresh.map((f, i) => (
+              <li key={i}>
+                <a href={f.url} target="_blank" rel="noreferrer">{f.title}</a>
+                <span className="fresh-meta">{f.source} · 熱度 {fmtHeat(f.heat)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <nav className="catalog" aria-label="分類切換">
         {[['all', '全部'], ...DOMAINS.map((d) => [d, DOMAIN_META[d].label])].map(([key, label]) => (
           <button key={key}
@@ -231,6 +246,23 @@ function Issue({ index, date, anchor }) {
           </section>
         ))}
       </div>
+
+      {/* 持續追蹤：沒有新進展的舊話題壓縮成一行，不再佔完整卡位 */}
+      {report.tracking?.length > 0 && (
+        <section className="tracking">
+          <h2 className="section-label">持續追蹤</h2>
+          <ul>
+            {report.tracking.map((t) => (
+              <li key={t.slug}>
+                <StatusBadge status={t.status} />
+                <span className="trk-title">{t.title}</span>
+                <Sparkline trend={t.heat_trend} />
+                <span className="trk-heat">{fmtHeat(t.heat_today)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {report.radar?.length > 0 && (
         <section className="radar">

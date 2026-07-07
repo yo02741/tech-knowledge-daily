@@ -440,6 +440,34 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 .source-pill:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ============ 雷達 / 資料品質 ============ */
+/* 今日新訊：正文最前的當日新鮮貨，用 accent 側線給版面重點 */
+.fresh { padding: 26px 0 6px; }
+.fresh-kicker {
+  font-family: var(--sans); font-size: 0.62rem; letter-spacing: 0.18em;
+  color: var(--accent); margin-left: 10px; font-weight: 700;
+}
+.fresh-list { list-style: none; border-left: 3px solid var(--accent); padding-left: 16px; }
+.fresh-list li {
+  display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline;
+  padding: 7px 0; border-bottom: 1px solid var(--hairline);
+  font-size: 0.92rem;
+}
+.fresh-list li:last-child { border-bottom: none; }
+.fresh-list a { color: var(--ink-1); text-decoration-color: var(--hairline); }
+.fresh-list a:hover { text-decoration-color: var(--accent); }
+.fresh-meta { color: var(--ink-3); font-size: 0.8rem; white-space: nowrap; }
+
+/* 持續追蹤：舊話題的壓縮條列 */
+.tracking { padding-top: 30px; }
+.tracking ul { list-style: none; }
+.tracking li {
+  display: flex; align-items: center; gap: 10px;
+  padding: 7px 0; border-bottom: 1px solid var(--hairline);
+  font-size: 0.88rem;
+}
+.trk-title { flex: 1; color: var(--ink-2); min-width: 0; }
+.trk-heat { color: var(--ink-3); font-variant-numeric: tabular-nums; font-size: 0.82rem; }
+
 .radar { padding-top: 34px; }
 .radar ul { list-style: none; display: grid; gap: 2px; }
 .radar li {

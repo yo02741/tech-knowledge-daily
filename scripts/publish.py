@@ -55,6 +55,20 @@ def validate_report(path: str) -> list[str]:
             for s in t.get("sources", []):
                 if not re.match(r"https?://", s.get("url", "")):
                     errs.append(f"{name}: sections.{dom}[{i}] 來源 URL 非法 {s.get('url')!r}")
+    # 選配欄位：今日新訊（未歸戶熱點升格）與持續追蹤（舊話題壓縮條）
+    for i, u in enumerate(r.get("fresh", [])):
+        for k in ("title", "source", "url"):
+            if not u.get(k):
+                errs.append(f"{name}: fresh[{i}] 缺 {k}")
+        if not re.match(r"https?://", u.get("url", "")):
+            errs.append(f"{name}: fresh[{i}] URL 非法 {u.get('url')!r}")
+    for i, t in enumerate(r.get("tracking", [])):
+        for k in ("slug", "title", "status"):
+            if not t.get(k):
+                errs.append(f"{name}: tracking[{i}] 缺 {k}")
+        if t.get("status") not in STATUSES:
+            errs.append(f"{name}: tracking[{i}] status 非法 {t.get('status')!r}")
+
     ti = r.get("tech_intro")  # 選配欄位：每日一技術簡介卡片；存在時才校驗
     if ti is not None:
         for k in ("term", "domain"):

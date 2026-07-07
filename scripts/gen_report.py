@@ -87,16 +87,52 @@ def main() -> int:
     with open(trends_path, encoding="utf-8") as f:
         trends = json.load(f)
 
+    # ---- 選題三分法：完整卡 / 追蹤條 / 退場 ----
+    # 版面要「賺」：只有新爆發、上升、或熱度顯著變化（±30%）的話題拿完整卡；
+    # 持平的 ongoing 壓縮成「持續追蹤」一行；退燒且低熱度直接退出正文。
+    # 這是「每天有新知感」的核心規則——舊聞不再天天佔滿版面。
+    def day_delta(tp) -> float | None:
+        trend = tp.get("heat_trend") or []
+        if len(trend) >= 2 and trend[-2]:
+            return (trend[-1] - trend[-2]) / trend[-2]
+        return None
+
+    def classify(tp) -> str:
+        if tp["mentions"] == 0:
+            return "drop"
+        delta = day_delta(tp)
+        if tp["status"] in ("new", "rising"):
+            return "card"
+        if delta is not None and abs(delta) >= 0.3 and tp["heat_today"] >= 60:
+            return "card"
+        if tp["status"] == "fading" and tp["heat_today"] < 60:
+            return "drop"
+        return "track"
+
     sections: dict[str, list] = {d: [] for d in DOMS}
     id_by_slug: dict[str, str] = {}
+    tracking: list[dict] = []
     for tp in trends["topics"]:
         d = tp.get("domain") or "software"
-        if d not in sections or len(sections[d]) >= 4 or tp["mentions"] == 0:
+        kind = classify(tp)
+        if d not in sections or kind == "drop":
+            continue
+        if kind == "track" or len(sections[d]) >= 4:
+            tracking.append({
+                "slug": tp["slug"],
+                "title": tp["display"],
+                "status": tp["status"],
+                "domain": d,
+                "heat_today": tp["heat_today"],
+                "heat_trend": tp["heat_trend"],
+            })
             continue
         tid = f"{PREFIX[d]}-{len(sections[d]) + 1}"
         id_by_slug[tp["slug"]] = tid
         items = tp["top_items"]
         titles = "；".join(f"「{i['title'][:60]}」" for i in items[:3])
+        delta = day_delta(tp)
+        delta_txt = f"、較昨日 {delta:+.0%}" if delta is not None else ""
         sections[d].append({
             "id": tid,
             "slug": tp["slug"],
@@ -105,15 +141,26 @@ def main() -> int:
             "heat_today": tp["heat_today"],
             "heat_trend": tp["heat_trend"],
             "what": f"當日 {tp['mentions']} 則相關討論：{titles}。",
-            "why_hot": f"熱度 {tp['heat_today']:.0f}、狀態「{STATUS_ZH.get(tp['status'], tp['status'])}」"
-                       f"——由管線統計自動判定。",
+            "why_hot": f"熱度 {tp['heat_today']:.0f}（{STATUS_ZH.get(tp['status'], tp['status'])}"
+                       f"{delta_txt}）——由管線統計自動判定。",
             "sources": [
                 {"label": f"{i['source']}：{i['title'][:42]}",
                  "url": i.get("discussion_url") or i["url"]}
                 for i in items[:4]
             ],
         })
+    tracking.sort(key=lambda t: -t["heat_today"])
 
+    # ---- 今日新訊：當日未歸戶熱點升格進正文（每天保證全新）----
+    unassigned = trends.get("unassigned_hot", [])
+    fresh = [{
+        "title": u["title"][:90],
+        "source": u["source"],
+        "heat": u["heat"],
+        "url": u.get("discussion_url") or u["url"],
+    } for u in unassigned[:5]]
+
+    # tldr：完整卡話題（賺到版面的）按熱度排；最熱的新訊若夠熱也佔一條
     ranked = sorted(
         (tp for tp in trends["topics"] if tp["slug"] in id_by_slug),
         key=lambda t: -t["heat_today"])
@@ -123,13 +170,23 @@ def main() -> int:
                 f"共 {tp['mentions']} 則討論；重點連結見對應段落。",
         "deadline": None,
         "topic_ref": id_by_slug[tp["slug"]],
-    } for tp in ranked[:4]]
+    } for tp in ranked[:3]]
+    if fresh and fresh[0]["heat"] >= 200:
+        tldr.insert(0, {
+            "title": f"[新訊] {fresh[0]['title'][:60]}",
+            "text": f"今日未歸戶最熱討論（{fresh[0]['source']}、熱度 {fresh[0]['heat']:.0f}），"
+                    f"詳見「今日新訊」。",
+            "deadline": None,
+            "topic_ref": None,
+        })
+    tldr = tldr[:4]
 
+    # 雷達區：新訊放不下的其餘未歸戶
     radar = [{
         "title": u["title"][:70],
         "note": f"{u['source']} · 熱度 {u['heat']:.0f}（未歸戶）",
         "url": u.get("discussion_url") or u["url"],
-    } for u in trends.get("unassigned_hot", [])[:6]]
+    } for u in unassigned[5:11]]
 
     dq = [{"source": k, "note": f"來源狀態：{v}"}
           for k, v in trends.get("source_health", {}).items() if v != "ok"]
@@ -147,7 +204,9 @@ def main() -> int:
         "generated": "template",
         "tech_intro": pick_tech_card(args.date),
         "tldr": tldr,
+        "fresh": fresh,
         "sections": sections,
+        "tracking": tracking,
         "radar": radar,
         "data_quality": dq,
     }

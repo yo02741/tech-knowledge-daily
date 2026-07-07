@@ -39,6 +39,7 @@ argument-hint: "[議題名（可選，深挖模式）]"
   "date": "YYYY-MM-DD", "weekday": "一", "generated": "claude",
   "tldr": [{"title": "一句話標題", "text": "2-3 句的簡短敘述（發生什麼、為何重要）",
             "deadline": "07-07 或 null", "topic_ref": "ai-1 或 null"}],
+  "fresh": [{"title": "今日未歸戶熱點標題", "source": "hn", "heat": 320, "url": "https://..."}],
   "sections": {
     "ai": [{"id": "ai-1", "slug": "<ledger slug（趨勢雲深連結錨點用）>", "title": "...", "status": "new|rising|ongoing|fading",
             "heat_today": 540, "heat_trend": [210, 540],
@@ -46,6 +47,8 @@ argument-hint: "[議題名（可選，深挖模式）]"
             "sources": [{"label": "HN 討論", "url": "https://..."}]}],
     "software": [], "devops": [], "uiux": []
   },
+  "tracking": [{"slug": "...", "title": "...", "status": "ongoing", "domain": "ai",
+                "heat_today": 540, "heat_trend": [600, 540]}],
   "radar": [{"title": "...", "note": "一行", "url": "https://..."}],
   "data_quality": [{"source": "reddit-*", "note": "RSS fallback，分數為估值"}],
   "tech_intro": {"id": "ai-context-window", "domain": "ai", "term": "...", "tagline": "...",
@@ -59,7 +62,8 @@ argument-hint: "[議題名（可選，深挖模式）]"
 
 - **報告是公開內容**：不含任何個人化欄位（無 impact / 無行動清單），不引用 PROFILE、不出現特定個人工作流的描述。
 - 每個 section topic 三要素（what/why_hot/sources）**缺一不可**——publish.py 會校驗擋下。
-- **每群集保底**：四個群集每天各至少 1-2 條該 domain 當日最熱進正文；當日該群集資料確實貧乏（來源失敗或無像樣討論）才允許空，並記入 data_quality。
+- **版面要賺（新知感核心規則）**：完整卡只給 new/rising、熱度日變化 ≥±30%、或有硬期限的話題；持平 ongoing 進 `tracking` 壓縮條；fading 且熱度 <60 退出正文。**昨天講過且無新進展的不再上 tldr**。當日 unassigned_hot 前 5 則進 `fresh`（今日新訊）——這是每天保證全新的區塊；升級模式時 agent 應為 fresh 條目補一句白話描述（保留 title 原文與 url），值得追蹤的照舊 add-topic 升為正式話題。
+- 完整卡的 what/why_hot 聚焦**今日增量**（新討論、新進展、熱度變化），背景一句帶過——延續讀者昨天已讀過的前提。
 - `heat_today`/`heat_trend`/`status` 直接抄 trends.json，不得編造。
 - 來源 URL 只能用 raw 資料裡實際存在的（trends.json 的 top_items / unassigned_hot），**禁止捏造連結**。
 - 有硬期限的 tldr 排最前（客觀期限如模型退役日、CVE 修補期限）；`deadline` 用 MM-DD。
