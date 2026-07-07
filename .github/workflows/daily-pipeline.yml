@@ -2,7 +2,11 @@ name: Daily pipeline
 
 on:
   schedule:
-    - cron: "7 0 * * *" # 台北 08:07（UTC+8，避開整點尖峰）
+    # GitHub cron 是 best-effort：00:0x UTC 是全站最壅塞時段，會被延遲甚至跳過
+    #（2026-07-07 實際整班消失過一次）。主班挪到 0:37，一小時後補跑一班——
+    # 管線冪等（同日 analyze 可重跑、gen_report 不覆寫 claude 版），跑兩次無害。
+    - cron: "37 0 * * *" # 主班：台北 08:37
+    - cron: "37 1 * * *" # 補跑：台北 09:37（主班被跳過時的保險）
   workflow_dispatch:
     inputs:
       date:
