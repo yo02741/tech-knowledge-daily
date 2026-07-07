@@ -6,7 +6,7 @@
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 5945.1,
+   "weight": 5957.6,
    "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-07-07"
@@ -15,7 +15,7 @@
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 4161.6,
+   "weight": 4170.3,
    "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-07-07"
@@ -24,7 +24,7 @@
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 4010.8,
+   "weight": 3674.5,
    "status": "rising",
    "domain": "ai",
    "last_seen": "2026-07-07"
@@ -78,7 +78,7 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 121.0,
+   "weight": 106.7,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-07"
@@ -96,7 +96,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 84.7,
+   "weight": 74.7,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-07"

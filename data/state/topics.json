@@ -17,7 +17,7 @@
     },
     {
      "date": "2026-07-07",
-     "heat": 2851.2,
+     "heat": 2514.9,
      "mentions": 7
     }
    ],
@@ -43,8 +43,8 @@
     },
     {
      "date": "2026-07-07",
-     "heat": 2768.3,
-     "mentions": 6
+     "heat": 2780.8,
+     "mentions": 7
     }
    ],
    "status": "ongoing",
@@ -210,8 +210,8 @@
     },
     {
      "date": "2026-07-07",
-     "heat": 14.3,
-     "mentions": 1
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
