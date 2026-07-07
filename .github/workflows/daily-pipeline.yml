@@ -92,3 +92,6 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy-pages.yml
+    # workflow_call 不會自動帶 secrets——漏了這行 FIREBASE_SERVICE_ACCOUNT
+    # 會是空值，deploy 步驟的「無 secret 跳過」防呆會讓 job 綠燈但實際沒部署
+    secrets: inherit
