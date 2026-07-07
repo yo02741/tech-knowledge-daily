@@ -1,0 +1,234 @@
+{
+ "date": "2026-07-07",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hydration",
+  "domain": "frontend",
+  "term": "Hydration",
+  "tagline": "讓伺服器送來的靜態 HTML「活過來」",
+  "intro": [
+   "SSR 先送出完整 HTML 讓使用者秒看到內容，接著瀏覽器載入 JS、把事件監聽器接回這些 DOM 上——這個接管過程叫 hydration。",
+   "它是效能痛點來源：HTML 都顯示了但按鈕還不能點（可互動時間延遲）。React Server Components、島嶼架構等新方案都在想辦法少做或晚做 hydration。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "React：Hydration",
+    "url": "https://react.dev/reference/react-dom/client/hydrateRoot"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 2768（持續），共 6 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 2496（上升），共 9 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 549（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  },
+  {
+   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
+   "text": "熱度 14（退燒），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ux-1"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 2768.3,
+    "heat_trend": [
+     3176.8,
+     2768.3
+    ],
+    "what": "當日 6 則相關討論：「openai/codex-plugin-cc — Use Codex from Claude Code to revie」；「diegosouzapw/OmniRoute — Never stop coding. Free AI gateway:」；「alirezarezvani/claude-skills — 345 Claude Code skills & agen」。",
+    "why_hot": "熱度 2768、狀態「持續」——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：openai/codex-plugin-cc — Use Codex from Cl",
+      "url": "https://github.com/openai/codex-plugin-cc"
+     },
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     },
+     {
+      "label": "github：alirezarezvani/claude-skills — 345 Claude ",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+     },
+     {
+      "label": "github：steipete/CodexBar — Show usage stats for O",
+      "url": "https://github.com/steipete/CodexBar"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 2496.3,
+    "heat_trend": [
+     1159.6,
+     2496.3
+    ],
+    "what": "當日 9 則相關討論：「asgeirtj/system_prompts_leaks — Extracted system prompts fro」；「Fable 5 On Vending-Bench: Misbehaving, With Plausible Deniab」；「Fable turned remarkable into Tom Riddle's diary from Harry P」。",
+    "why_hot": "熱度 2496、狀態「上升」——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：asgeirtj/system_prompts_leaks — Extracted ",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+     },
+     {
+      "label": "hn：Fable 5 On Vending-Bench: Misbehaving, Wit",
+      "url": "https://news.ycombinator.com/item?id=48803762"
+     },
+     {
+      "label": "hn：Fable turned remarkable into Tom Riddle's ",
+      "url": "https://news.ycombinator.com/item?id=48811591"
+     },
+     {
+      "label": "r/ClaudeAI：Friendly reminder what to fix before Fable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uou7ow/friendly_reminder_what_to_fix_before_fable_5/"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 549.0,
+    "heat_trend": [
+     1229.3,
+     549.0
+    ],
+    "what": "當日 2 則相關討論：「hesreallyhim/awesome-claude-code — A hand-picked collection 」；「ComposioHQ/awesome-claude-skills — A curated list of awesome」。",
+    "why_hot": "熱度 549、狀態「退燒」——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：hesreallyhim/awesome-claude-code — A hand-",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code"
+     },
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "id": "ux-1",
+    "slug": "design-ai-prototyping",
+    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+    "status": "fading",
+    "heat_today": 14.3,
+    "heat_trend": [
+     106.7,
+     14.3
+    ],
+    "what": "當日 1 則相關討論：「Retired Disabled Army combat vet, no coding background. 250 」。",
+    "why_hot": "熱度 14、狀態「退燒」——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Retired Disabled Army combat vet, no codin",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uomrr8/retired_disabled_army_combat_vet_no_coding/"
+     }
+    ]
+   }
+  ]
+ },
+ "radar": [
+  {
+   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with ",
+   "note": "github · 熱度 2245（未歸戶）",
+   "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
+   "note": "github · 熱度 1001（未歸戶）",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "Anthropic's Method to Losing Goodwill in a Few Easy Steps",
+   "note": "hn · 熱度 988（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48803751"
+  },
+  {
+   "title": "alibaba/page-agent — JavaScript in-page GUI agent. Control web interfa",
+   "note": "github · 熱度 803（未歸戶）",
+   "url": "https://github.com/alibaba/page-agent"
+  },
+  {
+   "title": "ogulcancelik/herdr — agent multiplexer that lives in your terminal.",
+   "note": "github · 熱度 701（未歸戶）",
+   "url": "https://github.com/ogulcancelik/herdr"
+  },
+  {
+   "title": "Resetting Xbox",
+   "note": "hn · 熱度 694（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48804993"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
