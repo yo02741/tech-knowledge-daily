@@ -16,4 +16,5 @@ firebase-debug.log
 
 # 個人化內容不進公開 repo
 PROFILE.md
-reports/
+# 只擋根目錄的私人筆記；不加斜線前綴會誤傷 site/data/reports/（公開報告）
+/reports/
