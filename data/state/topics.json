@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-07",
+ "last_run": "2026-07-08",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07",
+   "last_seen": "2026-07-08",
    "history": [
     {
      "date": "2026-07-06",
@@ -19,9 +19,14 @@
      "date": "2026-07-07",
      "heat": 2514.9,
      "mentions": 7
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 2156.2,
+     "mentions": 8
     }
    ],
-   "status": "rising",
+   "status": "ongoing",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -34,7 +39,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07",
+   "last_seen": "2026-07-08",
    "history": [
     {
      "date": "2026-07-06",
@@ -45,9 +50,14 @@
      "date": "2026-07-07",
      "heat": 2780.8,
      "mentions": 7
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 1477.7,
+     "mentions": 5
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -65,7 +75,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07",
+   "last_seen": "2026-07-08",
    "history": [
     {
      "date": "2026-07-06",
@@ -76,9 +86,14 @@
      "date": "2026-07-07",
      "heat": 549.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 705.6,
+     "mentions": 4
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -101,6 +116,11 @@
     },
     {
      "date": "2026-07-07",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-08",
      "heat": 0,
      "mentions": 0
     }
@@ -127,6 +147,11 @@
     },
     {
      "date": "2026-07-07",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-08",
      "heat": 0,
      "mentions": 0
     }
@@ -157,6 +182,11 @@
      "date": "2026-07-07",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -184,6 +214,11 @@
      "date": "2026-07-07",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -201,7 +236,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07",
+   "last_seen": "2026-07-08",
    "history": [
     {
      "date": "2026-07-06",
@@ -212,9 +247,14 @@
      "date": "2026-07-07",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-08",
+     "heat": 186.1,
+     "mentions": 4
     }
    ],
-   "status": "fading",
+   "status": "rising",
    "note": "",
    "terms": [
     "Figma",

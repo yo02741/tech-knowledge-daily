@@ -1,0 +1,246 @@
+{
+ "date": "2026-07-08",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-idempotency",
+  "domain": "backend",
+  "term": "冪等性（Idempotency）",
+  "tagline": "同一個請求重送十次，效果跟一次一樣",
+  "intro": [
+   "網路會逾時、使用者會重按、佇列會重投——同一操作被執行多次是常態。冪等設計確保重複執行不會造成重複扣款、重複建單。",
+   "常見做法：客戶端帶唯一的 idempotency key，伺服器記住處理過的 key 直接回快取結果。金流 API（Stripe 等）都強制這個模式。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Stripe：Idempotent requests",
+    "url": "https://docs.stripe.com/api/idempotent_requests"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] MadsLorentzen/ai-job-search — AI-powered job application fra",
+   "text": "今日未歸戶最熱討論（github、熱度 2263），詳見「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1478（退燒），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
+   "text": "熱度 186（上升），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ux-1"
+  }
+ ],
+ "fresh": [
+  {
+   "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+   "source": "github",
+   "heat": 2262.6,
+   "url": "https://github.com/MadsLorentzen/ai-job-search"
+  },
+  {
+   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with 4x faster Parakeet/W",
+   "source": "github",
+   "heat": 1599.3,
+   "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+   "source": "github",
+   "heat": 1185.3,
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+   "source": "github",
+   "heat": 868.5,
+   "url": "https://github.com/bradautomates/claude-video"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
+   "source": "github",
+   "heat": 803.7,
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 1477.7,
+    "heat_trend": [
+     3176.8,
+     2780.8,
+     1477.7
+    ],
+    "what": "當日 5 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free AI gateway:」；「alirezarezvani/claude-skills — 345 Claude Code skills & agen」；「steipete/CodexBar — Show usage stats for OpenAI Codex and Cl」。",
+    "why_hot": "熱度 1478（退燒、較昨日 -47%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     },
+     {
+      "label": "github：alirezarezvani/claude-skills — 345 Claude ",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+     },
+     {
+      "label": "github：steipete/CodexBar — Show usage stats for O",
+      "url": "https://github.com/steipete/CodexBar"
+     },
+     {
+      "label": "github：code-yeongyu/oh-my-openagent — omo/lazycod",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "id": "ux-1",
+    "slug": "design-ai-prototyping",
+    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+    "status": "rising",
+    "heat_today": 186.1,
+    "heat_trend": [
+     106.7,
+     0,
+     186.1
+    ],
+    "what": "當日 4 則相關討論：「Company asked for edit access to my Figma after a design ass」；「How are you handling design handoff when prototyping happens」；「Is AI prototyping getting pushed onto designers or PMs?」。",
+    "why_hot": "熱度 186（上升）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "r/UXDesign：Company asked for edit access to my Figma ",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1upt50y/company_asked_for_edit_access_to_my_figma_after_a/"
+     },
+     {
+      "label": "r/UXDesign：How are you handling design handoff when p",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1upyew3/how_are_you_handling_design_handoff_when/"
+     },
+     {
+      "label": "r/UXDesign：Is AI prototyping getting pushed onto desi",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1uprn0u/is_ai_prototyping_getting_pushed_onto_designers/"
+     },
+     {
+      "label": "r/UXDesign：I build onboarding design system and kit i",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1upuq4g/i_build_onboarding_design_system_and_kit_in_figma/"
+     }
+    ]
+   }
+  ]
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 2156.2,
+   "heat_trend": [
+    1159.6,
+    2514.9,
+    2156.2
+   ]
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 705.6,
+   "heat_trend": [
+    1229.3,
+    549.0,
+    705.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Microsoft fire idTech team at Id software",
+   "note": "hn · 熱度 780（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48819244"
+  },
+  {
+   "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
+   "note": "hn · 熱度 776（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48816883"
+  },
+  {
+   "title": "Every new car sold in the European Union must include a driver monitor",
+   "note": "hn · 熱度 708（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48823557"
+  },
+  {
+   "title": "Chat Control passed first round in EU Parliament",
+   "note": "hn · 熱度 651（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48819008"
+  },
+  {
+   "title": "98% isn't much",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48816959"
+  },
+  {
+   "title": "NousResearch/hermes-agent — The agent that grows with you",
+   "note": "github · 熱度 616（未歸戶）",
+   "url": "https://github.com/NousResearch/hermes-agent"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
