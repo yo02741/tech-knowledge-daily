@@ -28,15 +28,9 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1478（退燒），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 1536（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
-  },
-  {
-   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 186（上升），共 4 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ux-1"
   }
  ],
  "fresh": [
@@ -65,10 +59,10 @@
    "url": "https://github.com/bradautomates/claude-video"
   },
   {
-   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
-   "source": "github",
-   "heat": 803.7,
-   "url": "https://github.com/iOfficeAI/OfficeCLI"
+   "title": "Microsoft fire idTech team at Id software",
+   "source": "hn",
+   "heat": 816.0,
+   "url": "https://news.ycombinator.com/item?id=48819244"
   }
  ],
  "sections": {
@@ -77,15 +71,15 @@
     "id": "ai-1",
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
-    "status": "fading",
-    "heat_today": 1477.7,
+    "status": "ongoing",
+    "heat_today": 1536.3,
     "heat_trend": [
      3176.8,
      2780.8,
-     1477.7
+     1536.3
     ],
     "what": "當日 5 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free AI gateway:」；「alirezarezvani/claude-skills — 345 Claude Code skills & agen」；「steipete/CodexBar — Show usage stats for OpenAI Codex and Cl」。",
-    "why_hot": "熱度 1478（退燒、較昨日 -47%）——由管線統計自動判定。",
+    "why_hot": "熱度 1536（持續、較昨日 -45%）——由管線統計自動判定。",
     "sources": [
      {
       "label": "github：diegosouzapw/OmniRoute — Never stop coding",
@@ -108,40 +102,7 @@
   ],
   "software": [],
   "devops": [],
-  "uiux": [
-   {
-    "id": "ux-1",
-    "slug": "design-ai-prototyping",
-    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-    "status": "rising",
-    "heat_today": 186.1,
-    "heat_trend": [
-     106.7,
-     0,
-     186.1
-    ],
-    "what": "當日 4 則相關討論：「Company asked for edit access to my Figma after a design ass」；「How are you handling design handoff when prototyping happens」；「Is AI prototyping getting pushed onto designers or PMs?」。",
-    "why_hot": "熱度 186（上升）——由管線統計自動判定。",
-    "sources": [
-     {
-      "label": "r/UXDesign：Company asked for edit access to my Figma ",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1upt50y/company_asked_for_edit_access_to_my_figma_after_a/"
-     },
-     {
-      "label": "r/UXDesign：How are you handling design handoff when p",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1upyew3/how_are_you_handling_design_handoff_when/"
-     },
-     {
-      "label": "r/UXDesign：Is AI prototyping getting pushed onto desi",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1uprn0u/is_ai_prototyping_getting_pushed_onto_designers/"
-     },
-     {
-      "label": "r/UXDesign：I build onboarding design system and kit i",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1upuq4g/i_build_onboarding_design_system_and_kit_in_figma/"
-     }
-    ]
-   }
-  ]
+  "uiux": []
  },
  "tracking": [
   {
@@ -149,11 +110,11 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 2156.2,
+   "heat_today": 2560.8,
    "heat_trend": [
     1159.6,
     2514.9,
-    2156.2
+    2560.8
    ]
   },
   {
@@ -171,28 +132,28 @@
  ],
  "radar": [
   {
-   "title": "Microsoft fire idTech team at Id software",
-   "note": "hn · 熱度 780（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48819244"
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite pur",
+   "note": "github · 熱度 804（未歸戶）",
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
   },
   {
    "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-   "note": "hn · 熱度 776（未歸戶）",
+   "note": "hn · 熱度 800（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48816883"
   },
   {
    "title": "Every new car sold in the European Union must include a driver monitor",
-   "note": "hn · 熱度 708（未歸戶）",
+   "note": "hn · 熱度 782（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48823557"
   },
   {
    "title": "Chat Control passed first round in EU Parliament",
-   "note": "hn · 熱度 651（未歸戶）",
+   "note": "hn · 熱度 658（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48819008"
   },
   {
    "title": "98% isn't much",
-   "note": "hn · 熱度 626（未歸戶）",
+   "note": "hn · 熱度 634（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48816959"
   },
   {
@@ -220,7 +181,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -236,7 +197,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",

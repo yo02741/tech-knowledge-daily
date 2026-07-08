@@ -22,8 +22,8 @@
     },
     {
      "date": "2026-07-08",
-     "heat": 2156.2,
-     "mentions": 8
+     "heat": 2560.8,
+     "mentions": 9
     }
    ],
    "status": "ongoing",
@@ -53,11 +53,11 @@
     },
     {
      "date": "2026-07-08",
-     "heat": 1477.7,
+     "heat": 1536.3,
      "mentions": 5
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -250,11 +250,11 @@
     },
     {
      "date": "2026-07-08",
-     "heat": 186.1,
-     "mentions": 4
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
