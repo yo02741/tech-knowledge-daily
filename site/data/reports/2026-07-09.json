@@ -1,0 +1,232 @@
+{
+ "date": "2026-07-09",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-design-token",
+  "domain": "uiux",
+  "term": "Design Token",
+  "tagline": "把設計決策存成變數，一改全改",
+  "intro": [
+   "顏色、字級、間距、圓角……把這些設計決策命名成 token（如 color-primary、spacing-md），設計稿與程式碼引用同一套名字。",
+   "好處在規模化：換品牌色改一個 token 全產品生效、深淺色主題就是兩套 token 值的切換——本站的深淺色就是這樣做的。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "W3C Design Tokens 規範草案",
+    "url": "https://design-tokens.github.io/community-group/format/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office",
+   "text": "今日未歸戶最熱討論（github、熱度 1545），詳見「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1416（持續），共 8 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 173（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": [
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
+   "source": "github",
+   "heat": 1545.3,
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+   "source": "github",
+   "heat": 1167.3,
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+   "source": "github",
+   "heat": 1004.4,
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+   "source": "github",
+   "heat": 855.9,
+   "url": "https://github.com/bradautomates/claude-video"
+  },
+  {
+   "title": "TencentCloud/CubeSandbox — Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents",
+   "source": "github",
+   "heat": 507.6,
+   "url": "https://github.com/TencentCloud/CubeSandbox"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 1416.2,
+    "heat_trend": [
+     1159.6,
+     2514.9,
+     2695.7,
+     1416.2
+    ],
+    "what": "當日 8 則相關討論：「asgeirtj/system_prompts_leaks — Extracted system prompts fro」；「Built my entire portfolio with Claude Fable 5. You scroll th」；「Anthropic just benchmarked \"Fable 5 orchestrates, cheap mode」。",
+    "why_hot": "熱度 1416（持續、較昨日 -47%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：asgeirtj/system_prompts_leaks — Extracted ",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+     },
+     {
+      "label": "r/ClaudeAI：Built my entire portfolio with Claude Fabl",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqoaqv/built_my_entire_portfolio_with_claude_fable_5_you/"
+     },
+     {
+      "label": "r/ClaudeAI：Anthropic just benchmarked \"Fable 5 orches",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ur2ml9/anthropic_just_benchmarked_fable_5_orchestrates/"
+     },
+     {
+      "label": "r/ClaudeAI：The only smart decision Anthropic can do i",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqnf71/the_only_smart_decision_anthropic_can_do_is_reset/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 172.8,
+    "heat_trend": [
+     1229.3,
+     549.0,
+     705.6,
+     172.8
+    ],
+    "what": "當日 2 則相關討論：「NVIDIA/SkillSpector — Security scanner for AI agent skills. 」；「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "why_hot": "熱度 173（退燒、較昨日 -76%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：NVIDIA/SkillSpector — Security scanner for",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+     },
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 1232.1,
+   "heat_trend": [
+    3176.8,
+    2780.8,
+    1536.3,
+    1232.1
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Diolinux/PhotoGIMP — A Patch for GIMP 3+ for Photoshop Users",
+   "note": "github · 熱度 338（未歸戶）",
+   "url": "https://github.com/Diolinux/PhotoGIMP"
+  },
+  {
+   "title": "An LLM saved my ass while standing in the queue of a roller coaster at",
+   "note": "r/ClaudeAI · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqt53j/an_llm_saved_my_ass_while_standing_in_the_queue/"
+  },
+  {
+   "title": "Show me some MINIMALISTIC but impressive frontend portfolios",
+   "note": "r/web_design · 熱度 200（未歸戶）",
+   "url": "https://www.reddit.com/r/web_design/comments/1uqnyxc/show_me_some_minimalistic_but_impressive_frontend/"
+  },
+  {
+   "title": "Announcing TypeScript 7.0",
+   "note": "r/webdev · 熱度 200（未歸戶）",
+   "url": "https://www.reddit.com/r/webdev/comments/1uqx3yk/announcing_typescript_70/"
+  },
+  {
+   "title": "Reliance on LLMs is killing people's mental models and stripping peopl",
+   "note": "r/ExperiencedDevs · 熱度 150（未歸戶）",
+   "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uqloh5/reliance_on_llms_is_killing_peoples_mental_models/"
+  },
+  {
+   "title": "Anthropic in 2028 be like...",
+   "note": "r/ClaudeAI · 熱度 100（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqp70p/anthropic_in_2028_be_like/"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "hn",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

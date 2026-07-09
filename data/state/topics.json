@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-08",
+ "last_run": "2026-07-09",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08",
+   "last_seen": "2026-07-09",
    "history": [
     {
      "date": "2026-07-06",
@@ -24,6 +24,11 @@
      "date": "2026-07-08",
      "heat": 2695.7,
      "mentions": 9
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 1416.2,
+     "mentions": 8
     }
    ],
    "status": "ongoing",
@@ -39,7 +44,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08",
+   "last_seen": "2026-07-09",
    "history": [
     {
      "date": "2026-07-06",
@@ -55,9 +60,14 @@
      "date": "2026-07-08",
      "heat": 1536.3,
      "mentions": 5
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 1232.1,
+     "mentions": 3
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -75,7 +85,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08",
+   "last_seen": "2026-07-09",
    "history": [
     {
      "date": "2026-07-06",
@@ -91,9 +101,14 @@
      "date": "2026-07-08",
      "heat": 705.6,
      "mentions": 4
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 172.8,
+     "mentions": 2
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -123,6 +138,11 @@
      "date": "2026-07-08",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -138,7 +158,7 @@
    ],
    "domain": "software",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-07-09",
    "history": [
     {
      "date": "2026-07-06",
@@ -154,6 +174,11 @@
      "date": "2026-07-08",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 27.6,
+     "mentions": 1
     }
    ],
    "status": "fading",
@@ -187,6 +212,11 @@
      "date": "2026-07-08",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -217,6 +247,11 @@
     },
     {
      "date": "2026-07-08",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-09",
      "heat": 0,
      "mentions": 0
     }
@@ -252,9 +287,14 @@
      "date": "2026-07-08",
      "heat": 189.3,
      "mentions": 4
+    },
+    {
+     "date": "2026-07-09",
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
