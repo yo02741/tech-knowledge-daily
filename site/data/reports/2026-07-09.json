@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1416（持續），共 8 則討論；重點連結見對應段落。",
+   "text": "熱度 1418（持續），共 8 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -78,15 +78,15 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 1416.2,
+    "heat_today": 1418.4,
     "heat_trend": [
      1159.6,
      2514.9,
      2695.7,
-     1416.2
+     1418.4
     ],
     "what": "當日 8 則相關討論：「asgeirtj/system_prompts_leaks — Extracted system prompts fro」；「Built my entire portfolio with Claude Fable 5. You scroll th」；「Anthropic just benchmarked \"Fable 5 orchestrates, cheap mode」。",
-    "why_hot": "熱度 1416（持續、較昨日 -47%）——由管線統計自動判定。",
+    "why_hot": "熱度 1418（持續、較昨日 -47%）——由管線統計自動判定。",
     "sources": [
      {
       "label": "github：asgeirtj/system_prompts_leaks — Extracted ",
@@ -173,14 +173,14 @@
    "url": "https://www.reddit.com/r/webdev/comments/1uqx3yk/announcing_typescript_70/"
   },
   {
-   "title": "Reliance on LLMs is killing people's mental models and stripping peopl",
-   "note": "r/ExperiencedDevs · 熱度 150（未歸戶）",
-   "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uqloh5/reliance_on_llms_is_killing_peoples_mental_models/"
+   "title": "When your boss asks if you or Claude built it",
+   "note": "r/ClaudeAI · 熱度 100（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1ur0484/when_your_boss_asks_if_you_or_claude_built_it/"
   },
   {
-   "title": "Anthropic in 2028 be like...",
-   "note": "r/ClaudeAI · 熱度 100（未歸戶）",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqp70p/anthropic_in_2028_be_like/"
+   "title": "China’s MiniMax Plans to Launch 2.7-Trillion Parameter Model",
+   "note": "r/LocalLLaMA · 熱度 100（未歸戶）",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqnqsc/chinas_minimax_plans_to_launch_27trillion/"
   }
  ],
  "data_quality": [
@@ -194,7 +194,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
