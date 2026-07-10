@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] GPT-5.6",
-   "text": "今日未歸戶最熱討論（hn、熱度 4149），詳見「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4638），詳見「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -49,7 +49,7 @@
   {
    "title": "GPT-5.6",
    "source": "hn",
-   "heat": 4149.0,
+   "heat": 4638.0,
    "url": "https://news.ycombinator.com/item?id=48849066"
   },
   {
@@ -67,7 +67,7 @@
   {
    "title": "My thoughts on the Bun Rust rewrite",
    "source": "hn",
-   "heat": 1818.0,
+   "heat": 1911.0,
    "url": "https://news.ycombinator.com/item?id=48843352"
   },
   {
@@ -161,21 +161,26 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 1105.1,
+   "heat_today": 1126.0,
    "heat_trend": [
     1159.6,
     2514.9,
     2695.7,
     1405.4,
-    1105.1
+    1126.0
    ]
   }
  ],
  "radar": [
   {
-   "title": "I think I have LLM burnout",
-   "note": "hn · 熱度 1650（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48839984"
+   "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regressio",
+   "note": "hn · 熱度 1352（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48841676"
+  },
+  {
+   "title": "EU Parliament greenlights Chat Control 1.0",
+   "note": "hn · 熱度 1342（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48843923"
   },
   {
    "title": "VoltAgent/awesome-design-md — A collection of DESIGN.md files analysis",
@@ -184,18 +189,13 @@
   },
   {
    "title": "ChatGPT Work",
-   "note": "hn · 熱度 1203（未歸戶）",
+   "note": "hn · 熱度 1245（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48849059"
   },
   {
-   "title": "EU Parliament greenlights Chat Control 1.0",
-   "note": "hn · 熱度 1186（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48843923"
-  },
-  {
-   "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regressio",
-   "note": "hn · 熱度 1012（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48841676"
+   "title": "Show HN: 18 Words",
+   "note": "hn · 熱度 1032（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48845049"
   },
   {
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
@@ -226,7 +226,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -234,7 +234,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
