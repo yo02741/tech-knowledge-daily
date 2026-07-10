@@ -1,51 +1,69 @@
 {
- "date": "2026-07-09",
+ "date": "2026-07-10",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 8726.0,
+   "weight": 9559.4,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-10"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 7775.6,
+   "weight": 8880.7,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-10"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 6108.2,
+   "weight": 6691.6,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-10"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2656.7,
+   "weight": 2746.7,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-10"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1859.7,
+   "weight": 1922.7,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-10"
+  },
+  {
+   "slug": "sql-over-orm",
+   "display": "ORM 之爭再起：直接學 SQL",
+   "label": "ORM",
+   "weight": 453.2,
+   "status": "ongoing",
+   "domain": "software",
+   "last_seen": "2026-07-10"
+  },
+  {
+   "slug": "sql-over-orm#1",
+   "display": "ORM 之爭再起：直接學 SQL",
+   "label": "SQL",
+   "weight": 317.2,
+   "status": "ongoing",
+   "domain": "software",
+   "last_seen": "2026-07-10"
   },
   {
    "slug": "design-ai-prototyping",
@@ -57,15 +75,6 @@
    "last_seen": "2026-07-08"
   },
   {
-   "slug": "sql-over-orm",
-   "display": "ORM 之爭再起：直接學 SQL",
-   "label": "ORM",
-   "weight": 227.6,
-   "status": "fading",
-   "domain": "software",
-   "last_seen": "2026-07-09"
-  },
-  {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
@@ -73,15 +82,6 @@
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-08"
-  },
-  {
-   "slug": "sql-over-orm#1",
-   "display": "ORM 之爭再起：直接學 SQL",
-   "label": "SQL",
-   "weight": 159.3,
-   "status": "fading",
-   "domain": "software",
-   "last_seen": "2026-07-09"
   },
   {
    "slug": "astryx-design-system",

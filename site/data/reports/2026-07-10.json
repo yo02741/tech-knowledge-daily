@@ -1,0 +1,248 @@
+{
+ "date": "2026-07-10",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-cicd",
+  "domain": "devops",
+  "term": "CI/CD",
+  "tagline": "每次 push 都自動測試、自動部署",
+  "intro": [
+   "CI（持續整合）：每次提交自動跑建置與測試，問題在合併前就現形。CD（持續部署/交付）：通過檢查的版本自動推上環境。",
+   "價值在頻率與批次大小：一天部署十次、每次改動很小，出問題容易定位回滾；憋一個月大爆發，出事只能通靈。本站的每日管線就是一條 CI/CD。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "GitHub Actions 文件",
+    "url": "https://docs.github.com/en/actions"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] GPT-5.6",
+   "text": "今日未歸戶最熱討論（hn、熱度 4149），詳見「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 833（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[前後端] ORM 之爭再起：直接學 SQL",
+   "text": "熱度 226（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "sw-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 90（退燒），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": [
+  {
+   "title": "GPT-5.6",
+   "source": "hn",
+   "heat": 4149.0,
+   "url": "https://news.ycombinator.com/item?id=48849066"
+  },
+  {
+   "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+   "source": "github",
+   "heat": 3344.4,
+   "url": "https://github.com/MadsLorentzen/ai-job-search"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+   "source": "github",
+   "heat": 2298.6,
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "My thoughts on the Bun Rust rewrite",
+   "source": "hn",
+   "heat": 1818.0,
+   "url": "https://news.ycombinator.com/item?id=48843352"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
+   "source": "github",
+   "heat": 1736.1,
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 833.4,
+    "heat_trend": [
+     3176.8,
+     2780.8,
+     1536.3,
+     1232.1,
+     833.4
+    ],
+    "what": "當日 2 則相關討論：「Graphify-Labs/graphify — AI coding assistant skill (Claude C」；「777genius/agent-teams-ai — You're the boss, agents are your 」。",
+    "why_hot": "熱度 833（退燒、較昨日 -32%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：Graphify-Labs/graphify — AI coding assista",
+      "url": "https://github.com/Graphify-Labs/graphify"
+     },
+     {
+      "label": "github：777genius/agent-teams-ai — You're the boss",
+      "url": "https://github.com/777genius/agent-teams-ai"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 90.0,
+    "heat_trend": [
+     1229.3,
+     549.0,
+     705.6,
+     172.8,
+     90.0
+    ],
+    "what": "當日 1 則相關討論：「ComposioHQ/awesome-claude-skills — A curated list of awesome」。",
+    "why_hot": "熱度 90（退燒、較昨日 -48%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     }
+    ]
+   }
+  ],
+  "software": [
+   {
+    "id": "sw-1",
+    "slug": "sql-over-orm",
+    "title": "ORM 之爭再起：直接學 SQL",
+    "status": "ongoing",
+    "heat_today": 225.6,
+    "heat_trend": [
+     200.0,
+     0,
+     0,
+     27.6,
+     225.6
+    ],
+    "what": "當日 1 則相關討論：「prisma/prisma — Next-generation ORM for Node.js & TypeScript」。",
+    "why_hot": "熱度 226（持續、較昨日 +717%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：prisma/prisma — Next-generation ORM for No",
+      "url": "https://github.com/prisma/prisma"
+     }
+    ]
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1105.1,
+   "heat_trend": [
+    1159.6,
+    2514.9,
+    2695.7,
+    1405.4,
+    1105.1
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "I think I have LLM burnout",
+   "note": "hn · 熱度 1650（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48839984"
+  },
+  {
+   "title": "VoltAgent/awesome-design-md — A collection of DESIGN.md files analysis",
+   "note": "github · 熱度 1252（未歸戶）",
+   "url": "https://github.com/VoltAgent/awesome-design-md"
+  },
+  {
+   "title": "ChatGPT Work",
+   "note": "hn · 熱度 1203（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48849059"
+  },
+  {
+   "title": "EU Parliament greenlights Chat Control 1.0",
+   "note": "hn · 熱度 1186（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48843923"
+  },
+  {
+   "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regressio",
+   "note": "hn · 熱度 1012（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48841676"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 781（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
