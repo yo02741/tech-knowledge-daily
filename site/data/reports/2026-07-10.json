@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] GPT-5.6",
-   "text": "今日未歸戶最熱討論（hn、熱度 4638），詳見「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4714），詳見「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -49,7 +49,7 @@
   {
    "title": "GPT-5.6",
    "source": "hn",
-   "heat": 4638.0,
+   "heat": 4714.5,
    "url": "https://news.ycombinator.com/item?id=48849066"
   },
   {
@@ -67,7 +67,7 @@
   {
    "title": "My thoughts on the Bun Rust rewrite",
    "source": "hn",
-   "heat": 1911.0,
+   "heat": 1933.0,
    "url": "https://news.ycombinator.com/item?id=48843352"
   },
   {
@@ -161,25 +161,25 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 1126.0,
+   "heat_today": 1125.0,
    "heat_trend": [
     1159.6,
     2514.9,
     2695.7,
     1405.4,
-    1126.0
+    1125.0
    ]
   }
  ],
  "radar": [
   {
    "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regressio",
-   "note": "hn · 熱度 1352（未歸戶）",
+   "note": "hn · 熱度 1469（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48841676"
   },
   {
    "title": "EU Parliament greenlights Chat Control 1.0",
-   "note": "hn · 熱度 1342（未歸戶）",
+   "note": "hn · 熱度 1421（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48843923"
   },
   {
@@ -189,12 +189,12 @@
   },
   {
    "title": "ChatGPT Work",
-   "note": "hn · 熱度 1245（未歸戶）",
+   "note": "hn · 熱度 1251（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48849059"
   },
   {
    "title": "Show HN: 18 Words",
-   "note": "hn · 熱度 1032（未歸戶）",
+   "note": "hn · 熱度 1053（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48845049"
   },
   {
@@ -234,7 +234,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
