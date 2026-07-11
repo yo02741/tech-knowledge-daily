@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Apple sues OpenAI, accuses ex-employees of stealing trade se",
-   "text": "今日未歸戶最熱討論（hn、熱度 2576），詳見「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2826），詳見「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 105（退燒），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 104（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -49,13 +49,13 @@
   {
    "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
    "source": "hn",
-   "heat": 2575.5,
+   "heat": 2826.0,
    "url": "https://news.ycombinator.com/item?id=48865019"
   },
   {
    "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
    "source": "hn",
-   "heat": 1603.5,
+   "heat": 1647.0,
    "url": "https://news.ycombinator.com/item?id=48863490"
   },
   {
@@ -146,17 +146,17 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 105.3,
+    "heat_today": 104.4,
     "heat_trend": [
      1159.6,
      2514.9,
      2695.7,
      1405.4,
      1125.0,
-     105.3
+     104.4
     ],
     "what": "當日 3 則相關討論：「I made a Pirate MMO with Fable, and the entire game is only 」；「Fable's writing is precise & rich」；「Fable legal work performance」。",
-    "why_hot": "熱度 105（退燒、較昨日 -91%）——由管線統計自動判定。",
+    "why_hot": "熱度 104（退燒、較昨日 -91%）——由管線統計自動判定。",
     "sources": [
      {
       "label": "r/ClaudeAI：I made a Pirate MMO with Fable, and the en",
@@ -192,9 +192,29 @@
     225.6,
     170.4
    ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 33.3,
+   "heat_trend": [
+    106.7,
+    0,
+    189.3,
+    0,
+    0,
+    33.3
+   ]
   }
  ],
  "radar": [
+  {
+   "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+   "note": "hn · 熱度 941（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48842459"
+  },
   {
    "title": "obra/superpowers — An agentic skills framework & software development ",
    "note": "github · 熱度 912（未歸戶）",
@@ -202,23 +222,18 @@
   },
   {
    "title": "QuadRF can spot drones and see WiFi through my wall",
-   "note": "hn · 熱度 580（未歸戶）",
+   "note": "hn · 熱度 593（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48861717"
   },
   {
    "title": "New York City to ban deceptive subscription practices",
-   "note": "hn · 熱度 570（未歸戶）",
+   "note": "hn · 熱度 584（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48863464"
   },
   {
    "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-   "note": "hn · 熱度 534（未歸戶）",
+   "note": "hn · 熱度 537（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48865093"
-  },
-  {
-   "title": "Successful Companies Go Blind",
-   "note": "hn · 熱度 469（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48859678"
   },
   {
    "title": "Anthropic can't remove F@ble from the subscription tier",
@@ -245,7 +260,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
