@@ -1,69 +1,69 @@
 {
- "date": "2026-07-10",
+ "date": "2026-07-11",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 9559.4,
+   "weight": 9735.6,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 8900.6,
-   "status": "ongoing",
+   "weight": 9053.6,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 6691.6,
+   "weight": 6814.9,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2746.7,
+   "weight": 2881.7,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1922.7,
+   "weight": 2017.2,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
-   "weight": 453.2,
+   "weight": 623.6,
    "status": "ongoing",
    "domain": "software",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "sql-over-orm#1",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "SQL",
-   "weight": 317.2,
+   "weight": 436.5,
    "status": "ongoing",
    "domain": "software",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-11"
   },
   {
    "slug": "design-ai-prototyping",

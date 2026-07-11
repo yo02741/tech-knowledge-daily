@@ -1,0 +1,275 @@
+{
+ "date": "2026-07-11",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-rag",
+  "domain": "ai",
+  "term": "RAG（檢索增強生成）",
+  "tagline": "先查資料再回答，讓模型少憑記憶瞎掰",
+  "intro": [
+   "Retrieval-Augmented Generation：回答前先從外部知識庫檢索相關段落，塞進 prompt 讓模型「看著資料回答」，而不是靠訓練時的記憶。",
+   "好處是知識可即時更新、可追溯來源；代價是檢索品質直接決定答案品質——垃圾進垃圾出。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "維基百科：RAG",
+    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] mattpocock/skills — Skills for Real Engineers. Straight from",
+   "text": "今日未歸戶最熱討論（github、熱度 1541），詳見「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 176（退燒），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 153（退燒），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 135（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": [
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
+   "source": "github",
+   "heat": 1540.8,
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+   "source": "hn",
+   "heat": 1336.5,
+   "url": "https://news.ycombinator.com/item?id=48863490"
+  },
+  {
+   "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+   "source": "hn",
+   "heat": 1297.5,
+   "url": "https://news.ycombinator.com/item?id=48865019"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
+   "source": "github",
+   "heat": 1101.6,
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+   "source": "github",
+   "heat": 1004.4,
+   "url": "https://github.com/addyosmani/agent-skills"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 176.2,
+    "heat_trend": [
+     3176.8,
+     2780.8,
+     1536.3,
+     1232.1,
+     833.4,
+     176.2
+    ],
+    "what": "當日 4 則相關討論：「EveryInc/compound-engineering-plugin — Official Compound Eng」；「Soju06/codex-lb — Codex/ChatGPT multiple account load balanc」；「According to DataBricks, pi-coding-agent is ~2x cheaper than」。",
+    "why_hot": "熱度 176（退燒、較昨日 -79%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：EveryInc/compound-engineering-plugin — Off",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+     },
+     {
+      "label": "github：Soju06/codex-lb — Codex/ChatGPT multiple a",
+      "url": "https://github.com/Soju06/codex-lb"
+     },
+     {
+      "label": "r/LocalLLaMA：According to DataBricks, pi-coding-agent i",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/"
+     },
+     {
+      "label": "github：syncable-dev/memtrace-public — Structural ",
+      "url": "https://github.com/syncable-dev/memtrace-public"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 153.0,
+    "heat_trend": [
+     1159.6,
+     2514.9,
+     2695.7,
+     1405.4,
+     1125.0,
+     153.0
+    ],
+    "what": "當日 4 則相關討論：「Fable 5 in caveman mode comparing himself to gpt 5.6 is hila」；「I made a Pirate MMO with Fable, and the entire game is only 」；「Fable's writing is precise & rich」。",
+    "why_hot": "熱度 153（退燒、較昨日 -86%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Fable 5 in caveman mode comparing himself ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1us8mjs/fable_5_in_caveman_mode_comparing_himself_to_gpt/"
+     },
+     {
+      "label": "r/ClaudeAI：I made a Pirate MMO with Fable, and the en",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable's writing is precise & rich",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ussqvd/fables_writing_is_precise_rich/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable legal work performance",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1useysf/fable_legal_work_performance/"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 135.0,
+    "heat_trend": [
+     1229.3,
+     549.0,
+     705.6,
+     172.8,
+     90.0,
+     135.0
+    ],
+    "what": "當日 2 則相關討論：「google-labs-code/stitch-skills — A library of Agent Skills d」；「NVIDIA/skills — AI agent skills published by NVIDIA」。",
+    "why_hot": "熱度 135（退燒、較昨日 +50%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     },
+     {
+      "label": "github：NVIDIA/skills — AI agent skills published ",
+      "url": "https://github.com/NVIDIA/skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "sql-over-orm",
+   "title": "ORM 之爭再起：直接學 SQL",
+   "status": "ongoing",
+   "domain": "software",
+   "heat_today": 170.4,
+   "heat_trend": [
+    200.0,
+    0,
+    0,
+    27.6,
+    225.6,
+    170.4
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development ",
+   "note": "github · 熱度 912（未歸戶）",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "QuadRF can spot drones and see WiFi through my wall",
+   "note": "hn · 熱度 520（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48861717"
+  },
+  {
+   "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+   "note": "hn · 熱度 507（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48865093"
+  },
+  {
+   "title": "New York City to to ban deceptive subscription practices",
+   "note": "hn · 熱度 479（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48863464"
+  },
+  {
+   "title": "Write code like a human will maintain it",
+   "note": "hn · 熱度 459（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48859701"
+  },
+  {
+   "title": "DeepSWE just added the gpt-5.6 models to their benchmark. I hope you g",
+   "note": "r/ClaudeAI · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1usavpc/deepswe_just_added_the_gpt56_models_to_their/"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

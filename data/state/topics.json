@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-10",
+ "last_run": "2026-07-11",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-11",
    "history": [
     {
      "date": "2026-07-06",
@@ -34,9 +34,14 @@
      "date": "2026-07-10",
      "heat": 1125.0,
      "mentions": 6
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 153.0,
+     "mentions": 4
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -49,7 +54,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-11",
    "history": [
     {
      "date": "2026-07-06",
@@ -75,6 +80,11 @@
      "date": "2026-07-10",
      "heat": 833.4,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 176.2,
+     "mentions": 4
     }
    ],
    "status": "fading",
@@ -95,7 +105,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-11",
    "history": [
     {
      "date": "2026-07-06",
@@ -121,6 +131,11 @@
      "date": "2026-07-10",
      "heat": 90.0,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 135.0,
+     "mentions": 2
     }
    ],
    "status": "fading",
@@ -163,6 +178,11 @@
      "date": "2026-07-10",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -178,7 +198,7 @@
    ],
    "domain": "software",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-11",
    "history": [
     {
      "date": "2026-07-06",
@@ -203,6 +223,11 @@
     {
      "date": "2026-07-10",
      "heat": 225.6,
+     "mentions": 1
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 170.4,
      "mentions": 1
     }
    ],
@@ -247,6 +272,11 @@
      "date": "2026-07-10",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-11",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -287,6 +317,11 @@
     },
     {
      "date": "2026-07-10",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-11",
      "heat": 0,
      "mentions": 0
     }
@@ -330,6 +365,11 @@
     },
     {
      "date": "2026-07-10",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-11",
      "heat": 0,
      "mentions": 0
     }
