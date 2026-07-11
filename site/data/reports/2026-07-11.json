@@ -21,48 +21,48 @@
  },
  "tldr": [
   {
-   "title": "[新訊] mattpocock/skills — Skills for Real Engineers. Straight from",
-   "text": "今日未歸戶最熱討論（github、熱度 1541），詳見「今日新訊」。",
+   "title": "[新訊] Apple sues OpenAI, accuses ex-employees of stealing trade se",
+   "text": "今日未歸戶最熱討論（hn、熱度 2576），詳見「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 176（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 188（退燒），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
   {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 153（退燒），共 4 則討論；重點連結見對應段落。",
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 135（退燒），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
   {
-   "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 135（退燒），共 2 則討論；重點連結見對應段落。",
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 105（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
  ],
  "fresh": [
   {
-   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
-   "source": "github",
-   "heat": 1540.8,
-   "url": "https://github.com/mattpocock/skills"
+   "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+   "source": "hn",
+   "heat": 2575.5,
+   "url": "https://news.ycombinator.com/item?id=48865019"
   },
   {
    "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
    "source": "hn",
-   "heat": 1336.5,
+   "heat": 1603.5,
    "url": "https://news.ycombinator.com/item?id=48863490"
   },
   {
-   "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-   "source": "hn",
-   "heat": 1297.5,
-   "url": "https://news.ycombinator.com/item?id=48865019"
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
+   "source": "github",
+   "heat": 1540.8,
+   "url": "https://github.com/mattpocock/skills"
   },
   {
    "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
@@ -84,29 +84,29 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "fading",
-    "heat_today": 176.2,
+    "heat_today": 188.1,
     "heat_trend": [
      3176.8,
      2780.8,
      1536.3,
      1232.1,
      833.4,
-     176.2
+     188.1
     ],
-    "what": "當日 4 則相關討論：「EveryInc/compound-engineering-plugin — Official Compound Eng」；「Soju06/codex-lb — Codex/ChatGPT multiple account load balanc」；「According to DataBricks, pi-coding-agent is ~2x cheaper than」。",
-    "why_hot": "熱度 176（退燒、較昨日 -79%）——由管線統計自動判定。",
+    "what": "當日 4 則相關討論：「EveryInc/compound-engineering-plugin — Official Compound Eng」；「According to DataBricks, pi-coding-agent is ~2x cheaper than」；「Soju06/codex-lb — Codex/ChatGPT multiple account load balanc」。",
+    "why_hot": "熱度 188（退燒、較昨日 -77%）——由管線統計自動判定。",
     "sources": [
      {
       "label": "github：EveryInc/compound-engineering-plugin — Off",
       "url": "https://github.com/EveryInc/compound-engineering-plugin"
      },
      {
-      "label": "github：Soju06/codex-lb — Codex/ChatGPT multiple a",
-      "url": "https://github.com/Soju06/codex-lb"
-     },
-     {
       "label": "r/LocalLLaMA：According to DataBricks, pi-coding-agent i",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/"
+     },
+     {
+      "label": "github：Soju06/codex-lb — Codex/ChatGPT multiple a",
+      "url": "https://github.com/Soju06/codex-lb"
      },
      {
       "label": "github：syncable-dev/memtrace-public — Structural ",
@@ -116,41 +116,6 @@
    },
    {
     "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "fading",
-    "heat_today": 153.0,
-    "heat_trend": [
-     1159.6,
-     2514.9,
-     2695.7,
-     1405.4,
-     1125.0,
-     153.0
-    ],
-    "what": "當日 4 則相關討論：「Fable 5 in caveman mode comparing himself to gpt 5.6 is hila」；「I made a Pirate MMO with Fable, and the entire game is only 」；「Fable's writing is precise & rich」。",
-    "why_hot": "熱度 153（退燒、較昨日 -86%）——由管線統計自動判定。",
-    "sources": [
-     {
-      "label": "r/ClaudeAI：Fable 5 in caveman mode comparing himself ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1us8mjs/fable_5_in_caveman_mode_comparing_himself_to_gpt/"
-     },
-     {
-      "label": "r/ClaudeAI：I made a Pirate MMO with Fable, and the en",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/"
-     },
-     {
-      "label": "r/ClaudeAI：Fable's writing is precise & rich",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ussqvd/fables_writing_is_precise_rich/"
-     },
-     {
-      "label": "r/ClaudeAI：Fable legal work performance",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1useysf/fable_legal_work_performance/"
-     }
-    ]
-   },
-   {
-    "id": "ai-3",
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "fading",
@@ -173,6 +138,37 @@
      {
       "label": "github：NVIDIA/skills — AI agent skills published ",
       "url": "https://github.com/NVIDIA/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 105.3,
+    "heat_trend": [
+     1159.6,
+     2514.9,
+     2695.7,
+     1405.4,
+     1125.0,
+     105.3
+    ],
+    "what": "當日 3 則相關討論：「I made a Pirate MMO with Fable, and the entire game is only 」；「Fable's writing is precise & rich」；「Fable legal work performance」。",
+    "why_hot": "熱度 105（退燒、較昨日 -91%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：I made a Pirate MMO with Fable, and the en",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable's writing is precise & rich",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ussqvd/fables_writing_is_precise_rich/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable legal work performance",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1useysf/fable_legal_work_performance/"
      }
     ]
    }
@@ -206,28 +202,28 @@
   },
   {
    "title": "QuadRF can spot drones and see WiFi through my wall",
-   "note": "hn · 熱度 520（未歸戶）",
+   "note": "hn · 熱度 580（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48861717"
   },
   {
-   "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-   "note": "hn · 熱度 507（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48865093"
-  },
-  {
-   "title": "New York City to to ban deceptive subscription practices",
-   "note": "hn · 熱度 479（未歸戶）",
+   "title": "New York City to ban deceptive subscription practices",
+   "note": "hn · 熱度 570（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48863464"
   },
   {
-   "title": "Write code like a human will maintain it",
-   "note": "hn · 熱度 459（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48859701"
+   "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+   "note": "hn · 熱度 534（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48865093"
   },
   {
-   "title": "DeepSWE just added the gpt-5.6 models to their benchmark. I hope you g",
+   "title": "Successful Companies Go Blind",
+   "note": "hn · 熱度 469（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48859678"
+  },
+  {
+   "title": "Anthropic can't remove F@ble from the subscription tier",
    "note": "r/ClaudeAI · 熱度 300（未歸戶）",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1usavpc/deepswe_just_added_the_gpt56_models_to_their/"
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1usl9ov/anthropic_cant_remove_fble_from_the_subscription/"
   }
  ],
  "data_quality": [
