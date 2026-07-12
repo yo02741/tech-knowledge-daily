@@ -49,20 +49,20 @@
   {
    "title": "Stop Telling Me to Ask an LLM",
    "source": "hn",
-   "heat": 655.5,
+   "heat": 664.5,
    "url": "https://news.ycombinator.com/item?id=48876441"
   },
   {
    "title": "Prefer strict tables in SQLite",
    "source": "hn",
-   "heat": 594.0,
+   "heat": 605.0,
    "url": "https://news.ycombinator.com/item?id=48873940"
   },
   {
-   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+   "title": "Mesh LLM: distributed AI computing on iroh",
    "source": "hn",
-   "heat": 498.0,
-   "url": "https://news.ycombinator.com/item?id=48875377"
+   "heat": 553.5,
+   "url": "https://news.ycombinator.com/item?id=48876505"
   }
  ],
  "sections": {
@@ -118,7 +118,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "fading",
    "domain": "ai",
-   "heat_today": 129.1,
+   "heat_today": 118.0,
    "heat_trend": [
     1159.6,
     2514.9,
@@ -126,15 +126,15 @@
     1405.4,
     1125.0,
     104.4,
-    129.1
+    118.0
    ]
   }
  ],
  "radar": [
   {
-   "title": "Mesh LLM: distributed AI computing on iroh",
-   "note": "hn · 熱度 495（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48876505"
+   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+   "note": "hn · 熱度 519（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48875377"
   },
   {
    "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actua",
@@ -158,7 +158,7 @@
   },
   {
    "title": "Who manages the agents?",
-   "note": "hn · 熱度 344（未歸戶）",
+   "note": "hn · 熱度 345（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48874182"
   }
  ],
@@ -169,7 +169,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -185,7 +185,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
