@@ -1,0 +1,233 @@
+{
+ "date": "2026-07-12",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-virtual-dom",
+  "domain": "frontend",
+  "term": "Virtual DOM",
+  "tagline": "先在記憶體裡排練，再動真的畫面",
+  "intro": [
+   "直接操作 DOM 很慢，React 等框架改成先在記憶體維護一份輕量的畫面描述（virtual DOM），狀態變了就產生新版本、跟舊版比對差異，只把「真正變動的部分」寫回 DOM。",
+   "近年 Svelte、Solid 走另一條路：編譯期就算出誰會變，跳過執行期比對——所以「virtual DOM 是否必要」成了框架圈的經典辯論。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "維基百科：Virtual DOM",
+    "url": "https://en.wikipedia.org/wiki/Virtual_DOM"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] wonderwhy-er/DesktopCommanderMCP — This is MCP server for Cl",
+   "text": "今日未歸戶最熱討論（github、熱度 818），詳見「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 306（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 154（退燒），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": [
+  {
+   "title": "wonderwhy-er/DesktopCommanderMCP — This is MCP server for Claude that gives it terminal co",
+   "source": "github",
+   "heat": 818.1,
+   "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+  },
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+   "source": "github",
+   "heat": 666.0,
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "Stop Telling Me to Ask an LLM",
+   "source": "hn",
+   "heat": 555.0,
+   "url": "https://news.ycombinator.com/item?id=48876441"
+  },
+  {
+   "title": "Prefer strict tables in SQLite",
+   "source": "hn",
+   "heat": 514.0,
+   "url": "https://news.ycombinator.com/item?id=48873940"
+  },
+  {
+   "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actually run — clone, cus",
+   "source": "github",
+   "heat": 494.1,
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  }
+ ],
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 306.0,
+    "heat_trend": [
+     1229.3,
+     549.0,
+     705.6,
+     172.8,
+     90.0,
+     135.0,
+     306.0
+    ],
+    "what": "當日 1 則相關討論：「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "why_hot": "熱度 306（持續、較昨日 +127%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 154.0,
+    "heat_trend": [
+     1159.6,
+     2514.9,
+     2695.7,
+     1405.4,
+     1125.0,
+     104.4,
+     154.0
+    ],
+    "what": "當日 5 則相關討論：「Sonnet 5 was supposed to be cheaper. It cost me more than Fa」；「Cache rewrites costed me 30% of my Fable consumption, here a」；「I vibecoded the second MMORPG with Fable 5 (sorry, World of 」。",
+    "why_hot": "熱度 154（退燒、較昨日 +48%）——由管線統計自動判定。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Sonnet 5 was supposed to be cheaper. It co",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utjwjl/sonnet_5_was_supposed_to_be_cheaper_it_cost_me/"
+     },
+     {
+      "label": "r/ClaudeAI：Cache rewrites costed me 30% of my Fable c",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utm7ui/cache_rewrites_costed_me_30_of_my_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：I vibecoded the second MMORPG with Fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utw8e7/i_vibecoded_the_second_mmorpg_with_fable_5_sorry/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5 - Incredible for Legal Research - ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uth3t9/fable_5_incredible_for_legal_research_i_started/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 165.6,
+   "heat_trend": [
+    3176.8,
+    2780.8,
+    1536.3,
+    1232.1,
+    833.4,
+    188.1,
+    165.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "malisper/pgrust — Postgres rewritten in Rust, now passing 100% of the ",
+   "note": "github · 熱度 464（未歸戶）",
+   "url": "https://github.com/malisper/pgrust"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 419（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+   "note": "hn · 熱度 397（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48875377"
+  },
+  {
+   "title": "oven-sh/bun — Incredibly fast JavaScript runtime, bundler, test runner",
+   "note": "github · 熱度 395（未歸戶）",
+   "url": "https://github.com/oven-sh/bun"
+  },
+  {
+   "title": "Who manages the agents?",
+   "note": "hn · 熱度 332（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48874182"
+  },
+  {
+   "title": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create",
+   "note": "r/LocalLLaMA · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

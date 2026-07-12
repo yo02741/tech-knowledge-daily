@@ -1,76 +1,76 @@
 {
- "date": "2026-07-11",
+ "date": "2026-07-12",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 9747.5,
+   "weight": 9913.1,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 9005.0,
+   "weight": 9159.0,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 6823.2,
+   "weight": 6939.2,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2881.7,
-   "status": "fading",
+   "weight": 3187.7,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2017.2,
-   "status": "fading",
+   "weight": 2231.4,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
-   "weight": 623.6,
-   "status": "ongoing",
+   "weight": 645.8,
+   "status": "fading",
    "domain": "software",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "sql-over-orm#1",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "SQL",
-   "weight": 436.5,
-   "status": "ongoing",
+   "weight": 452.1,
+   "status": "fading",
    "domain": "software",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
    "weight": 329.3,
-   "status": "ongoing",
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-11"
   },
@@ -79,7 +79,7 @@
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
    "weight": 230.5,
-   "status": "ongoing",
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-11"
   },

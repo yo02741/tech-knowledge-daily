@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-11",
+ "last_run": "2026-07-12",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-12",
    "history": [
     {
      "date": "2026-07-06",
@@ -39,6 +39,11 @@
      "date": "2026-07-11",
      "heat": 104.4,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-12",
+     "heat": 154.0,
+     "mentions": 5
     }
    ],
    "status": "fading",
@@ -54,7 +59,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-12",
    "history": [
     {
      "date": "2026-07-06",
@@ -85,6 +90,11 @@
      "date": "2026-07-11",
      "heat": 188.1,
      "mentions": 4
+    },
+    {
+     "date": "2026-07-12",
+     "heat": 165.6,
+     "mentions": 3
     }
    ],
    "status": "fading",
@@ -105,7 +115,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-12",
    "history": [
     {
      "date": "2026-07-06",
@@ -136,9 +146,14 @@
      "date": "2026-07-11",
      "heat": 135.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-12",
+     "heat": 306.0,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -198,7 +213,7 @@
    ],
    "domain": "software",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-12",
    "history": [
     {
      "date": "2026-07-06",
@@ -229,9 +244,14 @@
      "date": "2026-07-11",
      "heat": 170.4,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-12",
+     "heat": 22.2,
+     "mentions": 1
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "ORM",
@@ -372,9 +392,14 @@
      "date": "2026-07-11",
      "heat": 33.3,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-12",
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
