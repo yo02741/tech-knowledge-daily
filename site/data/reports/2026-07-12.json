@@ -31,12 +31,6 @@
    "text": "熱度 306（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
-  },
-  {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 154（退燒），共 5 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-2"
   }
  ],
  "fresh": [
@@ -55,20 +49,20 @@
   {
    "title": "Stop Telling Me to Ask an LLM",
    "source": "hn",
-   "heat": 555.0,
+   "heat": 655.5,
    "url": "https://news.ycombinator.com/item?id=48876441"
   },
   {
    "title": "Prefer strict tables in SQLite",
    "source": "hn",
-   "heat": 514.0,
+   "heat": 594.0,
    "url": "https://news.ycombinator.com/item?id=48873940"
   },
   {
-   "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actually run — clone, cus",
-   "source": "github",
-   "heat": 494.1,
-   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+   "source": "hn",
+   "heat": 498.0,
+   "url": "https://news.ycombinator.com/item?id=48875377"
   }
  ],
  "sections": {
@@ -96,42 +90,6 @@
       "url": "https://github.com/google-labs-code/stitch-skills"
      }
     ]
-   },
-   {
-    "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "fading",
-    "heat_today": 154.0,
-    "heat_trend": [
-     1159.6,
-     2514.9,
-     2695.7,
-     1405.4,
-     1125.0,
-     104.4,
-     154.0
-    ],
-    "what": "當日 5 則相關討論：「Sonnet 5 was supposed to be cheaper. It cost me more than Fa」；「Cache rewrites costed me 30% of my Fable consumption, here a」；「I vibecoded the second MMORPG with Fable 5 (sorry, World of 」。",
-    "why_hot": "熱度 154（退燒、較昨日 +48%）——由管線統計自動判定。",
-    "sources": [
-     {
-      "label": "r/ClaudeAI：Sonnet 5 was supposed to be cheaper. It co",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utjwjl/sonnet_5_was_supposed_to_be_cheaper_it_cost_me/"
-     },
-     {
-      "label": "r/ClaudeAI：Cache rewrites costed me 30% of my Fable c",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utm7ui/cache_rewrites_costed_me_30_of_my_fable/"
-     },
-     {
-      "label": "r/ClaudeAI：I vibecoded the second MMORPG with Fable 5",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1utw8e7/i_vibecoded_the_second_mmorpg_with_fable_5_sorry/"
-     },
-     {
-      "label": "r/ClaudeAI：Fable 5 - Incredible for Legal Research - ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uth3t9/fable_5_incredible_for_legal_research_i_started/"
-     }
-    ]
    }
   ],
   "software": [],
@@ -154,9 +112,35 @@
     188.1,
     165.6
    ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 129.1,
+   "heat_trend": [
+    1159.6,
+    2514.9,
+    2695.7,
+    1405.4,
+    1125.0,
+    104.4,
+    129.1
+   ]
   }
  ],
  "radar": [
+  {
+   "title": "Mesh LLM: distributed AI computing on iroh",
+   "note": "hn · 熱度 495（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48876505"
+  },
+  {
+   "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actua",
+   "note": "github · 熱度 494（未歸戶）",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  },
   {
    "title": "malisper/pgrust — Postgres rewritten in Rust, now passing 100% of the ",
    "note": "github · 熱度 464（未歸戶）",
@@ -168,24 +152,14 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
-   "note": "hn · 熱度 397（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48875377"
-  },
-  {
    "title": "oven-sh/bun — Incredibly fast JavaScript runtime, bundler, test runner",
    "note": "github · 熱度 395（未歸戶）",
    "url": "https://github.com/oven-sh/bun"
   },
   {
    "title": "Who manages the agents?",
-   "note": "hn · 熱度 332（未歸戶）",
+   "note": "hn · 熱度 344（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48874182"
-  },
-  {
-   "title": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create",
-   "note": "r/LocalLLaMA · 熱度 300（未歸戶）",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/"
   }
  ],
  "data_quality": [
@@ -211,7 +185,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -219,7 +193,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
