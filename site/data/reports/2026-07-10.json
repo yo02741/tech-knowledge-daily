@@ -54,16 +54,18 @@
     "url": "https://news.ycombinator.com/item?id=48849066"
    },
    {
-    "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+    "title": "MadsLorentzen/ai-job-search",
     "source": "github",
     "heat": 3344.4,
-    "url": "https://github.com/MadsLorentzen/ai-job-search"
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "what": "AI-powered job application framework built on Claude Code. F"
    },
    {
-    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "title": "addyosmani/agent-skills",
     "source": "github",
     "heat": 2298.6,
-    "url": "https://github.com/addyosmani/agent-skills"
+    "url": "https://github.com/addyosmani/agent-skills",
+    "what": "Production-grade engineering skills for AI coding agents."
    }
   ],
   "software": [

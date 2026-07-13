@@ -42,22 +42,25 @@
  "fresh": {
   "ai": [
    {
-    "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+    "title": "MadsLorentzen/ai-job-search",
     "source": "github",
     "heat": 2262.6,
-    "url": "https://github.com/MadsLorentzen/ai-job-search"
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "what": "AI-powered job application framework built on Claude Code. F"
    },
    {
-    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "title": "addyosmani/agent-skills",
     "source": "github",
     "heat": 1185.3,
-    "url": "https://github.com/addyosmani/agent-skills"
+    "url": "https://github.com/addyosmani/agent-skills",
+    "what": "Production-grade engineering skills for AI coding agents."
    },
    {
-    "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+    "title": "bradautomates/claude-video",
     "source": "github",
     "heat": 868.5,
-    "url": "https://github.com/bradautomates/claude-video"
+    "url": "https://github.com/bradautomates/claude-video",
+    "what": "Give Claude the ability to watch any video. /watch downloads,"
    }
   ],
   "software": [],

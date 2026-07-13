@@ -60,10 +60,11 @@
     "url": "https://news.ycombinator.com/item?id=48863490"
    },
    {
-    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
+    "title": "mattpocock/skills",
     "source": "github",
     "heat": 1540.8,
-    "url": "https://github.com/mattpocock/skills"
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .claude directory."
    }
   ],
   "software": [],

@@ -62,10 +62,11 @@
   ],
   "software": [
    {
-    "title": "malisper/pgrust — Postgres rewritten in Rust, now passing 100% of the Postgres regression ",
+    "title": "malisper/pgrust",
     "source": "github",
     "heat": 310.8,
-    "url": "https://github.com/malisper/pgrust"
+    "url": "https://github.com/malisper/pgrust",
+    "what": "Postgres rewritten in Rust, now passing 100% of the Postgres regression"
    }
   ],
   "devops": [],

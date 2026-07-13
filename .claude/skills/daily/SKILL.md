@@ -39,7 +39,8 @@ argument-hint: "[議題名（可選，深挖模式）]"
   "date": "YYYY-MM-DD", "weekday": "一", "generated": "claude",
   "tldr": [{"title": "一句話標題", "text": "2-3 句的簡短敘述（發生什麼、為何重要）",
             "deadline": "07-07 或 null", "topic_ref": "ai-1 或 null"}],
-  "fresh": {"ai": [{"title": "今日未歸戶熱點標題", "source": "hn", "heat": 320, "url": "https://..."}],
+  "fresh": {"ai": [{"title": "今日未歸戶熱點標題", "source": "hn", "heat": 320, "url": "https://...",
+                    "what": "一句話描述（模板版＝GitHub 描述/og:description 原文；升級模式改寫成繁中白話）"}],
             "software": [], "devops": [], "uiux": []},
   "sections": {
     "ai": [{"id": "ai-1", "slug": "<ledger slug（趨勢雲深連結錨點用）>", "title": "...", "status": "new|rising|ongoing|fading",

@@ -15,10 +15,14 @@
 已存在非模板（Claude 版）報告時跳過不覆寫，除非 --force。
 """
 import argparse
+import concurrent.futures
 import datetime
+import html as html_mod
 import json
 import os
+import re
 import sys
+import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMS = ["ai", "software", "devops", "uiux"]
@@ -44,6 +48,51 @@ def pick_tech_card(date_str: str) -> dict:
     if not pool:
         raise SystemExit(f"gen_report: tech-cards.json 沒有 domain={domain} 的卡")
     return pool[(days // len(CARD_DOMAINS)) % len(pool)]
+
+
+def fetch_desc(url: str, timeout: int = 6) -> str:
+    """抓網頁 og:description / meta description 當新訊「是什麼」素材。
+    機械擷取非語意生成——抓不到就空字串，絕不擋管線。"""
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0 (tech-knowledge-daily bot)"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            page = resp.read(120_000).decode("utf-8", "ignore")
+    except Exception:
+        return ""
+    for pat in (
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)',
+    ):
+        m = re.search(pat, page, re.I)
+        if m:
+            desc = html_mod.unescape(m.group(1)).strip()
+            if len(desc) > 30:  # 太短的多半只是站名，沒資訊量
+                return desc[:220]
+    return ""
+
+
+def enrich_fresh(entries: list[dict]) -> None:
+    """為新訊條目補「是什麼」（entry['what']）。
+    GitHub：標題本身是「owner/repo — 描述」，拆開即得；
+    HN 等：并行抓文章頁 meta description；Reddit 擋爬，抓不到就略過。"""
+    need_fetch = []
+    for e in entries:
+        if e["source"] == "github" and " — " in e["title"]:
+            name, desc = e["title"].split(" — ", 1)
+            e["title"], e["what"] = name.strip(), desc.strip()
+        else:
+            need_fetch.append(e)
+    if not need_fetch:
+        return
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+        futs = {ex.submit(fetch_desc, e.get("article_url") or e["url"]): e
+                for e in need_fetch}
+        for fut, e in futs.items():
+            desc = fut.result()
+            if desc:
+                e["what"] = desc
 
 
 def main() -> int:
@@ -160,14 +209,18 @@ def main() -> int:
             "source": u["source"],
             "heat": u["heat"],
             "url": u.get("discussion_url") or u["url"],
+            "article_url": u["url"],  # 描述抓文章本體，連結仍指討論串
         }
         d = u.get("domain") or ""
         if d in fresh and len(fresh[d]) < 3:
             fresh[d].append(entry)
         else:
             fresh_rest.append(u)
-    fresh_all = sorted((e for lst in fresh.values() for e in lst),
-                       key=lambda e: -e["heat"])
+    picked = [e for lst in fresh.values() for e in lst]
+    enrich_fresh(picked)  # 補「是什麼」：GitHub 拆標題、HN 抓 og:description
+    for e in picked:
+        e.pop("article_url", None)
+    fresh_all = sorted(picked, key=lambda e: -e["heat"])
 
     # tldr：完整卡話題（賺到版面的）按熱度排；最熱的新訊若夠熱也佔一條
     ranked = sorted(

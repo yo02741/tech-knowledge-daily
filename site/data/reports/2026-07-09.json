@@ -42,22 +42,25 @@
  "fresh": {
   "ai": [
    {
-    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "title": "addyosmani/agent-skills",
     "source": "github",
     "heat": 1167.3,
-    "url": "https://github.com/addyosmani/agent-skills"
+    "url": "https://github.com/addyosmani/agent-skills",
+    "what": "Production-grade engineering skills for AI coding agents."
    },
    {
-    "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+    "title": "obra/superpowers",
     "source": "github",
     "heat": 1004.4,
-    "url": "https://github.com/obra/superpowers"
+    "url": "https://github.com/obra/superpowers",
+    "what": "An agentic skills framework & software development methodology that wor"
    },
    {
-    "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+    "title": "bradautomates/claude-video",
     "source": "github",
     "heat": 855.9,
-    "url": "https://github.com/bradautomates/claude-video"
+    "url": "https://github.com/bradautomates/claude-video",
+    "what": "Give Claude the ability to watch any video. /watch downloads,"
    }
   ],
   "software": [],

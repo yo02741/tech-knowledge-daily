@@ -42,22 +42,25 @@
  "fresh": {
   "ai": [
    {
-    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "title": "addyosmani/agent-skills",
     "source": "github",
     "heat": 1000.8,
-    "url": "https://github.com/addyosmani/agent-skills"
+    "url": "https://github.com/addyosmani/agent-skills",
+    "what": "Production-grade engineering skills for AI coding agents."
    },
    {
-    "title": "alibaba/page-agent — JavaScript in-page GUI agent. Control web interfaces with natural lan",
+    "title": "alibaba/page-agent",
     "source": "github",
     "heat": 802.8,
-    "url": "https://github.com/alibaba/page-agent"
+    "url": "https://github.com/alibaba/page-agent",
+    "what": "JavaScript in-page GUI agent. Control web interfaces with natural lan"
    },
    {
-    "title": "ogulcancelik/herdr — agent multiplexer that lives in your terminal.",
+    "title": "ogulcancelik/herdr",
     "source": "github",
     "heat": 701.1,
-    "url": "https://github.com/ogulcancelik/herdr"
+    "url": "https://github.com/ogulcancelik/herdr",
+    "what": "agent multiplexer that lives in your terminal."
    }
   ],
   "software": [],

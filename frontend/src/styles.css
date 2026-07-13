@@ -460,6 +460,11 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 .fresh-list a { color: var(--ink-1); text-decoration-color: var(--hairline); }
 .fresh-list a:hover { text-decoration-color: var(--accent); }
 .fresh-meta { color: var(--ink-3); font-size: 0.8rem; white-space: nowrap; }
+.fresh-what {
+  flex-basis: 100%;
+  color: var(--ink-2); font-size: 0.84rem; line-height: 1.6;
+  margin-top: 1px;
+}
 
 /* 持續追蹤：舊話題的壓縮條列 */
 .tracking { padding-top: 30px; }

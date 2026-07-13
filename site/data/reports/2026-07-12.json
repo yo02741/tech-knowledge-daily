@@ -36,16 +36,18 @@
  "fresh": {
   "ai": [
    {
-    "title": "wonderwhy-er/DesktopCommanderMCP — This is MCP server for Claude that gives it terminal co",
+    "title": "wonderwhy-er/DesktopCommanderMCP",
     "source": "github",
     "heat": 818.1,
-    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "what": "This is MCP server for Claude that gives it terminal co"
    },
    {
-    "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+    "title": "obra/superpowers",
     "source": "github",
     "heat": 666.0,
-    "url": "https://github.com/obra/superpowers"
+    "url": "https://github.com/obra/superpowers",
+    "what": "An agentic skills framework & software development methodology that wor"
    },
    {
     "title": "Stop Telling Me to Ask an LLM",

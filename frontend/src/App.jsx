@@ -233,6 +233,7 @@ function Issue({ index, date, anchor }) {
                     <li key={i}>
                       <a href={f.url} target="_blank" rel="noreferrer">{f.title}</a>
                       <span className="fresh-meta">{f.source} · 熱度 {fmtHeat(f.heat)}</span>
+                      {f.what && <p className="fresh-what">{f.what}</p>}
                     </li>
                   ))}
                 </ul>
