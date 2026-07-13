@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] Claude Code sends 33k tokens before reading the prompt; Open",
-   "text": "今日未歸戶最熱討論（hn、熱度 1917），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1971），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 391（持續），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 397（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -44,23 +44,23 @@
    {
     "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
     "source": "hn",
-    "heat": 1917.0,
+    "heat": 1971.0,
     "url": "https://news.ycombinator.com/item?id=48883275",
     "what": "Claude Code vs OpenCode token overhead measured at the API boundary. Out-of-the-box baselines, instruction file weight, MCP schema tax, subagent multipliers, and cache-write behaviour."
    },
    {
-    "title": "Old and new apps, via modern coding agents",
-    "source": "hn",
-    "heat": 1453.5,
-    "url": "https://news.ycombinator.com/item?id=48880170",
-    "what": "I have been interested in machine-assisted ways to do and teach mathematics from as far back as 1999, when I started coding several applets in Java 1.0, both for my complex analysis and linear alge…"
-   },
-   {
     "title": "I love LLMs, I hate hype",
     "source": "hn",
-    "heat": 1419.0,
+    "heat": 1462.5,
     "url": "https://news.ycombinator.com/item?id=48883343",
     "what": "I think from this blog you may misunderestimate how absolutely giddy I am about AI. I did hacking from 2007-2014, after that my whole career has been devoted to AI. I love the progress. I’m so excited for the new LLMs, s"
+   },
+   {
+    "title": "Old and new apps, via modern coding agents",
+    "source": "hn",
+    "heat": 1458.0,
+    "url": "https://news.ycombinator.com/item?id=48880170",
+    "what": "I have been interested in machine-assisted ways to do and teach mathematics from as far back as 1999, when I started coding several applets in Java 1.0, both for my complex analysis and linear alge…"
    }
   ],
   "software": [
@@ -82,7 +82,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 391.2,
+    "heat_today": 396.9,
     "heat_trend": [
      2514.9,
      2695.7,
@@ -90,9 +90,9 @@
      1125.0,
      104.4,
      118.0,
-     391.2
+     396.9
     ],
-    "what": "當日 5 則相關討論：「Fable extended until 19 July」；「Did not expext Fable 5 to be this good!✨」；「Is Anthropic facing a product strategy dilemma with Opus 5, 」。",
+    "what": "當日 5 則相關討論：「Fable extended until 19 July」；「Did not expext Fable 5 to be this good!✨」；「Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5 vs .... Megathrea」。",
     "sources": [
      {
       "label": "hn：Fable extended until 19 July",
@@ -103,12 +103,12 @@
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuuhj8/did_not_expext_fable_5_to_be_this_good/"
      },
      {
-      "label": "r/ClaudeAI：Is Anthropic facing a product strategy dil",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuc23d/is_anthropic_facing_a_product_strategy_dilemma/"
-     },
-     {
       "label": "r/ClaudeAI：Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1uutku5/fable_vs_opus_vs_gpt_56_sol_vs_gemini_35_vs/"
+     },
+     {
+      "label": "r/ClaudeAI：Is Anthropic facing a product strategy dil",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuc23d/is_anthropic_facing_a_product_strategy_dilemma/"
      }
     ]
    },
@@ -161,7 +161,7 @@
   },
   {
    "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-   "note": "hn · 熱度 558（未歸戶）",
+   "note": "hn · 熱度 586（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48882716"
   },
   {
@@ -171,7 +171,7 @@
   },
   {
    "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
-   "note": "hn · 熱度 500（未歸戶）",
+   "note": "hn · 熱度 512（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48877371"
   },
   {
@@ -192,7 +192,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -216,7 +216,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
