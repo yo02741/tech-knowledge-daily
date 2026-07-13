@@ -1,0 +1,226 @@
+{
+ "date": "2026-07-13",
+ "weekday": "一",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-connection-pool",
+  "domain": "backend",
+  "term": "連線池（Connection Pool）",
+  "tagline": "資料庫連線很貴，用租的不要用拋棄式",
+  "intro": [
+   "建立資料庫連線要握手、驗證、配置資源，每個請求都新開連線會拖垮效能。連線池預先養一批連線重複租用，用完歸還。",
+   "池子大小是門藝術：太小排隊、太大壓垮資料庫。serverless 環境（每個函式實例都養一池）更是經典翻車點，所以有 PgBouncer 這類外部池化方案。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "PostgreSQL Wiki：Number of Database Connections",
+    "url": "https://wiki.postgresql.org/wiki/Number_Of_Database_Connections"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Claude Code sends 33k tokens before reading the prompt; Open",
+   "text": "今日未歸戶最熱討論（hn、熱度 1665），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 343（持續），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 332（持續），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+    "source": "hn",
+    "heat": 1665.0,
+    "url": "https://news.ycombinator.com/item?id=48883275"
+   },
+   {
+    "title": "Old and new apps, via modern coding agents",
+    "source": "hn",
+    "heat": 1377.0,
+    "url": "https://news.ycombinator.com/item?id=48880170"
+   },
+   {
+    "title": "I love LLMs, I hate hype",
+    "source": "hn",
+    "heat": 1146.0,
+    "url": "https://news.ycombinator.com/item?id=48883343"
+   }
+  ],
+  "software": [
+   {
+    "title": "malisper/pgrust — Postgres rewritten in Rust, now passing 100% of the Postgres regression ",
+    "source": "github",
+    "heat": 310.8,
+    "url": "https://github.com/malisper/pgrust"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 342.7,
+    "heat_trend": [
+     2514.9,
+     2695.7,
+     1405.4,
+     1125.0,
+     104.4,
+     118.0,
+     342.7
+    ],
+    "what": "當日 4 則相關討論：「Fable extended until 19 July」；「Is Anthropic facing a product strategy dilemma with Opus 5, 」；「Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5 vs .... Megathrea」。",
+    "sources": [
+     {
+      "label": "hn：Fable extended until 19 July",
+      "url": "https://news.ycombinator.com/item?id=48882730"
+     },
+     {
+      "label": "r/ClaudeAI：Is Anthropic facing a product strategy dil",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuc23d/is_anthropic_facing_a_product_strategy_dilemma/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uutku5/fable_vs_opus_vs_gpt_56_sol_vs_gemini_35_vs/"
+     },
+     {
+      "label": "r/ClaudeAI：Did not expext Fable 5 to be this good!✨",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuuhj8/did_not_expext_fable_5_to_be_this_good/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 332.2,
+    "heat_trend": [
+     2780.8,
+     1536.3,
+     1232.1,
+     833.4,
+     188.1,
+     165.6,
+     332.2
+    ],
+    "what": "當日 4 則相關討論：「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」；「ruvnet/ruflo — 🌊 The leading agent meta-harness. Deploy inte」；「teng-lin/notebooklm-py — Unofficial Python API and agentic s」。",
+    "sources": [
+     {
+      "label": "github：Nutlope/hallmark — Anti-AI-slop design ski",
+      "url": "https://github.com/Nutlope/hallmark"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The leading agent meta-ha",
+      "url": "https://github.com/ruvnet/ruflo"
+     },
+     {
+      "label": "github：teng-lin/notebooklm-py — Unofficial Python",
+      "url": "https://github.com/teng-lin/notebooklm-py"
+     },
+     {
+      "label": "r/LocalLLaMA：How is Codex as a harness for local models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuib36/how_is_codex_as_a_harness_for_local_models/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "HKUDS/Vibe-Trading — \"Vibe-Trading: Your Personal Trading Agent\"",
+   "note": "github · 熱度 691（未歸戶）",
+   "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+   "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your c",
+   "note": "hn · 熱度 531（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48878682"
+  },
+  {
+   "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+   "note": "hn · 熱度 476（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48877371"
+  },
+  {
+   "title": "Under federal rule, colleges must leave grads better off or lose finan",
+   "note": "hn · 熱度 424（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48878126"
+  },
+  {
+   "title": "anthropics/claude-cookbooks — A collection of notebooks/recipes showca",
+   "note": "github · 熱度 413（未歸戶）",
+   "url": "https://github.com/anthropics/claude-cookbooks"
+  },
+  {
+   "title": "Dicklesworthstone/destructive_command_guard — The Destructive Command ",
+   "note": "github · 熱度 400（未歸戶）",
+   "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
