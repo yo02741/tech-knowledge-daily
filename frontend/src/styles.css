@@ -440,8 +440,12 @@ a.tldr-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
 .source-pill:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ============ 雷達 / 資料品質 ============ */
-/* 今日新訊：正文最前的當日新鮮貨，用 accent 側線給版面重點 */
-.fresh { padding: 26px 0 6px; }
+/* 今日新訊：各群集內的當日新鮮貨子區塊，用 accent 側線給版面重點 */
+.fresh { margin: 4px 0 22px; }
+.fresh-label {
+  font-family: var(--sans); font-size: 0.78rem; font-weight: 700;
+  color: var(--ink-2); margin-bottom: 8px;
+}
 .fresh-kicker {
   font-family: var(--sans); font-size: 0.62rem; letter-spacing: 0.18em;
   color: var(--accent); margin-left: 10px; font-weight: 700;

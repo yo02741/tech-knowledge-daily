@@ -174,9 +174,10 @@ function Issue({ index, date, anchor }) {
   if (error) return <p className="status-msg">讀取 {date} 失敗：{error}</p>
   if (!report) return <p className="status-msg">載入中…</p>
 
-  const shown = catalog === 'all'
-    ? DOMAINS.filter((d) => (report.sections[d] || []).length)
-    : [catalog]
+  // 舊報告的 fresh 是頂層 list（未分桶），只認新版 dict 形
+  const freshBy = (report.fresh && !Array.isArray(report.fresh)) ? report.fresh : {}
+  const domCount = (d) => (report.sections[d] || []).length + (freshBy[d] || []).length
+  const shown = catalog === 'all' ? DOMAINS.filter((d) => domCount(d) > 0) : [catalog]
 
   return (
     <article className="issue">
@@ -204,21 +205,6 @@ function Issue({ index, date, anchor }) {
         </Drawer>
       )}
 
-      {/* 今日新訊：當日未歸戶熱點——每天保證全新，是「新知感」的主要來源 */}
-      {report.fresh?.length > 0 && (
-        <section className="fresh">
-          <h2 className="section-label">今日新訊<span className="fresh-kicker">NEW TODAY</span></h2>
-          <ul className="fresh-list">
-            {report.fresh.map((f, i) => (
-              <li key={i}>
-                <a href={f.url} target="_blank" rel="noreferrer">{f.title}</a>
-                <span className="fresh-meta">{f.source} · 熱度 {fmtHeat(f.heat)}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
       <nav className="catalog" aria-label="分類切換">
         {[['all', '全部'], ...DOMAINS.map((d) => [d, DOMAIN_META[d].label])].map(([key, label]) => (
           <button key={key}
@@ -226,7 +212,7 @@ function Issue({ index, date, anchor }) {
                   aria-pressed={catalog === key}
                   onClick={() => setCatalog(key)}>
             {label}
-            {key !== 'all' && <sup className="catalog-count">{(report.sections[key] || []).length}</sup>}
+            {key !== 'all' && <sup className="catalog-count">{domCount(key)}</sup>}
           </button>
         ))}
       </nav>
@@ -238,11 +224,26 @@ function Issue({ index, date, anchor }) {
             <header className="domain-head">
               <p className="kicker">{DOMAIN_META[d].kicker}</p>
             </header>
-            {(report.sections[d] || []).length
-              ? report.sections[d].map((t) => (
-                  <Topic key={t.id} topic={t} template={report.generated === 'template'} />
-                ))
-              : <p className="domain-empty">今日無 {DOMAIN_META[d].label} 熱點——寧缺勿濫。</p>}
+            {/* 該領域的當日新訊：每天保證全新，排話題卡之前 */}
+            {(freshBy[d] || []).length > 0 && (
+              <div className="fresh">
+                <p className="fresh-label">今日新訊<span className="fresh-kicker">NEW TODAY</span></p>
+                <ul className="fresh-list">
+                  {freshBy[d].map((f, i) => (
+                    <li key={i}>
+                      <a href={f.url} target="_blank" rel="noreferrer">{f.title}</a>
+                      <span className="fresh-meta">{f.source} · 熱度 {fmtHeat(f.heat)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {(report.sections[d] || []).map((t) => (
+              <Topic key={t.id} topic={t} template={report.generated === 'template'} />
+            ))}
+            {domCount(d) === 0 && (
+              <p className="domain-empty">今日無 {DOMAIN_META[d].label} 熱點——寧缺勿濫。</p>
+            )}
           </section>
         ))}
       </div>
@@ -389,9 +390,9 @@ function Topic({ topic }) {
         </span>
         <Sparkline trend={trend} />
       </div>
+      {/* 「為何爆」已退場：熱度/狀態/走勢徽章已傳達，敘事併入 what */}
       <dl className="facets">
         <div><dt>是什麼</dt><dd>{topic.what}</dd></div>
-        <div><dt>為何爆</dt><dd>{topic.why_hot}</dd></div>
       </dl>
       {topic.sources?.length > 0 && (
         <p className="sources">

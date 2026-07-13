@@ -12,6 +12,17 @@
     "web_design",
     "UXDesign"
   ],
+  "subreddit_domains": {
+    "ClaudeAI": "ai",
+    "LocalLLaMA": "ai",
+    "MachineLearning": "ai",
+    "programming": "software",
+    "ExperiencedDevs": "software",
+    "webdev": "software",
+    "devops": "devops",
+    "web_design": "uiux",
+    "UXDesign": "uiux"
+  },
   "github": {
     "since": "daily",
     "languages": ["", "python", "typescript"]

@@ -58,8 +58,14 @@ def date_diff_days(a: str, b: str) -> int:
     return (date(ya, ma, da) - date(yb, mb, db)).days
 
 
-def item_domain(title: str, domains: dict) -> tuple[str, float]:
-    """依關鍵詞判 domain；優先序照 config 順序（ai > software > devops）。"""
+def item_domain(title: str, domains: dict,
+                source: str = "", sub_map: dict | None = None) -> tuple[str, float]:
+    """判 domain：Reddit 用 subreddit 對映（最可靠訊號，subreddit 本身就是分類），
+    其他來源退回標題關鍵詞；優先序照 config 順序（ai > software > devops）。"""
+    if sub_map and source.startswith("r/"):
+        dom = sub_map.get(source[2:], "")
+        if dom:
+            return dom, domains.get(dom, {}).get("weight", 1.0)
     low = f" {title.lower()} "
     for name, cfg in domains.items():
         for kw in cfg["keywords"]:
@@ -161,7 +167,8 @@ def analyze(date: str, commit: bool, raw_root: str | None = None,
     assigned: dict[str, list[dict]] = {}
     unassigned: list[dict] = []
     for it in items:
-        domain, weight = item_domain(it["title"], cfg["domains"])
+        domain, weight = item_domain(it["title"], cfg["domains"],
+                                     it.get("source", ""), cfg.get("subreddit_domains"))
         slug = match_topic(it["title"], topics)
         if slug:
             t_domain = topics[slug].get("domain", domain)

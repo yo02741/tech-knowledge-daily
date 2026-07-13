@@ -39,38 +39,31 @@
    "topic_ref": "ux-1"
   }
  ],
- "fresh": [
-  {
-   "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
-   "source": "github",
-   "heat": 2262.6,
-   "url": "https://github.com/MadsLorentzen/ai-job-search"
-  },
-  {
-   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with 4x faster Parakeet/W",
-   "source": "github",
-   "heat": 1599.3,
-   "url": "https://github.com/Zackriya-Solutions/meetily"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
-   "source": "github",
-   "heat": 1185.3,
-   "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
-   "source": "github",
-   "heat": 868.5,
-   "url": "https://github.com/bradautomates/claude-video"
-  },
-  {
-   "title": "Microsoft fire idTech team at Id software",
-   "source": "hn",
-   "heat": 823.5,
-   "url": "https://news.ycombinator.com/item?id=48819244"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+    "source": "github",
+    "heat": 2262.6,
+    "url": "https://github.com/MadsLorentzen/ai-job-search"
+   },
+   {
+    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "source": "github",
+    "heat": 1185.3,
+    "url": "https://github.com/addyosmani/agent-skills"
+   },
+   {
+    "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+    "source": "github",
+    "heat": 868.5,
+    "url": "https://github.com/bradautomates/claude-video"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -199,6 +192,16 @@
    "title": "NousResearch/hermes-agent — The agent that grows with you",
    "note": "github · 熱度 616（未歸戶）",
    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with ",
+   "note": "github · 熱度 1599（未歸戶）",
+   "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+   "title": "Microsoft fire idTech team at Id software",
+   "note": "hn · 熱度 824（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48819244"
   }
  ],
  "data_quality": [

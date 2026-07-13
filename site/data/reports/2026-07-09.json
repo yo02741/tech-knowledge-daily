@@ -39,38 +39,31 @@
    "topic_ref": "ai-2"
   }
  ],
- "fresh": [
-  {
-   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
-   "source": "github",
-   "heat": 1545.3,
-   "url": "https://github.com/iOfficeAI/OfficeCLI"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
-   "source": "github",
-   "heat": 1167.3,
-   "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
-   "source": "github",
-   "heat": 1004.4,
-   "url": "https://github.com/obra/superpowers"
-  },
-  {
-   "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
-   "source": "github",
-   "heat": 855.9,
-   "url": "https://github.com/bradautomates/claude-video"
-  },
-  {
-   "title": "TencentCloud/CubeSandbox — Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents",
-   "source": "github",
-   "heat": 507.6,
-   "url": "https://github.com/TencentCloud/CubeSandbox"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "source": "github",
+    "heat": 1167.3,
+    "url": "https://github.com/addyosmani/agent-skills"
+   },
+   {
+    "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+    "source": "github",
+    "heat": 1004.4,
+    "url": "https://github.com/obra/superpowers"
+   },
+   {
+    "title": "bradautomates/claude-video — Give Claude the ability to watch any video. /watch downloads,",
+    "source": "github",
+    "heat": 855.9,
+    "url": "https://github.com/bradautomates/claude-video"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -181,6 +174,16 @@
    "title": "When your boss asks if you or Claude built it",
    "note": "r/ClaudeAI · 熱度 100（未歸戶）",
    "url": "https://www.reddit.com/r/ClaudeAI/comments/1ur0484/when_your_boss_asks_if_you_or_claude_built_it/"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite pur",
+   "note": "github · 熱度 1545（未歸戶）",
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+   "title": "TencentCloud/CubeSandbox — Instant, Concurrent, Secure & Lightweight S",
+   "note": "github · 熱度 508（未歸戶）",
+   "url": "https://github.com/TencentCloud/CubeSandbox"
   }
  ],
  "data_quality": [

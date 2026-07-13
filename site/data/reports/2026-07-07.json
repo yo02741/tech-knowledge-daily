@@ -39,38 +39,31 @@
    "topic_ref": "ai-2"
   }
  ],
- "fresh": [
-  {
-   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with 4x faster Parakeet/W",
-   "source": "github",
-   "heat": 2244.6,
-   "url": "https://github.com/Zackriya-Solutions/meetily"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
-   "source": "github",
-   "heat": 1000.8,
-   "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "Resetting Xbox",
-   "source": "hn",
-   "heat": 825.0,
-   "url": "https://news.ycombinator.com/item?id=48804993"
-  },
-  {
-   "title": "alibaba/page-agent — JavaScript in-page GUI agent. Control web interfaces with natural lan",
-   "source": "github",
-   "heat": 802.8,
-   "url": "https://github.com/alibaba/page-agent"
-  },
-  {
-   "title": "ogulcancelik/herdr — agent multiplexer that lives in your terminal.",
-   "source": "github",
-   "heat": 701.1,
-   "url": "https://github.com/ogulcancelik/herdr"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "source": "github",
+    "heat": 1000.8,
+    "url": "https://github.com/addyosmani/agent-skills"
+   },
+   {
+    "title": "alibaba/page-agent — JavaScript in-page GUI agent. Control web interfaces with natural lan",
+    "source": "github",
+    "heat": 802.8,
+    "url": "https://github.com/alibaba/page-agent"
+   },
+   {
+    "title": "ogulcancelik/herdr — agent multiplexer that lives in your terminal.",
+    "source": "github",
+    "heat": 701.1,
+    "url": "https://github.com/ogulcancelik/herdr"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -175,6 +168,16 @@
    "title": "Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops t",
    "note": "github · 熱度 437（未歸戶）",
    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  {
+   "title": "Zackriya-Solutions/meetily — Privacy first, AI meeting assistant with ",
+   "note": "github · 熱度 2245（未歸戶）",
+   "url": "https://github.com/Zackriya-Solutions/meetily"
+  },
+  {
+   "title": "Resetting Xbox",
+   "note": "hn · 熱度 825（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48804993"
   }
  ],
  "data_quality": [

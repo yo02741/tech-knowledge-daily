@@ -22,7 +22,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS_DIR = os.path.join(ROOT, "site", "data", "reports")
 
-TOPIC_REQUIRED = ("id", "slug", "title", "status", "what", "why_hot", "sources")
+TOPIC_REQUIRED = ("id", "slug", "title", "status", "what", "sources")
 STATUSES = {"new", "rising", "ongoing", "fading"}
 
 
@@ -55,13 +55,20 @@ def validate_report(path: str) -> list[str]:
             for s in t.get("sources", []):
                 if not re.match(r"https?://", s.get("url", "")):
                     errs.append(f"{name}: sections.{dom}[{i}] 來源 URL 非法 {s.get('url')!r}")
-    # 選配欄位：今日新訊（未歸戶熱點升格）與持續追蹤（舊話題壓縮條）
-    for i, u in enumerate(r.get("fresh", [])):
-        for k in ("title", "source", "url"):
-            if not u.get(k):
-                errs.append(f"{name}: fresh[{i}] 缺 {k}")
-        if not re.match(r"https?://", u.get("url", "")):
-            errs.append(f"{name}: fresh[{i}] URL 非法 {u.get('url')!r}")
+    # 選配欄位：今日新訊（未歸戶熱點按領域分桶進各群集）與持續追蹤（舊話題壓縮條）
+    fr = r.get("fresh", {})
+    if not isinstance(fr, dict):
+        errs.append(f"{name}: fresh 應為依領域分桶的 dict（舊 list 格式已退場）")
+        fr = {}
+    for dom, lst in fr.items():
+        if dom not in ("ai", "software", "devops", "uiux"):
+            errs.append(f"{name}: fresh 領域非法 {dom!r}")
+        for i, u in enumerate(lst):
+            for k in ("title", "source", "url"):
+                if not u.get(k):
+                    errs.append(f"{name}: fresh.{dom}[{i}] 缺 {k}")
+            if not re.match(r"https?://", u.get("url", "")):
+                errs.append(f"{name}: fresh.{dom}[{i}] URL 非法 {u.get('url')!r}")
     for i, t in enumerate(r.get("tracking", [])):
         for k in ("slug", "title", "status"):
             if not t.get(k):

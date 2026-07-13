@@ -45,38 +45,31 @@
    "topic_ref": "ai-3"
   }
  ],
- "fresh": [
-  {
-   "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-   "source": "hn",
-   "heat": 2826.0,
-   "url": "https://news.ycombinator.com/item?id=48865019"
-  },
-  {
-   "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-   "source": "hn",
-   "heat": 1647.0,
-   "url": "https://news.ycombinator.com/item?id=48863490"
-  },
-  {
-   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
-   "source": "github",
-   "heat": 1540.8,
-   "url": "https://github.com/mattpocock/skills"
-  },
-  {
-   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
-   "source": "github",
-   "heat": 1101.6,
-   "url": "https://github.com/iOfficeAI/OfficeCLI"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
-   "source": "github",
-   "heat": 1004.4,
-   "url": "https://github.com/addyosmani/agent-skills"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+    "source": "hn",
+    "heat": 2826.0,
+    "url": "https://news.ycombinator.com/item?id=48865019"
+   },
+   {
+    "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+    "source": "hn",
+    "heat": 1647.0,
+    "url": "https://news.ycombinator.com/item?id=48863490"
+   },
+   {
+    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .claude directory.",
+    "source": "github",
+    "heat": 1540.8,
+    "url": "https://github.com/mattpocock/skills"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -239,6 +232,16 @@
    "title": "Anthropic can't remove F@ble from the subscription tier",
    "note": "r/ClaudeAI · 熱度 300（未歸戶）",
    "url": "https://www.reddit.com/r/ClaudeAI/comments/1usl9ov/anthropic_cant_remove_fble_from_the_subscription/"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite pur",
+   "note": "github · 熱度 1102（未歸戶）",
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
+   "note": "github · 熱度 1004（未歸戶）",
+   "url": "https://github.com/addyosmani/agent-skills"
   }
  ],
  "data_quality": [

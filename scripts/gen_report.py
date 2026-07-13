@@ -131,8 +131,7 @@ def main() -> int:
         id_by_slug[tp["slug"]] = tid
         items = tp["top_items"]
         titles = "；".join(f"「{i['title'][:60]}」" for i in items[:3])
-        delta = day_delta(tp)
-        delta_txt = f"、較昨日 {delta:+.0%}" if delta is not None else ""
+        # why_hot 已退場：熱度/狀態/走勢由前端徽章傳達，模板不再產重複敘述
         sections[d].append({
             "id": tid,
             "slug": tp["slug"],
@@ -141,8 +140,6 @@ def main() -> int:
             "heat_today": tp["heat_today"],
             "heat_trend": tp["heat_trend"],
             "what": f"當日 {tp['mentions']} 則相關討論：{titles}。",
-            "why_hot": f"熱度 {tp['heat_today']:.0f}（{STATUS_ZH.get(tp['status'], tp['status'])}"
-                       f"{delta_txt}）——由管線統計自動判定。",
             "sources": [
                 {"label": f"{i['source']}：{i['title'][:42]}",
                  "url": i.get("discussion_url") or i["url"]}
@@ -151,14 +148,26 @@ def main() -> int:
         })
     tracking.sort(key=lambda t: -t["heat_today"])
 
-    # ---- 今日新訊：當日未歸戶熱點升格進正文（每天保證全新）----
+    # ---- 今日新訊：未歸戶熱點按領域分桶、併入各群集區塊（每天保證全新）----
+    # domain 由 trend_state 判定（Reddit 走 subreddit 對映、其他走標題關鍵詞）；
+    # 判不出領域的不硬塞，落雷達區。
     unassigned = trends.get("unassigned_hot", [])
-    fresh = [{
-        "title": u["title"][:90],
-        "source": u["source"],
-        "heat": u["heat"],
-        "url": u.get("discussion_url") or u["url"],
-    } for u in unassigned[:5]]
+    fresh: dict[str, list] = {d: [] for d in DOMS}
+    fresh_rest = []
+    for u in unassigned:
+        entry = {
+            "title": u["title"][:90],
+            "source": u["source"],
+            "heat": u["heat"],
+            "url": u.get("discussion_url") or u["url"],
+        }
+        d = u.get("domain") or ""
+        if d in fresh and len(fresh[d]) < 3:
+            fresh[d].append(entry)
+        else:
+            fresh_rest.append(u)
+    fresh_all = sorted((e for lst in fresh.values() for e in lst),
+                       key=lambda e: -e["heat"])
 
     # tldr：完整卡話題（賺到版面的）按熱度排；最熱的新訊若夠熱也佔一條
     ranked = sorted(
@@ -171,22 +180,22 @@ def main() -> int:
         "deadline": None,
         "topic_ref": id_by_slug[tp["slug"]],
     } for tp in ranked[:3]]
-    if fresh and fresh[0]["heat"] >= 200:
+    if fresh_all and fresh_all[0]["heat"] >= 200:
         tldr.insert(0, {
-            "title": f"[新訊] {fresh[0]['title'][:60]}",
-            "text": f"今日未歸戶最熱討論（{fresh[0]['source']}、熱度 {fresh[0]['heat']:.0f}），"
-                    f"詳見「今日新訊」。",
+            "title": f"[新訊] {fresh_all[0]['title'][:60]}",
+            "text": f"今日未歸戶最熱討論（{fresh_all[0]['source']}、熱度 {fresh_all[0]['heat']:.0f}），"
+                    f"詳見對應群集的「今日新訊」。",
             "deadline": None,
             "topic_ref": None,
         })
     tldr = tldr[:4]
 
-    # 雷達區：新訊放不下的其餘未歸戶
+    # 雷達區：判不出領域的 + 各領域塞不下的未歸戶
     radar = [{
         "title": u["title"][:70],
         "note": f"{u['source']} · 熱度 {u['heat']:.0f}（未歸戶）",
         "url": u.get("discussion_url") or u["url"],
-    } for u in unassigned[5:11]]
+    } for u in fresh_rest[:6]]
 
     dq = [{"source": k, "note": f"來源狀態：{v}"}
           for k, v in trends.get("source_health", {}).items() if v != "ok"]

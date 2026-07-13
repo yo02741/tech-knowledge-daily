@@ -33,38 +33,38 @@
    "topic_ref": "ai-1"
   }
  ],
- "fresh": [
-  {
-   "title": "wonderwhy-er/DesktopCommanderMCP — This is MCP server for Claude that gives it terminal co",
-   "source": "github",
-   "heat": 818.1,
-   "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
-  },
-  {
-   "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
-   "source": "github",
-   "heat": 666.0,
-   "url": "https://github.com/obra/superpowers"
-  },
-  {
-   "title": "Stop Telling Me to Ask an LLM",
-   "source": "hn",
-   "heat": 664.5,
-   "url": "https://news.ycombinator.com/item?id=48876441"
-  },
-  {
-   "title": "Prefer strict tables in SQLite",
-   "source": "hn",
-   "heat": 605.0,
-   "url": "https://news.ycombinator.com/item?id=48873940"
-  },
-  {
-   "title": "Mesh LLM: distributed AI computing on iroh",
-   "source": "hn",
-   "heat": 553.5,
-   "url": "https://news.ycombinator.com/item?id=48876505"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "wonderwhy-er/DesktopCommanderMCP — This is MCP server for Claude that gives it terminal co",
+    "source": "github",
+    "heat": 818.1,
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+   },
+   {
+    "title": "obra/superpowers — An agentic skills framework & software development methodology that wor",
+    "source": "github",
+    "heat": 666.0,
+    "url": "https://github.com/obra/superpowers"
+   },
+   {
+    "title": "Stop Telling Me to Ask an LLM",
+    "source": "hn",
+    "heat": 664.5,
+    "url": "https://news.ycombinator.com/item?id=48876441"
+   }
+  ],
+  "software": [
+   {
+    "title": "Prefer strict tables in SQLite",
+    "source": "hn",
+    "heat": 605.0,
+    "url": "https://news.ycombinator.com/item?id=48873940"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -160,6 +160,11 @@
    "title": "Who manages the agents?",
    "note": "hn · 熱度 345（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48874182"
+  },
+  {
+   "title": "Mesh LLM: distributed AI computing on iroh",
+   "note": "hn · 熱度 554（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48876505"
   }
  ],
  "data_quality": [

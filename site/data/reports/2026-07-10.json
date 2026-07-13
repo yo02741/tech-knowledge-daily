@@ -45,38 +45,38 @@
    "topic_ref": "ai-2"
   }
  ],
- "fresh": [
-  {
-   "title": "GPT-5.6",
-   "source": "hn",
-   "heat": 4714.5,
-   "url": "https://news.ycombinator.com/item?id=48849066"
-  },
-  {
-   "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
-   "source": "github",
-   "heat": 3344.4,
-   "url": "https://github.com/MadsLorentzen/ai-job-search"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
-   "source": "github",
-   "heat": 2298.6,
-   "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "My thoughts on the Bun Rust rewrite",
-   "source": "hn",
-   "heat": 1933.0,
-   "url": "https://news.ycombinator.com/item?id=48843352"
-  },
-  {
-   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite purpose-built for AI ag",
-   "source": "github",
-   "heat": 1736.1,
-   "url": "https://github.com/iOfficeAI/OfficeCLI"
-  }
- ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "GPT-5.6",
+    "source": "hn",
+    "heat": 4714.5,
+    "url": "https://news.ycombinator.com/item?id=48849066"
+   },
+   {
+    "title": "MadsLorentzen/ai-job-search — AI-powered job application framework built on Claude Code. F",
+    "source": "github",
+    "heat": 3344.4,
+    "url": "https://github.com/MadsLorentzen/ai-job-search"
+   },
+   {
+    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.",
+    "source": "github",
+    "heat": 2298.6,
+    "url": "https://github.com/addyosmani/agent-skills"
+   }
+  ],
+  "software": [
+   {
+    "title": "My thoughts on the Bun Rust rewrite",
+    "source": "hn",
+    "heat": 1933.0,
+    "url": "https://news.ycombinator.com/item?id=48843352"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
  "sections": {
   "ai": [
    {
@@ -201,6 +201,11 @@
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
    "note": "github · 熱度 781（未歸戶）",
    "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "iOfficeAI/OfficeCLI — OfficeCLI is the first and best Office suite pur",
+   "note": "github · 熱度 1736（未歸戶）",
+   "url": "https://github.com/iOfficeAI/OfficeCLI"
   }
  ],
  "data_quality": [

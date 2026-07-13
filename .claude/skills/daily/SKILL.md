@@ -11,7 +11,7 @@ argument-hint: "[議題名（可選，深挖模式）]"
 ## 無參數：每日流程
 
 1. **Catch-up 檢查**：比對 `site/data/reports/` 最新日期與今天。落後且 `data/raw/<缺日>/` 有資料 → 先對缺日做步驟 3-7 補報告；無 raw 的缺日跳過（抓不回當時熱度）。
-2. **重複檢查**：今日報告已存在時看 `generated` 欄位——是 `"template"`（CI 模板版）→ **升級模式**：照常走完流程，用 Claude 敘事版覆寫（`generated: "claude"`，重寫 what/why_hot 敘事與 tldr，統計數字仍取自 trends.json）；是 Claude 版 → headless 直接結束，互動模式問使用者要覆寫還是結束。
+2. **重複檢查**：今日報告已存在時看 `generated` 欄位——是 `"template"`（CI 模板版）→ **升級模式**：照常走完流程，用 Claude 敘事版覆寫（`generated: "claude"`，重寫 what 小結與 tldr，統計數字仍取自 trends.json）；是 Claude 版 → headless 直接結束，互動模式問使用者要覆寫還是結束。
 3. `bash scripts/fetch_all.sh`（exit 2 = 部分來源失敗，繼續但記入 data_quality；exit 1 = 全掛，中止並回報）。
 4. `uv run scripts/trend_state.py analyze --date <日期> --commit`
 5. **讀取**：`data/raw/<日期>/trends.json`、最近 3 份 `site/data/reports/*.json`（延續既有 topic 的敘事脈絡，避免每天重寫一樣的背景）。**報告是公開內容，不讀 PROFILE.md、不寫任何個人工作流相關文字。**
@@ -39,11 +39,12 @@ argument-hint: "[議題名（可選，深挖模式）]"
   "date": "YYYY-MM-DD", "weekday": "一", "generated": "claude",
   "tldr": [{"title": "一句話標題", "text": "2-3 句的簡短敘述（發生什麼、為何重要）",
             "deadline": "07-07 或 null", "topic_ref": "ai-1 或 null"}],
-  "fresh": [{"title": "今日未歸戶熱點標題", "source": "hn", "heat": 320, "url": "https://..."}],
+  "fresh": {"ai": [{"title": "今日未歸戶熱點標題", "source": "hn", "heat": 320, "url": "https://..."}],
+            "software": [], "devops": [], "uiux": []},
   "sections": {
     "ai": [{"id": "ai-1", "slug": "<ledger slug（趨勢雲深連結錨點用）>", "title": "...", "status": "new|rising|ongoing|fading",
             "heat_today": 540, "heat_trend": [210, 540],
-            "what": "...", "why_hot": "...",
+            "what": "...",
             "sources": [{"label": "HN 討論", "url": "https://..."}]}],
     "software": [], "devops": [], "uiux": []
   },
@@ -61,9 +62,9 @@ argument-hint: "[議題名（可選，深挖模式）]"
 ## 品質硬規則
 
 - **報告是公開內容**：不含任何個人化欄位（無 impact / 無行動清單），不引用 PROFILE、不出現特定個人工作流的描述。
-- 每個 section topic 三要素（what/why_hot/sources）**缺一不可**——publish.py 會校驗擋下。
-- **版面要賺（新知感核心規則）**：完整卡只給 new/rising、熱度日變化 ≥±30%、或有硬期限的話題；持平 ongoing 進 `tracking` 壓縮條；fading 且熱度 <60 退出正文。**昨天講過且無新進展的不再上 tldr**。當日 unassigned_hot 前 5 則進 `fresh`（今日新訊）——這是每天保證全新的區塊；升級模式時 agent 應為 fresh 條目補一句白話描述（保留 title 原文與 url），值得追蹤的照舊 add-topic 升為正式話題。
-- 完整卡的 what/why_hot 聚焦**今日增量**（新討論、新進展、熱度變化），背景一句帶過——延續讀者昨天已讀過的前提。
+- 每個 section topic 兩要素（what/sources）**缺一不可**——publish.py 會校驗擋下。what 是**議題小結**：2-3 句講清楚這是什麼、今天為何值得看（為何爆的敘事併在這裡，不寫重複的熱度數字）。
+- **版面要賺（新知感核心規則）**：完整卡只給 new/rising、熱度日變化 ≥±30%、或有硬期限的話題；持平 ongoing 進 `tracking` 壓縮條；fading 且熱度 <60 退出正文。**昨天講過且無新進展的不再上 tldr**。當日 unassigned_hot 依 domain 分桶進 `fresh`（今日新訊，每域最多 3 則，前端渲染在該群集話題卡之前）——這是每天保證全新的內容；判不出領域的落雷達區。升級模式時 agent 應為 fresh 條目補一句白話描述（保留 title 原文與 url），值得追蹤的照舊 add-topic 升為正式話題、連續多日入榜的新訊優先升格。
+- 完整卡的 what 聚焦**今日增量**（新討論、新進展、熱度變化），背景一句帶過——延續讀者昨天已讀過的前提。
 - `heat_today`/`heat_trend`/`status` 直接抄 trends.json，不得編造。
 - 來源 URL 只能用 raw 資料裡實際存在的（trends.json 的 top_items / unassigned_hot），**禁止捏造連結**。
 - 有硬期限的 tldr 排最前（客觀期限如模型退役日、CVE 修補期限）；`deadline` 用 MM-DD。
