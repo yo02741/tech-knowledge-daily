@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Claude Code sends 33k tokens before reading the prompt; Open",
-   "text": "今日未歸戶最熱討論（hn、熱度 1665），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1683），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,19 +44,19 @@
    {
     "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
     "source": "hn",
-    "heat": 1665.0,
+    "heat": 1683.0,
     "url": "https://news.ycombinator.com/item?id=48883275"
    },
    {
     "title": "Old and new apps, via modern coding agents",
     "source": "hn",
-    "heat": 1377.0,
+    "heat": 1384.5,
     "url": "https://news.ycombinator.com/item?id=48880170"
    },
    {
     "title": "I love LLMs, I hate hype",
     "source": "hn",
-    "heat": 1146.0,
+    "heat": 1158.0,
     "url": "https://news.ycombinator.com/item?id=48883343"
    }
   ],
@@ -79,7 +79,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 342.7,
+    "heat_today": 343.2,
     "heat_trend": [
      2514.9,
      2695.7,
@@ -87,7 +87,7 @@
      1125.0,
      104.4,
      118.0,
-     342.7
+     343.2
     ],
     "what": "當日 4 則相關討論：「Fable extended until 19 July」；「Is Anthropic facing a product strategy dilemma with Opus 5, 」；「Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5 vs .... Megathrea」。",
     "sources": [
@@ -158,7 +158,7 @@
   },
   {
    "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your c",
-   "note": "hn · 熱度 531（未歸戶）",
+   "note": "hn · 熱度 534（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48878682"
   },
   {
@@ -205,7 +205,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -217,7 +217,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
