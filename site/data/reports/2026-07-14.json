@@ -1,0 +1,265 @@
+{
+ "date": "2026-07-14",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-a11y",
+  "domain": "uiux",
+  "term": "無障礙（a11y）",
+  "tagline": "不是少數人的需求，是所有人的某些時刻",
+  "intro": [
+   "視障者用螢幕閱讀器、手傷時只能用鍵盤、大太陽下看不清低對比文字——無障礙設計服務的是「所有人都會遇到的受限情境」。",
+   "工程落地：語意化 HTML（按鈕就用 button）、鍵盤可操作、焦點可見、圖片有替代文字、對比達標。a11y 是 accessibility 的縮寫（a 和 y 之間 11 個字母）。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：Accessibility",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+   "text": "今日未歸戶最熱討論（hn、熱度 5252），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1957（上升），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 269（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 225（持續），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+    "source": "hn",
+    "heat": 5251.5,
+    "url": "https://news.ycombinator.com/item?id=48889637"
+   },
+   {
+    "title": "HKUDS/Vibe-Trading",
+    "source": "github",
+    "heat": 1037.7,
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "what": "\"Vibe-Trading: Your Personal Trading Agent\""
+   },
+   {
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "source": "github",
+    "heat": 896.4,
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "what": "100+ AI Agent & RAG apps you can actually run — clone, cus"
+   }
+  ],
+  "software": [
+   {
+    "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+    "source": "hn",
+    "heat": 1033.0,
+    "url": "https://news.ycombinator.com/item?id=48894752",
+    "what": "SpeechAnalyzer vs SFSpeechRecognizer vs Whisper on 5,559 LibriSpeech utterances. Apple never published accuracy numbers. Here they are, with raw transcripts you can rescore."
+   },
+   {
+    "title": "public-apis/public-apis",
+    "source": "github",
+    "heat": 215.4,
+    "url": "https://github.com/public-apis/public-apis",
+    "what": "A collective list of free APIs"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1957.2,
+    "heat_trend": [
+     1536.3,
+     1232.1,
+     833.4,
+     188.1,
+     165.6,
+     332.2,
+     1957.2
+    ],
+    "what": "當日 5 則相關討論：「Graphify-Labs/graphify — AI coding assistant skill (Claude C」；「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」；「ruvnet/ruflo — 🌊 The leading agent meta-harness. Deploy inte」。",
+    "sources": [
+     {
+      "label": "github：Graphify-Labs/graphify — AI coding assista",
+      "url": "https://github.com/Graphify-Labs/graphify"
+     },
+     {
+      "label": "github：Nutlope/hallmark — Anti-AI-slop design ski",
+      "url": "https://github.com/Nutlope/hallmark"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The leading agent meta-ha",
+      "url": "https://github.com/ruvnet/ruflo"
+     },
+     {
+      "label": "github：YishenTu/claudian — An Obsidian plugin tha",
+      "url": "https://github.com/YishenTu/claudian"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 269.1,
+    "heat_trend": [
+     705.6,
+     172.8,
+     90.0,
+     135.0,
+     306.0,
+     54.0,
+     269.1
+    ],
+    "what": "當日 1 則相關討論：「coreyhaines31/marketingskills — Marketing skills for Claude 」。",
+    "sources": [
+     {
+      "label": "github：coreyhaines31/marketingskills — Marketing ",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 224.6,
+    "heat_trend": [
+     2695.7,
+     1405.4,
+     1125.0,
+     104.4,
+     118.0,
+     396.9,
+     224.6
+    ],
+    "what": "當日 5 則相關討論：「Honest question: What are you building that you need fable 5」；「I built a free browser strategy game with Fable: a love lett」；「Why is everyone mad at anthropic for extending fable use? I 」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Honest question: What are you building tha",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uv70kq/honest_question_what_are_you_building_that_you/"
+     },
+     {
+      "label": "r/ClaudeAI：I built a free browser strategy game with ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uvhsu0/i_built_a_free_browser_strategy_game_with_fable_a/"
+     },
+     {
+      "label": "r/ClaudeAI：Why is everyone mad at anthropic for exten",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uuwv75/why_is_everyone_mad_at_anthropic_for_extending/"
+     },
+     {
+      "label": "r/ClaudeAI：I don’t get the Fable coding craze at all",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uvsndm/i_dont_get_the_fable_coding_craze_at_all/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "Ask HN: Add flag for AI-generated articles",
+   "note": "hn · 熱度 1220（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48886741"
+  },
+  {
+   "title": "A graph that should be front-page news",
+   "note": "hn · 熱度 818（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48888331"
+  },
+  {
+   "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your la",
+   "note": "hn · 熱度 726（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48892859"
+  },
+  {
+   "title": "Precursor",
+   "note": "hn · 熱度 675（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48893446"
+  },
+  {
+   "title": "OpenCut-app/OpenCut — The open-source CapCut alternative",
+   "note": "github · 熱度 369（未歸戶）",
+   "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+   "title": "Visually appealing infographics",
+   "note": "r/ClaudeAI · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1uv6xjy/visually_appealing_infographics/"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
