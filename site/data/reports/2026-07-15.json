@@ -1,0 +1,251 @@
+{
+ "date": "2026-07-15",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-container",
+  "domain": "devops",
+  "term": "容器（Container）",
+  "tagline": "把程式和它的環境打包成標準集裝箱",
+  "intro": [
+   "「在我電腦上可以跑」的終結者：容器把應用連同依賴、系統函式庫打包，任何有容器引擎的機器都能一致地執行。",
+   "跟虛擬機的差別：容器共用宿主核心，啟動是秒級、開銷小得多——代價是隔離性較弱。Docker 是最普及的容器工具，但容器是開放標準（OCI）不是它的專利。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Docker：What is a container",
+    "url": "https://www.docker.com/resources/what-container/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] How to stop Claude from saying load-bearing",
+   "text": "今日未歸戶最熱討論（hn、熱度 1960），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 4768（上升），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 70（退燒），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "How to stop Claude from saying load-bearing",
+    "source": "hn",
+    "heat": 1960.5,
+    "url": "https://news.ycombinator.com/item?id=48905248",
+    "what": "Hack the text output of Claude Code to make life a little bit sillier."
+   },
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 1511.1,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .claude directory."
+   },
+   {
+    "title": "HKUDS/Vibe-Trading",
+    "source": "github",
+    "heat": 1130.4,
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "what": "\"Vibe-Trading: Your Personal Trading Agent\""
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 4767.9,
+    "heat_trend": [
+     1232.1,
+     833.4,
+     188.1,
+     165.6,
+     332.2,
+     1962.2,
+     4767.9
+    ],
+    "what": "當日 4 則相關討論：「Graphify-Labs/graphify — AI coding assistant skill (Claude C」；「Codex starts encrypting sub-agent prompts」；「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」。",
+    "sources": [
+     {
+      "label": "github：Graphify-Labs/graphify — AI coding assista",
+      "url": "https://github.com/Graphify-Labs/graphify"
+     },
+     {
+      "label": "hn：Codex starts encrypting sub-agent prompts",
+      "url": "https://news.ycombinator.com/item?id=48905028"
+     },
+     {
+      "label": "github：Nutlope/hallmark — Anti-AI-slop design ski",
+      "url": "https://github.com/Nutlope/hallmark"
+     },
+     {
+      "label": "hn：Codex scraped the ICM website and discover",
+      "url": "https://news.ycombinator.com/item?id=48905091"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 70.0,
+    "heat_trend": [
+     1405.4,
+     1125.0,
+     104.4,
+     118.0,
+     396.9,
+     214.3,
+     70.0
+    ],
+    "what": "當日 3 則相關討論：「Testing Fable 5, Opus 4.8, GPT-5.6, and more through playabl」；「Sol vs Fable creating a drum machine (UI only)」；「I love MindMaps, therefore I've built one with Fable」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Testing Fable 5, Opus 4.8, GPT-5.6, and mo",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uwe2id/testing_fable_5_opus_48_gpt56_and_more_through/"
+     },
+     {
+      "label": "r/ClaudeAI：Sol vs Fable creating a drum machine (UI o",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uw4fvt/sol_vs_fable_creating_a_drum_machine_ui_only/"
+     },
+     {
+      "label": "r/ClaudeAI：I love MindMaps, therefore I've built one ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uwepxk/i_love_mindmaps_therefore_ive_built_one_with_fable/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 268.2,
+   "heat_trend": [
+    172.8,
+    90.0,
+    135.0,
+    306.0,
+    54.0,
+    269.1,
+    268.2
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 8.3,
+   "heat_trend": [
+    0,
+    0,
+    33.3,
+    0,
+    0,
+    0,
+    8.3
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "OpenCut-app/OpenCut — The open-source CapCut alternative",
+   "note": "github · 熱度 1283（未歸戶）",
+   "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+   "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actua",
+   "note": "github · 熱度 995（未歸戶）",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  },
+  {
+   "title": "Your 'app' could have been a webpage (so I fixed it for you)",
+   "note": "hn · 熱度 910（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48869989"
+  },
+  {
+   "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+   "note": "hn · 熱度 837（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48910676"
+  },
+  {
+   "title": "Japan develops a method to recover up to 90% of lithium from used EV b",
+   "note": "hn · 熱度 810（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48901569"
+  },
+  {
+   "title": "European \"age verification\" \"app\" forcing everyone to use Android or i",
+   "note": "hn · 熱度 636（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48903777"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-14",
+ "last_run": "2026-07-15",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-07-15",
    "history": [
     {
      "date": "2026-07-06",
@@ -54,9 +54,14 @@
      "date": "2026-07-14",
      "heat": 214.3,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-15",
+     "heat": 70.0,
+     "mentions": 3
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -69,7 +74,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-07-15",
    "history": [
     {
      "date": "2026-07-06",
@@ -115,6 +120,11 @@
      "date": "2026-07-14",
      "heat": 1962.2,
      "mentions": 6
+    },
+    {
+     "date": "2026-07-15",
+     "heat": 4767.9,
+     "mentions": 4
     }
    ],
    "status": "rising",
@@ -135,7 +145,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-07-15",
    "history": [
     {
      "date": "2026-07-06",
@@ -181,6 +191,11 @@
      "date": "2026-07-14",
      "heat": 269.1,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-15",
+     "heat": 268.2,
+     "mentions": 2
     }
    ],
    "status": "ongoing",
@@ -287,6 +302,11 @@
     },
     {
      "date": "2026-07-14",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-15",
      "heat": 0,
      "mentions": 0
     }
@@ -401,7 +421,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-15",
    "history": [
     {
      "date": "2026-07-06",
@@ -447,9 +467,14 @@
      "date": "2026-07-14",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-15",
+     "heat": 8.3,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",
