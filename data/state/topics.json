@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-15",
+ "last_run": "2026-07-16",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-16",
    "history": [
     {
      "date": "2026-07-06",
@@ -59,9 +59,14 @@
      "date": "2026-07-15",
      "heat": 68.3,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-16",
+     "heat": 368.0,
+     "mentions": 5
     }
    ],
-   "status": "fading",
+   "status": "rising",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -74,7 +79,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-16",
    "history": [
     {
      "date": "2026-07-06",
@@ -125,6 +130,11 @@
      "date": "2026-07-15",
      "heat": 5049.9,
      "mentions": 5
+    },
+    {
+     "date": "2026-07-16",
+     "heat": 4005.3,
+     "mentions": 5
     }
    ],
    "status": "rising",
@@ -145,7 +155,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-16",
    "history": [
     {
      "date": "2026-07-06",
@@ -196,9 +206,14 @@
      "date": "2026-07-15",
      "heat": 268.2,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-16",
+     "heat": 356.0,
+     "mentions": 2
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -307,6 +322,11 @@
     },
     {
      "date": "2026-07-15",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-16",
      "heat": 0,
      "mentions": 0
     }
@@ -421,7 +441,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-16",
    "history": [
     {
      "date": "2026-07-06",
@@ -472,9 +492,14 @@
      "date": "2026-07-15",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-16",
+     "heat": 16.7,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",

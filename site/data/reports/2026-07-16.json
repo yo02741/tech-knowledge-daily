@@ -1,0 +1,272 @@
+{
+ "date": "2026-07-16",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-mcp",
+  "domain": "ai",
+  "term": "MCP（Model Context Protocol）",
+  "tagline": "讓 AI 接工具與資料的通用插座",
+  "intro": [
+   "Anthropic 提出的開放協定，統一「AI 應用怎麼連外部工具和資料來源」：寫一次 MCP server，任何支援 MCP 的 AI 客戶端都能用。",
+   "可以把它想成 AI 界的 USB-C——以前每家應用接每個工具都要客製接頭，現在一個標準走天下。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MCP 官方文件",
+    "url": "https://modelcontextprotocol.io/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] I tricked Claude into leaking your deepest, darkest secrets",
+   "text": "今日未歸戶最熱討論（hn、熱度 2222），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 4005（上升），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 368（上升），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 356（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "I tricked Claude into leaking your deepest, darkest secrets",
+    "source": "hn",
+    "heat": 2221.5,
+    "url": "https://news.ycombinator.com/item?id=48916975",
+    "what": "How I tricked Claude into leaking your deepest, darkest secrets"
+   },
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 1917.0,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .claude directory."
+   },
+   {
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "source": "github",
+    "heat": 1112.4,
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "what": "100+ AI Agent & RAG apps you can actually run — clone, cus"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 4005.3,
+    "heat_trend": [
+     833.4,
+     188.1,
+     165.6,
+     332.2,
+     1962.2,
+     5049.9,
+     4005.3
+    ],
+    "what": "當日 5 則相關討論：「Graphify-Labs/graphify — AI coding assistant skill (Claude C」；「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」；「Codex Micro」。",
+    "sources": [
+     {
+      "label": "github：Graphify-Labs/graphify — AI coding assista",
+      "url": "https://github.com/Graphify-Labs/graphify"
+     },
+     {
+      "label": "github：Nutlope/hallmark — Anti-AI-slop design ski",
+      "url": "https://github.com/Nutlope/hallmark"
+     },
+     {
+      "label": "hn：Codex Micro",
+      "url": "https://news.ycombinator.com/item?id=48923079"
+     },
+     {
+      "label": "hn：Brainless: Shadcn components that look lik",
+      "url": "https://news.ycombinator.com/item?id=48926085"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 368.0,
+    "heat_trend": [
+     1125.0,
+     104.4,
+     118.0,
+     396.9,
+     214.3,
+     68.3,
+     368.0
+    ],
+    "what": "當日 5 則相關討論：「Made a captcha that takes Fable 5 10 minutes to solve」；「Fable rocks!」；「Everyone's using Fable to solve world hunger. I used it to m」。",
+    "sources": [
+     {
+      "label": "r/webdev：Made a captcha that takes Fable 5 10 minut",
+      "url": "https://www.reddit.com/r/webdev/comments/1uxfzav/made_a_captcha_that_takes_fable_5_10_minutes_to/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable rocks!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ux3f1u/fable_rocks/"
+     },
+     {
+      "label": "r/ClaudeAI：Everyone's using Fable to solve world hung",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uxbjtu/everyones_using_fable_to_solve_world_hunger_i/"
+     },
+     {
+      "label": "r/LocalLLaMA：ArenaAI Kimi K3 comparison to Fable and So",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxmo20/arenaai_kimi_k3_comparison_to_fable_and_sol/"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 356.0,
+    "heat_trend": [
+     90.0,
+     135.0,
+     306.0,
+     54.0,
+     269.1,
+     268.2,
+     356.0
+    ],
+    "what": "當日 2 則相關討論：「coreyhaines31/marketingskills — Marketing skills for Claude 」；「OpenTelemetry Agent Skills」。",
+    "sources": [
+     {
+      "label": "github：coreyhaines31/marketingskills — Marketing ",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+     },
+     {
+      "label": "r/devops：OpenTelemetry Agent Skills",
+      "url": "https://www.reddit.com/r/devops/comments/1uxe03k/opentelemetry_agent_skills/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    0,
+    33.3,
+    0,
+    0,
+    0,
+    0,
+    16.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Jurassic Park computers in excruciating detail",
+   "note": "hn · 熱度 980（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48915709"
+  },
+  {
+   "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+   "note": "hn · 熱度 879（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48922434"
+  },
+  {
+   "title": "OpenAI loses trademark dispute at EU court",
+   "note": "hn · 熱度 850（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48921461"
+  },
+  {
+   "title": "HKUDS/Vibe-Trading — \"Vibe-Trading: Your Personal Trading Agent\"",
+   "note": "github · 熱度 824（未歸戶）",
+   "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+   "title": "Sleep regularity is a stronger predictor of mortality risk than sleep ",
+   "note": "hn · 熱度 814（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48919363"
+  },
+  {
+   "title": "SpaceX bond worth 10% less than issue price – heading for junk bond st",
+   "note": "hn · 熱度 780（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48920181"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

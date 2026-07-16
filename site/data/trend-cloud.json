@@ -1,51 +1,51 @@
 {
- "date": "2026-07-15",
+ "date": "2026-07-16",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 17257.4,
+   "weight": 21262.7,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 12080.2,
+   "weight": 14883.9,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 9802.5,
-   "status": "fading",
+   "weight": 10170.5,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 3779.0,
-   "status": "ongoing",
+   "weight": 4135.0,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2645.3,
-   "status": "ongoing",
+   "weight": 2894.5,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "sql-over-orm",
@@ -69,19 +69,19 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 329.3,
-   "status": "fading",
+   "weight": 346.0,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 230.5,
-   "status": "fading",
+   "weight": 242.2,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-16"
   },
   {
    "slug": "astryx-design-system",
