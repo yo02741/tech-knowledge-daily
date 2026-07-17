@@ -1,0 +1,227 @@
+{
+ "date": "2026-07-17",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-csr-ssr",
+  "domain": "frontend",
+  "term": "CSR vs SSR",
+  "tagline": "畫面在瀏覽器組，還是在伺服器組好再送",
+  "intro": [
+   "CSR（客戶端渲染）送一個空殼 HTML + 一包 JS，畫面在瀏覽器組出來——互動流暢但首屏慢、SEO 吃虧。SSR（伺服器渲染）在伺服器組好 HTML 再送——首屏快，但每次請求都吃伺服器資源。",
+   "現代框架（Next.js、Nuxt）的答案是混搭：首屏 SSR、之後 CSR，再加上靜態生成（SSG）與串流，按頁面性質選策略。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "web.dev：Rendering on the Web",
+    "url": "https://web.dev/articles/rendering-on-the-web"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] mattpocock/skills",
+   "text": "今日未歸戶最熱討論（github、熱度 1854），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1146（上升），共 7 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 1854.0,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .claude directory."
+   },
+   {
+    "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
+    "source": "hn",
+    "heat": 1194.0,
+    "url": "https://news.ycombinator.com/item?id=48931588",
+    "what": "A chronological ledger of 105 YC founders connected to OpenAI or Anthropic, from their earliest YC batches to where they went next."
+   },
+   {
+    "title": "NotebookLM is now Gemini Notebook",
+    "source": "hn",
+    "heat": 843.0,
+    "url": "https://news.ycombinator.com/item?id=48936451",
+    "what": "NotebookLM is now Gemini Notebook: the same standalone product with deeper Google integration and a secure cloud computer."
+   }
+  ],
+  "software": [
+   {
+    "title": "How Our Rust-to-Zig Rewrite Is Going",
+    "source": "hn",
+    "heat": 1008.0,
+    "url": "https://news.ycombinator.com/item?id=48933149"
+   },
+   {
+    "title": "\"I don't know\" is severely underrated in our profession",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uxppk8/i_dont_know_is_severely_underrated_in_our/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 1146.3,
+    "heat_trend": [
+     104.4,
+     118.0,
+     396.9,
+     214.3,
+     68.3,
+     368.0,
+     1146.3
+    ],
+    "what": "當日 7 則相關討論：「$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol」；「I built a true-scale atlas of the universe (8.4M real stars)」；「Kimi K3 is now #1 in the Front end Code Arena with 1679 pts,」。",
+    "sources": [
+     {
+      "label": "hn：$100 AI Music Video: Claude Fable 5 vs. GP",
+      "url": "https://news.ycombinator.com/item?id=48939524"
+     },
+     {
+      "label": "r/ClaudeAI：I built a true-scale atlas of the universe",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uxy5s8/i_built_a_truescale_atlas_of_the_universe_84m/"
+     },
+     {
+      "label": "hn：Kimi K3 is now #1 in the Front end Code Ar",
+      "url": "https://news.ycombinator.com/item?id=48939019"
+     },
+     {
+      "label": "r/LocalLLaMA：KIMI K3 Beats Claude Fable and GPT 5.6 sol",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 4031.1,
+   "heat_trend": [
+    188.1,
+    165.6,
+    332.2,
+    1962.2,
+    5049.9,
+    4185.3,
+    4031.1
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    33.3,
+    0,
+    0,
+    0,
+    0,
+    14.3,
+    16.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Kimi K3: Open Frontier Intelligence",
+   "note": "hn · 熱度 1435（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48935342"
+  },
+  {
+   "title": "OpenCut-app/OpenCut — The open-source CapCut alternative",
+   "note": "github · 熱度 1061（未歸戶）",
+   "url": "https://github.com/OpenCut-app/OpenCut"
+  },
+  {
+   "title": "The lost joy of music piracy",
+   "note": "hn · 熱度 1026（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48930454"
+  },
+  {
+   "title": "Shubhamsaboo/awesome-llm-apps — 100+ AI Agent & RAG apps you can actua",
+   "note": "github · 熱度 831（未歸戶）",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  },
+  {
+   "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+   "note": "hn · 熱度 828（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48933310"
+  },
+  {
+   "title": "HKUDS/Vibe-Trading — \"Vibe-Trading: Your Personal Trading Agent\"",
+   "note": "github · 熱度 703（未歸戶）",
+   "url": "https://github.com/HKUDS/Vibe-Trading"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
