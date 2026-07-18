@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Apple targets dozens of OpenAI employees with legal letters",
-   "text": "今日未歸戶最熱討論（hn、熱度 1635），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1640），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 721（持續），共 9 則討論；重點連結見對應段落。",
+   "text": "熱度 727（持續），共 9 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -44,7 +44,7 @@
    {
     "title": "Apple targets dozens of OpenAI employees with legal letters",
     "source": "hn",
-    "heat": 1635.0,
+    "heat": 1639.5,
     "url": "https://news.ycombinator.com/item?id=48946303"
    },
    {
@@ -67,7 +67,7 @@
    {
     "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
     "source": "hn",
-    "heat": 1406.5,
+    "heat": 1425.0,
     "url": "https://news.ycombinator.com/item?id=48945241"
    }
   ],
@@ -107,7 +107,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 721.0,
+    "heat_today": 726.6,
     "heat_trend": [
      118.0,
      396.9,
@@ -115,7 +115,7 @@
      68.3,
      368.0,
      1664.9,
-     721.0
+     726.6
     ],
     "what": "當日 9 則相關討論：「Ask HN: Did Fable disappear from your Claude usage and requi」；「Fable staying on Max」；「Claude Code not allowing me to use Fable 5」。",
     "sources": [
@@ -142,7 +142,24 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 20.0,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    0,
+    14.3,
+    16.7,
+    20.0
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "Evidence of inconsistencies in evaluation process and selection of win",
@@ -151,12 +168,12 @@
   },
   {
    "title": "The state of open source AI",
-   "note": "hn · 熱度 534（未歸戶）",
+   "note": "hn · 熱度 544（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48947825"
   },
   {
    "title": "First atmosphere found on Earth-like planet in habitable zone of dista",
-   "note": "hn · 熱度 512（未歸戶）",
+   "note": "hn · 熱度 522（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48947560"
   },
   {
@@ -194,7 +211,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",

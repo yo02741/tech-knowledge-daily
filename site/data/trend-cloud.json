@@ -24,7 +24,7 @@
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 12556.4,
+   "weight": 12562.0,
    "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-07-18"
@@ -69,8 +69,8 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 360.3,
-   "status": "fading",
+   "weight": 380.3,
+   "status": "ongoing",
    "domain": "uiux",
    "last_seen": "2026-07-18"
   },
@@ -78,8 +78,8 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 252.2,
-   "status": "fading",
+   "weight": 266.2,
+   "status": "ongoing",
    "domain": "uiux",
    "last_seen": "2026-07-18"
   },
