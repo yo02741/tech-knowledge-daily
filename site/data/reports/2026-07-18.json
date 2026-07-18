@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Apple targets dozens of OpenAI employees with legal letters",
-   "text": "今日未歸戶最熱討論（hn、熱度 1588），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1635），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 519（持續），共 6 則討論；重點連結見對應段落。",
+   "text": "熱度 721（持續），共 9 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -44,7 +44,7 @@
    {
     "title": "Apple targets dozens of OpenAI employees with legal letters",
     "source": "hn",
-    "heat": 1588.5,
+    "heat": 1635.0,
     "url": "https://news.ycombinator.com/item?id=48946303"
    },
    {
@@ -57,7 +57,7 @@
    {
     "title": "Claude Code: Anatomy of a Misfeature",
     "source": "hn",
-    "heat": 576.0,
+    "heat": 583.5,
     "url": "https://news.ycombinator.com/item?id=48947776",
     "what": "On Canada Day (July 1), 2026, Anthropic shipped a surprising"
    }
@@ -67,7 +67,7 @@
    {
     "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
     "source": "hn",
-    "heat": 1336.5,
+    "heat": 1406.5,
     "url": "https://news.ycombinator.com/item?id=48945241"
    }
   ],
@@ -107,7 +107,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 518.8,
+    "heat_today": 721.0,
     "heat_trend": [
      118.0,
      396.9,
@@ -115,21 +115,21 @@
      68.3,
      368.0,
      1664.9,
-     518.8
+     721.0
     ],
-    "what": "當日 6 則相關討論：「Ask HN: Did Fable disappear from your Claude usage and requi」；「Claude Code not allowing me to use Fable 5」；「Is Fable removed from the subscription plan already?」。",
+    "what": "當日 9 則相關討論：「Ask HN: Did Fable disappear from your Claude usage and requi」；「Fable staying on Max」；「Claude Code not allowing me to use Fable 5」。",
     "sources": [
      {
       "label": "hn：Ask HN: Did Fable disappear from your Clau",
       "url": "https://news.ycombinator.com/item?id=48950477"
      },
      {
-      "label": "r/ClaudeAI：Claude Code not allowing me to use Fable 5",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uz7u1g/claude_code_not_allowing_me_to_use_fable_5/"
+      "label": "r/ClaudeAI：Fable staying on Max",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzjcop/fable_staying_on_max/"
      },
      {
-      "label": "r/ClaudeAI：Is Fable removed from the subscription pla",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uz7wv8/is_fable_removed_from_the_subscription_plan/"
+      "label": "r/ClaudeAI：Claude Code not allowing me to use Fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uz7u1g/claude_code_not_allowing_me_to_use_fable_5/"
      },
      {
       "label": "r/ClaudeAI：What everyone calls \"Fable being quiet\" is",
@@ -142,38 +142,21 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 14.3,
-   "heat_trend": [
-    0,
-    0,
-    0,
-    0,
-    14.3,
-    16.7,
-    14.3
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "Evidence of inconsistencies in evaluation process and selection of win",
-   "note": "hn · 熱度 573（未歸戶）",
+   "note": "hn · 熱度 590（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48946010"
   },
   {
    "title": "The state of open source AI",
-   "note": "hn · 熱度 490（未歸戶）",
+   "note": "hn · 熱度 534（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48947825"
   },
   {
    "title": "First atmosphere found on Earth-like planet in habitable zone of dista",
-   "note": "hn · 熱度 468（未歸戶）",
+   "note": "hn · 熱度 512（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48947560"
   },
   {
@@ -211,7 +194,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
