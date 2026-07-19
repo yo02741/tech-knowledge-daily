@@ -77,8 +77,8 @@
     },
     {
      "date": "2026-07-19",
-     "heat": 1284.7,
-     "mentions": 6
+     "heat": 1066.3,
+     "mentions": 5
     }
    ],
    "status": "ongoing",
@@ -163,7 +163,7 @@
     },
     {
      "date": "2026-07-19",
-     "heat": 246.0,
+     "heat": 435.0,
      "mentions": 1
     }
    ],
@@ -254,11 +254,11 @@
     },
     {
      "date": "2026-07-19",
-     "heat": 275.5,
-     "mentions": 2
+     "heat": 261.9,
+     "mentions": 1
     }
    ],
-   "status": "rising",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
