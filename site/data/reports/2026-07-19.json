@@ -1,0 +1,249 @@
+{
+ "date": "2026-07-19",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-ia",
+  "domain": "uiux",
+  "term": "資訊架構（IA）",
+  "tagline": "東西放哪裡、叫什麼名字的學問",
+  "intro": [
+   "導覽怎麼分類、頁面怎麼分層、功能叫什麼名字——資訊架構決定使用者「找不找得到」，比視覺美醜更根本。",
+   "經典方法是卡片分類法：把功能寫在卡片上讓真實使用者分組命名，你以為直覺的分類方式常常跟使用者的心智模型完全不同。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "NN/g：Information Architecture",
+    "url": "https://www.nngroup.com/articles/ia-study-guide/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] GPT-5.6 used a prompt to close a 30-year gap in convex optim",
+   "text": "今日未歸戶最熱討論（hn、熱度 1928），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1285（持續），共 6 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 276（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 246（退燒），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+    "source": "hn",
+    "heat": 1927.5,
+    "url": "https://news.ycombinator.com/item?id=48957779"
+   },
+   {
+    "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+    "source": "hn",
+    "heat": 700.5,
+    "url": "https://news.ycombinator.com/item?id=48959392",
+    "what": "Step-by-step guide to turning your spare Mac into an always-on machine Claude Code can fully control - talk to it from your phone through the Claude app or from your main Mac over SSH."
+   },
+   {
+    "title": "SigNoz/signoz",
+    "source": "github",
+    "heat": 388.8,
+    "url": "https://github.com/SigNoz/signoz",
+    "what": "SigNoz is an open-source, OpenTelemetry-native observability platform for"
+   }
+  ],
+  "software": [
+   {
+    "title": "How to handle a sr dev who has less experience than I have but is a good engineer and ofte",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uzjbss/how_to_handle_a_sr_dev_who_has_less_experience/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 1284.7,
+    "heat_trend": [
+     396.9,
+     214.3,
+     68.3,
+     368.0,
+     1664.9,
+     726.6,
+     1284.7
+    ],
+    "what": "當日 6 則相關討論：「Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal he」；「Fable staying on Max」；「Kimi K3 ranks #1 on @AfterQuery's SpreadsheetBench 2, surpas」。",
+    "sources": [
+     {
+      "label": "hn：Fable 5 vs. GPT-5.6 Sol on an NP-Hard Prob",
+      "url": "https://news.ycombinator.com/item?id=48956879"
+     },
+     {
+      "label": "r/ClaudeAI：Fable staying on Max",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzjcop/fable_staying_on_max/"
+     },
+     {
+      "label": "r/LocalLLaMA：Kimi K3 ranks #1 on @AfterQuery's Spreadsh",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzzecz/kimi_k3_ranks_1_on_afterquerys_spreadsheetbench_2/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable, So $100 credit for pro user",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzjhhn/fable_so_100_credit_for_pro_user/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 275.5,
+    "heat_trend": [
+     54.0,
+     269.1,
+     268.2,
+     366.0,
+     0,
+     0,
+     275.5
+    ],
+    "what": "當日 2 則相關討論：「anthropics/skills — Public repository for Agent Skills」；「Tool for reproducible management of agent skills」。",
+    "sources": [
+     {
+      "label": "github：anthropics/skills — Public repository for ",
+      "url": "https://github.com/anthropics/skills"
+     },
+     {
+      "label": "r/LocalLLaMA：Tool for reproducible management of agent ",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v04xlm/tool_for_reproducible_management_of_agent_skills/"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 246.0,
+    "heat_trend": [
+     332.2,
+     1962.2,
+     5049.9,
+     4185.3,
+     4031.1,
+     2560.5,
+     246.0
+    ],
+    "what": "當日 1 則相關討論：「Codex Resets」。",
+    "sources": [
+     {
+      "label": "hn：Codex Resets",
+      "url": "https://news.ycombinator.com/item?id=48963465"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "LG monitors silently install software through Windows Update without c",
+   "note": "hn · 熱度 1228（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48956688"
+  },
+  {
+   "title": "Regressive JPEGs",
+   "note": "hn · 熱度 684（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48954851"
+  },
+  {
+   "title": "What AI did to stackoverflow in a graph",
+   "note": "hn · 熱度 564（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48956949"
+  },
+  {
+   "title": "Why do AI company logos look like buttholes? (2025)",
+   "note": "hn · 熱度 482（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48956924"
+  },
+  {
+   "title": "codecrafters-io/build-your-own-x — Master programming by recreating yo",
+   "note": "github · 熱度 338（未歸戶）",
+   "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+   "title": "tirth8205/code-review-graph — Local-first code intelligence graph for ",
+   "note": "github · 熱度 320（未歸戶）",
+   "url": "https://github.com/tirth8205/code-review-graph"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
