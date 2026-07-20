@@ -22,21 +22,15 @@
  "tldr": [
   {
    "title": "[新訊] Qwen 3.8",
-   "text": "今日未歸戶最熱討論（hn、熱度 3291），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3310），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2568（持續），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 2577（持續），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
-  },
-  {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 540（退燒），共 5 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -44,14 +38,14 @@
    {
     "title": "Qwen 3.8",
     "source": "hn",
-    "heat": 3291.0,
+    "heat": 3310.5,
     "url": "https://news.ycombinator.com/item?id=48966120",
     "what": "Qwen3.8 is launching and going open-weight soon!🌐\n\nWith a massive 2.4T parameters, this model is continuously evolving. We believe it’s one of the most powerful model available today, compatible to leading frontier AI mo"
    },
    {
     "title": "Claude Code uses Bun written in Rust now",
     "source": "hn",
-    "heat": 2181.0,
+    "heat": 2221.5,
     "url": "https://news.ycombinator.com/item?id=48966569",
     "what": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on …"
    },
@@ -74,7 +68,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2568.3,
+    "heat_today": 2577.3,
     "heat_trend": [
      1962.2,
      5049.9,
@@ -82,7 +76,7 @@
      4031.1,
      2560.5,
      471.0,
-     2568.3
+     2577.3
     ],
     "what": "當日 3 則相關討論：「OpenAI reduces Codex Model Context Size from 372k to 272k」；「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「ruvnet/ruflo — 🌊 The leading agent meta-harness. Deploy inte」。",
     "sources": [
@@ -99,52 +93,34 @@
       "url": "https://github.com/ruvnet/ruflo"
      }
     ]
-   },
-   {
-    "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "fading",
-    "heat_today": 540.4,
-    "heat_trend": [
-     214.3,
-     68.3,
-     368.0,
-     1664.9,
-     726.6,
-     1035.1,
-     540.4
-    ],
-    "what": "當日 5 則相關討論：「Claude Fable produced a counterexample to the Jacobian Conje」；「asked fable 5 to make its own website pretty. now my claude 」；「Fable's Goodbye Note」。",
-    "sources": [
-     {
-      "label": "hn：Claude Fable produced a counterexample to ",
-      "url": "https://news.ycombinator.com/item?id=48973869"
-     },
-     {
-      "label": "r/ClaudeAI：asked fable 5 to make its own website pret",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v0pl6d/asked_fable_5_to_make_its_own_website_pretty_now/"
-     },
-     {
-      "label": "r/ClaudeAI：Fable's Goodbye Note",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v12lat/fables_goodbye_note/"
-     },
-     {
-      "label": "r/ClaudeAI：What is anthropic's logic even for not kee",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v0mmwm/what_is_anthropics_logic_even_for_not_keeping/"
-     }
-    ]
    }
   ],
   "software": [],
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 811.1,
+   "heat_trend": [
+    214.3,
+    68.3,
+    368.0,
+    1664.9,
+    726.6,
+    1035.1,
+    811.1
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32",
-   "note": "hn · 熱度 1865（未歸戶）",
+   "note": "hn · 熱度 1942（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48968606"
   },
   {
@@ -159,18 +135,18 @@
   },
   {
    "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-   "note": "hn · 熱度 538（未歸戶）",
+   "note": "hn · 熱度 546（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48966713"
+  },
+  {
+   "title": "I burned all my tokens researching how to save tokens",
+   "note": "hn · 熱度 538（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48967355"
   },
   {
    "title": "KnockOutEZ/wigolo — The go-to web for your AI coding agent — local-fir",
    "note": "github · 熱度 536（未歸戶）",
    "url": "https://github.com/KnockOutEZ/wigolo"
-  },
-  {
-   "title": "I burned all my tokens researching how to save tokens",
-   "note": "hn · 熱度 516（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48967355"
   }
  ],
  "data_quality": [
@@ -192,7 +168,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -208,7 +184,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
