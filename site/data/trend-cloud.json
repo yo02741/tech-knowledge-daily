@@ -1,40 +1,40 @@
 {
- "date": "2026-07-19",
+ "date": "2026-07-20",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 28505.3,
-   "status": "fading",
+   "weight": 27896.8,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-19"
+   "last_seen": "2026-07-20"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 19953.7,
-   "status": "fading",
+   "weight": 19527.8,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-19"
+   "last_seen": "2026-07-20"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 13597.1,
-   "status": "ongoing",
+   "weight": 12977.9,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-07-19"
+   "last_seen": "2026-07-20"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 4406.9,
-   "status": "ongoing",
+   "weight": 3177.6,
+   "status": "fading",
    "domain": "ai",
    "last_seen": "2026-07-19"
   },
@@ -42,8 +42,8 @@
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 3084.8,
-   "status": "ongoing",
+   "weight": 2224.3,
+   "status": "fading",
    "domain": "ai",
    "last_seen": "2026-07-19"
   },
@@ -51,7 +51,7 @@
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
-   "weight": 645.8,
+   "weight": 445.8,
    "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-12"
@@ -60,7 +60,7 @@
    "slug": "sql-over-orm#1",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "SQL",
-   "weight": 452.1,
+   "weight": 312.1,
    "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-12"
@@ -69,7 +69,7 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 380.3,
+   "weight": 273.6,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-18"
@@ -78,37 +78,10 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 266.2,
+   "weight": 191.5,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-18"
-  },
-  {
-   "slug": "astryx-design-system",
-   "display": "facebook/astryx 開源設計系統",
-   "label": "astryx",
-   "weight": 156.6,
-   "status": "fading",
-   "domain": "uiux",
-   "last_seen": "2026-07-06"
-  },
-  {
-   "slug": "onprem-vs-cloud",
-   "display": "自架伺服器 vs 雲端成本重估",
-   "label": "On-prem",
-   "weight": 100.0,
-   "status": "fading",
-   "domain": "devops",
-   "last_seen": "2026-07-06"
-  },
-  {
-   "slug": "postgres-19-graphs",
-   "display": "Postgres 19 Property Graphs",
-   "label": "Postgres 19",
-   "weight": 40.0,
-   "status": "fading",
-   "domain": "software",
-   "last_seen": "2026-07-06"
   }
  ]
 }
