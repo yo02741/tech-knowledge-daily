@@ -87,11 +87,11 @@
     },
     {
      "date": "2026-07-21",
-     "heat": 3341.3,
-     "mentions": 8
+     "heat": 408.7,
+     "mentions": 6
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -460,7 +460,7 @@
     },
     {
      "date": "2026-07-21",
-     "heat": 14.3,
+     "heat": 11.1,
      "mentions": 1
     }
    ],
