@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-20",
+ "last_run": "2026-07-21",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-20",
+   "last_seen": "2026-07-21",
    "history": [
     {
      "date": "2026-07-06",
@@ -84,9 +84,14 @@
      "date": "2026-07-20",
      "heat": 811.1,
      "mentions": 5
+    },
+    {
+     "date": "2026-07-21",
+     "heat": 3129.1,
+     "mentions": 8
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -99,7 +104,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-20",
+   "last_seen": "2026-07-21",
    "history": [
     {
      "date": "2026-07-06",
@@ -174,6 +179,11 @@
     {
      "date": "2026-07-20",
      "heat": 2577.3,
+     "mentions": 3
+    },
+    {
+     "date": "2026-07-21",
+     "heat": 1513.5,
      "mentions": 3
     }
    ],
@@ -271,6 +281,11 @@
      "date": "2026-07-20",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-21",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -278,52 +293,6 @@
    "terms": [
     "Agent Skills",
     "caveman"
-   ]
-  },
-  "astryx-design-system": {
-   "display": "facebook/astryx 開源設計系統",
-   "aliases": [
-    "astryx"
-   ],
-   "domain": "uiux",
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
-   "history": [
-    {
-     "date": "2026-07-06",
-     "heat": 156.6,
-     "mentions": 1
-    },
-    {
-     "date": "2026-07-07",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-08",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-09",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-10",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-11",
-     "heat": 0,
-     "mentions": 0
-    }
-   ],
-   "status": "fading",
-   "note": "",
-   "terms": [
-    "astryx"
    ]
   },
   "sql-over-orm": {
@@ -401,100 +370,6 @@
    "terms": [
     "ORM",
     "SQL"
-   ]
-  },
-  "postgres-19-graphs": {
-   "display": "Postgres 19 Property Graphs",
-   "aliases": [
-    "postgres 19",
-    "property graph"
-   ],
-   "domain": "software",
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
-   "history": [
-    {
-     "date": "2026-07-06",
-     "heat": 40.0,
-     "mentions": 1
-    },
-    {
-     "date": "2026-07-07",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-08",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-09",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-10",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-11",
-     "heat": 0,
-     "mentions": 0
-    }
-   ],
-   "status": "fading",
-   "note": "",
-   "terms": [
-    "Postgres 19"
-   ]
-  },
-  "onprem-vs-cloud": {
-   "display": "自架伺服器 vs 雲端成本重估",
-   "aliases": [
-    "on-premises",
-    "on-prem"
-   ],
-   "domain": "devops",
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
-   "history": [
-    {
-     "date": "2026-07-06",
-     "heat": 100.0,
-     "mentions": 1
-    },
-    {
-     "date": "2026-07-07",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-08",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-09",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-10",
-     "heat": 0,
-     "mentions": 0
-    },
-    {
-     "date": "2026-07-11",
-     "heat": 0,
-     "mentions": 0
-    }
-   ],
-   "status": "fading",
-   "note": "",
-   "terms": [
-    "On-prem"
    ]
   },
   "design-ai-prototyping": {
@@ -580,6 +455,11 @@
     },
     {
      "date": "2026-07-20",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-21",
      "heat": 0,
      "mentions": 0
     }
