@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 3129（上升），共 8 則討論；重點連結見對應段落。",
+   "text": "熱度 3341（上升），共 8 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -51,13 +51,14 @@
    {
     "title": "I found a WordPress RCEs with GPT5.6 and $25",
     "source": "hn",
-    "heat": 1458.0,
-    "url": "https://news.ycombinator.com/item?id=48975665"
+    "heat": 1482.0,
+    "url": "https://news.ycombinator.com/item?id=48975665",
+    "what": "Stay current: Get research alerts for newly disclosed vulnerabilities and exposures If you're running WordPress and want to check if your instance is vulnerable, you can use our tool we've hosted here: https://wp2shell.c"
    },
    {
     "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
     "source": "hn",
-    "heat": 1245.0,
+    "heat": 1386.0,
     "url": "https://news.ycombinator.com/item?id=48980019",
     "what": "Kimi K3 and Qwen 3.8 prove open models can reach the frontier. Why the economics of frontier labs favor infrastructure owners — and why Anthropic's model-only position risks unravelling."
    }
@@ -66,7 +67,7 @@
    {
     "title": "Hacker wipes Romania's land registry database",
     "source": "hn",
-    "heat": 1434.0,
+    "heat": 1524.0,
     "url": "https://news.ycombinator.com/item?id=48978605",
     "what": "In other news: Graykey maker sues former employee for leaking exploit; Hugging Face was hacked using AI; unauth RCE finally found in WordPress."
    },
@@ -95,7 +96,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 3129.1,
+    "heat_today": 3341.3,
     "heat_trend": [
      68.3,
      368.0,
@@ -103,7 +104,7 @@
      726.6,
      1035.1,
      811.1,
-     3129.1
+     3341.3
     ],
     "what": "當日 8 則相關討論：「Claude Fable produced a counterexample to the Jacobian Conje」；「Kimi K3 just fixed 15 critical security bugs that Codex and 」；「Fable may have disproved a 100 year old conjecture.」。",
     "sources": [
@@ -161,12 +162,34 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 14.3,
+   "heat_trend": [
+    0,
+    14.3,
+    16.7,
+    20.0,
+    0,
+    0,
+    14.3
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "China’s open-weights AI strategy is winning",
-   "note": "hn · 熱度 1330（未歸戶）",
+   "note": "hn · 熱度 1414（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48979269"
+  },
+  {
+   "title": "Airport Simulator",
+   "note": "hn · 熱度 826（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48976846"
   },
   {
    "title": "msitarzewski/agency-agents — A complete AI agency at your fingertips -",
@@ -174,19 +197,14 @@
    "url": "https://github.com/msitarzewski/agency-agents"
   },
   {
-   "title": "Airport Simulator",
-   "note": "hn · 熱度 749（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48976846"
+   "title": "The EU is about to sell our most sensitive data to the US for visa-fre",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48977711"
   },
   {
    "title": "KnockOutEZ/wigolo — The go-to web for your AI coding agent — local-fir",
    "note": "github · 熱度 620（未歸戶）",
    "url": "https://github.com/KnockOutEZ/wigolo"
-  },
-  {
-   "title": "The EU is about to sell our most sensitive data to the US for visa-fre",
-   "note": "hn · 熱度 612（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48977711"
   },
   {
    "title": "1jehuang/jcode — The most intelligent agent harness for code",
@@ -225,11 +243,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
