@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 796（持續），共 1 則討論；重點連結見對應段落。",
+   "text": "熱度 1526（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -49,17 +49,17 @@
     "what": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
    },
    {
-    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-    "source": "hn",
-    "heat": 2484.0,
-    "url": "https://news.ycombinator.com/item?id=48993414",
-    "what": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
-   },
-   {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "source": "hn",
-    "heat": 2464.5,
+    "heat": 3363.0,
     "url": "https://news.ycombinator.com/item?id=48997548"
+   },
+   {
+    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "source": "hn",
+    "heat": 2671.5,
+    "url": "https://news.ycombinator.com/item?id=48993414",
+    "what": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
    }
   ],
   "software": [],
@@ -99,8 +99,8 @@
     "id": "ai-2",
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
-    "status": "ongoing",
-    "heat_today": 796.5,
+    "status": "rising",
+    "heat_today": 1526.0,
     "heat_trend": [
      368.0,
      1664.9,
@@ -108,13 +108,17 @@
      1035.1,
      811.1,
      408.7,
-     796.5
+     1526.0
     ],
-    "what": "當日 1 則相關討論：「Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA」。",
+    "what": "當日 2 則相關討論：「Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA」；「I'm seeing a lot of complaints about usage going fast... Are」。",
     "sources": [
      {
       "label": "hn：Kimi K3 Is Competitive with Fable; Kimi K3",
       "url": "https://news.ycombinator.com/item?id=48999291"
+     },
+     {
+      "label": "r/ClaudeAI：I'm seeing a lot of complaints about usage",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v2y3ie/im_seeing_a_lot_of_complaints_about_usage_going/"
      }
     ]
    }
@@ -160,8 +164,13 @@
  "radar": [
   {
    "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-   "note": "hn · 熱度 1934（未歸戶）",
+   "note": "hn · 熱度 1971（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48989701"
+  },
+  {
+   "title": "Advertise in ChatGPT",
+   "note": "hn · 熱度 1946（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48996571"
   },
   {
    "title": "tirth8205/code-review-graph — Local-first code intelligence graph for ",
@@ -179,14 +188,9 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "Advertise in ChatGPT",
-   "note": "hn · 熱度 1192（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=48996571"
-  },
-  {
-   "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
-   "note": "github · 熱度 1107（未歸戶）",
-   "url": "https://github.com/earendil-works/pi"
+   "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git host",
+   "note": "hn · 熱度 1146（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=48995213"
   }
  ],
  "data_quality": [
@@ -212,7 +216,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
