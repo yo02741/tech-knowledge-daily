@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-21",
+ "last_run": "2026-07-22",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-22",
    "history": [
     {
      "date": "2026-07-06",
@@ -89,9 +89,14 @@
      "date": "2026-07-21",
      "heat": 408.7,
      "mentions": 6
+    },
+    {
+     "date": "2026-07-22",
+     "heat": 796.5,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -104,7 +109,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-22",
    "history": [
     {
      "date": "2026-07-06",
@@ -185,6 +190,11 @@
      "date": "2026-07-21",
      "heat": 1513.5,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-22",
+     "heat": 2149.2,
+     "mentions": 2
     }
    ],
    "status": "ongoing",
@@ -205,7 +215,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-19",
+   "last_seen": "2026-07-22",
    "history": [
     {
      "date": "2026-07-06",
@@ -286,9 +296,14 @@
      "date": "2026-07-21",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-22",
+     "heat": 261.9,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -381,7 +396,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-22",
    "history": [
     {
      "date": "2026-07-06",
@@ -461,6 +476,11 @@
     {
      "date": "2026-07-21",
      "heat": 11.1,
+     "mentions": 1
+    },
+    {
+     "date": "2026-07-22",
+     "heat": 47.1,
      "mentions": 1
     }
    ],
