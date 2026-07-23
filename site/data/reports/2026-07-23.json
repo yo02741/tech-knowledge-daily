@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1716（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 1859（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -55,9 +55,9 @@
     "what": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
    },
    {
-    "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+    "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
     "source": "hn",
-    "heat": 2178.0,
+    "heat": 2643.0,
     "url": "https://news.ycombinator.com/item?id=49010345",
     "what": "Here's a chat someone thought you'd want to see."
    },
@@ -73,7 +73,7 @@
    {
     "title": "The startup's Postgres survival guide",
     "source": "hn",
-    "heat": 767.0,
+    "heat": 851.0,
     "url": "https://news.ycombinator.com/item?id=49005787",
     "what": "A guide to preventing Postgres from toppling over."
    }
@@ -88,7 +88,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 1716.4,
+    "heat_today": 1858.9,
     "heat_trend": [
      1664.9,
      726.6,
@@ -96,9 +96,9 @@
      811.1,
      408.7,
      1668.5,
-     1716.4
+     1858.9
     ],
-    "what": "當日 3 則相關討論：「“We have information that Moonshot distilled Fable for the d」；「Kimi K3: second only to Fable 5 on AA-Briefcase」；「Claude Fable 5 was strong in this 3D dashboard test, but I’m」。",
+    "what": "當日 4 則相關討論：「“We have information that Moonshot distilled Fable for the d」；「Kimi K3: second only to Fable 5 on AA-Briefcase」；「Warning: claiming the \"free $100 Fable 5 credits\" silently t」。",
     "sources": [
      {
       "label": "hn：“We have information that Moonshot distill",
@@ -107,6 +107,10 @@
      {
       "label": "hn：Kimi K3: second only to Fable 5 on AA-Brie",
       "url": "https://news.ycombinator.com/item?id=49001930"
+     },
+     {
+      "label": "r/ClaudeAI：Warning: claiming the \"free $100 Fable 5 c",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v3yk7a/warning_claiming_the_free_100_fable_5_credits/"
      },
      {
       "label": "r/ClaudeAI：Claude Fable 5 was strong in this 3D dashb",
@@ -169,25 +173,13 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 14.3,
-   "heat_trend": [
-    16.7,
-    20.0,
-    0,
-    0,
-    11.1,
-    47.1,
-    14.3
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
+  {
+   "title": "GigaToken: ~1000x faster Language model tokenization",
+   "note": "hn · 熱度 1324（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49010167"
+  },
   {
    "title": "koala73/worldmonitor — Real-time global intelligence dashboard. AI-pow",
    "note": "github · 熱度 1242（未歸戶）",
@@ -199,18 +191,13 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "GigaToken: ~1000x faster Language model tokenization",
-   "note": "hn · 熱度 1114（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49010167"
-  },
-  {
    "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
    "note": "github · 熱度 827（未歸戶）",
    "url": "https://github.com/earendil-works/pi"
   },
   {
    "title": "OverpAId – Fire your CEO. Hire the future",
-   "note": "hn · 熱度 804（未歸戶）",
+   "note": "hn · 熱度 814（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49004663"
   },
   {
@@ -238,7 +225,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -250,7 +237,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",

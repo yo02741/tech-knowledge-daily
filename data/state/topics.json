@@ -97,8 +97,8 @@
     },
     {
      "date": "2026-07-23",
-     "heat": 1716.4,
-     "mentions": 3
+     "heat": 1858.9,
+     "mentions": 4
     }
    ],
    "status": "rising",
@@ -500,11 +500,11 @@
     },
     {
      "date": "2026-07-23",
-     "heat": 14.3,
-     "mentions": 1
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
