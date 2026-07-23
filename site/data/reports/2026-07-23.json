@@ -1,0 +1,264 @@
+{
+ "date": "2026-07-23",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-cache-invalidation",
+  "domain": "backend",
+  "term": "快取失效（Cache Invalidation）",
+  "tagline": "電腦科學兩大難題之一，不是玩笑",
+  "intro": [
+   "加快取容易，難的是資料更新後怎麼讓所有快取層（CDN、Redis、應用內存）同步失效——漏一層就是使用者看到舊資料。",
+   "常見策略：TTL 過期（簡單但有時間差）、寫入時主動清除（精準但要維護依賴關係）、cache aside 模式。沒有銀彈，只有取捨。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "維基百科：Cache invalidation",
+    "url": "https://en.wikipedia.org/wiki/Cache_invalidation"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] bojieli/ai-agent-book",
+   "text": "今日未歸戶最熱討論（github、熱度 2967），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1716（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1486（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 263（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "bojieli/ai-agent-book",
+    "source": "github",
+    "heat": 2967.3,
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "what": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+   },
+   {
+    "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+    "source": "hn",
+    "heat": 2178.0,
+    "url": "https://news.ycombinator.com/item?id=49010345",
+    "what": "Here's a chat someone thought you'd want to see."
+   },
+   {
+    "title": "ayghri/i-have-adhd",
+    "source": "github",
+    "heat": 1529.1,
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "what": "A skill for your coding agent to stop it from burying the answer. ADH"
+   }
+  ],
+  "software": [
+   {
+    "title": "The startup's Postgres survival guide",
+    "source": "hn",
+    "heat": 767.0,
+    "url": "https://news.ycombinator.com/item?id=49005787",
+    "what": "A guide to preventing Postgres from toppling over."
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 1716.4,
+    "heat_trend": [
+     1664.9,
+     726.6,
+     1035.1,
+     811.1,
+     408.7,
+     1668.5,
+     1716.4
+    ],
+    "what": "當日 3 則相關討論：「“We have information that Moonshot distilled Fable for the d」；「Kimi K3: second only to Fable 5 on AA-Briefcase」；「Claude Fable 5 was strong in this 3D dashboard test, but I’m」。",
+    "sources": [
+     {
+      "label": "hn：“We have information that Moonshot distill",
+      "url": "https://news.ycombinator.com/item?id=49007610"
+     },
+     {
+      "label": "hn：Kimi K3: second only to Fable 5 on AA-Brie",
+      "url": "https://news.ycombinator.com/item?id=49001930"
+     },
+     {
+      "label": "r/ClaudeAI：Claude Fable 5 was strong in this 3D dashb",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v3d87t/claude_fable_5_was_strong_in_this_3d_dashboard/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 1485.9,
+    "heat_trend": [
+     4031.1,
+     2560.5,
+     471.0,
+     2577.3,
+     1513.5,
+     2149.2,
+     1485.9
+    ],
+    "what": "當日 1 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」。",
+    "sources": [
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 262.8,
+    "heat_trend": [
+     0,
+     0,
+     261.9,
+     0,
+     0,
+     261.9,
+     262.8
+    ],
+    "what": "當日 2 則相關討論：「ComposioHQ/awesome-claude-skills — A curated list of awesome」；「virgiliojr94/book-to-skill — Turn any technical book PDF int」。",
+    "sources": [
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     },
+     {
+      "label": "github：virgiliojr94/book-to-skill — Turn any tech",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 14.3,
+   "heat_trend": [
+    16.7,
+    20.0,
+    0,
+    0,
+    11.1,
+    47.1,
+    14.3
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "koala73/worldmonitor — Real-time global intelligence dashboard. AI-pow",
+   "note": "github · 熱度 1242（未歸戶）",
+   "url": "https://github.com/koala73/worldmonitor"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 1144（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "GigaToken: ~1000x faster Language model tokenization",
+   "note": "hn · 熱度 1114（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49010167"
+  },
+  {
+   "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
+   "note": "github · 熱度 827（未歸戶）",
+   "url": "https://github.com/earendil-works/pi"
+  },
+  {
+   "title": "OverpAId – Fire your CEO. Hire the future",
+   "note": "hn · 熱度 804（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49004663"
+  },
+  {
+   "title": "tirth8205/code-review-graph — Local-first code intelligence graph for ",
+   "note": "github · 熱度 794（未歸戶）",
+   "url": "https://github.com/tirth8205/code-review-graph"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
