@@ -1,66 +1,57 @@
 {
- "date": "2026-07-23",
+ "date": "2026-07-24",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 27505.2,
+   "weight": 28407.9,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-24"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 19253.6,
+   "weight": 19885.5,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-24"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 10400.3,
-   "status": "rising",
+   "weight": 10409.5,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-24"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2274.9,
+   "weight": 2964.3,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-24"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1592.4,
+   "weight": 2075.0,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-24"
   },
   {
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
-   "weight": 418.2,
-   "status": "fading",
-   "domain": "software",
-   "last_seen": "2026-07-12"
-  },
-  {
-   "slug": "sql-over-orm#1",
-   "display": "ORM 之爭再起：直接學 SQL",
-   "label": "SQL",
-   "weight": 292.7,
+   "weight": 192.6,
    "status": "fading",
    "domain": "software",
    "last_seen": "2026-07-12"
@@ -73,6 +64,15 @@
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-07-23"
+  },
+  {
+   "slug": "sql-over-orm#1",
+   "display": "ORM 之爭再起：直接學 SQL",
+   "label": "SQL",
+   "weight": 134.8,
+   "status": "fading",
+   "domain": "software",
+   "last_seen": "2026-07-12"
   },
   {
    "slug": "design-ai-prototyping#1",

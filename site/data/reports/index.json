@@ -1,5 +1,12 @@
 [
  {
+  "date": "2026-07-24",
+  "weekday": "五",
+  "tldr_count": 3,
+  "topic_count": 2,
+  "top_topic": "Fable 5 使用期限與遷移策略"
+ },
+ {
   "date": "2026-07-23",
   "weekday": "四",
   "tldr_count": 4,
