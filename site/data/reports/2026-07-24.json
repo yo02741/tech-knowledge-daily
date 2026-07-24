@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] OpenAI’s accidental attack against Hugging Face is science f",
-   "text": "今日未歸戶最熱討論（hn、熱度 1773），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1844），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1047（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 1110（持續），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -44,7 +44,7 @@
    {
     "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
     "source": "hn",
-    "heat": 1773.0,
+    "heat": 1843.5,
     "url": "https://news.ycombinator.com/item?id=49015639",
     "what": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model’s guardrail features turned off. Rather than solve the test, the …"
    },
@@ -81,7 +81,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 1047.0,
+    "heat_today": 1110.0,
     "heat_trend": [
      726.6,
      1035.1,
@@ -89,7 +89,7 @@
      408.7,
      1668.5,
      1690.5,
-     1047.0
+     1110.0
     ],
     "what": "當日 2 則相關討論：「Show HN: Echo – Fable-level results at 1/3 the cost using op」；「i edited this video using fable 5」。",
     "sources": [
@@ -156,12 +156,12 @@
  "radar": [
   {
    "title": "Writing by hand is good for your brain",
-   "note": "hn · 熱度 1300（未歸戶）",
+   "note": "hn · 熱度 1344（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49022152"
   },
   {
    "title": "Startup founders urge U.S. government not to shut off Chinese open wei",
-   "note": "hn · 熱度 1120（未歸戶）",
+   "note": "hn · 熱度 1151（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49023016"
   },
   {
@@ -171,7 +171,7 @@
   },
   {
    "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
-   "note": "hn · 熱度 783（未歸戶）",
+   "note": "hn · 熱度 789（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49020999"
   },
   {
@@ -216,11 +216,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
