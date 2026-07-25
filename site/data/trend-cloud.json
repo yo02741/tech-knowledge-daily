@@ -24,7 +24,7 @@
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 10364.7,
+   "weight": 10365.4,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-07-25"
@@ -33,7 +33,7 @@
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 3726.0,
+   "weight": 3576.0,
    "status": "rising",
    "domain": "ai",
    "last_seen": "2026-07-25"
@@ -42,7 +42,7 @@
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2608.2,
+   "weight": 2503.2,
    "status": "rising",
    "domain": "ai",
    "last_seen": "2026-07-25"
