@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-24",
+ "last_run": "2026-07-25",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "history": [
     {
      "date": "2026-07-06",
@@ -104,9 +104,14 @@
      "date": "2026-07-24",
      "heat": 1110.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-25",
+     "heat": 68.2,
+     "mentions": 4
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -119,7 +124,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "history": [
     {
      "date": "2026-07-06",
@@ -215,6 +220,11 @@
      "date": "2026-07-24",
      "heat": 1736.1,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-25",
+     "heat": 2448.9,
+     "mentions": 2
     }
    ],
    "status": "ongoing",
@@ -235,7 +245,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "history": [
     {
      "date": "2026-07-06",
@@ -330,6 +340,11 @@
     {
      "date": "2026-07-24",
      "heat": 779.4,
+     "mentions": 2
+    },
+    {
+     "date": "2026-07-25",
+     "heat": 896.7,
      "mentions": 2
     }
    ],
@@ -426,7 +441,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-25",
    "history": [
     {
      "date": "2026-07-06",
@@ -522,9 +537,14 @@
      "date": "2026-07-24",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-25",
+     "heat": 46.5,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",

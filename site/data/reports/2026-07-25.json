@@ -1,0 +1,278 @@
+{
+ "date": "2026-07-25",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-blue-green",
+  "domain": "devops",
+  "term": "藍綠部署與金絲雀發布",
+  "tagline": "新版先小規模試毒，有事秒切回舊版",
+  "intro": [
+   "藍綠：養兩套一模一樣的環境，新版部到閒置那套、驗證後把流量整個切過去，出事切回來就是回滾。金絲雀：先放 1-5% 流量給新版，指標正常再逐步放大。",
+   "兩者都在解同一題：把「部署」和「發布」解耦，讓上線不再是不可逆的驚險一跳。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "Google Cloud：部署策略",
+    "url": "https://cloud.google.com/architecture/application-deployment-and-testing-strategies"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Claude Opus 5",
+   "text": "今日未歸戶最熱討論（hn、熱度 4744），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 2449（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 897（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 68（退燒），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Claude Opus 5",
+    "source": "hn",
+    "heat": 4744.5,
+    "url": "https://news.ycombinator.com/item?id=49038433",
+    "what": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work."
+   },
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 2025.9,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .agents directory."
+   },
+   {
+    "title": "My security camera shipped a GitHub admin token in its login page",
+    "source": "hn",
+    "heat": 1747.5,
+    "url": "https://news.ycombinator.com/item?id=49034292",
+    "what": "i dissected some firmware for a Hanwha Wisenet XNP-9300RW and found that it had github admin tokens in it, also miltech is weird"
+   }
+  ],
+  "software": [
+   {
+    "title": "Automattic/harper",
+    "source": "github",
+    "heat": 525.6,
+    "url": "https://github.com/Automattic/harper",
+    "what": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powere"
+   },
+   {
+    "title": "New role not what I expected after interviews",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1v4yvh5/new_role_not_what_i_expected_after_interviews/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 2448.9,
+    "heat_trend": [
+     471.0,
+     2577.3,
+     1513.5,
+     2149.2,
+     1485.9,
+     1736.1,
+     2448.9
+    ],
+    "what": "當日 2 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「citrolabs/ego-lite — The fastest browser for AI agents to ru」。",
+    "sources": [
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     },
+     {
+      "label": "github：citrolabs/ego-lite — The fastest browser f",
+      "url": "https://github.com/citrolabs/ego-lite"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 896.7,
+    "heat_trend": [
+     261.9,
+     0,
+     0,
+     261.9,
+     262.8,
+     779.4,
+     896.7
+    ],
+    "what": "當日 2 則相關討論：「ComposioHQ/awesome-claude-skills — A curated list of awesome」；「I made a Claude Code skill that turns a photo of your handwr」。",
+    "sources": [
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     },
+     {
+      "label": "r/ClaudeAI：I made a Claude Code skill that turns a ph",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v55he0/i_made_a_claude_code_skill_that_turns_a_photo_of/"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 68.2,
+    "heat_trend": [
+     1035.1,
+     811.1,
+     408.7,
+     1668.5,
+     1690.5,
+     1110.0,
+     68.2
+    ],
+    "what": "當日 4 則相關討論：「My results - Opus 5 vs Fable 5」；「Claude Opus 5 is out — near-Fable intelligence at half the p」；「Opus 5> Fable 5」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：My results - Opus 5 vs Fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v5p34g/my_results_opus_5_vs_fable_5/"
+     },
+     {
+      "label": "r/ClaudeAI：Claude Opus 5 is out — near-Fable intellig",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v5hrbc/claude_opus_5_is_out_nearfable_intelligence_at/"
+     },
+     {
+      "label": "r/ClaudeAI：Opus 5> Fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v5ixn6/opus_5_fable_5/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable safeguards are wasting my subscripti",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v52wgg/fable_safeguards_are_wasting_my_subscription/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 46.5,
+   "heat_trend": [
+    0,
+    0,
+    11.1,
+    47.1,
+    0,
+    0,
+    46.5
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Be skeptical of OpenAI's rogue hacker agent story",
+   "note": "hn · 熱度 1510（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49038060"
+  },
+  {
+   "title": "Claude Cookbook",
+   "note": "hn · 熱度 1089（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49031409"
+  },
+  {
+   "title": "block/buzz — A hive mind communication platform",
+   "note": "github · 熱度 981（未歸戶）",
+   "url": "https://github.com/block/buzz"
+  },
+  {
+   "title": "It's getting harder to focus every day",
+   "note": "hn · 熱度 888（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49032660"
+  },
+  {
+   "title": "Half-Life 2 running natively on HaikuOS",
+   "note": "hn · 熱度 844（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49034868"
+  },
+  {
+   "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
+   "note": "github · 熱度 703（未歸戶）",
+   "url": "https://github.com/earendil-works/pi"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
