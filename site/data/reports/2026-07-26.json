@@ -45,16 +45,16 @@
    {
     "title": "The new rules of context engineering for Claude 5 generation models",
     "source": "hn",
-    "heat": 531.0,
+    "heat": 808.5,
     "url": "https://news.ycombinator.com/item?id=49051361",
     "what": "We removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents."
    },
    {
-    "title": "earendil-works/pi",
-    "source": "github",
-    "heat": 470.7,
-    "url": "https://github.com/earendil-works/pi",
-    "what": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI"
+    "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+    "source": "hn",
+    "heat": 537.0,
+    "url": "https://news.ycombinator.com/item?id=49051947",
+    "what": "General Motors backs the latest effort to catch up to China"
    }
   ],
   "software": [],
@@ -62,7 +62,7 @@
    {
     "title": "Open-weight AI is having its Kubernetes moment",
     "source": "hn",
-    "heat": 420.5,
+    "heat": 470.0,
     "url": "https://news.ycombinator.com/item?id=49048034",
     "what": "Open-weight models are becoming the foundation for the next AI ecosystem. The US should compete in it, not wall itself off."
    }
@@ -120,7 +120,7 @@
  "radar": [
   {
    "title": "Android May Soon Restrict On-Device ADB",
-   "note": "hn · 熱度 1074（未歸戶）",
+   "note": "hn · 熱度 1104（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49045159"
   },
   {
@@ -129,13 +129,8 @@
    "url": "https://github.com/block/buzz"
   },
   {
-   "title": "Hannah Fry Wins the Leelavati Prize in 2026 for Mathematics Outreach",
-   "note": "hn · 熱度 611（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49043724"
-  },
-  {
    "title": "Stolen Buttons",
-   "note": "hn · 熱度 600（未歸戶）",
+   "note": "hn · 熱度 711（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48976262"
   },
   {
@@ -144,9 +139,14 @@
    "url": "https://github.com/permissionlesstech/bitchat"
   },
   {
-   "title": "obra/superpowers — An agentic skills framework & software development ",
-   "note": "github · 熱度 431（未歸戶）",
-   "url": "https://github.com/obra/superpowers"
+   "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
+   "note": "github · 熱度 471（未歸戶）",
+   "url": "https://github.com/earendil-works/pi"
+  },
+  {
+   "title": "LLM Usage in Debian: Three Proposals",
+   "note": "hn · 熱度 464（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49050859"
   }
  ],
  "data_quality": [
@@ -168,11 +168,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
