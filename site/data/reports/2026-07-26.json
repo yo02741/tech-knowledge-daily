@@ -45,14 +45,14 @@
    {
     "title": "The new rules of context engineering for Claude 5 generation models",
     "source": "hn",
-    "heat": 808.5,
+    "heat": 904.5,
     "url": "https://news.ycombinator.com/item?id=49051361",
     "what": "We removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents."
    },
    {
     "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
     "source": "hn",
-    "heat": 537.0,
+    "heat": 556.5,
     "url": "https://news.ycombinator.com/item?id=49051947",
     "what": "General Motors backs the latest effort to catch up to China"
    }
@@ -62,7 +62,7 @@
    {
     "title": "Open-weight AI is having its Kubernetes moment",
     "source": "hn",
-    "heat": 470.0,
+    "heat": 480.5,
     "url": "https://news.ycombinator.com/item?id=49048034",
     "what": "Open-weight models are becoming the foundation for the next AI ecosystem. The US should compete in it, not wall itself off."
    }
@@ -120,7 +120,7 @@
  "radar": [
   {
    "title": "Android May Soon Restrict On-Device ADB",
-   "note": "hn · 熱度 1104（未歸戶）",
+   "note": "hn · 熱度 1111（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49045159"
   },
   {
@@ -130,7 +130,7 @@
   },
   {
    "title": "Stolen Buttons",
-   "note": "hn · 熱度 711（未歸戶）",
+   "note": "hn · 熱度 724（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=48976262"
   },
   {
@@ -139,14 +139,14 @@
    "url": "https://github.com/permissionlesstech/bitchat"
   },
   {
+   "title": "LLM Usage in Debian: Three Proposals",
+   "note": "hn · 熱度 492（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49050859"
+  },
+  {
    "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
    "note": "github · 熱度 471（未歸戶）",
    "url": "https://github.com/earendil-works/pi"
-  },
-  {
-   "title": "LLM Usage in Debian: Three Proposals",
-   "note": "hn · 熱度 464（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49050859"
   }
  ],
  "data_quality": [
@@ -156,7 +156,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -172,7 +172,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
