@@ -585,11 +585,11 @@
     },
     {
      "date": "2026-07-27",
-     "heat": 0,
-     "mentions": 0
+     "heat": 47.6,
+     "mentions": 2
     }
    ],
-   "status": "fading",
+   "status": "rising",
    "note": "",
    "terms": [
     "Figma",

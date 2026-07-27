@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Htmx 4.0, the first JavaScript library to release exclusivel",
-   "text": "今日未歸戶最熱討論（hn、熱度 903），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 927），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -64,7 +64,7 @@
    {
     "title": "The relay market powering token resellers and fraud",
     "source": "hn",
-    "heat": 661.5,
+    "heat": 690.0,
     "url": "https://news.ycombinator.com/item?id=49058993",
     "what": "A look inside the gray-market reseller economy that gives mainland China cheap, structured, B2B-grade access to OpenAI, Anthropic, Google, and beyond"
    }
@@ -73,14 +73,14 @@
    {
     "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
     "source": "hn",
-    "heat": 903.0,
+    "heat": 927.0,
     "url": "https://news.ycombinator.com/item?id=49057241",
     "what": "HTMX 4.0, the first JavaScript library to release exclusively on the Game Boy® platform! Experience the power of HTMX, now on your favorite portable handheld. Four levels of pickle-collecting excitement.  Squish client-s"
    },
    {
     "title": "PGSimCity - How PostgreSQL Works",
     "source": "hn",
-    "heat": 526.0,
+    "heat": 671.0,
     "url": "https://news.ycombinator.com/item?id=49063754",
     "what": "An explorable 3D city that shows how PostgreSQL actually works — backends, shared buffers, WAL, checkpoints, autovacuum and replication, all running live in your browser."
    },
@@ -193,7 +193,35 @@
   ],
   "software": [],
   "devops": [],
-  "uiux": []
+  "uiux": [
+   {
+    "id": "ux-1",
+    "slug": "design-ai-prototyping",
+    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+    "status": "rising",
+    "heat_today": 47.6,
+    "heat_trend": [
+     11.1,
+     47.1,
+     0,
+     0,
+     56.5,
+     0,
+     47.6
+    ],
+    "what": "當日 2 則相關討論：「Figma and Paper alternative」；「How do I transfer “Claude Design” files directly to “Figma”?」。",
+    "sources": [
+     {
+      "label": "r/UXDesign：Figma and Paper alternative",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1v75b3a/figma_and_paper_alternative/"
+     },
+     {
+      "label": "r/UXDesign：How do I transfer “Claude Design” files di",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1v7nnu5/how_do_i_transfer_claude_design_files_directly_to/"
+     }
+    ]
+   }
+  ]
  },
  "tracking": [
   {
@@ -216,8 +244,13 @@
  "radar": [
   {
    "title": "Kill The Cookie Banner",
-   "note": "hn · 熱度 1083（未歸戶）",
+   "note": "hn · 熱度 1110（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49057175"
+  },
+  {
+   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+   "note": "hn · 熱度 570（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49063022"
   },
   {
    "title": "block/buzz — A hive mind communication platform",
@@ -226,13 +259,8 @@
   },
   {
    "title": "GrapheneOS protections against data extraction from locked devices",
-   "note": "hn · 熱度 511（未歸戶）",
+   "note": "hn · 熱度 512（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49055169"
-  },
-  {
-   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-   "note": "hn · 熱度 490（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49063022"
   },
   {
    "title": "permissionlesstech/bitchat — bluetooth mesh chat, IRC vibes",
@@ -264,7 +292,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
