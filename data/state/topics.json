@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-26",
+ "last_run": "2026-07-27",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "history": [
     {
      "date": "2026-07-06",
@@ -114,6 +114,11 @@
      "date": "2026-07-26",
      "heat": 35.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-27",
+     "heat": 55.9,
+     "mentions": 3
     }
    ],
    "status": "fading",
@@ -129,7 +134,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "history": [
     {
      "date": "2026-07-06",
@@ -235,9 +240,14 @@
      "date": "2026-07-26",
      "heat": 2661.3,
      "mentions": 4
+    },
+    {
+     "date": "2026-07-27",
+     "heat": 978.3,
+     "mentions": 3
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -255,7 +265,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "history": [
     {
      "date": "2026-07-06",
@@ -361,6 +371,11 @@
      "date": "2026-07-26",
      "heat": 519.3,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-27",
+     "heat": 776.7,
+     "mentions": 3
     }
    ],
    "status": "ongoing",
@@ -377,7 +392,7 @@
    ],
    "domain": "software",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-07-27",
    "history": [
     {
      "date": "2026-07-06",
@@ -438,9 +453,14 @@
      "date": "2026-07-17",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-27",
+     "heat": 4.8,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "ORM",
@@ -456,7 +476,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-07-27",
    "history": [
     {
      "date": "2026-07-06",
@@ -562,9 +582,14 @@
      "date": "2026-07-26",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-27",
+     "heat": 20.0,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",
