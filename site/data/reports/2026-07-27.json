@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] CoreBunch/Instatic",
-   "text": "今日未歸戶最熱討論（github、熱度 799），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Htmx 4.0, the first JavaScript library to release exclusivel",
+   "text": "今日未歸戶最熱討論（hn、熱度 903），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -37,6 +37,12 @@
    "text": "熱度 777（持續），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 82（退燒），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
   }
  ],
  "fresh": {
@@ -58,7 +64,7 @@
    {
     "title": "The relay market powering token resellers and fraud",
     "source": "hn",
-    "heat": 577.5,
+    "heat": 661.5,
     "url": "https://news.ycombinator.com/item?id=49058993",
     "what": "A look inside the gray-market reseller economy that gives mainland China cheap, structured, B2B-grade access to OpenAI, Anthropic, Google, and beyond"
    }
@@ -67,9 +73,16 @@
    {
     "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
     "source": "hn",
-    "heat": 782.0,
+    "heat": 903.0,
     "url": "https://news.ycombinator.com/item?id=49057241",
     "what": "HTMX 4.0, the first JavaScript library to release exclusively on the Game Boy® platform! Experience the power of HTMX, now on your favorite portable handheld. Four levels of pickle-collecting excitement.  Squish client-s"
+   },
+   {
+    "title": "PGSimCity - How PostgreSQL Works",
+    "source": "hn",
+    "heat": 526.0,
+    "url": "https://news.ycombinator.com/item?id=49063754",
+    "what": "An explorable 3D city that shows how PostgreSQL actually works — backends, shared buffers, WAL, checkpoints, autovacuum and replication, all running live in your browser."
    },
    {
     "title": "OtterMind/Chat2DB",
@@ -145,6 +158,37 @@
       "url": "https://github.com/davepoon/buildwithclaude"
      }
     ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 82.4,
+    "heat_trend": [
+     408.7,
+     1668.5,
+     1690.5,
+     1110.0,
+     84.5,
+     35.0,
+     82.4
+    ],
+    "what": "當日 3 則相關討論：「Differences Between Fable 5 and Opus 5 on MineBench.ai」；「I asked Fable for a \"Your Name\" inspired theme and it did th」；「90 agentic bakeoff runs: ThinkingCap vs Fable Fusion vs stoc」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Differences Between Fable 5 and Opus 5 on ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v7i49g/differences_between_fable_5_and_opus_5_on/"
+     },
+     {
+      "label": "r/ClaudeAI：I asked Fable for a \"Your Name\" inspired t",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v7bbi2/i_asked_fable_for_a_your_name_inspired_theme_and/"
+     },
+     {
+      "label": "r/LocalLLaMA：90 agentic bakeoff runs: ThinkingCap vs Fa",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v78dzr/90_agentic_bakeoff_runs_thinkingcap_vs_fable/"
+     }
+    ]
    }
   ],
   "software": [],
@@ -152,22 +196,6 @@
   "uiux": []
  },
  "tracking": [
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 20.0,
-   "heat_trend": [
-    11.1,
-    47.1,
-    0,
-    0,
-    56.5,
-    0,
-    20.0
-   ]
-  },
   {
    "slug": "sql-over-orm",
    "title": "ORM 之爭再起：直接學 SQL",
@@ -188,7 +216,7 @@
  "radar": [
   {
    "title": "Kill The Cookie Banner",
-   "note": "hn · 熱度 982（未歸戶）",
+   "note": "hn · 熱度 1083（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49057175"
   },
   {
@@ -198,23 +226,23 @@
   },
   {
    "title": "GrapheneOS protections against data extraction from locked devices",
-   "note": "hn · 熱度 487（未歸戶）",
+   "note": "hn · 熱度 511（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49055169"
   },
   {
-   "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
-   "note": "hn · 熱度 444（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49057574"
-  },
-  {
-   "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
-   "note": "hn · 熱度 444（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49056112"
+   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+   "note": "hn · 熱度 490（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49063022"
   },
   {
    "title": "permissionlesstech/bitchat — bluetooth mesh chat, IRC vibes",
    "note": "github · 熱度 350（未歸戶）",
    "url": "https://github.com/permissionlesstech/bitchat"
+  },
+  {
+   "title": "anthropics/claude-cookbooks — A collection of notebooks/recipes showca",
+   "note": "github · 熱度 341（未歸戶）",
+   "url": "https://github.com/anthropics/claude-cookbooks"
   }
  ],
  "data_quality": [
@@ -236,7 +264,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -248,7 +276,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
