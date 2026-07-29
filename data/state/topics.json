@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-28",
+ "last_run": "2026-07-29",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "history": [
     {
      "date": "2026-07-06",
@@ -124,6 +124,11 @@
      "date": "2026-07-28",
      "heat": 70.2,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-29",
+     "heat": 62.5,
+     "mentions": 2
     }
    ],
    "status": "ongoing",
@@ -139,7 +144,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "history": [
     {
      "date": "2026-07-06",
@@ -255,9 +260,14 @@
      "date": "2026-07-28",
      "heat": 196.2,
      "mentions": 2
+    },
+    {
+     "date": "2026-07-29",
+     "heat": 1764.0,
+     "mentions": 3
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -275,7 +285,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-29",
    "history": [
     {
      "date": "2026-07-06",
@@ -391,9 +401,14 @@
      "date": "2026-07-28",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-29",
+     "heat": 408.0,
+     "mentions": 2
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -478,6 +493,11 @@
      "date": "2026-07-28",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-29",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -496,7 +516,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "history": [
     {
      "date": "2026-07-06",
@@ -612,9 +632,14 @@
      "date": "2026-07-28",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-29",
+     "heat": 36.9,
+     "mentions": 4
     }
    ],
-   "status": "fading",
+   "status": "rising",
    "note": "",
    "terms": [
     "Figma",

@@ -1,69 +1,69 @@
 {
- "date": "2026-07-28",
+ "date": "2026-07-29",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 32044.5,
-   "status": "fading",
+   "weight": 28758.6,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 22431.1,
-   "status": "fading",
+   "weight": 20131.0,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 9823.8,
+   "weight": 9818.0,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 4242.9,
-   "status": "fading",
+   "weight": 4382.7,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2970.0,
-   "status": "fading",
+   "weight": 3067.9,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 213.3,
-   "status": "fading",
+   "weight": 250.2,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 149.3,
-   "status": "fading",
+   "weight": 175.1,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-29"
   },
   {
    "slug": "sql-over-orm",
