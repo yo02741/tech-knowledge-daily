@@ -6,7 +6,7 @@
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 29073.6,
+   "weight": 29178.6,
    "status": "rising",
    "domain": "ai",
    "last_seen": "2026-07-29"
@@ -15,7 +15,7 @@
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 20351.5,
+   "weight": 20425.0,
    "status": "rising",
    "domain": "ai",
    "last_seen": "2026-07-29"
@@ -51,7 +51,7 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 242.9,
+   "weight": 243.9,
    "status": "rising",
    "domain": "uiux",
    "last_seen": "2026-07-29"
@@ -60,7 +60,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 170.0,
+   "weight": 170.7,
    "status": "rising",
    "domain": "uiux",
    "last_seen": "2026-07-29"
