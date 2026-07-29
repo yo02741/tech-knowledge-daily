@@ -127,11 +127,11 @@
     },
     {
      "date": "2026-07-29",
-     "heat": 62.5,
-     "mentions": 2
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -263,11 +263,11 @@
     },
     {
      "date": "2026-07-29",
-     "heat": 1764.0,
+     "heat": 2079.0,
      "mentions": 3
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -404,8 +404,8 @@
     },
     {
      "date": "2026-07-29",
-     "heat": 408.0,
-     "mentions": 2
+     "heat": 380.7,
+     "mentions": 1
     }
    ],
    "status": "ongoing",
@@ -635,8 +635,8 @@
     },
     {
      "date": "2026-07-29",
-     "heat": 36.9,
-     "mentions": 4
+     "heat": 29.6,
+     "mentions": 3
     }
    ],
    "status": "rising",
