@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] Document-borne AI worms can self-propagate through Copilot f",
-   "text": "今日未歸戶最熱討論（hn、熱度 1386），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1468），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 1711（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 1714（上升），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 357（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 396（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -50,23 +50,23 @@
    {
     "title": "Document-borne AI worms can self-propagate through Copilot for Word",
     "source": "hn",
-    "heat": 1386.0,
+    "heat": 1468.5,
     "url": "https://news.ycombinator.com/item?id=49096188",
     "what": "I would like to thank Microsoft product teams and Microsoft Security Response Center (MSRC) for collaborating with me on this technical analysis and mitigation of the disclosed vulnerabilities. The editorial opinions ref"
    },
    {
-    "title": "Handbook.md shows that long policy documents do not reliably govern agents",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
     "source": "hn",
-    "heat": 1129.5,
-    "url": "https://news.ycombinator.com/item?id=49096969",
-    "what": "Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern every action that follows."
+    "heat": 1213.5,
+    "url": "https://news.ycombinator.com/item?id=49089500",
+    "what": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
    },
    {
-    "title": "Claude: Elevated errors across all models – Resolved",
+    "title": "Handbook.md shows that long policy documents do not reliably govern agents",
     "source": "hn",
-    "heat": 1110.0,
-    "url": "https://news.ycombinator.com/item?id=49102150",
-    "what": "Claude's Status Page - Elevated errors across all models."
+    "heat": 1195.5,
+    "url": "https://news.ycombinator.com/item?id=49096969",
+    "what": "Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern every action that follows."
    }
   ],
   "software": [],
@@ -80,7 +80,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "rising",
-    "heat_today": 1711.2,
+    "heat_today": 1714.2,
     "heat_trend": [
      779.4,
      746.7,
@@ -88,7 +88,7 @@
      776.7,
      0,
      380.7,
-     1711.2
+     1714.2
     ],
     "what": "當日 3 則相關討論：「virgiliojr94/book-to-skill — Turn any technical book PDF int」；「Show HN: Bullshit Detector – agent skills that fact-check vi」；「kangarooking/cangjie-skill — 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Sk」。",
     "sources": [
@@ -138,7 +138,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 357.0,
+    "heat_today": 395.5,
     "heat_trend": [
      1110.0,
      84.5,
@@ -146,7 +146,7 @@
      82.4,
      70.2,
      0,
-     357.0
+     395.5
     ],
     "what": "當日 2 則相關討論：「GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs b」；「This sums up my experince with Opus 5 vs Fable 5」。",
     "sources": [
@@ -168,24 +168,24 @@
  "tracking": [],
  "radar": [
   {
-   "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026",
-   "note": "hn · 熱度 1066（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49089500"
+   "title": "Claude: Elevated errors across all models – Resolved",
+   "note": "hn · 熱度 1143（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49102150"
+  },
+  {
+   "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-s",
+   "note": "hn · 熱度 802（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49098510"
   },
   {
    "title": "KOReader",
-   "note": "hn · 熱度 753（未歸戶）",
+   "note": "hn · 熱度 790（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49095865"
   },
   {
    "title": "huggingface/speech-to-speech — Build local voice agents with open-sour",
    "note": "github · 熱度 744（未歸戶）",
    "url": "https://github.com/huggingface/speech-to-speech"
-  },
-  {
-   "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-s",
-   "note": "hn · 熱度 740（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49098510"
   },
   {
    "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
@@ -229,11 +229,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
