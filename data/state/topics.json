@@ -1,5 +1,5 @@
 {
- "last_run": "2026-07-29",
+ "last_run": "2026-07-30",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "history": [
     {
      "date": "2026-07-06",
@@ -129,9 +129,14 @@
      "date": "2026-07-29",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-07-30",
+     "heat": 357.0,
+     "mentions": 2
     }
    ],
-   "status": "fading",
+   "status": "rising",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -144,7 +149,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "history": [
     {
      "date": "2026-07-06",
@@ -265,9 +270,14 @@
      "date": "2026-07-29",
      "heat": 2184.0,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-30",
+     "heat": 799.2,
+     "mentions": 2
     }
    ],
-   "status": "rising",
+   "status": "ongoing",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -285,7 +295,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "history": [
     {
      "date": "2026-07-06",
@@ -406,9 +416,14 @@
      "date": "2026-07-29",
      "heat": 380.7,
      "mentions": 1
+    },
+    {
+     "date": "2026-07-30",
+     "heat": 1711.2,
+     "mentions": 3
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -496,6 +511,11 @@
     },
     {
      "date": "2026-07-29",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-07-30",
      "heat": 0,
      "mentions": 0
     }
@@ -637,9 +657,14 @@
      "date": "2026-07-29",
      "heat": 30.6,
      "mentions": 3
+    },
+    {
+     "date": "2026-07-30",
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
