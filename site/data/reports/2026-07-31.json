@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Gemini Robotics 2 brings whole body intelligence to robots",
-   "text": "今日未歸戶最熱討論（hn、熱度 2103），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2146），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,19 +44,19 @@
    {
     "title": "Gemini Robotics 2 brings whole body intelligence to robots",
     "source": "hn",
-    "heat": 2103.0,
+    "heat": 2146.5,
     "url": "https://news.ycombinator.com/item?id=49111237"
    },
    {
     "title": "Advancing the price-performance frontier with GPT‑5.6",
     "source": "hn",
-    "heat": 2091.0,
+    "heat": 2115.0,
     "url": "https://news.ycombinator.com/item?id=49112867"
    },
    {
     "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
     "source": "hn",
-    "heat": 1252.5,
+    "heat": 1294.5,
     "url": "https://news.ycombinator.com/item?id=49113059",
     "what": "If an agent had a wallet, a computer, and 24 hours, could it run a profitable startup?"
    }
@@ -67,12 +67,6 @@
     "source": "r/ExperiencedDevs",
     "heat": 200.0,
     "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vbbw67/is_anyone_truly_fulfilled_by_this_career/"
-   },
-   {
-    "title": "Stacked pull requests are now in public preview - GitHub Changelog",
-    "source": "r/programming",
-    "heat": 200.0,
-    "url": "https://www.reddit.com/r/programming/comments/1vayhxm/stacked_pull_requests_are_now_in_public_preview/"
    }
   ],
   "devops": [],
@@ -145,7 +139,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 100.0,
+   "heat_today": 50.0,
    "heat_trend": [
     56.5,
     0,
@@ -153,24 +147,29 @@
     0,
     30.6,
     0,
-    100.0
+    50.0
    ]
   }
  ],
  "radar": [
   {
    "title": "UEFA and its national associations will not participate in FIFA compet",
-   "note": "hn · 熱度 1090（未歸戶）",
+   "note": "hn · 熱度 1117（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49113929"
   },
   {
+   "title": "bojieli/ai-agent-book — 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版",
+   "note": "github · 熱度 1109（未歸戶）",
+   "url": "https://github.com/bojieli/ai-agent-book"
+  },
+  {
    "title": "2x, not 10x: coding with LLMs in 2026",
-   "note": "hn · 熱度 969（未歸戶）",
+   "note": "hn · 熱度 1005（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49047839"
   },
   {
    "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-   "note": "hn · 熱度 843（未歸戶）",
+   "note": "hn · 熱度 886（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49114639"
   },
   {
@@ -182,11 +181,6 @@
    "title": "huggingface/speech-to-speech — Build local voice agents with open-sour",
    "note": "github · 熱度 565（未歸戶）",
    "url": "https://github.com/huggingface/speech-to-speech"
-  },
-  {
-   "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
-   "note": "github · 熱度 489（未歸戶）",
-   "url": "https://github.com/Panniantong/Agent-Reach"
   }
  ],
  "data_quality": [
@@ -220,11 +214,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
