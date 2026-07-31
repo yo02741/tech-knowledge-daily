@@ -6,7 +6,7 @@
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 22872.0,
+   "weight": 22882.5,
    "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-07-31"
@@ -15,7 +15,7 @@
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 16010.4,
+   "weight": 16017.7,
    "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-07-31"
@@ -51,19 +51,19 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 212.9,
-   "status": "fading",
+   "weight": 312.9,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-31"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 149.0,
-   "status": "fading",
+   "weight": 219.0,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-31"
   },
   {
    "slug": "sql-over-orm",

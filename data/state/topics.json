@@ -283,7 +283,7 @@
     },
     {
      "date": "2026-07-31",
-     "heat": 1110.6,
+     "heat": 1121.1,
      "mentions": 2
     }
    ],
@@ -556,7 +556,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-31",
    "history": [
     {
      "date": "2026-07-06",
@@ -685,11 +685,11 @@
     },
     {
      "date": "2026-07-31",
-     "heat": 0,
-     "mentions": 0
+     "heat": 100.0,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",
