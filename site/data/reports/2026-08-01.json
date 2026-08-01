@@ -1,0 +1,155 @@
+{
+ "date": "2026-08-01",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-service-worker",
+  "domain": "frontend",
+  "term": "Service Worker",
+  "tagline": "站在網頁與網路之間的可程式化代理",
+  "intro": [
+   "一段在背景執行的 JS，能攔截頁面的所有網路請求——快取回應做離線瀏覽、背景同步、推播通知，是 PWA 的核心技術。",
+   "威力大也代表要小心：快取策略寫錯會讓使用者永遠拿到舊版網站，「怎麼安全地更新 service worker」本身就是一門學問。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "MDN：Service Worker API",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] DeepSeek-V4-Flash Update",
+   "text": "今日未歸戶最熱討論（hn、熱度 2484），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "DeepSeek-V4-Flash Update",
+    "source": "hn",
+    "heat": 2484.0,
+    "url": "https://news.ycombinator.com/item?id=49119559"
+   },
+   {
+    "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+    "source": "hn",
+    "heat": 2004.0,
+    "url": "https://news.ycombinator.com/item?id=49120299",
+    "what": "Analysis of DeepSeek's DeepSeek V4 Flash 0731 (Reasoning, Max Effort) and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window &"
+   },
+   {
+    "title": "huggingface/speech-to-speech",
+    "source": "github",
+    "heat": 1147.5,
+    "url": "https://github.com/huggingface/speech-to-speech",
+    "what": "Build local voice agents with open-source models"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 844.2,
+   "heat_trend": [
+    519.3,
+    776.7,
+    0,
+    380.7,
+    1717.2,
+    1121.4,
+    844.2
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Elevators",
+   "note": "hn · 熱度 940（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49124218"
+  },
+  {
+   "title": "The session you cannot take with you",
+   "note": "hn · 熱度 834（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49118781"
+  },
+  {
+   "title": "different-ai/openwork — The open-source alternative to Claude Cowork (",
+   "note": "github · 熱度 725（未歸戶）",
+   "url": "https://github.com/different-ai/openwork"
+  },
+  {
+   "title": "Google fixed more Chrome bugs in June than over the past two years, th",
+   "note": "hn · 熱度 724（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49120097"
+  },
+  {
+   "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+   "note": "hn · 熱度 612（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49121868"
+  },
+  {
+   "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
+   "note": "github · 熱度 592（未歸戶）",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
