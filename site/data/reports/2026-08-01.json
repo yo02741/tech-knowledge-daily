@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] DeepSeek-V4-Flash Update",
-   "text": "今日未歸戶最熱討論（hn、熱度 2530），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2542），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,20 +32,20 @@
    {
     "title": "DeepSeek-V4-Flash Update",
     "source": "hn",
-    "heat": 2530.5,
+    "heat": 2542.5,
     "url": "https://news.ycombinator.com/item?id=49119559"
    },
    {
     "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
     "source": "hn",
-    "heat": 2053.5,
+    "heat": 2059.5,
     "url": "https://news.ycombinator.com/item?id=49120299",
     "what": "Analysis of DeepSeek's DeepSeek V4 Flash 0731 (Reasoning, Max Effort) and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window &"
    },
    {
     "title": "qm – Multiplayer agent harness for work",
     "source": "hn",
-    "heat": 1678.5,
+    "heat": 1710.0,
     "url": "https://news.ycombinator.com/item?id=49126604",
     "what": "Multiplayer agent harness for work. Contribute to yc-software/qm development by creating an account on GitHub."
    }
@@ -80,18 +80,18 @@
  ],
  "radar": [
   {
+   "title": "Elevators",
+   "note": "hn · 熱度 1182（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49124218"
+  },
+  {
    "title": "huggingface/speech-to-speech — Build local voice agents with open-sour",
    "note": "github · 熱度 1148（未歸戶）",
    "url": "https://github.com/huggingface/speech-to-speech"
   },
   {
-   "title": "Elevators",
-   "note": "hn · 熱度 1114（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49124218"
-  },
-  {
    "title": "Google fixed more Chrome bugs in June than over the past two years, th",
-   "note": "hn · 熱度 736（未歸戶）",
+   "note": "hn · 熱度 737（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49120097"
   },
   {
@@ -101,7 +101,7 @@
   },
   {
    "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
-   "note": "hn · 熱度 632（未歸戶）",
+   "note": "hn · 熱度 634（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49121868"
   },
   {
@@ -117,7 +117,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -133,7 +133,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
