@@ -27,10 +27,16 @@
    "topic_ref": null
   },
   {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 225（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
    "title": "[AI] Claude Code skills 生態爆發",
    "text": "熱度 102（退燒），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
-   "topic_ref": "ai-1"
+   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -45,7 +51,7 @@
    {
     "title": "Cursor removed cost information from the usage page and CSV export",
     "source": "hn",
-    "heat": 1080.0,
+    "heat": 1165.5,
     "url": "https://news.ycombinator.com/item?id=49135257",
     "what": "I just noticed Cursor Usage window switched from $$ to Token amount.  I use this Usage window closely to keep tabs on my daily/active spending, not from the spending overall page.  Today, the $$ amount is replaced by tok"
    },
@@ -65,6 +71,33 @@
   "ai": [
    {
     "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 225.0,
+    "heat_trend": [
+     82.4,
+     70.2,
+     0,
+     395.5,
+     0,
+     0,
+     225.0
+    ],
+    "what": "當日 2 則相關討論：「Fable 5 ultracode deleted 2.2M files on my server」；「I built a real self-evolving operating system: Fable-os」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Fable 5 ultracode deleted 2.2M files on my",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcsc7m/fable_5_ultracode_deleted_22m_files_on_my_server/"
+     },
+     {
+      "label": "r/ClaudeAI：I built a real self-evolving operating sys",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcv9hc/i_built_a_real_selfevolving_operating_system/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "fading",
@@ -91,29 +124,17 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "fable5-lifecycle",
-   "title": "Fable 5 使用期限與遷移策略",
-   "status": "ongoing",
-   "domain": "ai",
-   "heat_today": 175.0,
-   "heat_trend": [
-    82.4,
-    70.2,
-    0,
-    395.5,
-    0,
-    0,
-    175.0
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "Ten advances in mathematics and theoretical computer science",
-   "note": "hn · 熱度 547（未歸戶）",
+   "note": "hn · 熱度 564（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49132058"
+  },
+  {
+   "title": "How Google helped destroy adoption of RSS feeds (2023)",
+   "note": "hn · 熱度 528（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49136821"
   },
   {
    "title": "different-ai/openwork — The open-source alternative to Claude Cowork (",
@@ -126,18 +147,13 @@
    "url": "https://github.com/NousResearch/hermes-agent"
   },
   {
-   "title": "How Google helped destroy adoption of RSS feeds (2023)",
-   "note": "hn · 熱度 426（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49136821"
-  },
-  {
    "title": "huggingface/speech-to-speech — Build local voice agents with open-sour",
    "note": "github · 熱度 398（未歸戶）",
    "url": "https://github.com/huggingface/speech-to-speech"
   },
   {
    "title": "AI doesn't generate working products, that's still your job",
-   "note": "hn · 熱度 380（未歸戶）",
+   "note": "hn · 熱度 384（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49132130"
   }
  ],
@@ -164,7 +180,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -172,7 +188,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
