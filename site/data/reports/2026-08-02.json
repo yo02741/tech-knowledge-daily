@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 225（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 250（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -74,7 +74,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 225.0,
+    "heat_today": 250.0,
     "heat_trend": [
      82.4,
      70.2,
@@ -82,7 +82,7 @@
      395.5,
      0,
      0,
-     225.0
+     250.0
     ],
     "what": "當日 2 則相關討論：「Fable 5 ultracode deleted 2.2M files on my server」；「I built a real self-evolving operating system: Fable-os」。",
     "sources": [
@@ -128,12 +128,12 @@
  "radar": [
   {
    "title": "Ten advances in mathematics and theoretical computer science",
-   "note": "hn · 熱度 564（未歸戶）",
+   "note": "hn · 熱度 569（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49132058"
   },
   {
    "title": "How Google helped destroy adoption of RSS feeds (2023)",
-   "note": "hn · 熱度 528（未歸戶）",
+   "note": "hn · 熱度 540（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49136821"
   },
   {
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -192,7 +192,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
