@@ -1,0 +1,186 @@
+{
+ "date": "2026-08-02",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-db-index",
+  "domain": "backend",
+  "term": "資料庫索引",
+  "tagline": "書的目錄：查得快，但每次改書都要更新目錄",
+  "intro": [
+   "索引讓查詢從全表掃描（一頁頁翻）變成目錄查找（直接翻到那頁），千萬筆資料的查詢從秒級降到毫秒級。",
+   "代價是寫入變慢（每次 INSERT/UPDATE 都要同步維護索引）與空間佔用。「哪些欄位該建索引」看查詢模式：WHERE、JOIN、ORDER BY 常客優先，低區分度欄位（如性別）通常不值得。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Use The Index, Luke（SQL 索引聖經）",
+    "url": "https://use-the-index-luke.com/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] zhaoxuya520/reverse-skill",
+   "text": "今日未歸戶最熱討論（github、熱度 1188），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 102（退燒），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "zhaoxuya520/reverse-skill",
+    "source": "github",
+    "heat": 1188.0,
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "what": "Reverse Engineering / Authorized Penetration Testing / Securit"
+   },
+   {
+    "title": "Cursor removed cost information from the usage page and CSV export",
+    "source": "hn",
+    "heat": 1080.0,
+    "url": "https://news.ycombinator.com/item?id=49135257",
+    "what": "I just noticed Cursor Usage window switched from $$ to Token amount.  I use this Usage window closely to keep tabs on my daily/active spending, not from the spending overall page.  Today, the $$ amount is replaced by tok"
+   },
+   {
+    "title": "mvanhorn/last30days-skill",
+    "source": "github",
+    "heat": 540.0,
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "what": "AI agent skill that researches any topic across Reddit, X, You"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 101.7,
+    "heat_trend": [
+     776.7,
+     0,
+     380.7,
+     1717.2,
+     1121.4,
+     844.2,
+     101.7
+    ],
+    "what": "當日 1 則相關討論：「kangarooking/cangjie-skill — 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Sk」。",
+    "sources": [
+     {
+      "label": "github：kangarooking/cangjie-skill — 把书、长视频、播客等高价值",
+      "url": "https://github.com/kangarooking/cangjie-skill"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 175.0,
+   "heat_trend": [
+    82.4,
+    70.2,
+    0,
+    395.5,
+    0,
+    0,
+    175.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Ten advances in mathematics and theoretical computer science",
+   "note": "hn · 熱度 547（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49132058"
+  },
+  {
+   "title": "different-ai/openwork — The open-source alternative to Claude Cowork (",
+   "note": "github · 熱度 526（未歸戶）",
+   "url": "https://github.com/different-ai/openwork"
+  },
+  {
+   "title": "NousResearch/hermes-agent — The agent that grows with you",
+   "note": "github · 熱度 428（未歸戶）",
+   "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+   "title": "How Google helped destroy adoption of RSS feeds (2023)",
+   "note": "hn · 熱度 426（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49136821"
+  },
+  {
+   "title": "huggingface/speech-to-speech — Build local voice agents with open-sour",
+   "note": "github · 熱度 398（未歸戶）",
+   "url": "https://github.com/huggingface/speech-to-speech"
+  },
+  {
+   "title": "AI doesn't generate working products, that's still your job",
+   "note": "hn · 熱度 380（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49132130"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
