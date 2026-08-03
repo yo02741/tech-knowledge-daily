@@ -1,24 +1,24 @@
 {
- "date": "2026-08-02",
+ "date": "2026-08-03",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 19851.0,
-   "status": "fading",
+   "weight": 18022.5,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 13895.7,
-   "status": "fading",
+   "weight": 12615.8,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   {
    "slug": "claude-code-skills-eco",
@@ -33,10 +33,10 @@
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 6606.4,
-   "status": "rising",
+   "weight": 5872.9,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-03"
   },
   {
    "slug": "claude-code-skills-eco#1",

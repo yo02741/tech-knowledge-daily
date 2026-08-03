@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-02",
+ "last_run": "2026-08-03",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,7 +8,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-03",
    "history": [
     {
      "date": "2026-07-06",
@@ -149,9 +149,14 @@
      "date": "2026-08-02",
      "heat": 250.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-08-03",
+     "heat": 77.6,
+     "mentions": 2
     }
    ],
-   "status": "rising",
+   "status": "ongoing",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -164,7 +169,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-03",
    "history": [
     {
      "date": "2026-07-06",
@@ -305,9 +310,14 @@
      "date": "2026-08-02",
      "heat": 0,
      "mentions": 0
+    },
+    {
+     "date": "2026-08-03",
+     "heat": 748.8,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -466,6 +476,11 @@
      "date": "2026-08-02",
      "heat": 101.7,
      "mentions": 1
+    },
+    {
+     "date": "2026-08-03",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -730,6 +745,11 @@
     },
     {
      "date": "2026-08-02",
+     "heat": 0,
+     "mentions": 0
+    },
+    {
+     "date": "2026-08-03",
      "heat": 0,
      "mentions": 0
     }
