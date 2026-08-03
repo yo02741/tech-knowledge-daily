@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 78（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 77（持續），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -59,16 +59,9 @@
   ],
   "software": [
    {
-    "title": "Go 1.27 Interactive Tour",
-    "source": "hn",
-    "heat": 863.0,
-    "url": "https://news.ycombinator.com/item?id=49140218",
-    "what": "An interactive tour of what’s new in Go 1.27: every notable language, runtime, and standard library change, with short runnable examples you can edit and run in the browser."
-   },
-   {
     "title": "Developers are attached to tools because tools encode trust",
     "source": "hn",
-    "heat": 339.0,
+    "heat": 442.0,
     "url": "https://news.ycombinator.com/item?id=49097961",
     "what": "The tools themselves are new and their capabilities are in constant flux. If your kitchen knife kept changing shape, weight, and edge, you’d have to relearn it every time; that’s a hard tool to build trust in. But it als"
    }
@@ -83,7 +76,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 77.6,
+    "heat_today": 76.7,
     "heat_trend": [
      70.2,
      0,
@@ -91,7 +84,7 @@
      0,
      0,
      250.0,
-     77.6
+     76.7
     ],
     "what": "當日 2 則相關討論：「DeepSeek-V4-Flash-0731: surpasses Fable-5, Sol & Kimi-K3 on 」；「I think right now Fable is cheaper than Opus 5 in practice, 」。",
     "sources": [
@@ -136,8 +129,13 @@
   },
   {
    "title": "Karpathy’s Pelican",
-   "note": "hn · 熱度 576（未歸戶）",
+   "note": "hn · 熱度 666（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49140998"
+  },
+  {
+   "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+   "note": "hn · 熱度 549（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49150470"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
@@ -146,18 +144,13 @@
   },
   {
    "title": "Wikimedia Foundation refuses union recognition, hires union-busting la",
-   "note": "hn · 熱度 472（未歸戶）",
+   "note": "hn · 熱度 482（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49143414"
   },
   {
    "title": "NousResearch/hermes-agent — The agent that grows with you",
    "note": "github · 熱度 421（未歸戶）",
    "url": "https://github.com/NousResearch/hermes-agent"
-  },
-  {
-   "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Develo",
-   "note": "hn · 熱度 368（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49145934"
   }
  ],
  "data_quality": [
@@ -191,11 +184,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
