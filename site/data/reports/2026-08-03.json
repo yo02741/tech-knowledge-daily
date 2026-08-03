@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 77（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 93（持續），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -43,25 +43,25 @@
     "what": "Reverse Engineering / Authorized Penetration Testing / Securit"
    },
    {
+    "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+    "source": "hn",
+    "heat": 847.5,
+    "url": "https://news.ycombinator.com/item?id=49150470",
+    "what": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
+   },
+   {
     "title": "lyogavin/airllm",
     "source": "github",
     "heat": 737.1,
     "url": "https://github.com/lyogavin/airllm",
     "what": "AirLLM 70B inference with single 4GB GPU"
-   },
-   {
-    "title": "Panniantong/Agent-Reach",
-    "source": "github",
-    "heat": 593.1,
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "what": "Give your AI agent eyes to see the entire internet. Read & searc"
    }
   ],
   "software": [
    {
     "title": "Developers are attached to tools because tools encode trust",
     "source": "hn",
-    "heat": 442.0,
+    "heat": 452.0,
     "url": "https://news.ycombinator.com/item?id=49097961",
     "what": "The tools themselves are new and their capabilities are in constant flux. If your kitchen knife kept changing shape, weight, and edge, you’d have to relearn it every time; that’s a hard tool to build trust in. But it als"
    }
@@ -76,7 +76,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 76.7,
+    "heat_today": 92.6,
     "heat_trend": [
      70.2,
      0,
@@ -84,7 +84,7 @@
      0,
      0,
      250.0,
-     76.7
+     92.6
     ],
     "what": "當日 2 則相關討論：「DeepSeek-V4-Flash-0731: surpasses Fable-5, Sol & Kimi-K3 on 」；「I think right now Fable is cheaper than Opus 5 in practice, 」。",
     "sources": [
@@ -129,13 +129,13 @@
   },
   {
    "title": "Karpathy’s Pelican",
-   "note": "hn · 熱度 666（未歸戶）",
+   "note": "hn · 熱度 683（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49140998"
   },
   {
-   "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-   "note": "hn · 熱度 549（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49150470"
+   "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
+   "note": "github · 熱度 593（未歸戶）",
+   "url": "https://github.com/Panniantong/Agent-Reach"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
@@ -144,7 +144,7 @@
   },
   {
    "title": "Wikimedia Foundation refuses union recognition, hires union-busting la",
-   "note": "hn · 熱度 482（未歸戶）",
+   "note": "hn · 熱度 483（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49143414"
   },
   {
@@ -184,11 +184,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
