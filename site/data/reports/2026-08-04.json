@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] SQLite Critical CVEs or LLM Slop?",
-   "text": "今日未歸戶最熱討論（hn、熱度 2631），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2646），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,9 +38,15 @@
    {
     "title": "SQLite Critical CVEs or LLM Slop?",
     "source": "hn",
-    "heat": 2631.0,
+    "heat": 2646.0,
     "url": "https://news.ycombinator.com/item?id=49154332",
     "what": "The JFrog security research team recently identified a supply chain attack targeting the `xinference` package on PyPI. Versions 2.6.0, 2.6.1, and 2.6.2 were compromised and yanked by maintainers after users reported susp"
+   },
+   {
+    "title": "LLMs reward expertise",
+    "source": "hn",
+    "heat": 2262.0,
+    "url": "https://news.ycombinator.com/item?id=49161518"
    },
    {
     "title": "zhaoxuya520/reverse-skill",
@@ -48,12 +54,6 @@
     "heat": 2201.4,
     "url": "https://github.com/zhaoxuya520/reverse-skill",
     "what": "Reverse Engineering / Authorized Penetration Testing / Securit"
-   },
-   {
-    "title": "LLMs reward expertise",
-    "source": "hn",
-    "heat": 2047.5,
-    "url": "https://news.ycombinator.com/item?id=49161518"
    }
   ],
   "software": [
@@ -114,12 +114,12 @@
  "radar": [
   {
    "title": "Don't be a meat proxy",
-   "note": "hn · 熱度 2058（未歸戶）",
+   "note": "hn · 熱度 2062（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49151933"
   },
   {
    "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-   "note": "hn · 熱度 1752（未歸戶）",
+   "note": "hn · 熱度 1784（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49153374"
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "title": "Ten advances in mathematics and theoretical computer science",
-   "note": "hn · 熱度 840（未歸戶）",
+   "note": "hn · 熱度 866（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49157930"
   }
  ],
@@ -162,7 +162,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -174,7 +174,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
