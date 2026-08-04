@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Qwen3.8-Max: A New Bar for Coding and Cowork",
-   "text": "今日未歸戶最熱討論（hn、熱度 3993），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] SQLite Critical CVEs or LLM Slop?",
+   "text": "今日未歸戶最熱討論（hn、熱度 2631），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -36,16 +36,9 @@
  "fresh": {
   "ai": [
    {
-    "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-    "source": "hn",
-    "heat": 3993.0,
-    "url": "https://news.ycombinator.com/item?id=49150470",
-    "what": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
-   },
-   {
     "title": "SQLite Critical CVEs or LLM Slop?",
     "source": "hn",
-    "heat": 2605.5,
+    "heat": 2631.0,
     "url": "https://news.ycombinator.com/item?id=49154332",
     "what": "The JFrog security research team recently identified a supply chain attack targeting the `xinference` package on PyPI. Versions 2.6.0, 2.6.1, and 2.6.2 were compromised and yanked by maintainers after users reported susp"
    },
@@ -55,6 +48,12 @@
     "heat": 2201.4,
     "url": "https://github.com/zhaoxuya520/reverse-skill",
     "what": "Reverse Engineering / Authorized Penetration Testing / Securit"
+   },
+   {
+    "title": "LLMs reward expertise",
+    "source": "hn",
+    "heat": 2047.5,
+    "url": "https://news.ycombinator.com/item?id=49161518"
    }
   ],
   "software": [
@@ -115,18 +114,13 @@
  "radar": [
   {
    "title": "Don't be a meat proxy",
-   "note": "hn · 熱度 2037（未歸戶）",
+   "note": "hn · 熱度 2058（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49151933"
   },
   {
    "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-   "note": "hn · 熱度 1584（未歸戶）",
+   "note": "hn · 熱度 1752（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49153374"
-  },
-  {
-   "title": "LLMs reward expertise",
-   "note": "hn · 熱度 1312（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49161518"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
@@ -142,6 +136,11 @@
    "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
    "note": "github · 熱度 951（未歸戶）",
    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+   "title": "Ten advances in mathematics and theoretical computer science",
+   "note": "hn · 熱度 840（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49157930"
   }
  ],
  "data_quality": [
