@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] AI-Generated Images Discourage Me from Reading Your Blog",
-   "text": "今日未歸戶最熱討論（hn、熱度 2876），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2886），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 374（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 378（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -44,7 +44,7 @@
    {
     "title": "AI-Generated Images Discourage Me from Reading Your Blog",
     "source": "hn",
-    "heat": 2875.5,
+    "heat": 2886.0,
     "url": "https://news.ycombinator.com/item?id=49167113",
     "what": "If you’re willing to use AI-generated images, how do I know the text isn’t AI-generated?"
    },
@@ -123,7 +123,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 374.5,
+    "heat_today": 378.1,
     "heat_trend": [
      395.5,
      0,
@@ -131,7 +131,7 @@
      250.0,
      92.6,
      0,
-     374.5
+     378.1
     ],
     "what": "當日 4 則相關討論：「This CEO challenged Fable to hack it's wallet」；「I was talking about space with fable and it said this and it」；「Fable usage didn't run out before weekly reset?」。",
     "sources": [
@@ -195,7 +195,7 @@
  "radar": [
   {
    "title": "Apple says more ex-employees may have taken confidential data to OpenA",
-   "note": "hn · 熱度 1401（未歸戶）",
+   "note": "hn · 熱度 1414（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49170479"
   },
   {
@@ -204,14 +204,14 @@
    "url": "https://news.ycombinator.com/item?id=49166386"
   },
   {
-   "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-   "note": "hn · 熱度 1113（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49171268"
+   "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+   "note": "hn · 熱度 1162（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49173165"
   },
   {
-   "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
-   "note": "hn · 熱度 1086（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49173165"
+   "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+   "note": "hn · 熱度 1154（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49171268"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
@@ -220,7 +220,7 @@
   },
   {
    "title": "Xbox goes down. You can't play games you own on disc",
-   "note": "hn · 熱度 920（未歸戶）",
+   "note": "hn · 熱度 926（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49167448"
   }
  ],
@@ -247,7 +247,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -259,7 +259,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
