@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] AI-Generated Images Discourage Me from Reading Your Blog",
-   "text": "今日未歸戶最熱討論（hn、熱度 2835），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2876），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 373（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 374（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -44,7 +44,7 @@
    {
     "title": "AI-Generated Images Discourage Me from Reading Your Blog",
     "source": "hn",
-    "heat": 2835.0,
+    "heat": 2875.5,
     "url": "https://news.ycombinator.com/item?id=49167113",
     "what": "If you’re willing to use AI-generated images, how do I know the text isn’t AI-generated?"
    },
@@ -72,10 +72,10 @@
     "what": "Fast Rust library for PDF inspection, classification, and text e"
    },
    {
-    "title": "Experienced Devs Weekly Burnout and Venting Thread: A weekly thread for sharing experience",
+    "title": "Which companies/positions offer pure technical roles?",
     "source": "r/ExperiencedDevs",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1veyd3e/experienced_devs_weekly_burnout_and_venting/"
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vf47v1/which_companiespositions_offer_pure_technical/"
    }
   ],
   "devops": [],
@@ -123,7 +123,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 373.1,
+    "heat_today": 374.5,
     "heat_trend": [
      395.5,
      0,
@@ -131,9 +131,9 @@
      250.0,
      92.6,
      0,
-     373.1
+     374.5
     ],
-    "what": "當日 4 則相關討論：「This CEO challenged Fable to hack it's wallet」；「I was talking about space with fable and it said this and it」；「Since the usage bug (#82506), Opus/Fable output quality feel」。",
+    "what": "當日 4 則相關討論：「This CEO challenged Fable to hack it's wallet」；「I was talking about space with fable and it said this and it」；「Fable usage didn't run out before weekly reset?」。",
     "sources": [
      {
       "label": "r/ClaudeAI：This CEO challenged Fable to hack it's wal",
@@ -144,12 +144,12 @@
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf362a/i_was_talking_about_space_with_fable_and_it_said/"
      },
      {
-      "label": "r/ClaudeAI：Since the usage bug (#82506), Opus/Fable o",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vflegk/since_the_usage_bug_82506_opusfable_output/"
-     },
-     {
       "label": "r/ClaudeAI：Fable usage didn't run out before weekly r",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfm07o/fable_usage_didnt_run_out_before_weekly_reset/"
+     },
+     {
+      "label": "r/ClaudeAI：Since the usage bug (#82506), Opus/Fable o",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vflegk/since_the_usage_bug_82506_opusfable_output/"
      }
     ]
    }
@@ -195,13 +195,23 @@
  "radar": [
   {
    "title": "Apple says more ex-employees may have taken confidential data to OpenA",
-   "note": "hn · 熱度 1350（未歸戶）",
+   "note": "hn · 熱度 1401（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49170479"
   },
   {
    "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-   "note": "hn · 熱度 1220（未歸戶）",
+   "note": "hn · 熱度 1238（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49166386"
+  },
+  {
+   "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+   "note": "hn · 熱度 1113（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49171268"
+  },
+  {
+   "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+   "note": "hn · 熱度 1086（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49173165"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
@@ -209,19 +219,9 @@
    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
   },
   {
-   "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-   "note": "hn · 熱度 987（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49171268"
-  },
-  {
    "title": "Xbox goes down. You can't play games you own on disc",
-   "note": "hn · 熱度 891（未歸戶）",
+   "note": "hn · 熱度 920（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49167448"
-  },
-  {
-   "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
-   "note": "github · 熱度 860（未歸戶）",
-   "url": "https://github.com/Panniantong/Agent-Reach"
   }
  ],
  "data_quality": [
