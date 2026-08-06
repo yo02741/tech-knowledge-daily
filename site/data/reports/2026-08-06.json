@@ -1,0 +1,180 @@
+{
+ "date": "2026-08-06",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-css-grid",
+  "domain": "frontend",
+  "term": "CSS Grid vs Flexbox",
+  "tagline": "二維排版用 Grid，一維排列用 Flex",
+  "intro": [
+   "Flexbox 擅長「一排東西怎麼分配空間」（導覽列、卡片列），Grid 擅長「整個版面的行列結構」（雜誌版型、儀表板）。",
+   "實務上兩者混用：Grid 切大版面、Flex 排版面內的小元件。糾結選哪個時，問自己：我在排「一條線」還是「一張網」？"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "CSS-Tricks：A Complete Guide to Grid",
+    "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] TencentCloud/TencentDB-Agent-Memory",
+   "text": "今日未歸戶最熱討論（github、熱度 1703），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 484（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "TencentCloud/TencentDB-Agent-Memory",
+    "source": "github",
+    "heat": 1702.8,
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "what": "TencentDB Agent Memory is a team-level memory hub fo"
+   },
+   {
+    "title": "Cloudflare OS: an open platform for agents, apps, and work",
+    "source": "hn",
+    "heat": 1698.0,
+    "url": "https://news.ycombinator.com/item?id=49182996",
+    "what": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates."
+   },
+   {
+    "title": "Position: LLMs Can't Jump",
+    "source": "hn",
+    "heat": 949.5,
+    "url": "https://news.ycombinator.com/item?id=49181083"
+   }
+  ],
+  "software": [
+   {
+    "title": "firecrawl/pdf-inspector",
+    "source": "github",
+    "heat": 949.2,
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "what": "Fast Rust library for PDF inspection, classification, and text e"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 484.2,
+    "heat_trend": [
+     1121.1,
+     0,
+     0,
+     748.8,
+     1139.4,
+     1587.0,
+     484.2
+    ],
+    "what": "當日 2 則相關討論：「huangruiteng/loopx — Lightweight loop engineering state kern」；「Alishahryar1/free-claude-code — Use Claude Code, Codex and P」。",
+    "sources": [
+     {
+      "label": "github：huangruiteng/loopx — Lightweight loop engi",
+      "url": "https://github.com/huangruiteng/loopx"
+     },
+     {
+      "label": "github：Alishahryar1/free-claude-code — Use Claude",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development ",
+   "note": "github · 熱度 838（未歸戶）",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "cloudflare/computer — Give your agent a computer 👾",
+   "note": "github · 熱度 802（未歸戶）",
+   "url": "https://github.com/cloudflare/computer"
+  },
+  {
+   "title": "lyogavin/airllm — AirLLM 70B inference with single 4GB GPU",
+   "note": "github · 熱度 750（未歸戶）",
+   "url": "https://github.com/lyogavin/airllm"
+  },
+  {
+   "title": "Discovery Loop",
+   "note": "hn · 熱度 720（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49184960"
+  },
+  {
+   "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dea",
+   "note": "hn · 熱度 716（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49184755"
+  },
+  {
+   "title": "esengine/DeepSeek-Reasonix — DeepSeek-native AI coding agent for your ",
+   "note": "github · 熱度 672（未歸戶）",
+   "url": "https://github.com/esengine/DeepSeek-Reasonix"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
