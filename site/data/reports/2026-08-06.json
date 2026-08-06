@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Cloudflare OS: an open platform for agents, apps, and work",
-   "text": "今日未歸戶最熱討論（hn、熱度 1842），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1887），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -31,6 +31,12 @@
    "text": "熱度 518（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 65（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -38,7 +44,7 @@
    {
     "title": "Cloudflare OS: an open platform for agents, apps, and work",
     "source": "hn",
-    "heat": 1842.0,
+    "heat": 1887.0,
     "url": "https://news.ycombinator.com/item?id=49182996",
     "what": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates."
    },
@@ -52,7 +58,7 @@
    {
     "title": "Position: LLMs Can't Jump",
     "source": "hn",
-    "heat": 1003.5,
+    "heat": 1033.5,
     "url": "https://news.ycombinator.com/item?id=49181083"
    }
   ],
@@ -100,6 +106,33 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgnmny/prime_agent_a_new_coding_harness_surpassing/"
      }
     ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 65.0,
+    "heat_trend": [
+     0,
+     0,
+     250.0,
+     92.6,
+     0,
+     378.1,
+     65.0
+    ],
+    "what": "當日 2 則相關討論：「I gave Claude Fable a domain and said You can build whatever」；「Discussion Hub for new Claude incident: Degraded performance」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：I gave Claude Fable a domain and said You ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgo8vt/i_gave_claude_fable_a_domain_and_said_you_can/"
+     },
+     {
+      "label": "r/ClaudeAI：Discussion Hub for new Claude incident: De",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vg0111/discussion_hub_for_new_claude_incident_degraded/"
+     }
+    ]
    }
   ],
   "software": [],
@@ -109,14 +142,19 @@
  "tracking": [],
  "radar": [
   {
+   "title": "Discovery Loop",
+   "note": "hn · 熱度 862（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49184960"
+  },
+  {
    "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dea",
-   "note": "hn · 熱度 842（未歸戶）",
+   "note": "hn · 熱度 862（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49184755"
   },
   {
-   "title": "Discovery Loop",
-   "note": "hn · 熱度 838（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49184960"
+   "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+   "note": "hn · 熱度 855（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49186762"
   },
   {
    "title": "obra/superpowers — An agentic skills framework & software development ",
@@ -124,19 +162,14 @@
    "url": "https://github.com/obra/superpowers"
   },
   {
-   "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-   "note": "hn · 熱度 818（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49186762"
-  },
-  {
    "title": "cloudflare/computer — Give your agent a computer 👾",
    "note": "github · 熱度 802（未歸戶）",
    "url": "https://github.com/cloudflare/computer"
   },
   {
-   "title": "lyogavin/airllm — AirLLM 70B inference with single 4GB GPU",
-   "note": "github · 熱度 750（未歸戶）",
-   "url": "https://github.com/lyogavin/airllm"
+   "title": "Born Against, or why hobby programming communities are against LLM usa",
+   "note": "hn · 熱度 783（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49187061"
   }
  ],
  "data_quality": [
@@ -158,7 +191,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -170,7 +203,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
