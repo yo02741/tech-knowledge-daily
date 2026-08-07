@@ -45,14 +45,14 @@
    {
     "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
     "source": "hn",
-    "heat": 1824.0,
+    "heat": 1926.0,
     "url": "https://news.ycombinator.com/item?id=49201970",
     "what": "Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second"
    },
    {
     "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
     "source": "hn",
-    "heat": 1804.5,
+    "heat": 1831.5,
     "url": "https://news.ycombinator.com/item?id=49200652",
     "what": "Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency."
    }
@@ -149,12 +149,12 @@
   },
   {
    "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k ga",
-   "note": "hn · 熱度 1077（未歸戶）",
+   "note": "hn · 熱度 1092（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49195468"
   },
   {
    "title": "Mario Meets Pareto",
-   "note": "hn · 熱度 996（未歸戶）",
+   "note": "hn · 熱度 1006（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49195231"
   },
   {
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -208,7 +208,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
