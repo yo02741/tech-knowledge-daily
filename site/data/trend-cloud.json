@@ -1,48 +1,48 @@
 {
- "date": "2026-08-06",
+ "date": "2026-08-07",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 16117.8,
-   "status": "fading",
+   "weight": 15329.4,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-06"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 11282.5,
-   "status": "fading",
+   "weight": 10730.6,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-06"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 7313.1,
-   "status": "fading",
+   "weight": 6620.1,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 5119.2,
-   "status": "fading",
+   "weight": 4634.1,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 2563.3,
+   "weight": 1453.3,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-08-06"
@@ -51,19 +51,19 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 186.8,
-   "status": "fading",
+   "weight": 206.8,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 130.8,
-   "status": "fading",
+   "weight": 144.8,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-07"
   },
   {
    "slug": "sql-over-orm",
