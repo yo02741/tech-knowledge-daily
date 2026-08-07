@@ -43,16 +43,16 @@
     "what": "Give your agent a computer 👾"
    },
    {
-    "title": "mattpocock/skills",
-    "source": "github",
-    "heat": 1685.7,
-    "url": "https://github.com/mattpocock/skills",
-    "what": "Skills for Real Engineers. Straight from my .agents directory."
+    "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+    "source": "hn",
+    "heat": 1824.0,
+    "url": "https://news.ycombinator.com/item?id=49201970",
+    "what": "Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second"
    },
    {
     "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
     "source": "hn",
-    "heat": 1638.0,
+    "heat": 1804.5,
     "url": "https://news.ycombinator.com/item?id=49200652",
     "what": "Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency."
    }
@@ -129,7 +129,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 20.0,
+   "heat_today": 25.0,
    "heat_trend": [
     2.1,
     0,
@@ -137,30 +137,30 @@
     0,
     0,
     0,
-    20.0
+    25.0
    ]
   }
  ],
  "radar": [
   {
-   "title": "AMD acquires Taalas to boost inference performance by etching models i",
-   "note": "hn · 熱度 1326（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49201970"
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1686（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
   },
   {
    "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k ga",
-   "note": "hn · 熱度 1020（未歸戶）",
+   "note": "hn · 熱度 1077（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49195468"
+  },
+  {
+   "title": "Mario Meets Pareto",
+   "note": "hn · 熱度 996（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49195231"
   },
   {
    "title": "TencentCloud/TencentDB-Agent-Memory — TencentDB Agent Memory is a team",
    "note": "github · 熱度 951（未歸戶）",
    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
-  },
-  {
-   "title": "Mario Meets Pareto",
-   "note": "hn · 熱度 924（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49195231"
   },
   {
    "title": "esengine/DeepSeek-Reasonix — DeepSeek-native AI coding agent for your ",
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
