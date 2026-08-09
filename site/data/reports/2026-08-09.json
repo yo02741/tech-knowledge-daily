@@ -1,0 +1,231 @@
+{
+ "date": "2026-08-09",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-reverse-proxy",
+  "domain": "devops",
+  "term": "反向代理（Reverse Proxy）",
+  "tagline": "站在你的服務前面接客的門面",
+  "intro": [
+   "使用者以為在跟你的網站說話，其實先經過 Nginx/Caddy 這類反向代理：它負責 TLS 終結、負載均衡、快取、壓縮、限流，後端服務只管業務邏輯。",
+   "「正向代理幫客戶端隱藏身分、反向代理幫伺服器分擔門面」——方向是以誰被代理來分的。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Cloudflare：What is a reverse proxy",
+    "url": "https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] DeepSeek V4 Flash 0731",
+   "text": "今日未歸戶最熱討論（hn、熱度 2952），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 1012（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 233（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "DeepSeek V4 Flash 0731",
+    "source": "hn",
+    "heat": 2952.0,
+    "url": "https://news.ycombinator.com/item?id=49214008",
+    "what": "DeepSeek V4 Flash 0731 reasoning variants across ARC-AGI-1, ARC-AGI-2, and ARC-AGI-3."
+   },
+   {
+    "title": "PrimeIntellect-ai/prime-agent",
+    "source": "github",
+    "heat": 2234.7,
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "what": "A self-improving RLM agent for coding workflows and long-r"
+   },
+   {
+    "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+    "source": "hn",
+    "heat": 1446.0,
+    "url": "https://news.ycombinator.com/item?id=49220609",
+    "what": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about “the Hugging Face Incident” (previously on this blog). The video was published yesterday. It’s short and information …"
+   }
+  ],
+  "software": [
+   {
+    "title": "firecrawl/firecrawl",
+    "source": "github",
+    "heat": 318.6,
+    "url": "https://github.com/firecrawl/firecrawl",
+    "what": "The context API to search, scrape, and interact with the web at scal"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 1012.5,
+    "heat_trend": [
+     0,
+     0,
+     325.8,
+     0,
+     86.4,
+     317.4,
+     1012.5
+    ],
+    "what": "當日 2 則相關討論：「virgiliojr94/book-to-skill — Turn any technical book PDF int」；「google/skills — Agent Skills for Google products and technol」。",
+    "sources": [
+     {
+      "label": "github：virgiliojr94/book-to-skill — Turn any tech",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+     },
+     {
+      "label": "github：google/skills — Agent Skills for Google pr",
+      "url": "https://github.com/google/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 233.0,
+    "heat_trend": [
+     748.8,
+     1139.4,
+     1587.0,
+     517.5,
+     947.7,
+     710.1,
+     233.0
+    ],
+    "what": "當日 2 則相關討論：「huangruiteng/loopx — Lightweight loop engineering state kern」；「I benchmarked 5 token saving tools across Codex and Claude c」。",
+    "sources": [
+     {
+      "label": "github：huangruiteng/loopx — Lightweight loop engi",
+      "url": "https://github.com/huangruiteng/loopx"
+     },
+     {
+      "label": "r/ClaudeAI：I benchmarked 5 token saving tools across ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1viyokr/i_benchmarked_5_token_saving_tools_across_codex/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 99.0,
+   "heat_trend": [
+    92.6,
+    0,
+    378.1,
+    65.0,
+    16.7,
+    127.3,
+    99.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1223（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "cloudflare/computer — Give your agent a computer 👾",
+   "note": "github · 熱度 940（未歸戶）",
+   "url": "https://github.com/cloudflare/computer"
+  },
+  {
+   "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signa",
+   "note": "hn · 熱度 862（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49215786"
+  },
+  {
+   "title": "“Code was never the hard part” is an insult to all programmers",
+   "note": "hn · 熱度 710（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49222189"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
+   "note": "github · 熱度 701（未歸戶）",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "Danish high schoolers will have to verbally defend written assignments",
+   "note": "hn · 熱度 606（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49224294"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
