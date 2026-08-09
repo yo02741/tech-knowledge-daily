@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 124（上升），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 125（上升），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -57,7 +57,7 @@
    {
     "title": "Timeline of the OpenAI accidental attack against Hugging Face",
     "source": "hn",
-    "heat": 1573.5,
+    "heat": 1608.0,
     "url": "https://news.ycombinator.com/item?id=49220609",
     "what": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about “the Hugging Face Incident” (previously on this blog). The video was published yesterday. It’s short and information …"
    },
@@ -142,7 +142,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 124.4,
+    "heat_today": 125.0,
     "heat_trend": [
      92.6,
      0,
@@ -150,7 +150,7 @@
      65.0,
      16.7,
      127.3,
-     124.4
+     125.0
     ],
     "what": "當日 5 則相關討論：「Asking Fable 5 Extra - \"What question f*cks you off the most」；「Fable is still the best model at the end of the day :((」；「Sol writes like a lawyer, but Fable bills like one: a week o」。",
     "sources": [
@@ -180,18 +180,18 @@
  "tracking": [],
  "radar": [
   {
+   "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signa",
+   "note": "hn · 熱度 942（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49215786"
+  },
+  {
    "title": "cloudflare/computer — Give your agent a computer 👾",
    "note": "github · 熱度 940（未歸戶）",
    "url": "https://github.com/cloudflare/computer"
   },
   {
-   "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signa",
-   "note": "hn · 熱度 918（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49215786"
-  },
-  {
    "title": "“Code was never the hard part” is an insult to all programmers",
-   "note": "hn · 熱度 776（未歸戶）",
+   "note": "hn · 熱度 792（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49222189"
   },
   {
@@ -201,12 +201,12 @@
   },
   {
    "title": "Danish high schoolers will have to verbally defend written assignments",
-   "note": "hn · 熱度 642（未歸戶）",
+   "note": "hn · 熱度 651（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49224294"
   },
   {
    "title": "US Military's cyber command unit grapples with cluster of deaths by su",
-   "note": "hn · 熱度 453（未歸戶）",
+   "note": "hn · 熱度 464（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49220339"
   }
  ],
@@ -245,7 +245,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
