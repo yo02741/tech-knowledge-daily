@@ -51,7 +51,7 @@
    {
     "title": "How I use LLMs to learn complex topics",
     "source": "hn",
-    "heat": 1354.5,
+    "heat": 1771.5,
     "url": "https://news.ycombinator.com/item?id=49234675",
     "what": "LLMs are used for any things. Learning new things is one of the top use cases."
    },
@@ -130,7 +130,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 49.5,
+   "heat_today": 45.8,
    "heat_trend": [
     0,
     378.1,
@@ -138,14 +138,14 @@
     16.7,
     127.3,
     125.0,
-    49.5
+    45.8
    ]
   }
  ],
  "radar": [
   {
    "title": "Mea Culpa – Dark Hours",
-   "note": "hn · 熱度 670（未歸戶）",
+   "note": "hn · 熱度 696（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49231154"
   },
   {
@@ -154,24 +154,24 @@
    "url": "https://github.com/addyosmani/agent-skills"
   },
   {
+   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+   "note": "hn · 熱度 548（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49232138"
+  },
+  {
    "title": "TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financi",
    "note": "github · 熱度 538（未歸戶）",
    "url": "https://github.com/TauricResearch/TradingAgents"
   },
   {
-   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
-   "note": "hn · 熱度 487（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49232138"
+   "title": "Ask HN: What are you working on? (August 2026)",
+   "note": "hn · 熱度 520（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49233423"
   },
   {
    "title": "cloudflare/computer — Give your agent a computer 👾",
    "note": "github · 熱度 451（未歸戶）",
    "url": "https://github.com/cloudflare/computer"
-  },
-  {
-   "title": "Ask HN: What are you working on? (August 2026)",
-   "note": "hn · 熱度 450（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49233423"
   }
  ],
  "data_quality": [
