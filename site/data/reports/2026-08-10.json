@@ -1,0 +1,219 @@
+{
+ "date": "2026-08-10",
+ "weekday": "一",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-tokenizer",
+  "domain": "ai",
+  "term": "Tokenizer",
+  "tagline": "模型眼中的「字」跟你想的不一樣",
+  "intro": [
+   "模型不是逐字處理文字，而是先切成 token——常見英文詞可能是一個 token，中文常常一個字就要一到兩個 token，程式碼和罕見詞會被切得更碎。",
+   "這解釋了很多怪現象：為什麼中文比英文貴、為什麼模型數不清字數、為什麼改一個標點會影響輸出。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "OpenAI Tokenizer 試玩",
+    "url": "https://platform.openai.com/tokenizer"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] PrimeIntellect-ai/prime-agent",
+   "text": "今日未歸戶最熱討論（github、熱度 2120），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 986（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 750（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "PrimeIntellect-ai/prime-agent",
+    "source": "github",
+    "heat": 2120.4,
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "what": "A self-improving RLM agent for coding workflows and long-r"
+   },
+   {
+    "title": "How I use LLMs to learn complex topics",
+    "source": "hn",
+    "heat": 1354.5,
+    "url": "https://news.ycombinator.com/item?id=49234675",
+    "what": "LLMs are used for any things. Learning new things is one of the top use cases."
+   },
+   {
+    "title": "msitarzewski/agency-agents",
+    "source": "github",
+    "heat": 772.2,
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "what": "A complete AI agency at your fingertips - From frontend wizar"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 986.4,
+    "heat_trend": [
+     0,
+     325.8,
+     0,
+     86.4,
+     317.4,
+     1012.5,
+     986.4
+    ],
+    "what": "當日 2 則相關討論：「virgiliojr94/book-to-skill — Turn any technical book PDF int」；「google/skills — Agent Skills for Google products and technol」。",
+    "sources": [
+     {
+      "label": "github：virgiliojr94/book-to-skill — Turn any tech",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+     },
+     {
+      "label": "github：google/skills — Agent Skills for Google pr",
+      "url": "https://github.com/google/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 749.7,
+    "heat_trend": [
+     1139.4,
+     1587.0,
+     517.5,
+     947.7,
+     710.1,
+     234.5,
+     749.7
+    ],
+    "what": "當日 1 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」。",
+    "sources": [
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 49.5,
+   "heat_trend": [
+    0,
+    378.1,
+    65.0,
+    16.7,
+    127.3,
+    125.0,
+    49.5
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Mea Culpa – Dark Hours",
+   "note": "hn · 熱度 670（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49231154"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
+   "note": "github · 熱度 612（未歸戶）",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financi",
+   "note": "github · 熱度 538（未歸戶）",
+   "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+   "note": "hn · 熱度 487（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49232138"
+  },
+  {
+   "title": "cloudflare/computer — Give your agent a computer 👾",
+   "note": "github · 熱度 451（未歸戶）",
+   "url": "https://github.com/cloudflare/computer"
+  },
+  {
+   "title": "Ask HN: What are you working on? (August 2026)",
+   "note": "hn · 熱度 450（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49233423"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

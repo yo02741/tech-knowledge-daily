@@ -1,57 +1,57 @@
 {
- "date": "2026-08-09",
+ "date": "2026-08-10",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 11163.8,
-   "status": "fading",
+   "weight": 10935.2,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-10"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 7814.7,
-   "status": "fading",
+   "weight": 7654.6,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-10"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 6684.0,
+   "weight": 6893.7,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-10"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 4678.8,
+   "weight": 4825.6,
    "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-10"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1602.8,
-   "status": "rising",
+   "weight": 1569.9,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-10"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 167.8,
+   "weight": 120.2,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-08"
@@ -60,7 +60,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 117.5,
+   "weight": 84.1,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-08"
@@ -69,7 +69,7 @@
    "slug": "sql-over-orm",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "ORM",
-   "weight": 13.8,
+   "weight": 9.0,
    "status": "fading",
    "domain": "software",
    "last_seen": "2026-08-05"
@@ -78,7 +78,7 @@
    "slug": "sql-over-orm#1",
    "display": "ORM 之爭再起：直接學 SQL",
    "label": "SQL",
-   "weight": 9.7,
+   "weight": 6.3,
    "status": "fading",
    "domain": "software",
    "last_seen": "2026-08-05"
