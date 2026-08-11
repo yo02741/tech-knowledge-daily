@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Muse Glimmer: 30B-parameter model optimized for always-on lo",
-   "text": "今日未歸戶最熱討論（hn、熱度 4018），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4041），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,13 +34,13 @@
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 563（持續），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 564（持續），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 91（持續），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 119（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -50,14 +50,14 @@
    {
     "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
     "source": "hn",
-    "heat": 4018.5,
+    "heat": 4041.0,
     "url": "https://news.ycombinator.com/item?id=49241679",
     "what": "Muse Glimmer is a 30-billion-parameter open agentic model from Meta Superintelligence Labs, optimized for always-on local workflows on consumer hardware."
    },
    {
     "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
     "source": "hn",
-    "heat": 2412.0,
+    "heat": 2427.0,
     "url": "https://news.ycombinator.com/item?id=49239751",
     "what": "Secure sandboxes for Claude Code, Gemini, Codex, and Kiro. Run coding agents with microVM-based isolation."
    },
@@ -107,7 +107,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "ongoing",
-    "heat_today": 563.3,
+    "heat_today": 564.0,
     "heat_trend": [
      325.8,
      0,
@@ -115,7 +115,7 @@
      317.4,
      1012.5,
      986.4,
-     563.3
+     564.0
     ],
     "what": "當日 3 則相關討論：「google/skills — Agent Skills for Google products and technol」；「vercel-labs/skills — The open agent skills tool - npx skills」；「I build and test Claude Skills for digital professionals - S」。",
     "sources": [
@@ -138,7 +138,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 91.3,
+    "heat_today": 118.8,
     "heat_trend": [
      378.1,
      65.0,
@@ -146,9 +146,9 @@
      127.3,
      125.0,
      39.3,
-     91.3
+     118.8
     ],
-    "what": "當日 3 則相關討論：「Just realized why Fable can't stop saying \"load-bearing\"」；「Reverse-Engineering Anthropic's Live System Prompts: Fable 5」；「Claude Desktop on Windows quietly sandboxes everything it ru」。",
+    "what": "當日 4 則相關討論：「Just realized why Fable can't stop saying \"load-bearing\"」；「Reverse-Engineering Anthropic's Live System Prompts: Fable 5」；「Getting more work done with Fable 5」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Just realized why Fable can't stop saying ",
@@ -157,6 +157,10 @@
      {
       "label": "r/ClaudeAI：Reverse-Engineering Anthropic's Live Syste",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkki3k/reverseengineering_anthropics_live_system_prompts/"
+     },
+     {
+      "label": "r/ClaudeAI：Getting more work done with Fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkortl/getting_more_work_done_with_fable_5/"
      },
      {
       "label": "r/ClaudeAI：Claude Desktop on Windows quietly sandboxe",
@@ -189,18 +193,13 @@
  ],
  "radar": [
   {
-   "title": "Auto mode is now the default in Claude Code",
-   "note": "hn · 熱度 1282（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49239021"
-  },
-  {
    "title": "msitarzewski/agency-agents — A complete AI agency at your fingertips -",
    "note": "github · 熱度 1214（未歸戶）",
    "url": "https://github.com/msitarzewski/agency-agents"
   },
   {
    "title": "Mistral Patent for “Code implemented tool calls”",
-   "note": "hn · 熱度 891（未歸戶）",
+   "note": "hn · 熱度 897（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49243397"
   },
   {
@@ -210,13 +209,18 @@
   },
   {
    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home a",
-   "note": "hn · 熱度 693（未歸戶）",
+   "note": "hn · 熱度 762（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49246804"
   },
   {
    "title": "Learning more about Claude's mathematical capabilities",
-   "note": "hn · 熱度 668（未歸戶）",
+   "note": "hn · 熱度 682（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49247070"
+  },
+  {
+   "title": "Humanising LLM Outputs Is Dumb",
+   "note": "hn · 熱度 660（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49243474"
   }
  ],
  "data_quality": [
