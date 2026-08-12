@@ -1,58 +1,58 @@
 {
- "date": "2026-08-11",
+ "date": "2026-08-12",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 11713.7,
-   "status": "rising",
+   "weight": 9647.6,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-08-11"
-  },
-  {
-   "slug": "codex-claude-interop#1",
-   "display": "OpenAI Codex ↔ Claude Code 互操作",
-   "label": "Claude Code",
-   "weight": 8199.6,
-   "status": "rising",
-   "domain": "ai",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 7457.7,
+   "weight": 7513.5,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
+  },
+  {
+   "slug": "codex-claude-interop#1",
+   "display": "OpenAI Codex ↔ Claude Code 互操作",
+   "label": "Claude Code",
+   "weight": 6753.3,
+   "status": "fading",
+   "domain": "ai",
+   "last_seen": "2026-08-12"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 5220.4,
+   "weight": 5259.4,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1608.3,
+   "weight": 1671.3,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 220.2,
-   "status": "ongoing",
+   "weight": 189.6,
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-11"
   },
@@ -60,8 +60,8 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 154.1,
-   "status": "ongoing",
+   "weight": 132.7,
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-11"
   },
