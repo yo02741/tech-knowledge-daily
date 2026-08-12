@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Stealing Reasoning Traces from Proprietary LLM APIs",
-   "text": "今日未歸戶最熱討論（hn、熱度 1887），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1935），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,14 +44,14 @@
    {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "source": "hn",
-    "heat": 1887.0,
+    "heat": 1935.0,
     "url": "https://news.ycombinator.com/item?id=49257876",
     "what": "Encrypted chain-of-thought blocks returned by Anthropic, OpenAI and Google APIs are interchangeable across sessions, users and models. We exploit this to decode hidden reasoning at scale."
    },
    {
     "title": "OpenAI’s head of ethics leaves less than a year after joining",
     "source": "hn",
-    "heat": 1467.0,
+    "heat": 1507.5,
     "url": "https://news.ycombinator.com/item?id=49257160"
    },
    {
@@ -66,7 +66,7 @@
    {
     "title": "Go is an ideal language for AI-assisted software engineering",
     "source": "hn",
-    "heat": 930.0,
+    "heat": 960.0,
     "url": "https://news.ycombinator.com/item?id=49261133",
     "what": "As AI shifts software engineering from writing to reviewing, discover how Go's strict compiler and unified toolchain ensure reliable AI-generated code."
    }
@@ -156,7 +156,7 @@
  "radar": [
   {
    "title": "France to ban unsolicited telemarketing calls",
-   "note": "hn · 熱度 1230（未歸戶）",
+   "note": "hn · 熱度 1232（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49254880"
   },
   {
@@ -181,7 +181,7 @@
   },
   {
    "title": "England set to be one of the first countries to eliminate hepatitis C",
-   "note": "hn · 熱度 674（未歸戶）",
+   "note": "hn · 熱度 678（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49257377"
   }
  ],
@@ -192,7 +192,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -204,7 +204,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
