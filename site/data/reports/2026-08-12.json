@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Stealing Reasoning Traces from Proprietary LLM APIs",
-   "text": "今日未歸戶最熱討論（hn、熱度 1724），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1887），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 63（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 77（持續），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -44,29 +44,29 @@
    {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "source": "hn",
-    "heat": 1723.5,
+    "heat": 1887.0,
     "url": "https://news.ycombinator.com/item?id=49257876",
     "what": "Encrypted chain-of-thought blocks returned by Anthropic, OpenAI and Google APIs are interchangeable across sessions, users and models. We exploit this to decode hidden reasoning at scale."
    },
    {
-    "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
-    "source": "hn",
-    "heat": 1405.5,
-    "url": "https://news.ycombinator.com/item?id=49252179",
-    "what": "MiniMax H3 inference engine for Mac computers. Contribute to antirez/h3.c development by creating an account on GitHub."
-   },
-   {
     "title": "OpenAI’s head of ethics leaves less than a year after joining",
     "source": "hn",
-    "heat": 1279.5,
+    "heat": 1467.0,
     "url": "https://news.ycombinator.com/item?id=49257160"
+   },
+   {
+    "title": "PrimeIntellect-ai/prime-agent",
+    "source": "github",
+    "heat": 1024.2,
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "what": "A self-improving RLM agent for coding workflows and long-r"
    }
   ],
   "software": [
    {
     "title": "Go is an ideal language for AI-assisted software engineering",
     "source": "hn",
-    "heat": 760.0,
+    "heat": 930.0,
     "url": "https://news.ycombinator.com/item?id=49261133",
     "what": "As AI shifts software engineering from writing to reviewing, discover how Go's strict compiler and unified toolchain ensure reliable AI-generated code."
    }
@@ -108,7 +108,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 63.0,
+    "heat_today": 76.7,
     "heat_trend": [
      65.0,
      16.7,
@@ -116,7 +116,7 @@
      125.0,
      39.3,
      118.8,
-     63.0
+     76.7
     ],
     "what": "當日 2 則相關討論：「Fable 5 vs Opus 5 for 2D Sprites」；「Fable is humble」。",
     "sources": [
@@ -156,17 +156,12 @@
  "radar": [
   {
    "title": "France to ban unsolicited telemarketing calls",
-   "note": "hn · 熱度 1220（未歸戶）",
+   "note": "hn · 熱度 1230（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49254880"
   },
   {
-   "title": "PrimeIntellect-ai/prime-agent — A self-improving RLM agent for coding ",
-   "note": "github · 熱度 1024（未歸戶）",
-   "url": "https://github.com/PrimeIntellect-ai/prime-agent"
-  },
-  {
    "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
-   "note": "hn · 熱度 902（未歸戶）",
+   "note": "hn · 熱度 932（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49259339"
   },
   {
@@ -183,6 +178,11 @@
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
    "note": "github · 熱度 788（未歸戶）",
    "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "England set to be one of the first countries to eliminate hepatitis C",
+   "note": "hn · 熱度 674（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49257377"
   }
  ],
  "data_quality": [
@@ -192,7 +192,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -216,7 +216,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
