@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] DeepSeek V4 Pro 0813",
-   "text": "今日未歸戶最熱討論（hn、熱度 2786），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2846），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "DeepSeek V4 Pro 0813",
     "source": "hn",
-    "heat": 2785.5,
+    "heat": 2845.5,
     "url": "https://news.ycombinator.com/item?id=49274600",
     "what": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. $0.435 per million input tokens, $0.87 per million output tokens. 1,048,576 token context window, maximum output of 384,000 tokens. Includes i"
    },
@@ -52,7 +52,7 @@
    {
     "title": "Qwen3.8-2.4T",
     "source": "hn",
-    "heat": 1729.5,
+    "heat": 1749.0,
     "url": "https://news.ycombinator.com/item?id=49273478",
     "what": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
    }
@@ -61,7 +61,7 @@
    {
     "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
     "source": "hn",
-    "heat": 1840.0,
+    "heat": 1893.0,
     "url": "https://news.ycombinator.com/item?id=49272832",
     "what": "Tailscale and SQLite developers traced maddening corruption incidents to find the WAL-Reset data race, then uncovered a second stale expression index bug."
    }
@@ -129,7 +129,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 48.8,
+   "heat_today": 47.6,
    "heat_trend": [
     16.7,
     127.3,
@@ -137,7 +137,7 @@
     39.3,
     118.8,
     76.7,
-    48.8
+    47.6
    ]
   },
   {
@@ -169,18 +169,18 @@
    "url": "https://news.ycombinator.com/item?id=49267928"
   },
   {
+   "title": "AI is removing the middle class of software engineering?",
+   "note": "hn · 熱度 1126（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49271994"
+  },
+  {
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
    "note": "github · 熱度 1112（未歸戶）",
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "AI is removing the middle class of software engineering?",
-   "note": "hn · 熱度 1091（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49271994"
-  },
-  {
    "title": "Someone is running mass vulnerability scans, spoofing AI bots like Cla",
-   "note": "hn · 熱度 988（未歸戶）",
+   "note": "hn · 熱度 998（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49272569"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -224,7 +224,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
