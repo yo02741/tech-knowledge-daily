@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1993（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 2005（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -45,14 +45,14 @@
    {
     "title": "Gemini 3.7 Flash",
     "source": "hn",
-    "heat": 2229.0,
+    "heat": 2509.5,
     "url": "https://news.ycombinator.com/item?id=49289112",
     "what": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents."
    },
    {
     "title": "DeepSeek Harness developer preview",
     "source": "hn",
-    "heat": 1981.5,
+    "heat": 2086.5,
     "url": "https://news.ycombinator.com/item?id=49285244",
     "what": "DeepSeek Harness is now available in developer preview to developers building agent harnesses worldwide, with the source code released at the same time. Every agent capability is implemented as a plugin that can be swapp"
    }
@@ -68,7 +68,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "rising",
-    "heat_today": 1992.9,
+    "heat_today": 2004.9,
     "heat_trend": [
      710.1,
      234.5,
@@ -76,7 +76,7 @@
      974.7,
      117.9,
      459.0,
-     1992.9
+     2004.9
     ],
     "what": "當日 2 則相關討論：「Codex in ChatGPT desktop app for Linux is now in preview」；「holaboss-ai/holaOS — Open-source All in One AI agent workspa」。",
     "sources": [
@@ -111,12 +111,28 @@
     512.1,
     543.6
    ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 42.9,
+   "heat_trend": [
+    127.3,
+    125.0,
+    39.3,
+    118.8,
+    76.7,
+    47.6,
+    42.9
+   ]
   }
  ],
  "radar": [
   {
    "title": "Accelerating GPT-5.6 Sol Ultrafast",
-   "note": "hn · 熱度 1438（未歸戶）",
+   "note": "hn · 熱度 1652（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49289844"
   },
   {
@@ -130,18 +146,18 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
+   "title": "Mistral OCR 4.1",
+   "note": "hn · 熱度 940（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49288889"
+  },
+  {
    "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
    "note": "github · 熱度 926（未歸戶）",
    "url": "https://github.com/earendil-works/pi"
   },
   {
-   "title": "Mistral OCR 4.1",
-   "note": "hn · 熱度 856（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49288889"
-  },
-  {
    "title": "AI agents lie, cheat and steal. That is putting off users",
-   "note": "hn · 熱度 746（未歸戶）",
+   "note": "hn · 熱度 764（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49285604"
   }
  ],
@@ -164,11 +180,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
