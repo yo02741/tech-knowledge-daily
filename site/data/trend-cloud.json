@@ -1,58 +1,58 @@
 {
- "date": "2026-08-13",
+ "date": "2026-08-14",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 9307.4,
-   "status": "ongoing",
+   "weight": 10179.2,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-14"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 6515.2,
-   "status": "ongoing",
+   "weight": 7125.4,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-14"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 6308.4,
+   "weight": 5730.6,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-14"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 4415.9,
+   "weight": 4011.4,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-14"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1337.1,
-   "status": "ongoing",
+   "weight": 1374.6,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-14"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 209.6,
-   "status": "ongoing",
+   "weight": 159.6,
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-13"
   },
@@ -60,8 +60,8 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 146.7,
-   "status": "ongoing",
+   "weight": 111.7,
+   "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-08-13"
   },
