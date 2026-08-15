@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Qwen 3.8 27B",
-   "text": "今日未歸戶最熱討論（hn、熱度 3633），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3698），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,14 +38,14 @@
    {
     "title": "Qwen 3.8 27B",
     "source": "hn",
-    "heat": 3633.0,
+    "heat": 3697.5,
     "url": "https://news.ycombinator.com/item?id=49299605",
     "what": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
    },
    {
     "title": "Why does Opus 5 feel worse to work with?",
     "source": "hn",
-    "heat": 3463.5,
+    "heat": 3504.0,
     "url": "https://news.ycombinator.com/item?id=49296740"
    },
    {
@@ -104,7 +104,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 36.7,
+   "heat_today": 35.8,
    "heat_trend": [
     125.0,
     39.3,
@@ -112,7 +112,7 @@
     76.7,
     47.6,
     42.9,
-    36.7
+    35.8
    ]
   },
   {
@@ -135,12 +135,12 @@
  "radar": [
   {
    "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-   "note": "hn · 熱度 1288（未歸戶）",
+   "note": "hn · 熱度 1292（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49294997"
   },
   {
    "title": "Every Fucking Website (2020)",
-   "note": "hn · 熱度 969（未歸戶）",
+   "note": "hn · 熱度 976（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49299222"
   },
   {
@@ -183,7 +183,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -191,7 +191,7 @@
   },
   {
    "source": "reddit-programming",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-web_design",
