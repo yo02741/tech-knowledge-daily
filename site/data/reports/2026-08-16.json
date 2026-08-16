@@ -28,13 +28,13 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1784（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 1804（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 143（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 160（上升），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -82,7 +82,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "rising",
-    "heat_today": 1783.5,
+    "heat_today": 1804.5,
     "heat_trend": [
      749.7,
      974.7,
@@ -90,7 +90,7 @@
      459.0,
      216.9,
      924.3,
-     1783.5
+     1804.5
     ],
     "what": "當日 2 則相關討論：「Auto-research with codex: How I achieved a 232x Faster Kerne」；「citrolabs/ego-lite — The fastest browser for AI agents to ru」。",
     "sources": [
@@ -109,7 +109,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 143.1,
+    "heat_today": 160.0,
     "heat_trend": [
      39.3,
      118.8,
@@ -117,17 +117,17 @@
      47.6,
      42.9,
      35.8,
-     143.1
+     160.0
     ],
-    "what": "當日 3 則相關討論：「Fable, shmable... The real flagship feature is not having to」；「Fable 5 refuses to touch Qwen deployments?」；「...Claude Fable (Extra) just one-shotted an NES emulator tha」。",
+    "what": "當日 3 則相關討論：「Fable 5 refuses to touch Qwen deployments?」；「Fable, shmable... The real flagship feature is not having to」；「...Claude Fable (Extra) just one-shotted an NES emulator tha」。",
     "sources": [
-     {
-      "label": "r/ClaudeAI：Fable, shmable... The real flagship featur",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp2ty0/fable_shmable_the_real_flagship_feature_is_not/"
-     },
      {
       "label": "r/LocalLLaMA：Fable 5 refuses to touch Qwen deployments?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voynzn/fable_5_refuses_to_touch_qwen_deployments/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable, shmable... The real flagship featur",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp2ty0/fable_shmable_the_real_flagship_feature_is_not/"
      },
      {
       "label": "r/ClaudeAI：...Claude Fable (Extra) just one-shotted a",
@@ -144,8 +144,13 @@
  "radar": [
   {
    "title": "AI has access to a vastly larger working memory than the human brain",
-   "note": "hn · 熱度 562（未歸戶）",
+   "note": "hn · 熱度 600（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49312845"
+  },
+  {
+   "title": "Semaglutide linked to lower predicted dementia risk",
+   "note": "hn · 熱度 474（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49311651"
   },
   {
    "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
@@ -154,17 +159,12 @@
   },
   {
    "title": "The other Sean Byrne doesn't exist",
-   "note": "hn · 熱度 458（未歸戶）",
+   "note": "hn · 熱度 462（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49307592"
   },
   {
-   "title": "Semaglutide linked to lower predicted dementia risk",
-   "note": "hn · 熱度 445（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49311651"
-  },
-  {
    "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-   "note": "hn · 熱度 404（未歸戶）",
+   "note": "hn · 熱度 417（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49307700"
   },
   {
@@ -192,7 +192,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
