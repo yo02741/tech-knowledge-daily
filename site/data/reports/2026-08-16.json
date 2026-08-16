@@ -1,0 +1,218 @@
+{
+ "date": "2026-08-16",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hmr",
+  "domain": "frontend",
+  "term": "HMR（熱模組替換）",
+  "tagline": "改一行 code，畫面即時更新且狀態不丟",
+  "intro": [
+   "開發時存檔後不重新整理頁面，只把改動的模組換掉——表單填到一半、彈窗開著，改完樣式回來狀態都還在。",
+   "Vite 讓 HMR 快到幾乎無感（原生 ESM 按需編譯），這是它取代 webpack 成為新專案預設的最大原因之一。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Vite：HMR API",
+    "url": "https://vitejs.dev/guide/api-hmr"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] cathrynlavery/diagram-design",
+   "text": "今日未歸戶最熱討論（github、熱度 1446），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1784（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 143（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "cathrynlavery/diagram-design",
+    "source": "github",
+    "heat": 1446.3,
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "what": "29 editorial diagram types for Claude Code. Self-contained"
+   },
+   {
+    "title": "liustack/modlens",
+    "source": "github",
+    "heat": 531.0,
+    "url": "https://github.com/liustack/modlens",
+    "what": "The first vision plugin for DeepSeek Harness, and the vision bridge for"
+   },
+   {
+    "title": "ToolJet/ToolJet",
+    "source": "github",
+    "heat": 489.6,
+    "url": "https://github.com/ToolJet/ToolJet",
+    "what": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app"
+   }
+  ],
+  "software": [
+   {
+    "title": "public-apis/public-apis",
+    "source": "github",
+    "heat": 1356.0,
+    "url": "https://github.com/public-apis/public-apis",
+    "what": "A collective list of free APIs"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1783.5,
+    "heat_trend": [
+     749.7,
+     974.7,
+     117.9,
+     459.0,
+     216.9,
+     924.3,
+     1783.5
+    ],
+    "what": "當日 2 則相關討論：「Auto-research with codex: How I achieved a 232x Faster Kerne」；「citrolabs/ego-lite — The fastest browser for AI agents to ru」。",
+    "sources": [
+     {
+      "label": "hn：Auto-research with codex: How I achieved a",
+      "url": "https://news.ycombinator.com/item?id=49309549"
+     },
+     {
+      "label": "github：citrolabs/ego-lite — The fastest browser f",
+      "url": "https://github.com/citrolabs/ego-lite"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 143.1,
+    "heat_trend": [
+     39.3,
+     118.8,
+     76.7,
+     47.6,
+     42.9,
+     35.8,
+     143.1
+    ],
+    "what": "當日 3 則相關討論：「Fable, shmable... The real flagship feature is not having to」；「Fable 5 refuses to touch Qwen deployments?」；「...Claude Fable (Extra) just one-shotted an NES emulator tha」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：Fable, shmable... The real flagship featur",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp2ty0/fable_shmable_the_real_flagship_feature_is_not/"
+     },
+     {
+      "label": "r/LocalLLaMA：Fable 5 refuses to touch Qwen deployments?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voynzn/fable_5_refuses_to_touch_qwen_deployments/"
+     },
+     {
+      "label": "r/ClaudeAI：...Claude Fable (Extra) just one-shotted a",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpf5r6/claude_fable_extra_just_oneshotted_an_nes/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "AI has access to a vastly larger working memory than the human brain",
+   "note": "hn · 熱度 562（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49312845"
+  },
+  {
+   "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
+   "note": "github · 熱度 466（未歸戶）",
+   "url": "https://github.com/earendil-works/pi"
+  },
+  {
+   "title": "The other Sean Byrne doesn't exist",
+   "note": "hn · 熱度 458（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49307592"
+  },
+  {
+   "title": "Semaglutide linked to lower predicted dementia risk",
+   "note": "hn · 熱度 445（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49311651"
+  },
+  {
+   "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+   "note": "hn · 熱度 404（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49307700"
+  },
+  {
+   "title": "unslothai/unsloth — Local UI to run and train LLMs and diffusion model",
+   "note": "github · 熱度 391（未歸戶）",
+   "url": "https://github.com/unslothai/unsloth"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
