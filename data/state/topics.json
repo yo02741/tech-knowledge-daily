@@ -800,11 +800,11 @@
     },
     {
      "date": "2026-08-17",
-     "heat": 22.9,
-     "mentions": 2
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
