@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Universal health coverage could save $1T and 114k lives a ye",
-   "text": "今日未歸戶最熱討論（hn、熱度 3216），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3366），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,20 +38,20 @@
    {
     "title": "Universal health coverage could save $1T and 114k lives a year: study",
     "source": "hn",
-    "heat": 3216.0,
+    "heat": 3366.0,
     "url": "https://news.ycombinator.com/item?id=49332981",
     "what": "A single-payer universal health care system could cover every American, save more than 100,000 lives a year, and still cost $1 trillion less than the system it"
    },
    {
     "title": "Cursor launches Origin, GitHub alternative",
     "source": "hn",
-    "heat": 1870.5,
+    "heat": 1968.0,
     "url": "https://news.ycombinator.com/item?id=49334209"
    },
    {
     "title": "Claude Code May–August 2026 weekly limits promotion",
     "source": "hn",
-    "heat": 1099.5,
+    "heat": 1128.0,
     "url": "https://news.ycombinator.com/item?id=49348751"
    }
   ],
@@ -59,7 +59,7 @@
    {
     "title": "Fixing a bricked Framework laptop",
     "source": "hn",
-    "heat": 922.0,
+    "heat": 962.0,
     "url": "https://news.ycombinator.com/item?id=49345220",
     "what": "My experience fixing my Framework 13” laptop with AMD 7060 series that was bricked due to a failed BIOS update with US$20 worth of tools, instead of replacing the motherboard as suggested by Framework support."
    },
@@ -117,7 +117,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 38.1,
+   "heat_today": 39.0,
    "heat_trend": [
     47.6,
     42.9,
@@ -125,19 +125,19 @@
     160.0,
     18.8,
     0,
-    38.1
+    39.0
    ]
   }
  ],
  "radar": [
   {
    "title": "The Amazon tax",
-   "note": "hn · 熱度 1135（未歸戶）",
+   "note": "hn · 熱度 1218（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49345263"
   },
   {
    "title": "Norway should buy OpenAI",
-   "note": "hn · 熱度 932（未歸戶）",
+   "note": "hn · 熱度 1004（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49351330"
   },
   {
@@ -151,14 +151,14 @@
    "url": "https://github.com/akitaonrails/ai-memory"
   },
   {
-   "title": "bojieli/ai-agent-book — 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版",
-   "note": "github · 熱度 489（未歸戶）",
-   "url": "https://github.com/bojieli/ai-agent-book"
-  },
-  {
    "title": "unslothai/unsloth — Local UI to run and train LLMs and diffusion model",
    "note": "github · 熱度 404（未歸戶）",
    "url": "https://github.com/unslothai/unsloth"
+  },
+  {
+   "title": "usestrix/strix — Open-source AI penetration testing tool to find and f",
+   "note": "github · 熱度 345（未歸戶）",
+   "url": "https://github.com/usestrix/strix"
   }
  ],
  "data_quality": [
