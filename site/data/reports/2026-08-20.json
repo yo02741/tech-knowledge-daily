@@ -43,25 +43,25 @@
     "what": "Skills for Real Engineers. Straight from my .agents directory."
    },
    {
+    "title": "Opus 5.0 drives incoherence into the stratosphere",
+    "source": "hn",
+    "heat": 736.5,
+    "url": "https://news.ycombinator.com/item?id=49364658",
+    "what": "Preflight Checklist I have searched existing issues and this hasn't been reported yet This is a single bug report (please file separate reports for different bugs) I am using the latest version of ..."
+   },
+   {
     "title": "volcengine/OpenViking",
     "source": "github",
     "heat": 723.6,
     "url": "https://github.com/volcengine/OpenViking",
     "what": "Self-evolving Context Database for AI Agents. Unify Agent Memory,"
-   },
-   {
-    "title": "chaitanyagiri/munder-difflin",
-    "source": "github",
-    "heat": 715.5,
-    "url": "https://github.com/chaitanyagiri/munder-difflin",
-    "what": "local multi-agent harness"
    }
   ],
   "software": [
    {
     "title": "Go 1.27",
     "source": "hn",
-    "heat": 936.0,
+    "heat": 1017.0,
     "url": "https://news.ycombinator.com/item?id=49365405",
     "what": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more."
    },
@@ -75,7 +75,7 @@
    {
     "title": "PostgreSQL for Everything",
     "source": "hn",
-    "heat": 775.0,
+    "heat": 804.0,
     "url": "https://news.ycombinator.com/item?id=49361279",
     "what": "You need simplicity if you want to move fast. PostgreSQL can very well replace Kafka, Redis, Clickhouse and Elastic. And many successful companies are doing exactly that. Let"
    }
@@ -131,7 +131,7 @@
    "title": "Claude Code skills 生態爆發",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 33.3,
+   "heat_today": 42.9,
    "heat_trend": [
     543.6,
     0,
@@ -139,7 +139,7 @@
     0,
     76.2,
     0,
-    33.3
+    42.9
    ]
   },
   {
@@ -161,24 +161,24 @@
  ],
  "radar": [
   {
-   "title": "OpenLogi",
-   "note": "hn · 熱度 1704（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49355606"
-  },
-  {
    "title": "A joke domain purchase turned in geopolitical warfare",
-   "note": "hn · 熱度 779（未歸戶）",
+   "note": "hn · 熱度 820（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49360015"
   },
   {
+   "title": "OpenRouter is joining Stripe",
+   "note": "hn · 熱度 812（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49364559"
+  },
+  {
    "title": "Devices with GrapheneOS support should be available in 2027",
-   "note": "hn · 熱度 753（未歸戶）",
+   "note": "hn · 熱度 758（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49360242"
   },
   {
-   "title": "OpenRouter is joining Stripe",
-   "note": "hn · 熱度 748（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49364559"
+   "title": "chaitanyagiri/munder-difflin — local multi-agent harness",
+   "note": "github · 熱度 716（未歸戶）",
+   "url": "https://github.com/chaitanyagiri/munder-difflin"
   },
   {
    "title": "harry0703/MoneyPrinterTurbo — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Gener",
