@@ -1,0 +1,236 @@
+{
+ "date": "2026-08-20",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-inference",
+  "domain": "ai",
+  "term": "Inference（推理服務）",
+  "tagline": "訓練是煉丹，推理是開店營業",
+  "intro": [
+   "模型訓練完之後，實際回答請求的過程叫 inference。它的成本結構跟訓練完全不同：拚的是延遲、吞吐量和每 token 成本。",
+   "llama.cpp、vLLM、Ollama 這些工具都在解同一題：怎麼讓模型在有限硬體上跑得又快又省，包括量化、批次處理、KV cache 等技巧。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "vLLM 官方文件",
+    "url": "https://docs.vllm.ai/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] mattpocock/skills",
+   "text": "今日未歸戶最熱討論（github、熱度 1705），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1501（上升），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 1704.6,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .agents directory."
+   },
+   {
+    "title": "volcengine/OpenViking",
+    "source": "github",
+    "heat": 723.6,
+    "url": "https://github.com/volcengine/OpenViking",
+    "what": "Self-evolving Context Database for AI Agents. Unify Agent Memory,"
+   },
+   {
+    "title": "chaitanyagiri/munder-difflin",
+    "source": "github",
+    "heat": 715.5,
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "what": "local multi-agent harness"
+   }
+  ],
+  "software": [
+   {
+    "title": "Go 1.27",
+    "source": "hn",
+    "heat": 936.0,
+    "url": "https://news.ycombinator.com/item?id=49365405",
+    "what": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more."
+   },
+   {
+    "title": "amadeusprotocol/node",
+    "source": "github",
+    "heat": 838.2,
+    "url": "https://github.com/amadeusprotocol/node",
+    "what": "Contribute to amadeusprotocol/node development by creating an account on GitHub."
+   },
+   {
+    "title": "PostgreSQL for Everything",
+    "source": "hn",
+    "heat": 775.0,
+    "url": "https://news.ycombinator.com/item?id=49361279",
+    "what": "You need simplicity if you want to move fast. PostgreSQL can very well replace Kafka, Redis, Clickhouse and Elastic. And many successful companies are doing exactly that. Let"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1501.2,
+    "heat_trend": [
+     216.9,
+     924.3,
+     1824.0,
+     105.9,
+     374.4,
+     657.0,
+     1501.2
+    ],
+    "what": "當日 5 則相關討論：「mukul975/Anthropic-Cybersecurity-Skills — 817 structured cyb」；「Graphify-Labs/graphify — Turn any codebase, with its docs, S」；「santifer/career-ops — Open-source AI job search: scan job po」。",
+    "sources": [
+     {
+      "label": "github：mukul975/Anthropic-Cybersecurity-Skills — ",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+     },
+     {
+      "label": "github：Graphify-Labs/graphify — Turn any codebase",
+      "url": "https://github.com/Graphify-Labs/graphify"
+     },
+     {
+      "label": "github：santifer/career-ops — Open-source AI job s",
+      "url": "https://github.com/santifer/career-ops"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The original agent meta-h",
+      "url": "https://github.com/ruvnet/ruflo"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 33.3,
+   "heat_trend": [
+    543.6,
+    0,
+    0,
+    0,
+    76.2,
+    0,
+    33.3
+   ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 15.8,
+   "heat_trend": [
+    42.9,
+    35.8,
+    160.0,
+    18.8,
+    0,
+    37.6,
+    15.8
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "OpenLogi",
+   "note": "hn · 熱度 1704（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49355606"
+  },
+  {
+   "title": "A joke domain purchase turned in geopolitical warfare",
+   "note": "hn · 熱度 779（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49360015"
+  },
+  {
+   "title": "Devices with GrapheneOS support should be available in 2027",
+   "note": "hn · 熱度 753（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49360242"
+  },
+  {
+   "title": "OpenRouter is joining Stripe",
+   "note": "hn · 熱度 748（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49364559"
+  },
+  {
+   "title": "harry0703/MoneyPrinterTurbo — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Gener",
+   "note": "github · 熱度 666（未歸戶）",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+   "title": "NousResearch/hermes-agent — The agent that grows with you",
+   "note": "github · 熱度 502（未歸戶）",
+   "url": "https://github.com/NousResearch/hermes-agent"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
