@@ -45,7 +45,7 @@
    {
     "title": "Opus 5.0 drives incoherence into the stratosphere",
     "source": "hn",
-    "heat": 736.5,
+    "heat": 744.0,
     "url": "https://news.ycombinator.com/item?id=49364658",
     "what": "Preflight Checklist I have searched existing issues and this hasn't been reported yet This is a single bug report (please file separate reports for different bugs) I am using the latest version of ..."
    },
@@ -61,7 +61,7 @@
    {
     "title": "Go 1.27",
     "source": "hn",
-    "heat": 1017.0,
+    "heat": 1065.0,
     "url": "https://news.ycombinator.com/item?id=49365405",
     "what": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more."
    },
@@ -75,7 +75,7 @@
    {
     "title": "PostgreSQL for Everything",
     "source": "hn",
-    "heat": 804.0,
+    "heat": 821.0,
     "url": "https://news.ycombinator.com/item?id=49361279",
     "what": "You need simplicity if you want to move fast. PostgreSQL can very well replace Kafka, Redis, Clickhouse and Elastic. And many successful companies are doing exactly that. Let"
    }
@@ -161,18 +161,18 @@
  ],
  "radar": [
   {
-   "title": "A joke domain purchase turned in geopolitical warfare",
-   "note": "hn · 熱度 820（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49360015"
-  },
-  {
    "title": "OpenRouter is joining Stripe",
-   "note": "hn · 熱度 812（未歸戶）",
+   "note": "hn · 熱度 842（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49364559"
   },
   {
+   "title": "A joke domain purchase turned in geopolitical warfare",
+   "note": "hn · 熱度 836（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49360015"
+  },
+  {
    "title": "Devices with GrapheneOS support should be available in 2027",
-   "note": "hn · 熱度 758（未歸戶）",
+   "note": "hn · 熱度 759（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49360242"
   },
   {
