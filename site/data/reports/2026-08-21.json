@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Aaron Swartz was prosecuted for scraping, while Meta does it",
-   "text": "今日未歸戶最熱討論（hn、熱度 2235），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2381），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -57,7 +57,7 @@
    {
     "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
     "source": "hn",
-    "heat": 883.5,
+    "heat": 898.5,
     "url": "https://news.ycombinator.com/item?id=49375996",
     "what": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless - zachahn/vomit"
    },
@@ -73,14 +73,14 @@
    {
     "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
     "source": "hn",
-    "heat": 2235.0,
+    "heat": 2381.0,
     "url": "https://news.ycombinator.com/item?id=49379550",
     "what": "Also here's a cool unrelated photo of a chipmunk because I need some chill"
    },
    {
     "title": "Malicious Rust crate Arrayref runs a build-time payload",
     "source": "hn",
-    "heat": 1165.0,
+    "heat": 1180.0,
     "url": "https://news.ycombinator.com/item?id=49374269",
     "what": "A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…"
    },
@@ -152,7 +152,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 58.7,
+    "heat_today": 59.2,
     "heat_trend": [
      35.8,
      160.0,
@@ -160,7 +160,7 @@
      0,
      37.6,
      15.8,
-     58.7
+     59.2
     ],
     "what": "當日 3 則相關討論：「How is the dude who said he will use fable on the quest to g」；「Claude handoverfiles and fable 5」；「Suddenly getting a bunch of Fable safety guarding on super n」。",
     "sources": [
@@ -187,12 +187,12 @@
  "radar": [
   {
    "title": "Don't paste the AI, please",
-   "note": "hn · 熱度 1260（未歸戶）",
+   "note": "hn · 熱度 1263（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49371857"
   },
   {
    "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth m",
-   "note": "hn · 熱度 1039（未歸戶）",
+   "note": "hn · 熱度 1054（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49372583"
   },
   {
@@ -202,7 +202,7 @@
   },
   {
    "title": "I like 'em thick: an apology to my English teachers",
-   "note": "hn · 熱度 695（未歸戶）",
+   "note": "hn · 熱度 714（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49347543"
   },
   {
@@ -223,7 +223,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -251,7 +251,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
