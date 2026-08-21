@@ -1,0 +1,261 @@
+{
+ "date": "2026-08-21",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hash-routing",
+  "domain": "frontend",
+  "term": "Hash vs History 路由",
+  "tagline": "網址裡那個 # 是有功能的",
+  "intro": [
+   "SPA 換頁不重新載入頁面，路由有兩種做法：hash 路由（#/about，改 # 後面不會觸發請求，純靜態主機就能用）；history 路由（/about，網址乾淨，但伺服器要設定把所有路徑都回應 index.html）。",
+   "部署在靜態空間（GitHub Pages 等）時 hash 路由最省事；有伺服器控制權時 history 路由網址比較漂亮。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：History API",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] mattpocock/skills",
+   "text": "今日未歸戶最熱討論（github、熱度 1973），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1303（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 232（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 61（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 1972.8,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .agents directory."
+   },
+   {
+    "title": "volcengine/OpenViking",
+    "source": "github",
+    "heat": 855.0,
+    "url": "https://github.com/volcengine/OpenViking",
+    "what": "Self-evolving Context Database for AI Agents. Unify Agent Memory,"
+   },
+   {
+    "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+    "source": "hn",
+    "heat": 808.5,
+    "url": "https://news.ycombinator.com/item?id=49375996",
+    "what": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless - zachahn/vomit"
+   }
+  ],
+  "software": [
+   {
+    "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+    "source": "hn",
+    "heat": 1828.0,
+    "url": "https://news.ycombinator.com/item?id=49379550",
+    "what": "Also here's a cool unrelated photo of a chipmunk because I need some chill"
+   },
+   {
+    "title": "Malicious Rust crate Arrayref runs a build-time payload",
+    "source": "hn",
+    "heat": 1113.0,
+    "url": "https://news.ycombinator.com/item?id=49374269",
+    "what": "A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…"
+   },
+   {
+    "title": "AprilNEA/OpenLogi",
+    "source": "github",
+    "heat": 927.0,
+    "url": "https://github.com/AprilNEA/OpenLogi",
+    "what": "⚡️A native, local-first alternative to Logitech Options+, written in R"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1303.2,
+    "heat_trend": [
+     924.3,
+     1824.0,
+     105.9,
+     374.4,
+     657.0,
+     1501.2,
+     1303.2
+    ],
+    "what": "當日 2 則相關討論：「santifer/career-ops — Open-source AI job search: scan job po」；「mukul975/Anthropic-Cybersecurity-Skills — 817 structured cyb」。",
+    "sources": [
+     {
+      "label": "github：santifer/career-ops — Open-source AI job s",
+      "url": "https://github.com/santifer/career-ops"
+     },
+     {
+      "label": "github：mukul975/Anthropic-Cybersecurity-Skills — ",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 232.2,
+    "heat_trend": [
+     0,
+     0,
+     0,
+     76.2,
+     0,
+     42.9,
+     232.2
+    ],
+    "what": "當日 1 則相關討論：「JuliusBrussee/caveman — 🪨 why use many token when few token 」。",
+    "sources": [
+     {
+      "label": "github：JuliusBrussee/caveman — 🪨 why use many tok",
+      "url": "https://github.com/JuliusBrussee/caveman"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 61.2,
+    "heat_trend": [
+     35.8,
+     160.0,
+     18.8,
+     0,
+     37.6,
+     15.8,
+     61.2
+    ],
+    "what": "當日 3 則相關討論：「How is the dude who said he will use fable on the quest to g」；「Claude handoverfiles and fable 5」；「Suddenly getting a bunch of Fable safety guarding on super n」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：How is the dude who said he will use fable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtdv3y/how_is_the_dude_who_said_he_will_use_fable_on_the/"
+     },
+     {
+      "label": "r/ClaudeAI：Claude handoverfiles and fable 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtai1c/claude_handoverfiles_and_fable_5/"
+     },
+     {
+      "label": "r/ClaudeAI：Suddenly getting a bunch of Fable safety g",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtkaf1/suddenly_getting_a_bunch_of_fable_safety_guarding/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "Don't paste the AI, please",
+   "note": "hn · 熱度 1255（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49371857"
+  },
+  {
+   "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth m",
+   "note": "hn · 熱度 998（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49372583"
+  },
+  {
+   "title": "harry0703/MoneyPrinterTurbo — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Gener",
+   "note": "github · 熱度 828（未歸戶）",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+   "title": "I like 'em thick: an apology to my English teachers",
+   "note": "hn · 熱度 662（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49347543"
+  },
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development ",
+   "note": "github · 熱度 654（未歸戶）",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "chaitanyagiri/munder-difflin — local multi-agent harness",
+   "note": "github · 熱度 456（未歸戶）",
+   "url": "https://github.com/chaitanyagiri/munder-difflin"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
