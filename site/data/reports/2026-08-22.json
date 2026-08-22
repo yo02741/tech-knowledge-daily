@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 3291（上升），共 9 則討論；重點連結見對應段落。",
+   "text": "熱度 2766（上升），共 8 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -45,14 +45,14 @@
    {
     "title": "DeepSeek-v4-flash-vision-exp",
     "source": "hn",
-    "heat": 1612.5,
+    "heat": 1626.0,
     "url": "https://news.ycombinator.com/item?id=49386163",
     "what": "The deepseek-v4-flash-vision-exp model accepts images alongside text, so you can ask the model to describe pictures, read text from screenshots, analyze charts, and more."
    },
    {
     "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
     "source": "hn",
-    "heat": 828.0,
+    "heat": 850.5,
     "url": "https://news.ycombinator.com/item?id=49388752",
     "what": "A Claude Code skill (/debuzz) that pipes Claude's answers through Gemini to remove the BuzzFeed voice - adnanakil/nobuzz"
    }
@@ -76,7 +76,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "rising",
-    "heat_today": 3291.0,
+    "heat_today": 2766.0,
     "heat_trend": [
      1824.0,
      105.9,
@@ -84,9 +84,9 @@
      657.0,
      1501.2,
      1303.2,
-     3291.0
+     2766.0
     ],
-    "what": "當日 9 則相關討論：「santifer/career-ops — Open-source AI job search: scan job po」；「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「Codex on AWS bedrock bug causing 10x charges」。",
+    "what": "當日 8 則相關討論：「santifer/career-ops — Open-source AI job search: scan job po」；「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「Quick impressions: A week of using Codex more than Claude」。",
     "sources": [
      {
       "label": "github：santifer/career-ops — Open-source AI job s",
@@ -97,12 +97,12 @@
       "url": "https://github.com/diegosouzapw/OmniRoute"
      },
      {
-      "label": "hn：Codex on AWS bedrock bug causing 10x charg",
-      "url": "https://news.ycombinator.com/item?id=49383326"
-     },
-     {
       "label": "hn：Quick impressions: A week of using Codex m",
       "url": "https://news.ycombinator.com/item?id=49393051"
+     },
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
      }
     ]
    }
@@ -132,17 +132,17 @@
  "radar": [
   {
    "title": "Kagi added a setting for removing paywalled links from search results",
-   "note": "hn · 熱度 1189（未歸戶）",
+   "note": "hn · 熱度 1197（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49388154"
   },
   {
    "title": "Felony charges for citizen deleting phone data at US Border",
-   "note": "hn · 熱度 944（未歸戶）",
+   "note": "hn · 熱度 974（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49386895"
   },
   {
    "title": "Grand jury declines to indict Ohio man charged with destroying Flock c",
-   "note": "hn · 熱度 822（未歸戶）",
+   "note": "hn · 熱度 823（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49387497"
   },
   {
@@ -152,7 +152,7 @@
   },
   {
    "title": "AI companies destroy physical books – let's scan rare books before it'",
-   "note": "hn · 熱度 702（未歸戶）",
+   "note": "hn · 熱度 703（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49385994"
   },
   {
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
