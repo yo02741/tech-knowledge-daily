@@ -190,7 +190,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -206,7 +206,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
