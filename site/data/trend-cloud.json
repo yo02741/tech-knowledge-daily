@@ -24,7 +24,7 @@
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2367.6,
+   "weight": 2382.6,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-08-25"
@@ -33,7 +33,7 @@
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1657.3,
+   "weight": 1667.8,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-08-25"

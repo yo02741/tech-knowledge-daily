@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] I were 17, I'd learn how to build LLMs from scratch",
-   "text": "今日未歸戶最熱討論（hn、熱度 2436），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2463），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,7 +32,7 @@
    {
     "title": "I were 17, I'd learn how to build LLMs from scratch",
     "source": "hn",
-    "heat": 2436.0,
+    "heat": 2463.0,
     "url": "https://news.ycombinator.com/item?id=49412396",
     "what": "Someone asked what I'd do if I were 17. I'd learn how to build LLMs from scratch, and then train ones as powerful as I could with whatever hardware I could get access to."
    },
@@ -46,7 +46,7 @@
    {
     "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
     "source": "hn",
-    "heat": 1297.5,
+    "heat": 1315.5,
     "url": "https://news.ycombinator.com/item?id=49421074",
     "what": "Pricing information for the OpenAI platform."
    }
@@ -90,12 +90,12 @@
  "radar": [
   {
    "title": "How Europe is killing makers and micro-entrepreneurs",
-   "note": "hn · 熱度 1401（未歸戶）",
+   "note": "hn · 熱度 1417（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49419237"
   },
   {
    "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multi",
-   "note": "hn · 熱度 971（未歸戶）",
+   "note": "hn · 熱度 994（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49420873"
   },
   {
@@ -105,7 +105,7 @@
   },
   {
    "title": "Andreessen Horowitz is investing billions into a bleak future",
-   "note": "hn · 熱度 832（未歸戶）",
+   "note": "hn · 熱度 835（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49416055"
   },
   {
@@ -115,7 +115,7 @@
   },
   {
    "title": "Coding expertise is going to collapse from AI reliance",
-   "note": "hn · 熱度 698（未歸戶）",
+   "note": "hn · 熱度 714（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49421554"
   }
  ],
@@ -138,7 +138,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -150,7 +150,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
