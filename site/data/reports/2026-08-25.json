@@ -1,0 +1,164 @@
+{
+ "date": "2026-08-25",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-system-prompt",
+  "domain": "ai",
+  "term": "System Prompt",
+  "tagline": "模型的「員工手冊」，使用者看不到的那層指令",
+  "intro": [
+   "對話開始前塞給模型的隱藏指令，定義它的角色、能力邊界、輸出格式與安全規則。ChatGPT、Claude 每個產品行為的差異，很大部分來自這一層。",
+   "它不是絕對防線——prompt injection 攻擊就是想辦法騙模型違反 system prompt，所以敏感權限不能只靠提示詞把關。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Anthropic：System prompts",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] freestylefly/awesome-gpt-image-2",
+   "text": "今日未歸戶最熱討論（github、熱度 2204），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "freestylefly/awesome-gpt-image-2",
+    "source": "github",
+    "heat": 2204.1,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "what": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，2"
+   },
+   {
+    "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+    "source": "hn",
+    "heat": 1243.5,
+    "url": "https://news.ycombinator.com/item?id=49421074",
+    "what": "Pricing information for the OpenAI platform."
+   },
+   {
+    "title": "stablyai/orca",
+    "source": "github",
+    "heat": 883.8,
+    "url": "https://github.com/stablyai/orca",
+    "what": "Orca is the ADE for working with a fleet of parallel agents. Run any codin"
+   }
+  ],
+  "software": [
+   {
+    "title": "AprilNEA/OpenLogi",
+    "source": "github",
+    "heat": 658.2,
+    "url": "https://github.com/AprilNEA/OpenLogi",
+    "what": "⚡️A native, local-first alternative to Logitech Options+, written in R"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 3738.6,
+   "heat_trend": [
+    657.0,
+    1501.2,
+    1303.2,
+    2766.0,
+    3389.7,
+    4625.1,
+    3738.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Everything I own, owned",
+   "note": "hn · 熱度 1520（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49413320"
+  },
+  {
+   "title": "How Europe is killing makers and micro-entrepreneurs",
+   "note": "hn · 熱度 1354（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49419237"
+  },
+  {
+   "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multi",
+   "note": "hn · 熱度 946（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49420873"
+  },
+  {
+   "title": "Andreessen Horowitz is investing billions into a bleak future",
+   "note": "hn · 熱度 821（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49416055"
+  },
+  {
+   "title": "NousResearch/hermes-agent — The agent that grows with you",
+   "note": "github · 熱度 806（未歸戶）",
+   "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  {
+   "title": "Coding expertise is going to collapse from AI reliance",
+   "note": "hn · 熱度 665（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49421554"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
