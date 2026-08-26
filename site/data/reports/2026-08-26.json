@@ -1,0 +1,214 @@
+{
+ "date": "2026-08-26",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-web-vitals",
+  "domain": "frontend",
+  "term": "Core Web Vitals",
+  "tagline": "Google 用來評你網站體驗的三個數字",
+  "intro": [
+   "LCP（最大內容多快出現）、INP（互動反應多快）、CLS（版面跳不跳動）——三個指標涵蓋載入、互動、視覺穩定，且直接影響搜尋排名。",
+   "優化套路各有對應：LCP 看圖片與伺服器速度、INP 看 JS 主執行緒阻塞、CLS 看圖片尺寸預留與字體載入。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "web.dev：Core Web Vitals",
+    "url": "https://web.dev/articles/vitals"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] freestylefly/awesome-gpt-image-2",
+   "text": "今日未歸戶最熱討論（github、熱度 1528），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 2531（持續），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 461（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "freestylefly/awesome-gpt-image-2",
+    "source": "github",
+    "heat": 1528.2,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "what": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，2"
+   },
+   {
+    "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+    "source": "hn",
+    "heat": 1201.5,
+    "url": "https://news.ycombinator.com/item?id=49434378",
+    "what": "OpenAI’s self-designed ASIC compared with Rubin, Jalapeño’s TCO, throughput per MW, and spicy deets"
+   },
+   {
+    "title": "MadsLorentzen/ai-job-search",
+    "source": "github",
+    "heat": 1138.5,
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "what": "The job search that runs on your machine. AI job application"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 2531.1,
+    "heat_trend": [
+     1501.2,
+     1303.2,
+     2766.0,
+     3389.7,
+     4625.1,
+     3738.6,
+     2531.1
+    ],
+    "what": "當日 4 則相關討論：「openai/codex — Lightweight coding agent that runs in your te」；「Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, 」；「OpenAI restores 5-hour Codex and Work limits for ChatGPT Plu」。",
+    "sources": [
+     {
+      "label": "github：openai/codex — Lightweight coding agent th",
+      "url": "https://github.com/openai/codex"
+     },
+     {
+      "label": "github：Alishahryar1/free-claude-code — Use Claude",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+     },
+     {
+      "label": "hn：OpenAI restores 5-hour Codex and Work limi",
+      "url": "https://news.ycombinator.com/item?id=49432879"
+     },
+     {
+      "label": "github：EveryInc/compound-engineering-plugin — Off",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 460.8,
+    "heat_trend": [
+     42.9,
+     232.2,
+     39.6,
+     80.1,
+     383.4,
+     36.0,
+     460.8
+    ],
+    "what": "當日 2 則相關討論：「virgiliojr94/book-to-skill — Turn any technical book PDF int」；「Shubhamsaboo/awesome-llm-apps — 100+ AI Agents, Agent Skills」。",
+    "sources": [
+     {
+      "label": "github：virgiliojr94/book-to-skill — Turn any tech",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+     },
+     {
+      "label": "github：Shubhamsaboo/awesome-llm-apps — 100+ AI Ag",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "Apple introduces M6 and M5 Ultra",
+   "note": "hn · 熱度 1369（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49433292"
+  },
+  {
+   "title": "Dolly Parton has died",
+   "note": "hn · 熱度 1246（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49438052"
+  },
+  {
+   "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
+   "note": "hn · 熱度 1136（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49432317"
+  },
+  {
+   "title": "New Mac Studio with M5 Max and M5 Ultra",
+   "note": "hn · 熱度 912（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49433316"
+  },
+  {
+   "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
+   "note": "github · 熱度 884（未歸戶）",
+   "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+   "title": "Nitter project received cease and desist",
+   "note": "hn · 熱度 792（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49437283"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
