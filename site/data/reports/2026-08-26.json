@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2531（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 2540（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -51,7 +51,7 @@
    {
     "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
     "source": "hn",
-    "heat": 1201.5,
+    "heat": 1348.5,
     "url": "https://news.ycombinator.com/item?id=49434378",
     "what": "OpenAI’s self-designed ASIC compared with Rubin, Jalapeño’s TCO, throughput per MW, and spicy deets"
    },
@@ -74,7 +74,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2531.1,
+    "heat_today": 2540.1,
     "heat_trend": [
      1501.2,
      1303.2,
@@ -82,7 +82,7 @@
      3389.7,
      4625.1,
      3738.6,
-     2531.1
+     2540.1
     ],
     "what": "當日 4 則相關討論：「openai/codex — Lightweight coding agent that runs in your te」；「Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, 」；「OpenAI restores 5-hour Codex and Work limits for ChatGPT Plu」。",
     "sources": [
@@ -140,33 +140,33 @@
  "radar": [
   {
    "title": "Apple introduces M6 and M5 Ultra",
-   "note": "hn · 熱度 1369（未歸戶）",
+   "note": "hn · 熱度 1418（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49433292"
   },
   {
    "title": "Dolly Parton has died",
-   "note": "hn · 熱度 1246（未歸戶）",
+   "note": "hn · 熱度 1325（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49438052"
   },
   {
    "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
-   "note": "hn · 熱度 1136（未歸戶）",
+   "note": "hn · 熱度 1138（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49432317"
   },
   {
    "title": "New Mac Studio with M5 Max and M5 Ultra",
-   "note": "hn · 熱度 912（未歸戶）",
+   "note": "hn · 熱度 932（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49433316"
+  },
+  {
+   "title": "Nitter and XCancel receive cease and desist notices",
+   "note": "hn · 熱度 930（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49437283"
   },
   {
    "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
    "note": "github · 熱度 884（未歸戶）",
    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-   "title": "Nitter project received cease and desist",
-   "note": "hn · 熱度 792（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49437283"
   }
  ],
  "data_quality": [
@@ -200,11 +200,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
