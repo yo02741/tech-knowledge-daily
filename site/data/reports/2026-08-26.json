@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2540（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 2542（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -51,16 +51,16 @@
    {
     "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
     "source": "hn",
-    "heat": 1348.5,
+    "heat": 1426.5,
     "url": "https://news.ycombinator.com/item?id=49434378",
     "what": "OpenAI’s self-designed ASIC compared with Rubin, Jalapeño’s TCO, throughput per MW, and spicy deets"
    },
    {
-    "title": "MadsLorentzen/ai-job-search",
-    "source": "github",
-    "heat": 1138.5,
-    "url": "https://github.com/MadsLorentzen/ai-job-search",
-    "what": "The job search that runs on your machine. AI job application"
+    "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
+    "source": "hn",
+    "heat": 1149.0,
+    "url": "https://news.ycombinator.com/item?id=49432317",
+    "what": "ModelScope——汇聚各领域先进的机器学习模型，提供模型探索体验、推理、训练、部署和应用的一站式服务。在这里，共建模型开源社区，发现、学习、定制和分享心仪的模型。"
    }
   ],
   "software": [],
@@ -74,7 +74,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2540.1,
+    "heat_today": 2541.6,
     "heat_trend": [
      1501.2,
      1303.2,
@@ -82,7 +82,7 @@
      3389.7,
      4625.1,
      3738.6,
-     2540.1
+     2541.6
     ],
     "what": "當日 4 則相關討論：「openai/codex — Lightweight coding agent that runs in your te」；「Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, 」；「OpenAI restores 5-hour Codex and Work limits for ChatGPT Plu」。",
     "sources": [
@@ -140,28 +140,28 @@
  "radar": [
   {
    "title": "Apple introduces M6 and M5 Ultra",
-   "note": "hn · 熱度 1418（未歸戶）",
+   "note": "hn · 熱度 1443（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49433292"
   },
   {
    "title": "Dolly Parton has died",
-   "note": "hn · 熱度 1325（未歸戶）",
+   "note": "hn · 熱度 1363（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49438052"
   },
   {
-   "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
-   "note": "hn · 熱度 1138（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49432317"
-  },
-  {
-   "title": "New Mac Studio with M5 Max and M5 Ultra",
-   "note": "hn · 熱度 932（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49433316"
+   "title": "MadsLorentzen/ai-job-search — The job search that runs on your machine",
+   "note": "github · 熱度 1138（未歸戶）",
+   "url": "https://github.com/MadsLorentzen/ai-job-search"
   },
   {
    "title": "Nitter and XCancel receive cease and desist notices",
-   "note": "hn · 熱度 930（未歸戶）",
+   "note": "hn · 熱度 970（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49437283"
+  },
+  {
+   "title": "New Mac Studio with M5 Max and M5 Ultra",
+   "note": "hn · 熱度 946（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49433316"
   },
   {
    "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
@@ -176,7 +176,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -204,7 +204,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
