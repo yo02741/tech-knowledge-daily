@@ -323,8 +323,8 @@
     },
     {
      "date": "2026-08-27",
-     "heat": 1745.1,
-     "mentions": 4
+     "heat": 1344.6,
+     "mentions": 5
     }
    ],
    "status": "fading",
@@ -345,7 +345,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "history": [
     {
      "date": "2026-07-29",
@@ -494,11 +494,11 @@
     },
     {
      "date": "2026-08-27",
-     "heat": 0,
-     "mentions": 0
+     "heat": 374.4,
+     "mentions": 3
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",

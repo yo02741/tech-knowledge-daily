@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1745（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 1345（退燒），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -52,7 +52,7 @@
    {
     "title": "France reaches 94.9% fiber coverage in 2026",
     "source": "hn",
-    "heat": 1272.0,
+    "heat": 1275.0,
     "url": "https://news.ycombinator.com/item?id=49448872"
    }
   ],
@@ -61,7 +61,7 @@
    {
     "title": "AWS Acquires DuckLabs",
     "source": "hn",
-    "heat": 1209.0,
+    "heat": 1213.5,
     "url": "https://news.ycombinator.com/item?id=49448321",
     "what": "DuckLabs provides services around the DuckDB in-process OLAP data management system directly from its main developers."
    }
@@ -75,7 +75,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "fading",
-    "heat_today": 1745.1,
+    "heat_today": 1344.6,
     "heat_trend": [
      1303.2,
      2766.0,
@@ -83,25 +83,25 @@
      4625.1,
      3738.6,
      2541.6,
-     1745.1
+     1344.6
     ],
-    "what": "當日 4 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, 」；「VoltAgent/awesome-agent-skills — A curated collection of 100」。",
+    "what": "當日 5 則相關討論：「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「htdt/godogen — Autonomous game development for Godot, Bevy, 」；「K-Dense-AI/scientific-agent-skills — Turn any AI agent into 」。",
     "sources": [
      {
       "label": "github：diegosouzapw/OmniRoute — Never stop coding",
       "url": "https://github.com/diegosouzapw/OmniRoute"
      },
      {
-      "label": "github：Alishahryar1/free-claude-code — Use Claude",
-      "url": "https://github.com/Alishahryar1/free-claude-code"
-     },
-     {
-      "label": "github：VoltAgent/awesome-agent-skills — A curated",
-      "url": "https://github.com/VoltAgent/awesome-agent-skills"
+      "label": "github：htdt/godogen — Autonomous game development",
+      "url": "https://github.com/htdt/godogen"
      },
      {
       "label": "github：K-Dense-AI/scientific-agent-skills — Turn ",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+     },
+     {
+      "label": "github：thedotmack/claude-mem — Persistent Context",
+      "url": "https://github.com/thedotmack/claude-mem"
      }
     ]
    }
@@ -110,16 +110,33 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 374.4,
+   "heat_trend": [
+    232.2,
+    39.6,
+    80.1,
+    383.4,
+    36.0,
+    460.8,
+    374.4
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "Nvidia agrees to acquire Hugging Face for $13B",
-   "note": "hn · 熱度 1425（未歸戶）",
+   "note": "hn · 熱度 1554（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49458161"
   },
   {
    "title": "GLM-5.3-Flash",
-   "note": "hn · 熱度 1297（未歸戶）",
+   "note": "hn · 熱度 1328（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49449507"
   },
   {
@@ -128,19 +145,19 @@
    "url": "https://github.com/MadsLorentzen/ai-job-search"
   },
   {
-   "title": "tt-a1i/archify — Agent skill for beautiful, verifiable architecture, w",
-   "note": "github · 熱度 932（未歸戶）",
-   "url": "https://github.com/tt-a1i/archify"
+   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
+   "note": "github · 熱度 1156（未歸戶）",
+   "url": "https://github.com/calesthio/OpenMontage"
   },
   {
    "title": "U.S. State Department pauses immigrant visa applications",
-   "note": "hn · 熱度 920（未歸戶）",
+   "note": "hn · 熱度 1010（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49452709"
   },
   {
-   "title": "CEO fired developers to make room for AI. Developers create open sourc",
-   "note": "hn · 熱度 824（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49458418"
+   "title": "tt-a1i/archify — Agent skill for beautiful, verifiable architecture, w",
+   "note": "github · 熱度 932（未歸戶）",
+   "url": "https://github.com/tt-a1i/archify"
   }
  ],
  "data_quality": [
