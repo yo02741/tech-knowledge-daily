@@ -1,51 +1,51 @@
 {
- "date": "2026-08-27",
+ "date": "2026-08-28",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 25312.5,
-   "status": "fading",
+   "weight": 26593.2,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 17718.8,
-   "status": "fading",
+   "weight": 18615.2,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2269.2,
+   "weight": 2104.5,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1588.4,
+   "weight": 1473.1,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 407.6,
-   "status": "fading",
+   "weight": 398.0,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-08-22"
+   "last_seen": "2026-08-28"
   },
   {
    "slug": "design-ai-prototyping",

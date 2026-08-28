@@ -1,0 +1,188 @@
+{
+ "date": "2026-08-28",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-fitts-law",
+  "domain": "uiux",
+  "term": "Fitts 定律",
+  "tagline": "目標越大越近，越容易點到——聽起來像廢話但處處是應用",
+  "intro": [
+   "點擊時間取決於目標的大小與距離。這條 1954 年的人因定律解釋了：為什麼手機按鈕要至少 44pt、為什麼 Mac 選單列貼在螢幕頂端（邊緣等於無限大）、為什麼刪除鈕要離儲存鈕遠一點。",
+   "違反它的代價每天都在發生：太小的關閉鈕、緊貼的危險操作、手指搆不到的角落。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "NN/g：Fitts's Law",
+    "url": "https://www.nngroup.com/articles/fitts-law/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] tt-a1i/archify",
+   "text": "今日未歸戶最熱討論（github、熱度 3815），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "tt-a1i/archify",
+    "source": "github",
+    "heat": 3815.1,
+    "url": "https://github.com/tt-a1i/archify",
+    "what": "Agent skill for beautiful, verifiable architecture, workflow, sequence, d"
+   },
+   {
+    "title": "freestylefly/awesome-gpt-image-2",
+    "source": "github",
+    "heat": 1886.4,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "what": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，2"
+   },
+   {
+    "title": "DietrichGebert/ponytail",
+    "source": "github",
+    "heat": 1451.7,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1497.6,
+   "heat_trend": [
+    2766.0,
+    3389.7,
+    4625.1,
+    3738.6,
+    2541.6,
+    1344.6,
+    1497.6
+   ]
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 378.9,
+   "heat_trend": [
+    39.6,
+    80.1,
+    383.4,
+    36.0,
+    460.8,
+    374.4,
+    378.9
+   ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 33.3,
+   "heat_trend": [
+    37.5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    33.3
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Nvidia agrees to acquire Hugging Face for $13B",
+   "note": "hn · 熱度 2250（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49458161"
+  },
+  {
+   "title": "Show HN: The load-bearing vocabulary of Claude",
+   "note": "hn · 熱度 1208（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49461817"
+  },
+  {
+   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
+   "note": "github · 熱度 1163（未歸戶）",
+   "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+   "title": "MadsLorentzen/ai-job-search — The job search that runs on your machine",
+   "note": "github · 熱度 912（未歸戶）",
+   "url": "https://github.com/MadsLorentzen/ai-job-search"
+  },
+  {
+   "title": "Gemini Omni 1.1 Flash",
+   "note": "hn · 熱度 736（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49467922"
+  },
+  {
+   "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
+   "note": "github · 熱度 595（未歸戶）",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
