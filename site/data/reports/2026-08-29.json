@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 91（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 51（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -43,10 +43,10 @@
     "what": "Agent skill for beautiful, verifiable architecture, workflow, sequence, d"
    },
    {
-    "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
     "source": "hn",
-    "heat": 2088.0,
-    "url": "https://news.ycombinator.com/item?id=49473522"
+    "heat": 1536.0,
+    "url": "https://news.ycombinator.com/item?id=49486172"
    },
    {
     "title": "freestylefly/awesome-gpt-image-2",
@@ -67,7 +67,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 91.3,
+    "heat_today": 51.1,
     "heat_trend": [
      0,
      0,
@@ -75,25 +75,17 @@
      0,
      0,
      51.1,
-     91.3
+     51.1
     ],
-    "what": "當日 4 則相關討論：「Fable orchestrator + 5.6 sol max thinking worker seems to be」；「Do you think a few Qwen3.8-27B models working together could」；「I used Fable as the lead and a fleet of Sonnet agents undern」。",
+    "what": "當日 2 則相關討論：「Fable orchestrator + 5.6 sol max thinking worker seems to be」；「I used Fable as the lead and a fleet of Sonnet agents undern」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Fable orchestrator + 5.6 sol max thinking ",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w0pymj/fable_orchestrator_56_sol_max_thinking_worker/"
      },
      {
-      "label": "r/LocalLLaMA：Do you think a few Qwen3.8-27B models work",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0dgiv/do_you_think_a_few_qwen3827b_models_working/"
-     },
-     {
       "label": "r/ClaudeAI：I used Fable as the lead and a fleet of So",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1444j/i_used_fable_as_the_lead_and_a_fleet_of_sonnet/"
-     },
-     {
-      "label": "r/ClaudeAI：Fable stopped following instructions and e",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w0dksg/fable_stopped_following_instructions_and/"
      }
     ]
    }
@@ -154,18 +146,18 @@
   },
   {
    "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
-   "note": "hn · 熱度 970（未歸戶）",
+   "note": "hn · 熱度 976（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49477055"
   },
   {
-   "title": "“It works better in the app”",
-   "note": "hn · 熱度 836（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49477600"
+   "title": "GUIs should be fully keyboard-driven",
+   "note": "hn · 熱度 924（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49479837"
   },
   {
-   "title": "Get your Windows license refund",
-   "note": "hn · 熱度 781（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49478340"
+   "title": "“It works better in the app”",
+   "note": "hn · 熱度 868（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49477600"
   }
  ],
  "data_quality": [
@@ -175,7 +167,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -199,7 +191,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
