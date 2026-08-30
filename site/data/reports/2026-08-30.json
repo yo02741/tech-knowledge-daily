@@ -27,16 +27,10 @@
    "topic_ref": null
   },
   {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 136（上升），共 3 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-1"
-  },
-  {
    "title": "[AI] Claude Code skills 生態爆發",
    "text": "熱度 117（退燒），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
-   "topic_ref": "ai-2"
+   "topic_ref": "ai-1"
   }
  ],
  "fresh": {
@@ -67,14 +61,14 @@
    {
     "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
     "source": "hn",
-    "heat": 893.0,
+    "heat": 902.0,
     "url": "https://news.ycombinator.com/item?id=49485267",
     "what": "Contribute to Lakr233/vphone-cli development by creating an account on GitHub."
    },
    {
     "title": "EVE Online moves to Python 3",
     "source": "hn",
-    "heat": 840.0,
+    "heat": 857.0,
     "url": "https://news.ycombinator.com/item?id=49433328",
     "what": "How do you migrate 2.4 million lines of code?"
    },
@@ -91,7 +85,7 @@
    {
     "title": "Tether: iMessage, SMS, etc. on Linux",
     "source": "hn",
-    "heat": 493.5,
+    "heat": 519.0,
     "url": "https://news.ycombinator.com/item?id=49415386"
    }
   ]
@@ -100,37 +94,6 @@
   "ai": [
    {
     "id": "ai-1",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "rising",
-    "heat_today": 135.5,
-    "heat_trend": [
-     0,
-     0,
-     0,
-     0,
-     51.1,
-     80.3,
-     135.5
-    ],
-    "what": "當日 3 則相關討論：「Terminal Bench 4.0 just dropped, GLM-5.3 is at the same leve」；「Does Opus 5 verbosity affect its real world coding capacitie」；「Opus 5 Has Been Great For Me/When I Still Use Fable」。",
-    "sources": [
-     {
-      "label": "r/LocalLLaMA：Terminal Bench 4.0 just dropped, GLM-5.3 i",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1fpxi/terminal_bench_40_just_dropped_glm53_is_at_the/"
-     },
-     {
-      "label": "r/ClaudeAI：Does Opus 5 verbosity affect its real worl",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w22dy7/does_opus_5_verbosity_affect_its_real_world/"
-     },
-     {
-      "label": "r/ClaudeAI：Opus 5 Has Been Great For Me/When I Still ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1q0pw/opus_5_has_been_great_for_mewhen_i_still_use_fable/"
-     }
-    ]
-   },
-   {
-    "id": "ai-2",
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "fading",
@@ -177,12 +140,28 @@
     1745.1,
     1451.7
    ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 40.2,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    0,
+    51.1,
+    80.3,
+    40.2
+   ]
   }
  ],
  "radar": [
   {
    "title": "Debian votes to allow \"responsible use of generative AI\"",
-   "note": "hn · 熱度 698（未歸戶）",
+   "note": "hn · 熱度 701（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49489982"
   },
   {
@@ -191,18 +170,18 @@
    "url": "https://github.com/tashfeenahmed/freellmapi"
   },
   {
+   "title": "The internet is kind of a predatory cesspit now",
+   "note": "hn · 熱度 558（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49492193"
+  },
+  {
    "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
    "note": "github · 熱度 556（未歸戶）",
    "url": "https://github.com/bilawalsidhu/gods-eye-view"
   },
   {
-   "title": "The internet is kind of a predatory cesspit now",
-   "note": "hn · 熱度 548（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49492193"
-  },
-  {
    "title": "Iceland votes on whether to restart talks on joining EU",
-   "note": "hn · 熱度 540（未歸戶）",
+   "note": "hn · 熱度 542（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49489057"
   },
   {
