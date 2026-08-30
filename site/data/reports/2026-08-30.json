@@ -1,0 +1,248 @@
+{
+ "date": "2026-08-30",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-quantization",
+  "domain": "ai",
+  "term": "Quantization（量化）",
+  "tagline": "把模型「壓縮」到消費級硬體跑得動",
+  "intro": [
+   "模型權重原本用 16/32 位元浮點數存，量化把它降到 8 位元、4 位元甚至更低——檔案小好幾倍、推理更快，代價是精度略降。",
+   "這是「筆電跑本地模型」得以成立的關鍵技術；GGUF、AWQ、GPTQ 這些名詞都是不同的量化格式或方法。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "Hugging Face：Quantization",
+    "url": "https://huggingface.co/docs/transformers/quantization"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] tt-a1i/archify",
+   "text": "今日未歸戶最熱討論（github、熱度 3512），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 131（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 117（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "tt-a1i/archify",
+    "source": "github",
+    "heat": 3511.8,
+    "url": "https://github.com/tt-a1i/archify",
+    "what": "Agent skill for beautiful, verifiable architecture, workflow, sequence, d"
+   },
+   {
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "source": "hn",
+    "heat": 3109.5,
+    "url": "https://news.ycombinator.com/item?id=49486172"
+   },
+   {
+    "title": "THU-MAIC/OpenMAIC",
+    "source": "github",
+    "heat": 816.3,
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "what": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent"
+   }
+  ],
+  "software": [
+   {
+    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+    "source": "hn",
+    "heat": 857.0,
+    "url": "https://news.ycombinator.com/item?id=49485267",
+    "what": "Contribute to Lakr233/vphone-cli development by creating an account on GitHub."
+   },
+   {
+    "title": "EVE Online moves to Python 3",
+    "source": "hn",
+    "heat": 742.0,
+    "url": "https://news.ycombinator.com/item?id=49433328",
+    "what": "How do you migrate 2.4 million lines of code?"
+   },
+   {
+    "title": "abi/screenshot-to-code",
+    "source": "github",
+    "heat": 330.0,
+    "url": "https://github.com/abi/screenshot-to-code",
+    "what": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 131.2,
+    "heat_trend": [
+     0,
+     0,
+     0,
+     0,
+     51.1,
+     80.3,
+     131.2
+    ],
+    "what": "當日 3 則相關討論：「Terminal Bench 4.0 just dropped, GLM-5.3 is at the same leve」；「Opus 5 Has Been Great For Me/When I Still Use Fable」；「Does Opus 5 verbosity affect its real world coding capacitie」。",
+    "sources": [
+     {
+      "label": "r/LocalLLaMA：Terminal Bench 4.0 just dropped, GLM-5.3 i",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1fpxi/terminal_bench_40_just_dropped_glm53_is_at_the/"
+     },
+     {
+      "label": "r/ClaudeAI：Opus 5 Has Been Great For Me/When I Still ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1q0pw/opus_5_has_been_great_for_mewhen_i_still_use_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：Does Opus 5 verbosity affect its real worl",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w22dy7/does_opus_5_verbosity_affect_its_real_world/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 117.0,
+    "heat_trend": [
+     383.4,
+     36.0,
+     460.8,
+     374.4,
+     344.7,
+     343.8,
+     117.0
+    ],
+    "what": "當日 2 則相關討論：「ComposioHQ/awesome-claude-skills — A curated list of awesome」；「google/skills — Agent Skills for Google products and technol」。",
+    "sources": [
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     },
+     {
+      "label": "github：google/skills — Agent Skills for Google pr",
+      "url": "https://github.com/google/skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1451.7,
+   "heat_trend": [
+    4625.1,
+    3738.6,
+    2541.6,
+    1344.6,
+    1939.5,
+    1745.1,
+    1451.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
+   "note": "github · 熱度 725（未歸戶）",
+   "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+   "title": "Debian votes to allow \"responsible use of generative AI\"",
+   "note": "hn · 熱度 686（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49489982"
+  },
+  {
+   "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
+   "note": "github · 熱度 560（未歸戶）",
+   "url": "https://github.com/tashfeenahmed/freellmapi"
+  },
+  {
+   "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
+   "note": "github · 熱度 556（未歸戶）",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view"
+  },
+  {
+   "title": "Iceland votes on whether to restart talks on joining EU",
+   "note": "hn · 熱度 535（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49489057"
+  },
+  {
+   "title": "The internet is kind of a predatory cesspit now",
+   "note": "hn · 熱度 518（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49492193"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
