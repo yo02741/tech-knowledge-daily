@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 131（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 136（上升），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -49,31 +49,32 @@
     "what": "Agent skill for beautiful, verifiable architecture, workflow, sequence, d"
    },
    {
-    "title": "Our decision on Cursor following its acquisition by SpaceX",
-    "source": "hn",
-    "heat": 3109.5,
-    "url": "https://news.ycombinator.com/item?id=49486172"
-   },
-   {
     "title": "THU-MAIC/OpenMAIC",
     "source": "github",
     "heat": 816.3,
     "url": "https://github.com/THU-MAIC/OpenMAIC",
     "what": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent"
+   },
+   {
+    "title": "calesthio/OpenMontage",
+    "source": "github",
+    "heat": 725.4,
+    "url": "https://github.com/calesthio/OpenMontage",
+    "what": "World's first open-source, agentic video production system. 12 pro"
    }
   ],
   "software": [
    {
     "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
     "source": "hn",
-    "heat": 857.0,
+    "heat": 893.0,
     "url": "https://news.ycombinator.com/item?id=49485267",
     "what": "Contribute to Lakr233/vphone-cli development by creating an account on GitHub."
    },
    {
     "title": "EVE Online moves to Python 3",
     "source": "hn",
-    "heat": 742.0,
+    "heat": 840.0,
     "url": "https://news.ycombinator.com/item?id=49433328",
     "what": "How do you migrate 2.4 million lines of code?"
    },
@@ -86,7 +87,14 @@
    }
   ],
   "devops": [],
-  "uiux": []
+  "uiux": [
+   {
+    "title": "Tether: iMessage, SMS, etc. on Linux",
+    "source": "hn",
+    "heat": 493.5,
+    "url": "https://news.ycombinator.com/item?id=49415386"
+   }
+  ]
  },
  "sections": {
   "ai": [
@@ -95,7 +103,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 131.2,
+    "heat_today": 135.5,
     "heat_trend": [
      0,
      0,
@@ -103,21 +111,21 @@
      0,
      51.1,
      80.3,
-     131.2
+     135.5
     ],
-    "what": "當日 3 則相關討論：「Terminal Bench 4.0 just dropped, GLM-5.3 is at the same leve」；「Opus 5 Has Been Great For Me/When I Still Use Fable」；「Does Opus 5 verbosity affect its real world coding capacitie」。",
+    "what": "當日 3 則相關討論：「Terminal Bench 4.0 just dropped, GLM-5.3 is at the same leve」；「Does Opus 5 verbosity affect its real world coding capacitie」；「Opus 5 Has Been Great For Me/When I Still Use Fable」。",
     "sources": [
      {
       "label": "r/LocalLLaMA：Terminal Bench 4.0 just dropped, GLM-5.3 i",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1fpxi/terminal_bench_40_just_dropped_glm53_is_at_the/"
      },
      {
-      "label": "r/ClaudeAI：Opus 5 Has Been Great For Me/When I Still ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1q0pw/opus_5_has_been_great_for_mewhen_i_still_use_fable/"
-     },
-     {
       "label": "r/ClaudeAI：Does Opus 5 verbosity affect its real worl",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w22dy7/does_opus_5_verbosity_affect_its_real_world/"
+     },
+     {
+      "label": "r/ClaudeAI：Opus 5 Has Been Great For Me/When I Still ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1q0pw/opus_5_has_been_great_for_mewhen_i_still_use_fable/"
      }
     ]
    },
@@ -173,13 +181,8 @@
  ],
  "radar": [
   {
-   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
-   "note": "github · 熱度 725（未歸戶）",
-   "url": "https://github.com/calesthio/OpenMontage"
-  },
-  {
    "title": "Debian votes to allow \"responsible use of generative AI\"",
-   "note": "hn · 熱度 686（未歸戶）",
+   "note": "hn · 熱度 698（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49489982"
   },
   {
@@ -193,14 +196,19 @@
    "url": "https://github.com/bilawalsidhu/gods-eye-view"
   },
   {
+   "title": "The internet is kind of a predatory cesspit now",
+   "note": "hn · 熱度 548（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49492193"
+  },
+  {
    "title": "Iceland votes on whether to restart talks on joining EU",
-   "note": "hn · 熱度 535（未歸戶）",
+   "note": "hn · 熱度 540（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49489057"
   },
   {
-   "title": "The internet is kind of a predatory cesspit now",
-   "note": "hn · 熱度 518（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49492193"
+   "title": "Prepare for a decrease of about 20% of current rate",
+   "note": "r/ClaudeAI · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1s49z/prepare_for_a_decrease_of_about_20_of_current_rate/"
   }
  ],
  "data_quality": [
@@ -210,7 +218,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -234,7 +242,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
