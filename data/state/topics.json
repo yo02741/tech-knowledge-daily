@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-30",
+ "last_run": "2026-08-31",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,13 +8,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-30",
+   "last_seen": "2026-08-31",
    "history": [
-    {
-     "date": "2026-08-01",
-     "heat": 0,
-     "mentions": 0
-    },
     {
      "date": "2026-08-02",
      "heat": 250.0,
@@ -159,6 +154,11 @@
      "date": "2026-08-30",
      "heat": 40.2,
      "mentions": 2
+    },
+    {
+     "date": "2026-08-31",
+     "heat": 100.0,
+     "mentions": 1
     }
    ],
    "status": "ongoing",
@@ -174,13 +174,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-30",
+   "last_seen": "2026-08-31",
    "history": [
-    {
-     "date": "2026-08-01",
-     "heat": 0,
-     "mentions": 0
-    },
     {
      "date": "2026-08-02",
      "heat": 0,
@@ -325,6 +320,11 @@
      "date": "2026-08-30",
      "heat": 1451.7,
      "mentions": 2
+    },
+    {
+     "date": "2026-08-31",
+     "heat": 1021.4,
+     "mentions": 2
     }
    ],
    "status": "ongoing",
@@ -347,11 +347,6 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-30",
    "history": [
-    {
-     "date": "2026-08-01",
-     "heat": 844.2,
-     "mentions": 3
-    },
     {
      "date": "2026-08-02",
      "heat": 101.7,
@@ -496,6 +491,11 @@
      "date": "2026-08-30",
      "heat": 117.0,
      "mentions": 2
+    },
+    {
+     "date": "2026-08-31",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
