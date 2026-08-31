@@ -27,10 +27,16 @@
    "topic_ref": null
   },
   {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 100（持續），共 1 則討論；重點連結見對應段落。",
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1003（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 450（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -50,11 +56,11 @@
     "what": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent"
    },
    {
-    "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+    "title": "Haiku R1/beta6 has been released",
     "source": "hn",
-    "heat": 847.5,
-    "url": "https://news.ycombinator.com/item?id=49498201",
-    "what": "Preflight Checklist I have searched existing requests and this feature hasn't been requested yet This is a single feature request (not multiple features) Problem Statement Every commit message and ..."
+    "heat": 976.5,
+    "url": "https://news.ycombinator.com/item?id=49499867",
+    "what": "After about two years since the last beta, and only about a week after Haiku’s 25th birthday, Haiku R1/beta6 has been released! See “Release Notes” for the release notes, “Press contact”, for press inquiries … and …"
    }
   ],
   "software": [
@@ -71,27 +77,48 @@
     "heat": 250.8,
     "url": "https://github.com/abi/screenshot-to-code",
     "what": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/"
+   },
+   {
+    "title": "How to set work/life boundaries when no one else at the company does?",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w2pc7e/how_to_set_worklife_boundaries_when_no_one_else/"
    }
   ],
   "devops": [],
-  "uiux": [
-   {
-    "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-    "source": "hn",
-    "heat": 863.0,
-    "url": "https://news.ycombinator.com/item?id=49495372",
-    "what": "AB 1856 excludes open-source operating systems from the upcoming Digital Age Assurance Act."
-   }
-  ]
+  "uiux": []
  },
  "sections": {
   "ai": [
    {
     "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 1002.6,
+    "heat_trend": [
+     3738.6,
+     2541.6,
+     1344.6,
+     1939.5,
+     1745.1,
+     1451.7,
+     1002.6
+    ],
+    "what": "當日 1 則相關討論：「K-Dense-AI/scientific-agent-skills — Turn any AI agent into 」。",
+    "sources": [
+     {
+      "label": "github：K-Dense-AI/scientific-agent-skills — Turn ",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
-    "status": "ongoing",
-    "heat_today": 100.0,
+    "status": "rising",
+    "heat_today": 450.0,
     "heat_trend": [
      0,
      0,
@@ -99,13 +126,17 @@
      51.1,
      80.3,
      40.2,
-     100.0
+     450.0
     ],
-    "what": "當日 1 則相關討論：「All leaks and news about Fable, Opus and sometimes Sonnet, w」。",
+    "what": "當日 2 則相關討論：「All leaks and news about Fable, Opus and sometimes Sonnet, w」；「I have been working on quantum computing with Fable 5.」。",
     "sources": [
      {
       "label": "r/ClaudeAI：All leaks and news about Fable, Opus and s",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2t9x1/all_leaks_and_news_about_fable_opus_and_sometimes/"
+     },
+     {
+      "label": "r/ClaudeAI：I have been working on quantum computing w",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2xapb/i_have_been_working_on_quantum_computing_with/"
      }
     ]
    }
@@ -114,54 +145,37 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "codex-claude-interop",
-   "title": "OpenAI Codex ↔ Claude Code 互操作",
-   "status": "ongoing",
-   "domain": "ai",
-   "heat_today": 1021.4,
-   "heat_trend": [
-    3738.6,
-    2541.6,
-    1344.6,
-    1939.5,
-    1745.1,
-    1451.7,
-    1021.4
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "Creepy Crawlies",
-   "note": "hn · 熱度 1096（未歸戶）",
+   "note": "hn · 熱度 1284（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49491791"
   },
   {
-   "title": "Haiku R1/beta6 has been released",
-   "note": "hn · 熱度 834（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49499867"
+   "title": "Claude Session URL appended to commit messages and PR descriptions by ",
+   "note": "hn · 熱度 884（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49498201"
   },
   {
    "title": "Omarchy: Any User Process Can Escalate to Root",
-   "note": "hn · 熱度 580（未歸戶）",
+   "note": "hn · 熱度 706（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49499854"
   },
   {
-   "title": "Brits would quite like their private messages to stay private",
-   "note": "hn · 熱度 456（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49497063"
+   "title": "“I just chose words carefully”",
+   "note": "hn · 熱度 591（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49503601"
+  },
+  {
+   "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU",
+   "note": "hn · 熱度 474（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49499394"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
    "note": "github · 熱度 454（未歸戶）",
    "url": "https://github.com/tashfeenahmed/freellmapi"
-  },
-  {
-   "title": "What’s a good useful MCP you connected to that brings you real value?",
-   "note": "r/ClaudeAI · 熱度 300（未歸戶）",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2grux/whats_a_good_useful_mcp_you_connected_to_that/"
   }
  ],
  "data_quality": [
@@ -195,11 +209,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
