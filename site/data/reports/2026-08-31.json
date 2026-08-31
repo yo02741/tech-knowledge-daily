@@ -58,7 +58,7 @@
    {
     "title": "Haiku R1/beta6 has been released",
     "source": "hn",
-    "heat": 976.5,
+    "heat": 1044.0,
     "url": "https://news.ycombinator.com/item?id=49499867",
     "what": "After about two years since the last beta, and only about a week after Haiku’s 25th birthday, Haiku R1/beta6 has been released! See “Release Notes” for the release notes, “Press contact”, for press inquiries … and …"
    }
@@ -79,10 +79,10 @@
     "what": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/"
    },
    {
-    "title": "How to set work/life boundaries when no one else at the company does?",
-    "source": "r/ExperiencedDevs",
+    "title": "Reverse Engineering Unknown File Formats with ImHex",
+    "source": "r/programming",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w2pc7e/how_to_set_worklife_boundaries_when_no_one_else/"
+    "url": "https://www.reddit.com/r/programming/comments/1w2ckmm/reverse_engineering_unknown_file_formats_with/"
    }
   ],
   "devops": [],
@@ -128,15 +128,15 @@
      40.2,
      450.0
     ],
-    "what": "當日 2 則相關討論：「All leaks and news about Fable, Opus and sometimes Sonnet, w」；「I have been working on quantum computing with Fable 5.」。",
+    "what": "當日 2 則相關討論：「I have been working on quantum computing with Fable 5.」；「All leaks and news about Fable, Opus and sometimes Sonnet, w」。",
     "sources": [
-     {
-      "label": "r/ClaudeAI：All leaks and news about Fable, Opus and s",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2t9x1/all_leaks_and_news_about_fable_opus_and_sometimes/"
-     },
      {
       "label": "r/ClaudeAI：I have been working on quantum computing w",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2xapb/i_have_been_working_on_quantum_computing_with/"
+     },
+     {
+      "label": "r/ClaudeAI：All leaks and news about Fable, Opus and s",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2t9x1/all_leaks_and_news_about_fable_opus_and_sometimes/"
      }
     ]
    }
@@ -149,28 +149,28 @@
  "radar": [
   {
    "title": "Creepy Crawlies",
-   "note": "hn · 熱度 1284（未歸戶）",
+   "note": "hn · 熱度 1339（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49491791"
   },
   {
    "title": "Claude Session URL appended to commit messages and PR descriptions by ",
-   "note": "hn · 熱度 884（未歸戶）",
+   "note": "hn · 熱度 906（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49498201"
   },
   {
-   "title": "Omarchy: Any User Process Can Escalate to Root",
-   "note": "hn · 熱度 706（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49499854"
-  },
-  {
    "title": "“I just chose words carefully”",
-   "note": "hn · 熱度 591（未歸戶）",
+   "note": "hn · 熱度 720（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49503601"
   },
   {
-   "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU",
-   "note": "hn · 熱度 474（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49499394"
+   "title": "Omarchy: Any User Process Can Escalate to Root",
+   "note": "hn · 熱度 720（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49499854"
+  },
+  {
+   "title": "Understanding ChatGPT Work",
+   "note": "hn · 熱度 502（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49504625"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
@@ -185,7 +185,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -213,7 +213,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
