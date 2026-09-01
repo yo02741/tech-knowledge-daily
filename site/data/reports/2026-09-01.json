@@ -101,7 +101,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 25.0,
+   "heat_today": 33.3,
    "heat_trend": [
     5.6,
     0,
@@ -109,20 +109,25 @@
     0,
     0,
     0,
-    25.0
+    33.3
    ]
   }
  ],
  "radar": [
   {
-   "title": "Understanding ChatGPT Work",
-   "note": "hn · 熱度 1221（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49504625"
+   "title": "Breaking Claude Code Opus 5 Auto Mode",
+   "note": "hn · 熱度 1250（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49506819"
   },
   {
-   "title": "Breaking Claude Code Opus 5 Auto Mode",
-   "note": "hn · 熱度 1186（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49506819"
+   "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including",
+   "note": "hn · 熱度 880（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49514878"
+  },
+  {
+   "title": "ChatGPT Work Tool and Skill Reference",
+   "note": "hn · 熱度 700（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49510000"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
@@ -130,19 +135,14 @@
    "url": "https://github.com/tashfeenahmed/freellmapi"
   },
   {
+   "title": "Playa Phone",
+   "note": "hn · 熱度 666（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49510514"
+  },
+  {
    "title": "Agent memory as a file format",
-   "note": "hn · 熱度 604（未歸戶）",
+   "note": "hn · 熱度 636（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49508317"
-  },
-  {
-   "title": "ChatGPT Work Tool and Skill Reference",
-   "note": "hn · 熱度 598（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49510000"
-  },
-  {
-   "title": "OpenShot 4.0 – Open-source video editor",
-   "note": "hn · 熱度 590（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49507822"
   }
  ],
  "data_quality": [
@@ -152,7 +152,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -176,7 +176,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
