@@ -116,18 +116,23 @@
  "radar": [
   {
    "title": "Breaking Claude Code Opus 5 Auto Mode",
-   "note": "hn · 熱度 1250（未歸戶）",
+   "note": "hn · 熱度 1256（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49506819"
   },
   {
    "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including",
-   "note": "hn · 熱度 880（未歸戶）",
+   "note": "hn · 熱度 896（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49514878"
   },
   {
    "title": "ChatGPT Work Tool and Skill Reference",
-   "note": "hn · 熱度 700（未歸戶）",
+   "note": "hn · 熱度 704（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49510000"
+  },
+  {
+   "title": "Playa Phone",
+   "note": "hn · 熱度 687（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49510514"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
@@ -135,13 +140,8 @@
    "url": "https://github.com/tashfeenahmed/freellmapi"
   },
   {
-   "title": "Playa Phone",
-   "note": "hn · 熱度 666（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49510514"
-  },
-  {
    "title": "Agent memory as a file format",
-   "note": "hn · 熱度 636（未歸戶）",
+   "note": "hn · 熱度 640（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49508317"
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -168,7 +168,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
