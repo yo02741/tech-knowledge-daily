@@ -1,5 +1,12 @@
 [
  {
+  "date": "2026-09-01",
+  "weekday": "二",
+  "tldr_count": 2,
+  "topic_count": 1,
+  "top_topic": "OpenAI Codex ↔ Claude Code 互操作"
+ },
+ {
   "date": "2026-08-31",
   "weekday": "一",
   "tldr_count": 3,
