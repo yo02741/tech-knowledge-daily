@@ -157,8 +157,8 @@
     },
     {
      "date": "2026-09-02",
-     "heat": 4851.0,
-     "mentions": 15
+     "heat": 6010.2,
+     "mentions": 17
     }
    ],
    "status": "rising",
@@ -323,11 +323,11 @@
     },
     {
      "date": "2026-09-02",
-     "heat": 2334.0,
+     "heat": 2644.5,
      "mentions": 5
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -663,7 +663,7 @@
     },
     {
      "date": "2026-09-02",
-     "heat": 57.5,
+     "heat": 55.0,
      "mentions": 3
     }
    ],
