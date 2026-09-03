@@ -1,0 +1,258 @@
+{
+ "date": "2026-09-03",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-feature-flag",
+  "domain": "devops",
+  "term": "Feature Flag",
+  "tagline": "程式碼先上線，功能開關另外控制",
+  "intro": [
+   "新功能包在開關後面部署上去，先對內部或 1% 使用者打開，驗證沒問題再全量——出事關掉開關即可，不用緊急回滾部署。",
+   "進階玩法是 A/B 實驗與按用戶分群；技術債提醒：旗子要定期清，長滿過期開關的程式碼是災難現場。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Martin Fowler：Feature Toggles",
+    "url": "https://martinfowler.com/articles/feature-toggles.html"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "text": "今日未歸戶最熱討論（hn、熱度 3122），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1288（持續），共 15 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 933（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 598（退燒），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "source": "hn",
+    "heat": 3121.5,
+    "url": "https://news.ycombinator.com/item?id=49537553",
+    "what": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity."
+   },
+   {
+    "title": "DietrichGebert/ponytail",
+    "source": "github",
+    "heat": 1218.6,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+   },
+   {
+    "title": "THU-MAIC/OpenMAIC",
+    "source": "github",
+    "heat": 1129.5,
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "what": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent"
+   }
+  ],
+  "software": [
+   {
+    "title": "Handle colleagues who communicate through LLM's",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w55n3j/handle_colleagues_who_communicate_through_llms/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 1288.2,
+    "heat_trend": [
+     51.1,
+     80.3,
+     40.2,
+     450.0,
+     54.7,
+     6265.0,
+     1288.2
+    ],
+    "what": "當日 15 則相關討論：「Fable 5.1 World Modeling」；「Fable 5.1 Max gave me the most reasonable local setup guide」；「Fable 5.1 made a Minecraft mod for $20」。",
+    "sources": [
+     {
+      "label": "hn：Fable 5.1 World Modeling",
+      "url": "https://news.ycombinator.com/item?id=49541458"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5.1 Max gave me the most reasonable ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w54tww/fable_51_max_gave_me_the_most_reasonable_local/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5.1 made a Minecraft mod for $20",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/"
+     },
+     {
+      "label": "r/ClaudeAI：Differences Between Fable 5 and Fable 5.1 ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5fh39/differences_between_fable_5_and_fable_51_on/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 933.3,
+    "heat_trend": [
+     344.7,
+     343.8,
+     117.0,
+     0,
+     0,
+     173.7,
+     933.3
+    ],
+    "what": "當日 2 則相關討論：「Imbad0202/academic-research-skills — Academic Research Skill」；「JuliusBrussee/caveman — 🪨 why use many token when few token 」。",
+    "sources": [
+     {
+      "label": "github：Imbad0202/academic-research-skills — Acade",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+     },
+     {
+      "label": "github：JuliusBrussee/caveman — 🪨 why use many tok",
+      "url": "https://github.com/JuliusBrussee/caveman"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 598.5,
+    "heat_trend": [
+     1939.5,
+     1745.1,
+     1451.7,
+     1002.6,
+     2242.8,
+     2736.0,
+     598.5
+    ],
+    "what": "當日 3 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「ruvnet/ruflo — 🌊 The original agent meta-harness. Deploy int」；「teng-lin/notebooklm-py — Unofficial Python API and agentic s」。",
+    "sources": [
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The original agent meta-h",
+      "url": "https://github.com/ruvnet/ruflo"
+     },
+     {
+      "label": "github：teng-lin/notebooklm-py — Unofficial Python",
+      "url": "https://github.com/teng-lin/notebooklm-py"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1049（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "pacifio/atlas — Source control for agents. Use multiple coding agents,",
+   "note": "github · 熱度 799（未歸戶）",
+   "url": "https://github.com/pacifio/atlas"
+  },
+  {
+   "title": "jingyaogong/minimind — 🧠 Train a 64M-parameter LLM from scratch in jus",
+   "note": "github · 熱度 774（未歸戶）",
+   "url": "https://github.com/jingyaogong/minimind"
+  },
+  {
+   "title": "A note on subscription prices from LWN",
+   "note": "hn · 熱度 738（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49535752"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 731（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "Check if a file was made with Claude",
+   "note": "hn · 熱度 612（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49535201"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
