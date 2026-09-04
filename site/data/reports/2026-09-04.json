@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] GPT-6 Astra",
-   "text": "今日未歸戶最熱討論（hn、熱度 5126），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6477），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2034（持續），共 6 則討論；重點連結見對應段落。",
+   "text": "熱度 2299（持續），共 7 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 107（退燒），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 110（退燒），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -50,7 +50,7 @@
    {
     "title": "GPT-6 Astra",
     "source": "hn",
-    "heat": 5125.5,
+    "heat": 6477.0,
     "url": "https://news.ycombinator.com/item?id=49554643"
    },
    {
@@ -63,7 +63,7 @@
    {
     "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
     "source": "hn",
-    "heat": 1743.0,
+    "heat": 1863.0,
     "url": "https://news.ycombinator.com/item?id=49551096"
    }
   ],
@@ -78,7 +78,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2034.3,
+    "heat_today": 2298.8,
     "heat_trend": [
      1745.1,
      1451.7,
@@ -86,13 +86,17 @@
      2242.8,
      2736.0,
      598.5,
-     2034.3
+     2298.8
     ],
-    "what": "當日 6 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「Graphify-Labs/graphify — Turn any codebase, with its docs, S」；「Codex outage」。",
+    "what": "當日 7 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「Which tools do Claude, Codex and Cursor choose? We measured 」；「Graphify-Labs/graphify — Turn any codebase, with its docs, S」。",
     "sources": [
      {
       "label": "github：affaan-m/ECC — The agent harness performan",
       "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "hn：Which tools do Claude, Codex and Cursor ch",
+      "url": "https://news.ycombinator.com/item?id=49557206"
      },
      {
       "label": "github：Graphify-Labs/graphify — Turn any codebase",
@@ -101,10 +105,6 @@
      {
       "label": "hn：Codex outage",
       "url": "https://news.ycombinator.com/item?id=49550769"
-     },
-     {
-      "label": "hn：ChatGPT and Codex Is Down",
-      "url": "https://news.ycombinator.com/item?id=49550640"
      }
     ]
    },
@@ -144,7 +144,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 107.2,
+    "heat_today": 109.6,
     "heat_trend": [
      80.3,
      40.2,
@@ -152,9 +152,9 @@
      54.7,
      6265.0,
      1470.3,
-     107.2
+     109.6
     ],
-    "what": "當日 5 則相關討論：「Fable 5.1 vs Fable at making a driving game」；「Fable 5.1's Claude.ai System Prompt is now 138k tokens (up f」；「What’s something Fable 5.1 does noticeably better than Fable」。",
+    "what": "當日 4 則相關討論：「Fable 5.1 vs Fable at making a driving game」；「Fable 5.1's Claude.ai System Prompt is now 138k tokens (up f」；「I asked Fable 5.1 to make a Rick motorbike spin optical illu」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Fable 5.1 vs Fable at making a driving gam",
@@ -165,12 +165,12 @@
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w61jq4/fable_51s_claudeai_system_prompt_is_now_138k/"
      },
      {
-      "label": "r/ClaudeAI：What’s something Fable 5.1 does noticeably",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5uqbi/whats_something_fable_51_does_noticeably_better/"
-     },
-     {
       "label": "r/ClaudeAI：I asked Fable 5.1 to make a Rick motorbike",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w6i95a/i_asked_fable_51_to_make_a_rick_motorbike_spin/"
+     },
+     {
+      "label": "r/ClaudeAI：New Fable 5.1 is wild, what's your thought",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w63vpy/new_fable_51_is_wild_whats_your_thoughts/"
      }
     ]
    }
@@ -182,19 +182,19 @@
  "tracking": [],
  "radar": [
   {
-   "title": "ChatGPT outage – Resolved",
-   "note": "hn · 熱度 1557（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49550614"
+   "title": ".name Termination",
+   "note": "hn · 熱度 1736（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49550772"
   },
   {
    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-   "note": "hn · 熱度 1476（未歸戶）",
+   "note": "hn · 熱度 1722（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49554520"
   },
   {
-   "title": ".name Termination",
-   "note": "hn · 熱度 1467（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49550772"
+   "title": "ChatGPT outage – Resolved",
+   "note": "hn · 熱度 1558（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49550614"
   },
   {
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
@@ -203,7 +203,7 @@
   },
   {
    "title": "Audacity 4.0",
-   "note": "hn · 熱度 1153（未歸戶）",
+   "note": "hn · 熱度 1202（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49548395"
   },
   {
