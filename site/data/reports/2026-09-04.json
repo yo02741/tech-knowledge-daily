@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] GPT-6 Astra",
-   "text": "今日未歸戶最熱討論（hn、熱度 6477），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6897），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2299（持續），共 7 則討論；重點連結見對應段落。",
+   "text": "熱度 2393（持續），共 7 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 110（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 102（退燒），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -50,7 +50,7 @@
    {
     "title": "GPT-6 Astra",
     "source": "hn",
-    "heat": 6477.0,
+    "heat": 6897.0,
     "url": "https://news.ycombinator.com/item?id=49554643"
    },
    {
@@ -63,7 +63,7 @@
    {
     "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
     "source": "hn",
-    "heat": 1863.0,
+    "heat": 1872.0,
     "url": "https://news.ycombinator.com/item?id=49551096"
    }
   ],
@@ -78,7 +78,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2298.8,
+    "heat_today": 2393.3,
     "heat_trend": [
      1745.1,
      1451.7,
@@ -86,7 +86,7 @@
      2242.8,
      2736.0,
      598.5,
-     2298.8
+     2393.3
     ],
     "what": "當日 7 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「Which tools do Claude, Codex and Cursor choose? We measured 」；「Graphify-Labs/graphify — Turn any codebase, with its docs, S」。",
     "sources": [
@@ -144,7 +144,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 109.6,
+    "heat_today": 102.3,
     "heat_trend": [
      80.3,
      40.2,
@@ -152,7 +152,7 @@
      54.7,
      6265.0,
      1470.3,
-     109.6
+     102.3
     ],
     "what": "當日 4 則相關討論：「Fable 5.1 vs Fable at making a driving game」；「Fable 5.1's Claude.ai System Prompt is now 138k tokens (up f」；「I asked Fable 5.1 to make a Rick motorbike spin optical illu」。",
     "sources": [
@@ -183,12 +183,12 @@
  "radar": [
   {
    "title": ".name Termination",
-   "note": "hn · 熱度 1736（未歸戶）",
+   "note": "hn · 熱度 1822（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49550772"
   },
   {
    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-   "note": "hn · 熱度 1722（未歸戶）",
+   "note": "hn · 熱度 1788（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49554520"
   },
   {
@@ -203,7 +203,7 @@
   },
   {
    "title": "Audacity 4.0",
-   "note": "hn · 熱度 1202（未歸戶）",
+   "note": "hn · 熱度 1212（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49548395"
   },
   {
@@ -231,7 +231,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -243,7 +243,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
