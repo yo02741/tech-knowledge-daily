@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Discovery of a new OpenAI agent message board",
-   "text": "今日未歸戶最熱討論（hn、熱度 6572），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6716），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Discovery of a new OpenAI agent message board",
     "source": "hn",
-    "heat": 6571.5,
+    "heat": 6715.5,
     "url": "https://news.ycombinator.com/item?id=49563355",
     "what": "A swarm of autonomous AI agents, self-identifying as OpenAI agents, used a small German volunteer wiki to save answers, coordinate live, and share sandbox bypasses. OpenAI noticed and said nothing."
    },
@@ -59,10 +59,10 @@
   ],
   "software": [
    {
-    "title": "Manager now does solo things without informing or consulting with the team",
-    "source": "r/ExperiencedDevs",
+    "title": ".name Termination",
+    "source": "r/programming",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w70b6d/manager_now_does_solo_things_without_informing_or/"
+    "url": "https://www.reddit.com/r/programming/comments/1w7dn8q/name_termination/"
    }
   ],
   "devops": [],
@@ -170,18 +170,18 @@
   },
   {
    "title": "Formalizing Fermat's Last Theorem",
-   "note": "hn · 熱度 720（未歸戶）",
+   "note": "hn · 熱度 744（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49568506"
   },
   {
-   "title": "Hackers had a live feed of every ID verification company scanned for o",
-   "note": "hn · 熱度 653（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49561320"
+   "title": "GPT-6 Astra on OpenRouter",
+   "note": "hn · 熱度 684（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49570545"
   },
   {
-   "title": "NousResearch/hermes-agent — The agent that grows with you",
-   "note": "github · 熱度 648（未歸戶）",
-   "url": "https://github.com/NousResearch/hermes-agent"
+   "title": "Hackers had a live feed of every ID verification company scanned for o",
+   "note": "hn · 熱度 656（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49561320"
   }
  ],
  "data_quality": [
@@ -191,7 +191,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
