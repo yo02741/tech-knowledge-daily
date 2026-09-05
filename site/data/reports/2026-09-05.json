@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] Discovery of a new OpenAI agent message board",
-   "text": "今日未歸戶最熱討論（hn、熱度 6074），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6572），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 381（退燒），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 350（退燒），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   }
@@ -38,7 +38,7 @@
    {
     "title": "Discovery of a new OpenAI agent message board",
     "source": "hn",
-    "heat": 6073.5,
+    "heat": 6571.5,
     "url": "https://news.ycombinator.com/item?id=49563355",
     "what": "A swarm of autonomous AI agents, self-identifying as OpenAI agents, used a small German volunteer wiki to save answers, coordinate live, and share sandbox bypasses. OpenAI noticed and said nothing."
    },
@@ -75,7 +75,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 381.1,
+    "heat_today": 350.0,
     "heat_trend": [
      40.2,
      450.0,
@@ -83,9 +83,9 @@
      6265.0,
      1470.3,
      102.3,
-     381.1
+     350.0
     ],
-    "what": "當日 5 則相關討論：「Fable 5.1 one shotted this」；「Am I falling into the hype train or is Fable 5.1 really this」；「\"Human's need to review the code\" vs \"Fable does the plannin」。",
+    "what": "當日 2 則相關討論：「Fable 5.1 one shotted this」；「Am I falling into the hype train or is Fable 5.1 really this」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Fable 5.1 one shotted this",
@@ -94,14 +94,6 @@
      {
       "label": "r/ClaudeAI：Am I falling into the hype train or is Fab",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w77fyo/am_i_falling_into_the_hype_train_or_is_fable_51/"
-     },
-     {
-      "label": "r/ClaudeAI：\"Human's need to review the code\" vs \"Fabl",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w6sz4g/humans_need_to_review_the_code_vs_fable_does_the/"
-     },
-     {
-      "label": "r/ClaudeAI：Trusted Access To Claude Mythos 5.1 & Fabl",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w6sp4h/trusted_access_to_claude_mythos_51_fable_51/"
      }
     ]
    }
@@ -177,19 +169,19 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "NousResearch/hermes-agent — The agent that grows with you",
-   "note": "github · 熱度 648（未歸戶）",
-   "url": "https://github.com/NousResearch/hermes-agent"
+   "title": "Formalizing Fermat's Last Theorem",
+   "note": "hn · 熱度 720（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49568506"
   },
   {
    "title": "Hackers had a live feed of every ID verification company scanned for o",
-   "note": "hn · 熱度 645（未歸戶）",
+   "note": "hn · 熱度 653（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49561320"
   },
   {
-   "title": "Formalizing Fermat's Last Theorem",
-   "note": "hn · 熱度 604（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49568506"
+   "title": "NousResearch/hermes-agent — The agent that grows with you",
+   "note": "github · 熱度 648（未歸戶）",
+   "url": "https://github.com/NousResearch/hermes-agent"
   }
  ],
  "data_quality": [
