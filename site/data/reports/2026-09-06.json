@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Discovery of a new OpenAI agent message board",
-   "text": "今日未歸戶最熱討論（hn、熱度 8528），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 8744），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,7 +44,7 @@
    {
     "title": "Discovery of a new OpenAI agent message board",
     "source": "hn",
-    "heat": 8527.5,
+    "heat": 8743.5,
     "url": "https://news.ycombinator.com/item?id=49563355",
     "what": "A swarm of autonomous AI agents, self-identifying as OpenAI agents, used a small German volunteer wiki to save answers, coordinate live, and share sandbox bypasses. OpenAI noticed and said nothing."
    },
@@ -69,7 +69,7 @@
    {
     "title": "The Real Luxuries In Life",
     "source": "hn",
-    "heat": 534.0,
+    "heat": 563.5,
     "url": "https://news.ycombinator.com/item?id=49578866",
     "what": "Labor Day weekend has always been the back to school marker for me. I"
    }
@@ -148,9 +148,9 @@
   {
    "slug": "fable5-lifecycle",
    "title": "Fable 5 使用期限與遷移策略",
-   "status": "fading",
+   "status": "ongoing",
    "domain": "ai",
-   "heat_today": 317.1,
+   "heat_today": 419.4,
    "heat_trend": [
     450.0,
     54.7,
@@ -158,15 +158,20 @@
     1470.3,
     102.3,
     350.0,
-    317.1
+    419.4
    ]
   }
  ],
  "radar": [
   {
    "title": "Actively exploited sandbox RCE in all Chromium versions",
-   "note": "hn · 熱度 958（未歸戶）",
+   "note": "hn · 熱度 984（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49570669"
+  },
+  {
+   "title": "LLMs as a Cognitive Virus",
+   "note": "hn · 熱度 938（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49580164"
   },
   {
    "title": "blader/humanizer — Agent skill that removes signs of AI-generated writ",
@@ -175,13 +180,8 @@
   },
   {
    "title": "Nitter has more working instances than before the takedowns",
-   "note": "hn · 熱度 764（未歸戶）",
+   "note": "hn · 熱度 814（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49571634"
-  },
-  {
-   "title": "LLMs as a Cognitive Virus",
-   "note": "hn · 熱度 672（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49580164"
   },
   {
    "title": "anomalyco/opencode — The open source coding agent.",
@@ -201,7 +201,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -217,7 +217,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
