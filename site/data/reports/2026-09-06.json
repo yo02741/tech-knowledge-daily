@@ -1,0 +1,239 @@
+{
+ "date": "2026-09-06",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-idempotency",
+  "domain": "backend",
+  "term": "冪等性（Idempotency）",
+  "tagline": "同一個請求重送十次，效果跟一次一樣",
+  "intro": [
+   "網路會逾時、使用者會重按、佇列會重投——同一操作被執行多次是常態。冪等設計確保重複執行不會造成重複扣款、重複建單。",
+   "常見做法：客戶端帶唯一的 idempotency key，伺服器記住處理過的 key 直接回快取結果。金流 API（Stripe 等）都強制這個模式。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Stripe：Idempotent requests",
+    "url": "https://docs.stripe.com/api/idempotent_requests"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Discovery of a new OpenAI agent message board",
+   "text": "今日未歸戶最熱討論（hn、熱度 8528），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 2853（上升），共 7 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 568（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Discovery of a new OpenAI agent message board",
+    "source": "hn",
+    "heat": 8527.5,
+    "url": "https://news.ycombinator.com/item?id=49563355",
+    "what": "A swarm of autonomous AI agents, self-identifying as OpenAI agents, used a small German volunteer wiki to save answers, coordinate live, and share sandbox bypasses. OpenAI noticed and said nothing."
+   },
+   {
+    "title": "DietrichGebert/ponytail",
+    "source": "github",
+    "heat": 2560.5,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+   },
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 2422.8,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .agents directory."
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "title": "The Real Luxuries In Life",
+    "source": "hn",
+    "heat": 534.0,
+    "url": "https://news.ycombinator.com/item?id=49578866",
+    "what": "Labor Day weekend has always been the back to school marker for me. I"
+   }
+  ]
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 2853.0,
+    "heat_trend": [
+     1002.6,
+     2242.8,
+     2736.0,
+     598.5,
+     2393.3,
+     2052.0,
+     2853.0
+    ],
+    "what": "當日 7 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「cathrynlavery/diagram-design — 38 editorial diagram types fo」；「magnitudedev/magnitude — Open source inference server that r」。",
+    "sources": [
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "github：cathrynlavery/diagram-design — 38 editoria",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+     },
+     {
+      "label": "github：magnitudedev/magnitude — Open source infer",
+      "url": "https://github.com/magnitudedev/magnitude"
+     },
+     {
+      "label": "github：NVIDIA/SkillSpector — Security scanner for",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 567.9,
+    "heat_trend": [
+     0,
+     0,
+     173.7,
+     933.3,
+     1188.0,
+     1107.0,
+     567.9
+    ],
+    "what": "當日 2 則相關討論：「anthropics/skills — Public repository for Agent Skills」；「Imbad0202/academic-research-skills — Academic Research Skill」。",
+    "sources": [
+     {
+      "label": "github：anthropics/skills — Public repository for ",
+      "url": "https://github.com/anthropics/skills"
+     },
+     {
+      "label": "github：Imbad0202/academic-research-skills — Acade",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 317.1,
+   "heat_trend": [
+    450.0,
+    54.7,
+    6265.0,
+    1470.3,
+    102.3,
+    350.0,
+    317.1
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Actively exploited sandbox RCE in all Chromium versions",
+   "note": "hn · 熱度 958（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49570669"
+  },
+  {
+   "title": "blader/humanizer — Agent skill that removes signs of AI-generated writ",
+   "note": "github · 熱度 891（未歸戶）",
+   "url": "https://github.com/blader/humanizer"
+  },
+  {
+   "title": "Nitter has more working instances than before the takedowns",
+   "note": "hn · 熱度 764（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49571634"
+  },
+  {
+   "title": "LLMs as a Cognitive Virus",
+   "note": "hn · 熱度 672（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49580164"
+  },
+  {
+   "title": "anomalyco/opencode — The open source coding agent.",
+   "note": "github · 熱度 652（未歸戶）",
+   "url": "https://github.com/anomalyco/opencode"
+  },
+  {
+   "title": "sgl-project/sglang — SGLang is a high-performance serving framework fo",
+   "note": "github · 熱度 637（未歸戶）",
+   "url": "https://github.com/sgl-project/sglang"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
