@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] mattpocock/skills",
-   "text": "今日未歸戶最熱討論（github、熱度 1986），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Your intellectual fly is open when you use an LLM to author ",
+   "text": "今日未歸戶最熱討論（hn、熱度 2406），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,13 +34,20 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 198（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 357（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
  ],
  "fresh": {
   "ai": [
+   {
+    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+    "source": "hn",
+    "heat": 2406.0,
+    "url": "https://news.ycombinator.com/item?id=49585644",
+    "what": "Note: This was originally published as a LinkedIn post on November 11, 2025.\nI need to make a painful confession: somehow, LinkedIn has become an important social network to me. This isn’t necessarily due to LinkedIn’s s"
+   },
    {
     "title": "mattpocock/skills",
     "source": "github",
@@ -54,12 +61,6 @@
     "heat": 1385.1,
     "url": "https://github.com/DietrichGebert/ponytail",
     "what": "Makes your AI agent think like the laziest senior dev in the roo"
-   },
-   {
-    "title": "GPT-6 Astra on robot arms",
-    "source": "hn",
-    "heat": 963.0,
-    "url": "https://news.ycombinator.com/item?id=49582582"
    }
   ],
   "software": [
@@ -75,7 +76,7 @@
    {
     "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
     "source": "hn",
-    "heat": 643.0,
+    "heat": 661.5,
     "url": "https://news.ycombinator.com/item?id=49584083",
     "what": "By enabling access to space, we contribute to humanity’s progress and our planet’s sustainable technological and economic development. Select your journey to orbit and launch with us."
    }
@@ -116,7 +117,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 198.1,
+    "heat_today": 356.7,
     "heat_trend": [
      54.7,
      6265.0,
@@ -124,10 +125,14 @@
      102.3,
      350.0,
      513.9,
-     198.1
+     356.7
     ],
-    "what": "當日 4 則相關討論：「I asked Fable 5.1 and Astra to write their funniest original」；「Astra vs Fable 5.1 - Day 1」；「Astra 6 + Fable 5.1 + Opus 5 + Code Spark 5.3 + Local agent」。",
+    "what": "當日 5 則相關討論：「Ask HN: Fable hacked my piano, can I release the results?」；「I asked Fable 5.1 and Astra to write their funniest original」；「Astra vs Fable 5.1 - Day 1」。",
     "sources": [
+     {
+      "label": "hn：Ask HN: Fable hacked my piano, can I relea",
+      "url": "https://news.ycombinator.com/item?id=49577129"
+     },
      {
       "label": "r/ClaudeAI：I asked Fable 5.1 and Astra to write their",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8mxdm/i_asked_fable_51_and_astra_to_write_their/"
@@ -135,10 +140,6 @@
      {
       "label": "r/ClaudeAI：Astra vs Fable 5.1 - Day 1",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1w92gbq/astra_vs_fable_51_day_1/"
-     },
-     {
-      "label": "r/ClaudeAI：Astra 6 + Fable 5.1 + Opus 5 + Code Spark ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8r5tj/astra_6_fable_51_opus_5_code_spark_53_local_agent/"
      },
      {
       "label": "r/ClaudeAI：I built a fighter jet game with Fable 5.1",
@@ -172,13 +173,18 @@
  "radar": [
   {
    "title": "QBittorrent breaks out of sandbox to commit crimes",
-   "note": "hn · 熱度 1323（未歸戶）",
+   "note": "hn · 熱度 1360（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49586171"
   },
   {
-   "title": "A/I shuts down – Stay human",
-   "note": "hn · 熱度 688（未歸戶）",
+   "title": "A/I shuts down",
+   "note": "hn · 熱度 770（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49586898"
+  },
+  {
+   "title": "Nitter and XCancel resume service after legal advice",
+   "note": "hn · 熱度 711（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49588988"
   },
   {
    "title": "blader/humanizer — Agent skill that removes signs of AI-generated writ",
@@ -186,14 +192,9 @@
    "url": "https://github.com/blader/humanizer"
   },
   {
-   "title": "Your intellectual fly is open (2025)",
-   "note": "hn · 熱度 657（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49585644"
-  },
-  {
-   "title": "Nitter and XCancel resume service after legal advice",
-   "note": "hn · 熱度 534（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49588988"
+   "title": "Research acceleration: The view inside OpenAI",
+   "note": "hn · 熱度 556（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49587217"
   },
   {
    "title": "anomalyco/opencode — The open source coding agent.",
@@ -232,7 +233,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
