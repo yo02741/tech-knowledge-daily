@@ -45,7 +45,7 @@
    {
     "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
     "source": "hn",
-    "heat": 574.5,
+    "heat": 579.0,
     "url": "https://news.ycombinator.com/item?id=49600233"
    },
    {
@@ -120,7 +120,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 335.0,
+   "heat_today": 348.8,
    "heat_trend": [
     6265.0,
     1470.3,
@@ -128,24 +128,19 @@
     350.0,
     513.9,
     453.2,
-    335.0
+    348.8
    ]
   }
  ],
  "radar": [
   {
    "title": "LG smart TVs caught logging audio with screen off and snooping on loca",
-   "note": "hn · 熱度 1122（未歸戶）",
+   "note": "hn · 熱度 1126（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49594878"
   },
   {
-   "title": "Keep Our Servers Running",
-   "note": "hn · 熱度 1104（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49593563"
-  },
-  {
    "title": "216M Spy TVs – The LG Smart TV Problem [video]",
-   "note": "hn · 熱度 1074（未歸戶）",
+   "note": "hn · 熱度 1124（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49592375"
   },
   {
@@ -155,8 +150,13 @@
   },
   {
    "title": "Bill Gates tries to install MovieMaker (2003)",
-   "note": "hn · 熱度 500（未歸戶）",
+   "note": "hn · 熱度 513（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49599481"
+  },
+  {
+   "title": "Speculative Decoding in vLLM on AMD GPUs",
+   "note": "hn · 熱度 483（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49596054"
   },
   {
    "title": "The-Swarm-Corporation/AutoHedge — Build your autonomous hedge fund in ",
@@ -195,7 +195,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
