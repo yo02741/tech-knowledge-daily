@@ -31,12 +31,6 @@
    "text": "熱度 522（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
-  },
-  {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 200（退燒），共 2 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -49,17 +43,17 @@
     "what": "Agent skill that removes signs of AI-generated writing from text"
    },
    {
+    "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+    "source": "hn",
+    "heat": 574.5,
+    "url": "https://news.ycombinator.com/item?id=49600233"
+   },
+   {
     "title": "NousResearch/hermes-agent",
     "source": "github",
     "heat": 574.2,
     "url": "https://github.com/NousResearch/hermes-agent",
     "what": "The agent that grows with you"
-   },
-   {
-    "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
-    "source": "hn",
-    "heat": 559.5,
-    "url": "https://news.ycombinator.com/item?id=49600233"
    }
   ],
   "software": [
@@ -98,33 +92,6 @@
       "url": "https://github.com/coreyhaines31/marketingskills"
      }
     ]
-   },
-   {
-    "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "fading",
-    "heat_today": 199.5,
-    "heat_trend": [
-     6265.0,
-     1470.3,
-     102.3,
-     350.0,
-     513.9,
-     453.2,
-     199.5
-    ],
-    "what": "當日 2 則相關討論：「Working on Economics with Fable 5」；「Fable 5.1 is now watermarks anything you write with it. Ther」。",
-    "sources": [
-     {
-      "label": "hn：Working on Economics with Fable 5",
-      "url": "https://news.ycombinator.com/item?id=49603086"
-     },
-     {
-      "label": "r/ClaudeAI：Fable 5.1 is now watermarks anything you w",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9mi0s/fable_51_is_now_watermarks_anything_you_write/"
-     }
-    ]
    }
   ],
   "software": [],
@@ -137,7 +104,7 @@
    "title": "OpenAI Codex ↔ Claude Code 互操作",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 2594.7,
+   "heat_today": 2423.7,
    "heat_trend": [
     2736.0,
     598.5,
@@ -145,35 +112,51 @@
     2052.0,
     2853.0,
     2763.9,
-    2594.7
+    2423.7
+   ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 335.0,
+   "heat_trend": [
+    6265.0,
+    1470.3,
+    102.3,
+    350.0,
+    513.9,
+    453.2,
+    335.0
    ]
   }
  ],
  "radar": [
   {
    "title": "LG smart TVs caught logging audio with screen off and snooping on loca",
-   "note": "hn · 熱度 1102（未歸戶）",
+   "note": "hn · 熱度 1122（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49594878"
   },
   {
    "title": "Keep Our Servers Running",
-   "note": "hn · 熱度 1063（未歸戶）",
+   "note": "hn · 熱度 1104（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49593563"
   },
   {
    "title": "216M Spy TVs – The LG Smart TV Problem [video]",
-   "note": "hn · 熱度 810（未歸戶）",
+   "note": "hn · 熱度 1074（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49592375"
   },
   {
    "title": "De-Brainrot Vacations",
-   "note": "hn · 熱度 556（未歸戶）",
+   "note": "hn · 熱度 572（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49597907"
   },
   {
-   "title": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computer",
-   "note": "hn · 熱度 466（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49594251"
+   "title": "Bill Gates tries to install MovieMaker (2003)",
+   "note": "hn · 熱度 500（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49599481"
   },
   {
    "title": "The-Swarm-Corporation/AutoHedge — Build your autonomous hedge fund in ",
