@@ -21,21 +21,14 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Mistral raises €3B",
-   "text": "今日未歸戶最熱討論（hn、熱度 3256），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] heygen-com/hyperframes",
+   "text": "今日未歸戶最熱討論（github、熱度 2364），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
  ],
  "fresh": {
   "ai": [
-   {
-    "title": "Mistral raises €3B",
-    "source": "hn",
-    "heat": 3256.5,
-    "url": "https://news.ycombinator.com/item?id=49605767",
-    "what": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
-   },
    {
     "title": "heygen-com/hyperframes",
     "source": "github",
@@ -44,10 +37,18 @@
     "what": "Write HTML. Render video. Built for agents."
    },
    {
-    "title": "ChatGPT Images 2.5",
+    "title": "Muse – Meta’s personal AI agent",
     "source": "hn",
-    "heat": 1333.5,
-    "url": "https://news.ycombinator.com/item?id=49614720"
+    "heat": 1842.0,
+    "url": "https://news.ycombinator.com/item?id=49615537",
+    "what": "Meet Muse, Meta's personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done."
+   },
+   {
+    "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+    "source": "hn",
+    "heat": 1530.0,
+    "url": "https://news.ycombinator.com/item?id=49610631",
+    "what": "A skill to stop your coding agent from burying the answer. ADHD-friendly output. - ayghri/i-have-adhd"
    }
   ],
   "software": [
@@ -80,7 +81,7 @@
    "title": "OpenAI Codex ↔ Claude Code 互操作",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 2917.2,
+   "heat_today": 2944.2,
    "heat_trend": [
     598.5,
     2393.3,
@@ -88,7 +89,7 @@
     2853.0,
     2763.9,
     2423.7,
-    2917.2
+    2944.2
    ]
   },
   {
@@ -112,7 +113,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 388.5,
+   "heat_today": 377.8,
    "heat_trend": [
     1470.3,
     102.3,
@@ -120,7 +121,7 @@
     513.9,
     453.2,
     348.8,
-    388.5
+    377.8
    ]
   },
   {
@@ -128,7 +129,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 25.0,
+   "heat_today": 50.0,
    "heat_trend": [
     33.3,
     0,
@@ -136,30 +137,30 @@
     0,
     0,
     0,
-    25.0
+    50.0
    ]
   }
  ],
  "radar": [
   {
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "note": "hn · 熱度 1532（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49613262"
-  },
-  {
    "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
-   "note": "hn · 熱度 1450（未歸戶）",
+   "note": "hn · 熱度 1758（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49605915"
   },
   {
-   "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-   "note": "hn · 熱度 1248（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49610631"
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "note": "hn · 熱度 1671（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49613262"
   },
   {
-   "title": "Muse – Meta’s personal AI agent",
-   "note": "hn · 熱度 1096（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49615537"
+   "title": "ChatGPT Images 2.5",
+   "note": "hn · 熱度 1443（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49614720"
+  },
+  {
+   "title": "I resigned from Anthropic today",
+   "note": "hn · 熱度 1167（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49619227"
   },
   {
    "title": "jo-inc/camofox-browser — Stealth headless browser for AI agents — bypa",
@@ -203,7 +204,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
