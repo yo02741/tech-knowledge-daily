@@ -39,16 +39,16 @@
    {
     "title": "Muse – Meta’s personal AI agent",
     "source": "hn",
-    "heat": 1842.0,
+    "heat": 2100.0,
     "url": "https://news.ycombinator.com/item?id=49615537",
     "what": "Meet Muse, Meta's personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done."
    },
    {
-    "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+    "title": "I resigned from Anthropic today",
     "source": "hn",
-    "heat": 1530.0,
-    "url": "https://news.ycombinator.com/item?id=49610631",
-    "what": "A skill to stop your coding agent from burying the answer. ADHD-friendly output. - ayghri/i-have-adhd"
+    "heat": 1878.0,
+    "url": "https://news.ycombinator.com/item?id=49619227",
+    "what": "I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence a"
    }
   ],
   "software": [
@@ -60,10 +60,10 @@
     "what": "Python tool for converting files and office documents to Markdown."
    },
    {
-    "title": "How many of you have just coasted in a non-tech behemoth",
-    "source": "r/ExperiencedDevs",
+    "title": "video on improving performance of arctan for Nintendo 64 by Kaze Emanuar \"spent weeks to s",
+    "source": "r/programming",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1waowvf/how_many_of_you_have_just_coasted_in_a_nontech/"
+    "url": "https://www.reddit.com/r/programming/comments/1was1gb/video_on_improving_performance_of_arctan_for/"
    }
   ],
   "devops": [],
@@ -81,7 +81,7 @@
    "title": "OpenAI Codex ↔ Claude Code 互操作",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 2944.2,
+   "heat_today": 2947.2,
    "heat_trend": [
     598.5,
     2393.3,
@@ -89,7 +89,7 @@
     2853.0,
     2763.9,
     2423.7,
-    2944.2
+    2947.2
    ]
   },
   {
@@ -113,7 +113,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 377.8,
+   "heat_today": 381.7,
    "heat_trend": [
     1470.3,
     102.3,
@@ -121,7 +121,7 @@
     513.9,
     453.2,
     348.8,
-    377.8
+    381.7
    ]
   },
   {
@@ -144,23 +144,23 @@
  "radar": [
   {
    "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
-   "note": "hn · 熱度 1758（未歸戶）",
+   "note": "hn · 熱度 1849（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49605915"
   },
   {
    "title": "On the Navier–Stokes Millennium Prize Problem",
-   "note": "hn · 熱度 1671（未歸戶）",
+   "note": "hn · 熱度 1714（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49613262"
   },
   {
-   "title": "ChatGPT Images 2.5",
-   "note": "hn · 熱度 1443（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49614720"
+   "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+   "note": "hn · 熱度 1632（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49610631"
   },
   {
-   "title": "I resigned from Anthropic today",
-   "note": "hn · 熱度 1167（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49619227"
+   "title": "ChatGPT Images 2.5",
+   "note": "hn · 熱度 1540（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49614720"
   },
   {
    "title": "jo-inc/camofox-browser — Stealth headless browser for AI agents — bypa",
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
