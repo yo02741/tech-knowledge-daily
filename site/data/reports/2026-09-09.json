@@ -1,0 +1,217 @@
+{
+ "date": "2026-09-09",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-rag",
+  "domain": "ai",
+  "term": "RAG（檢索增強生成）",
+  "tagline": "先查資料再回答，讓模型少憑記憶瞎掰",
+  "intro": [
+   "Retrieval-Augmented Generation：回答前先從外部知識庫檢索相關段落，塞進 prompt 讓模型「看著資料回答」，而不是靠訓練時的記憶。",
+   "好處是知識可即時更新、可追溯來源；代價是檢索品質直接決定答案品質——垃圾進垃圾出。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "維基百科：RAG",
+    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Mistral raises €3B",
+   "text": "今日未歸戶最熱討論（hn、熱度 3256），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Mistral raises €3B",
+    "source": "hn",
+    "heat": 3256.5,
+    "url": "https://news.ycombinator.com/item?id=49605767",
+    "what": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+   },
+   {
+    "title": "heygen-com/hyperframes",
+    "source": "github",
+    "heat": 2364.3,
+    "url": "https://github.com/heygen-com/hyperframes",
+    "what": "Write HTML. Render video. Built for agents."
+   },
+   {
+    "title": "ChatGPT Images 2.5",
+    "source": "hn",
+    "heat": 1333.5,
+    "url": "https://news.ycombinator.com/item?id=49614720"
+   }
+  ],
+  "software": [
+   {
+    "title": "microsoft/markitdown",
+    "source": "github",
+    "heat": 1228.2,
+    "url": "https://github.com/microsoft/markitdown",
+    "what": "Python tool for converting files and office documents to Markdown."
+   },
+   {
+    "title": "How many of you have just coasted in a non-tech behemoth",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1waowvf/how_many_of_you_have_just_coasted_in_a_nontech/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 2917.2,
+   "heat_trend": [
+    598.5,
+    2393.3,
+    2052.0,
+    2853.0,
+    2763.9,
+    2423.7,
+    2917.2
+   ]
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 599.4,
+   "heat_trend": [
+    933.3,
+    1188.0,
+    1107.0,
+    567.9,
+    368.1,
+    522.0,
+    599.4
+   ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 388.5,
+   "heat_trend": [
+    1470.3,
+    102.3,
+    350.0,
+    513.9,
+    453.2,
+    348.8,
+    388.5
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 25.0,
+   "heat_trend": [
+    33.3,
+    0,
+    32.7,
+    0,
+    0,
+    0,
+    25.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "note": "hn · 熱度 1532（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49613262"
+  },
+  {
+   "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+   "note": "hn · 熱度 1450（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49605915"
+  },
+  {
+   "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+   "note": "hn · 熱度 1248（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49610631"
+  },
+  {
+   "title": "Muse – Meta’s personal AI agent",
+   "note": "hn · 熱度 1096（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49615537"
+  },
+  {
+   "title": "jo-inc/camofox-browser — Stealth headless browser for AI agents — bypa",
+   "note": "github · 熱度 784（未歸戶）",
+   "url": "https://github.com/jo-inc/camofox-browser"
+  },
+  {
+   "title": "ayghri/i-have-adhd — A skill to stop your coding agent from burying th",
+   "note": "github · 熱度 590（未歸戶）",
+   "url": "https://github.com/ayghri/i-have-adhd"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
