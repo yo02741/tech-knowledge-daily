@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 64（退燒），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 65（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,21 +51,28 @@
    {
     "title": "Claude, change the “Add to Cart” button to blue",
     "source": "hn",
-    "heat": 3538.5,
+    "heat": 3865.5,
     "url": "https://news.ycombinator.com/item?id=49623754",
     "what": "Make one button blue. Change nothing else. A short interactive comedy about agentic AI assistants that can never just do the thing."
    },
    {
-    "title": "Muse – Meta’s personal AI agent",
+    "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
     "source": "hn",
-    "heat": 2967.0,
-    "url": "https://news.ycombinator.com/item?id=49615537",
-    "what": "Meet Muse, Meta's personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done."
+    "heat": 1509.0,
+    "url": "https://news.ycombinator.com/item?id=49624603"
    }
   ],
   "software": [],
   "devops": [],
-  "uiux": []
+  "uiux": [
+   {
+    "title": "Shopify acquires Tailwind",
+    "source": "hn",
+    "heat": 1146.5,
+    "url": "https://news.ycombinator.com/item?id=49626190",
+    "what": "We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it."
+   }
+  ]
  },
  "sections": {
   "ai": [
@@ -101,7 +108,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 64.5,
+    "heat_today": 65.4,
     "heat_trend": [
      102.3,
      350.0,
@@ -109,21 +116,21 @@
      453.2,
      348.8,
      381.7,
-     64.5
+     65.4
     ],
-    "what": "當日 3 則相關討論：「Fable 5.1 Plays MMORPG Ultima Online For 2+ Hours」；「Playlist Atlas built with Fable 5.1」；「What is the best and most balanced effort to code with Fable」。",
+    "what": "當日 3 則相關討論：「Fable 5.1 Plays MMORPG Ultima Online For 2+ Hours」；「Is it even possible or are we just dreaming about next Fable」；「Playlist Atlas built with Fable 5.1」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Fable 5.1 Plays MMORPG Ultima Online For 2",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbjrtw/fable_51_plays_mmorpg_ultima_online_for_2_hours/"
      },
      {
-      "label": "r/ClaudeAI：Playlist Atlas built with Fable 5.1",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbp8dl/playlist_atlas_built_with_fable_51/"
+      "label": "r/ClaudeAI：Is it even possible or are we just dreamin",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wc2tvs/is_it_even_possible_or_are_we_just_dreaming_about/"
      },
      {
-      "label": "r/ClaudeAI：What is the best and most balanced effort ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbr0ad/what_is_the_best_and_most_balanced_effort_to_code/"
+      "label": "r/ClaudeAI：Playlist Atlas built with Fable 5.1",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbp8dl/playlist_atlas_built_with_fable_51/"
      }
     ]
    }
@@ -153,22 +160,17 @@
  "radar": [
   {
    "title": "iPhone Duo",
-   "note": "hn · 熱度 1634（未歸戶）",
+   "note": "hn · 熱度 1979（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49630931"
   },
   {
-   "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
-   "note": "hn · 熱度 1480（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49624603"
-  },
-  {
    "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-   "note": "hn · 熱度 1174（未歸戶）",
+   "note": "hn · 熱度 1330（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49627370"
   },
   {
    "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Acti",
-   "note": "hn · 熱度 1041（未歸戶）",
+   "note": "hn · 熱度 1100（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49628704"
   },
   {
@@ -180,6 +182,11 @@
    "title": "freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT-Image2 工业级提示词引",
    "note": "github · 熱度 634（未歸戶）",
    "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+   "title": "browser-use/browser-use — Agents that use the browser.",
+   "note": "github · 熱度 634（未歸戶）",
+   "url": "https://github.com/browser-use/browser-use"
   }
  ],
  "data_quality": [
@@ -201,7 +208,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -213,7 +220,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
