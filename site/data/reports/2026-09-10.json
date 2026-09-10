@@ -51,14 +51,14 @@
    {
     "title": "Claude, change the “Add to Cart” button to blue",
     "source": "hn",
-    "heat": 3865.5,
+    "heat": 3916.5,
     "url": "https://news.ycombinator.com/item?id=49623754",
     "what": "Make one button blue. Change nothing else. A short interactive comedy about agentic AI assistants that can never just do the thing."
    },
    {
     "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
     "source": "hn",
-    "heat": 1509.0,
+    "heat": 1510.5,
     "url": "https://news.ycombinator.com/item?id=49624603"
    }
   ],
@@ -68,7 +68,7 @@
    {
     "title": "Shopify acquires Tailwind",
     "source": "hn",
-    "heat": 1146.5,
+    "heat": 1175.0,
     "url": "https://news.ycombinator.com/item?id=49626190",
     "what": "We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it."
    }
@@ -160,17 +160,17 @@
  "radar": [
   {
    "title": "iPhone Duo",
-   "note": "hn · 熱度 1979（未歸戶）",
+   "note": "hn · 熱度 2078（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49630931"
   },
   {
    "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-   "note": "hn · 熱度 1330（未歸戶）",
+   "note": "hn · 熱度 1365（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49627370"
   },
   {
    "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Acti",
-   "note": "hn · 熱度 1100（未歸戶）",
+   "note": "hn · 熱度 1108（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49628704"
   },
   {
@@ -179,7 +179,7 @@
    "url": "https://github.com/heygen-com/hyperframes"
   },
   {
-   "title": "freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT-Image2 工业级提示词引",
+   "title": "freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT Image 2 / 2.5 ",
    "note": "github · 熱度 634（未歸戶）",
    "url": "https://github.com/freestylefly/awesome-gpt-image-2"
   },
@@ -196,7 +196,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -208,7 +208,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
