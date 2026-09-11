@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] DeepSeek v4.1 Flash",
-   "text": "今日未歸戶最熱討論（hn、熱度 3663），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] ayghri/i-have-adhd",
+   "text": "今日未歸戶最熱討論（github、熱度 3494），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1446（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 1485（上升），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
@@ -48,13 +48,6 @@
  "fresh": {
   "ai": [
    {
-    "title": "DeepSeek v4.1 Flash",
-    "source": "hn",
-    "heat": 3663.0,
-    "url": "https://news.ycombinator.com/item?id=49639090",
-    "what": "🚀 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.\n\n🔹 Introducing the smallest model in our new architecture family, with native visual understanding.\n🔹 Designed for greater capability, faster inference,"
-   },
-   {
     "title": "ayghri/i-have-adhd",
     "source": "github",
     "heat": 3493.8,
@@ -64,23 +57,29 @@
    {
     "title": "More questions about whether researchers can trust OpenAI with unpublished math",
     "source": "hn",
-    "heat": 3324.0,
+    "heat": 3388.5,
     "url": "https://news.ycombinator.com/item?id=49639408",
     "what": "@tristanbuckmaster@mastodon.social \n\n1/3 I want to record a number of points that I realized after reading up on the controversy. In fact it recalls an exchange I had with OpenAI after its non-sofic-group announcement. I"
+   },
+   {
+    "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+    "source": "hn",
+    "heat": 1599.0,
+    "url": "https://news.ycombinator.com/item?id=49643556"
    }
   ],
   "software": [
    {
     "title": "Shopify is moving from React Native back to Swift and Kotlin",
     "source": "hn",
-    "heat": 2423.0,
+    "heat": 2593.0,
     "url": "https://news.ycombinator.com/item?id=49643982",
     "what": "Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin."
    },
    {
     "title": "Rust is tier-1 language at Microsoft",
     "source": "hn",
-    "heat": 1637.0,
+    "heat": 1670.0,
     "url": "https://news.ycombinator.com/item?id=49643546",
     "what": "By now it’s no surprise that Rust is of strategic importance to Microsoft. From bold mission statements when Azure CTO Mark Russinovich outlined our future strategy for native code, to millions of dollars invested by Mic"
    }
@@ -126,7 +125,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 1446.0,
+    "heat_today": 1484.6,
     "heat_trend": [
      350.0,
      513.9,
@@ -134,9 +133,9 @@
      348.8,
      381.7,
      65.4,
-     1446.0
+     1484.6
     ],
-    "what": "當日 4 則相關討論：「Cognition launches new SWE-2 model, Rivaling Fable 5.1 and G」；「Fable 5.1 6x cheaper for me than Astra? Unexpected」；「Astra vs Fable for Business Day to Day」。",
+    "what": "當日 3 則相關討論：「Cognition launches new SWE-2 model, Rivaling Fable 5.1 and G」；「Fable 5.1 6x cheaper for me than Astra? Unexpected」；「Reducing Fable 5.1 to manager: I still can't lower usage eno」。",
     "sources": [
      {
       "label": "hn：Cognition launches new SWE-2 model, Rivali",
@@ -145,10 +144,6 @@
      {
       "label": "r/ClaudeAI：Fable 5.1 6x cheaper for me than Astra? Un",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wch3rh/fable_51_6x_cheaper_for_me_than_astra_unexpected/"
-     },
-     {
-      "label": "r/ClaudeAI：Astra vs Fable for Business Day to Day",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wcgy5b/astra_vs_fable_for_business_day_to_day/"
      },
      {
       "label": "r/ClaudeAI：Reducing Fable 5.1 to manager: I still can",
@@ -184,39 +179,22 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 16.7,
-   "heat_trend": [
-    32.7,
-    0,
-    0,
-    0,
-    50.0,
-    0,
-    16.7
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "iPhone Duo",
-   "note": "hn · 熱度 2654（未歸戶）",
+   "note": "hn · 熱度 2667（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49630931"
-  },
-  {
-   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-   "note": "hn · 熱度 1593（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49643556"
   },
   {
    "title": "freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT Image 2 / 2.5 ",
    "note": "github · 熱度 866（未歸戶）",
    "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+   "title": "OpenAI Agents API",
+   "note": "hn · 熱度 843（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49649213"
   },
   {
    "title": "THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an im",
@@ -253,7 +231,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -269,7 +247,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
