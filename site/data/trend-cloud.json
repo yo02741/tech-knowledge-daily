@@ -1,69 +1,69 @@
 {
- "date": "2026-09-10",
+ "date": "2026-09-11",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 30873.5,
+   "weight": 30742.1,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 21611.4,
+   "weight": 21519.5,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 10626.9,
-   "status": "fading",
+   "weight": 11859.1,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 6489.0,
+   "weight": 6254.1,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 4542.3,
+   "weight": 4377.9,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 204.3,
-   "status": "fading",
+   "weight": 229.3,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-11"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 143.0,
-   "status": "fading",
+   "weight": 160.5,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-11"
   }
  ]
 }
