@@ -157,8 +157,8 @@
     },
     {
      "date": "2026-09-11",
-     "heat": 1283.3,
-     "mentions": 3
+     "heat": 1446.0,
+     "mentions": 4
     }
    ],
    "status": "rising",
@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-09-11",
-     "heat": 25.0,
-     "mentions": 2
+     "heat": 16.7,
+     "mentions": 1
     }
    ],
-   "status": "rising",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",

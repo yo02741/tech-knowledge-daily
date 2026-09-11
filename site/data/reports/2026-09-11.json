@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] DeepSeek v4.1 Flash",
-   "text": "今日未歸戶最熱討論（hn、熱度 3592），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3663），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1283（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 1446（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
@@ -50,7 +50,7 @@
    {
     "title": "DeepSeek v4.1 Flash",
     "source": "hn",
-    "heat": 3592.5,
+    "heat": 3663.0,
     "url": "https://news.ycombinator.com/item?id=49639090",
     "what": "🚀 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.\n\n🔹 Introducing the smallest model in our new architecture family, with native visual understanding.\n🔹 Designed for greater capability, faster inference,"
    },
@@ -64,7 +64,7 @@
    {
     "title": "More questions about whether researchers can trust OpenAI with unpublished math",
     "source": "hn",
-    "heat": 2770.5,
+    "heat": 3324.0,
     "url": "https://news.ycombinator.com/item?id=49639408",
     "what": "@tristanbuckmaster@mastodon.social \n\n1/3 I want to record a number of points that I realized after reading up on the controversy. In fact it recalls an exchange I had with OpenAI after its non-sofic-group announcement. I"
    }
@@ -73,14 +73,14 @@
    {
     "title": "Shopify is moving from React Native back to Swift and Kotlin",
     "source": "hn",
-    "heat": 1948.0,
+    "heat": 2423.0,
     "url": "https://news.ycombinator.com/item?id=49643982",
     "what": "Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin."
    },
    {
     "title": "Rust is tier-1 language at Microsoft",
     "source": "hn",
-    "heat": 1506.0,
+    "heat": 1637.0,
     "url": "https://news.ycombinator.com/item?id=49643546",
     "what": "By now it’s no surprise that Rust is of strategic importance to Microsoft. From bold mission statements when Azure CTO Mark Russinovich outlined our future strategy for native code, to millions of dollars invested by Mic"
    }
@@ -126,7 +126,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 1283.3,
+    "heat_today": 1446.0,
     "heat_trend": [
      350.0,
      513.9,
@@ -134,9 +134,9 @@
      348.8,
      381.7,
      65.4,
-     1283.3
+     1446.0
     ],
-    "what": "當日 3 則相關討論：「Cognition launches new SWE-2 model, Rivaling Fable 5.1 and G」；「Fable 5.1 6x cheaper for me than Astra? Unexpected」；「Astra vs Fable for Business Day to Day」。",
+    "what": "當日 4 則相關討論：「Cognition launches new SWE-2 model, Rivaling Fable 5.1 and G」；「Fable 5.1 6x cheaper for me than Astra? Unexpected」；「Astra vs Fable for Business Day to Day」。",
     "sources": [
      {
       "label": "hn：Cognition launches new SWE-2 model, Rivali",
@@ -149,6 +149,10 @@
      {
       "label": "r/ClaudeAI：Astra vs Fable for Business Day to Day",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wcgy5b/astra_vs_fable_for_business_day_to_day/"
+     },
+     {
+      "label": "r/ClaudeAI：Reducing Fable 5.1 to manager: I still can",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wcw7s7/reducing_fable_51_to_manager_i_still_cant_lower/"
      }
     ]
    },
@@ -178,46 +182,35 @@
   ],
   "software": [],
   "devops": [],
-  "uiux": [
-   {
-    "id": "ux-1",
-    "slug": "design-ai-prototyping",
-    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-    "status": "rising",
-    "heat_today": 25.0,
-    "heat_trend": [
-     32.7,
-     0,
-     0,
-     0,
-     50.0,
-     0,
-     25.0
-    ],
-    "what": "當日 2 則相關討論：「What's beyond Figma?」；「Is it worth hand coding a new web app idea I have or should 」。",
-    "sources": [
-     {
-      "label": "r/UXDesign：What's beyond Figma?",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1wce8g0/whats_beyond_figma/"
-     },
-     {
-      "label": "r/webdev：Is it worth hand coding a new web app idea",
-      "url": "https://www.reddit.com/r/webdev/comments/1wcu95t/is_it_worth_hand_coding_a_new_web_app_idea_i_have/"
-     }
-    ]
-   }
-  ]
+  "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    32.7,
+    0,
+    0,
+    0,
+    50.0,
+    0,
+    16.7
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "iPhone Duo",
-   "note": "hn · 熱度 2624（未歸戶）",
+   "note": "hn · 熱度 2654（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49630931"
   },
   {
    "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-   "note": "hn · 熱度 1533（未歸戶）",
+   "note": "hn · 熱度 1593（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49643556"
   },
   {
@@ -272,11 +265,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
