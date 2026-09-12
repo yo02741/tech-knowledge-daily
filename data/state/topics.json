@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-11",
+ "last_run": "2026-09-12",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,13 +8,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-09-12",
    "history": [
-    {
-     "date": "2026-08-13",
-     "heat": 47.6,
-     "mentions": 2
-    },
     {
      "date": "2026-08-14",
      "heat": 42.9,
@@ -159,9 +154,14 @@
      "date": "2026-09-11",
      "heat": 1484.6,
      "mentions": 3
+    },
+    {
+     "date": "2026-09-12",
+     "heat": 27.8,
+     "mentions": 2
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -174,13 +174,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-09-12",
    "history": [
-    {
-     "date": "2026-08-13",
-     "heat": 459.0,
-     "mentions": 3
-    },
     {
      "date": "2026-08-14",
      "heat": 216.9,
@@ -325,9 +320,14 @@
      "date": "2026-09-11",
      "heat": 1808.1,
      "mentions": 3
+    },
+    {
+     "date": "2026-09-12",
+     "heat": 720.9,
+     "mentions": 1
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "openai/codex-plugin-cc 官方外掛讓 Claude Code 委派 Codex",
    "terms": [
     "Codex",
@@ -345,13 +345,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-09-12",
    "history": [
-    {
-     "date": "2026-08-13",
-     "heat": 512.1,
-     "mentions": 1
-    },
     {
      "date": "2026-08-14",
      "heat": 543.6,
@@ -496,9 +491,14 @@
      "date": "2026-09-11",
      "heat": 109.8,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-12",
+     "heat": 388.3,
+     "mentions": 2
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -516,11 +516,6 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-09-11",
    "history": [
-    {
-     "date": "2026-08-11",
-     "heat": 100.0,
-     "mentions": 1
-    },
     {
      "date": "2026-08-12",
      "heat": 0,
@@ -665,6 +660,11 @@
      "date": "2026-09-11",
      "heat": 7.7,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-12",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
