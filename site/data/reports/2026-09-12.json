@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 388（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 375（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,13 +51,13 @@
    {
     "title": "Claude is only available to people over 18 years",
     "source": "hn",
-    "heat": 2743.5,
+    "heat": 2788.5,
     "url": "https://news.ycombinator.com/item?id=49656225"
    },
    {
     "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
     "source": "hn",
-    "heat": 1954.5,
+    "heat": 2208.0,
     "url": "https://news.ycombinator.com/item?id=49666735",
     "what": "On May 11th, 2026, hundreds of malicious packages were uploaded to RubyGems by AI agents performing web-lookup tasks with significant overlap with the German Wiki Incident."
    }
@@ -96,7 +96,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "ongoing",
-    "heat_today": 388.3,
+    "heat_today": 375.3,
     "heat_trend": [
      567.9,
      368.1,
@@ -104,17 +104,13 @@
      599.4,
      224.1,
      109.8,
-     388.3
+     375.3
     ],
-    "what": "當日 2 則相關討論：「vercel-labs/skills — The open agent skills tool - npx skills」；「Claude Skills install: claude.ai zip ≠ Claude Code folder (I」。",
+    "what": "當日 1 則相關討論：「vercel-labs/skills — The open agent skills tool - npx skills」。",
     "sources": [
      {
       "label": "github：vercel-labs/skills — The open agent skills",
       "url": "https://github.com/vercel-labs/skills"
-     },
-     {
-      "label": "r/ClaudeAI：Claude Skills install: claude.ai zip ≠ Cla",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wds9n3/claude_skills_install_claudeai_zip_claude_code/"
      }
     ]
    }
@@ -123,11 +119,28 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    50.0,
+    0,
+    7.7,
+    16.7
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "A misalignment of AI in mathematics",
-   "note": "hn · 熱度 1158（未歸戶）",
+   "note": "hn · 熱度 1216（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49662371"
   },
   {
@@ -137,12 +150,12 @@
   },
   {
    "title": "Ask HN: Can we please limit the AI news flood?",
-   "note": "hn · 熱度 945（未歸戶）",
+   "note": "hn · 熱度 958（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49657850"
   },
   {
    "title": "Houthis 'take control' of key island in global shipping route",
-   "note": "hn · 熱度 696（未歸戶）",
+   "note": "hn · 熱度 698（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49658299"
   },
   {
@@ -175,7 +188,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -187,7 +200,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",

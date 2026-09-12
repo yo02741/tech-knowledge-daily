@@ -157,7 +157,7 @@
     },
     {
      "date": "2026-09-12",
-     "heat": 15.8,
+     "heat": 16.7,
      "mentions": 1
     }
    ],
@@ -494,8 +494,8 @@
     },
     {
      "date": "2026-09-12",
-     "heat": 388.3,
-     "mentions": 2
+     "heat": 375.3,
+     "mentions": 1
     }
    ],
    "status": "ongoing",
@@ -514,7 +514,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-09-12",
    "history": [
     {
      "date": "2026-08-12",
@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-09-12",
-     "heat": 0,
-     "mentions": 0
+     "heat": 16.7,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",
