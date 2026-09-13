@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 248（退燒），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 256（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -63,15 +63,7 @@
     "what": "Orca is the ADE for working with a fleet of parallel agents. Run any codin"
    }
   ],
-  "software": [
-   {
-    "title": "google.com/goto: Google's anti-scraping update",
-    "source": "hn",
-    "heat": 1740.0,
-    "url": "https://news.ycombinator.com/item?id=49668386",
-    "what": "Google is rolling out google.com/goto redirect URLs on SERPs. Here is what changed, why it targets scrapers, and how Autom updated its Google Search API."
-   }
-  ],
+  "software": [],
   "devops": [],
   "uiux": []
  },
@@ -117,7 +109,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 247.6,
+    "heat_today": 255.9,
     "heat_trend": [
      453.2,
      348.8,
@@ -125,7 +117,7 @@
      65.4,
      1484.6,
      16.7,
-     247.6
+     255.9
     ],
     "what": "當日 3 則相關討論：「asgeirtj/system_prompts_leaks — Extracted system prompts fro」；「Milkyway Andromeda collision by Opus, Fable and GPT-6 Astra.」；「Anybody use frontier models like Astra/Fable for planning/ju」。",
     "sources": [
@@ -148,33 +140,16 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 50.0,
-   "heat_trend": [
-    0,
-    0,
-    50.0,
-    0,
-    7.7,
-    16.7,
-    50.0
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "We must pace the frontier",
-   "note": "hn · 熱度 883（未歸戶）",
+   "note": "hn · 熱度 1020（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49672510"
   },
   {
    "title": "Fuck it, make it anyway",
-   "note": "hn · 熱度 808（未歸戶）",
+   "note": "hn · 熱度 840（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49671329"
   },
   {
@@ -183,19 +158,19 @@
    "url": "https://github.com/bilawalsidhu/gods-eye-view"
   },
   {
-   "title": "IKEA made a mod for Skyrim [video]",
-   "note": "hn · 熱度 626（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49639647"
-  },
-  {
    "title": "LG denies TV spying claims, says tracking and snooping concerns 'not t",
-   "note": "hn · 熱度 584（未歸戶）",
+   "note": "hn · 熱度 664（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49645480"
   },
   {
    "title": "Nvidia is the central bank of AI",
-   "note": "hn · 熱度 502（未歸戶）",
+   "note": "hn · 熱度 579（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49673098"
+  },
+  {
+   "title": "A Design Space Exploration of Async/Await",
+   "note": "hn · 熱度 493（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49626718"
   }
  ],
  "data_quality": [
@@ -233,7 +208,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
