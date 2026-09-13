@@ -1,0 +1,243 @@
+{
+ "date": "2026-09-13",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-container",
+  "domain": "devops",
+  "term": "容器（Container）",
+  "tagline": "把程式和它的環境打包成標準集裝箱",
+  "intro": [
+   "「在我電腦上可以跑」的終結者：容器把應用連同依賴、系統函式庫打包，任何有容器引擎的機器都能一致地執行。",
+   "跟虛擬機的差別：容器共用宿主核心，啟動是秒級、開銷小得多——代價是隔離性較弱。Docker 是最普及的容器工具，但容器是開放標準（OCI）不是它的專利。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Docker：What is a container",
+    "url": "https://www.docker.com/resources/what-container/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] ayghri/i-have-adhd",
+   "text": "今日未歸戶最熱討論（github、熱度 2326），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 634（上升），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 248（退燒），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "ayghri/i-have-adhd",
+    "source": "github",
+    "heat": 2325.6,
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "what": "A skill to stop your coding agent from burying the answer. ADHD-frien"
+   },
+   {
+    "title": "jordan-gibbs/hyperresearch",
+    "source": "github",
+    "heat": 577.8,
+    "url": "https://github.com/jordan-gibbs/hyperresearch",
+    "what": "Agent-driven research knowledge base. Agents collect, search,"
+   },
+   {
+    "title": "stablyai/orca",
+    "source": "github",
+    "heat": 558.0,
+    "url": "https://github.com/stablyai/orca",
+    "what": "Orca is the ADE for working with a fleet of parallel agents. Run any codin"
+   }
+  ],
+  "software": [
+   {
+    "title": "google.com/goto: Google's anti-scraping update",
+    "source": "hn",
+    "heat": 1740.0,
+    "url": "https://news.ycombinator.com/item?id=49668386",
+    "what": "Google is rolling out google.com/goto redirect URLs on SERPs. Here is what changed, why it targets scrapers, and how Autom updated its Google Search API."
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 633.6,
+    "heat_trend": [
+     368.1,
+     522.0,
+     599.4,
+     224.1,
+     109.8,
+     375.3,
+     633.6
+    ],
+    "what": "當日 4 則相關討論：「virgiliojr94/book-to-skill — Turn any technical book PDF int」；「Shubhamsaboo/awesome-llm-apps — 100+ AI Agents, Agent Skills」；「SnailSploit/Claude-Red — claude-red is a curated library of 」。",
+    "sources": [
+     {
+      "label": "github：virgiliojr94/book-to-skill — Turn any tech",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+     },
+     {
+      "label": "github：Shubhamsaboo/awesome-llm-apps — 100+ AI Ag",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+     },
+     {
+      "label": "github：SnailSploit/Claude-Red — claude-red is a c",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+     },
+     {
+      "label": "github：vercel-labs/skills — The open agent skills",
+      "url": "https://github.com/vercel-labs/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 247.6,
+    "heat_trend": [
+     453.2,
+     348.8,
+     381.7,
+     65.4,
+     1484.6,
+     16.7,
+     247.6
+    ],
+    "what": "當日 3 則相關討論：「asgeirtj/system_prompts_leaks — Extracted system prompts fro」；「Milkyway Andromeda collision by Opus, Fable and GPT-6 Astra.」；「Anybody use frontier models like Astra/Fable for planning/ju」。",
+    "sources": [
+     {
+      "label": "github：asgeirtj/system_prompts_leaks — Extracted ",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+     },
+     {
+      "label": "r/ClaudeAI：Milkyway Andromeda collision by Opus, Fabl",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1we82hz/milkyway_andromeda_collision_by_opus_fable_and/"
+     },
+     {
+      "label": "r/LocalLLaMA：Anybody use frontier models like Astra/Fab",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1web1jd/anybody_use_frontier_models_like_astrafable_for/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 50.0,
+   "heat_trend": [
+    0,
+    0,
+    50.0,
+    0,
+    7.7,
+    16.7,
+    50.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "We must pace the frontier",
+   "note": "hn · 熱度 883（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49672510"
+  },
+  {
+   "title": "Fuck it, make it anyway",
+   "note": "hn · 熱度 808（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49671329"
+  },
+  {
+   "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
+   "note": "github · 熱度 680（未歸戶）",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view"
+  },
+  {
+   "title": "IKEA made a mod for Skyrim [video]",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49639647"
+  },
+  {
+   "title": "LG denies TV spying claims, says tracking and snooping concerns 'not t",
+   "note": "hn · 熱度 584（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49645480"
+  },
+  {
+   "title": "Nvidia is the central bank of AI",
+   "note": "hn · 熱度 502（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49673098"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-12",
+ "last_run": "2026-09-13",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,13 +8,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "history": [
-    {
-     "date": "2026-08-14",
-     "heat": 42.9,
-     "mentions": 1
-    },
     {
      "date": "2026-08-15",
      "heat": 35.8,
@@ -159,6 +154,11 @@
      "date": "2026-09-12",
      "heat": 16.7,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-13",
+     "heat": 247.6,
+     "mentions": 3
     }
    ],
    "status": "fading",
@@ -176,11 +176,6 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-09-12",
    "history": [
-    {
-     "date": "2026-08-14",
-     "heat": 216.9,
-     "mentions": 1
-    },
     {
      "date": "2026-08-15",
      "heat": 924.3,
@@ -325,6 +320,11 @@
      "date": "2026-09-12",
      "heat": 720.9,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-13",
+     "heat": 0,
+     "mentions": 0
     }
    ],
    "status": "fading",
@@ -345,13 +345,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "history": [
-    {
-     "date": "2026-08-14",
-     "heat": 543.6,
-     "mentions": 2
-    },
     {
      "date": "2026-08-15",
      "heat": 0,
@@ -496,9 +491,14 @@
      "date": "2026-09-12",
      "heat": 375.3,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-13",
+     "heat": 633.6,
+     "mentions": 4
     }
    ],
-   "status": "ongoing",
+   "status": "rising",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -514,13 +514,8 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "history": [
-    {
-     "date": "2026-08-12",
-     "heat": 0,
-     "mentions": 0
-    },
     {
      "date": "2026-08-13",
      "heat": 20.0,
@@ -664,6 +659,11 @@
     {
      "date": "2026-09-12",
      "heat": 16.7,
+     "mentions": 1
+    },
+    {
+     "date": "2026-09-13",
+     "heat": 50.0,
      "mentions": 1
     }
    ],
