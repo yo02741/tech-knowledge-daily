@@ -144,13 +144,18 @@
  "radar": [
   {
    "title": "We must pace the frontier",
-   "note": "hn · 熱度 1020（未歸戶）",
+   "note": "hn · 熱度 1044（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49672510"
   },
   {
    "title": "Fuck it, make it anyway",
-   "note": "hn · 熱度 840（未歸戶）",
+   "note": "hn · 熱度 844（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49671329"
+  },
+  {
+   "title": "LG denies TV spying claims, says tracking and snooping concerns 'not t",
+   "note": "hn · 熱度 685（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49645480"
   },
   {
    "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
@@ -158,19 +163,14 @@
    "url": "https://github.com/bilawalsidhu/gods-eye-view"
   },
   {
-   "title": "LG denies TV spying claims, says tracking and snooping concerns 'not t",
-   "note": "hn · 熱度 664（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49645480"
-  },
-  {
    "title": "Nvidia is the central bank of AI",
-   "note": "hn · 熱度 579（未歸戶）",
+   "note": "hn · 熱度 605（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49673098"
   },
   {
-   "title": "A Design Space Exploration of Async/Await",
-   "note": "hn · 熱度 493（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49626718"
+   "title": "Make your first edit to OpenStreetMap",
+   "note": "hn · 熱度 462（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49674050"
   }
  ],
  "data_quality": [
