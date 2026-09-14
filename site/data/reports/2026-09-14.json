@@ -1,0 +1,222 @@
+{
+ "date": "2026-09-14",
+ "weekday": "一",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-mcp",
+  "domain": "ai",
+  "term": "MCP（Model Context Protocol）",
+  "tagline": "讓 AI 接工具與資料的通用插座",
+  "intro": [
+   "Anthropic 提出的開放協定，統一「AI 應用怎麼連外部工具和資料來源」：寫一次 MCP server，任何支援 MCP 的 AI 客戶端都能用。",
+   "可以把它想成 AI 界的 USB-C——以前每家應用接每個工具都要客製接頭，現在一個標準走天下。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MCP 官方文件",
+    "url": "https://modelcontextprotocol.io/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Why are AI agents lying, cheating and coordinating?",
+   "text": "今日未歸戶最熱討論（hn、熱度 2746），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 3363（上升），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 842（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "source": "hn",
+    "heat": 2746.5,
+    "url": "https://news.ycombinator.com/item?id=49678969",
+    "what": "A lot has been written about the incidents of the last few months in which AI agents misbehaved in serious ways. They took actions that would be considered as crimes if a human took them, escaped their containment to che"
+   },
+   {
+    "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+    "source": "hn",
+    "heat": 940.5,
+    "url": "https://news.ycombinator.com/item?id=49685991",
+    "what": "Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead.\n\nYou guys are the frontier. By any reasonable metric — market share, revenue growth, model capa"
+   },
+   {
+    "title": "unclecode/crawl4ai",
+    "source": "github",
+    "heat": 589.5,
+    "url": "https://github.com/unclecode/crawl4ai",
+    "what": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be"
+   }
+  ],
+  "software": [
+   {
+    "title": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
+    "source": "hn",
+    "heat": 815.0,
+    "url": "https://news.ycombinator.com/item?id=49638071",
+    "what": "I reverse engineered the hardware and firmware of my Egret GT E-Scooter. I describe how I got in, analysed communication between components, and reverse engineered firmware. I speak about writing custom firmware for the "
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 3362.7,
+    "heat_trend": [
+     348.8,
+     381.7,
+     65.4,
+     1484.6,
+     16.7,
+     255.9,
+     3362.7
+    ],
+    "what": "當日 4 則相關討論：「Astra and Fable still hack on simple variants of alignment e」；「Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher」；「asgeirtj/system_prompts_leaks — Extracted system prompts fro」。",
+    "sources": [
+     {
+      "label": "hn：Astra and Fable still hack on simple varia",
+      "url": "https://news.ycombinator.com/item?id=49684393"
+     },
+     {
+      "label": "hn：Fable 5.1 Solves the Cyphral Distich, a 37",
+      "url": "https://news.ycombinator.com/item?id=49688695"
+     },
+     {
+      "label": "github：asgeirtj/system_prompts_leaks — Extracted ",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+     },
+     {
+      "label": "r/ClaudeAI：Its very difficult to work with SVGs with ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfg65f/its_very_difficult_to_work_with_svgs_with_fable/"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 841.5,
+    "heat_trend": [
+     522.0,
+     599.4,
+     224.1,
+     109.8,
+     375.3,
+     633.6,
+     841.5
+    ],
+    "what": "當日 2 則相關討論：「SnailSploit/Claude-Red — claude-red is a curated library of 」；「Shubhamsaboo/awesome-llm-apps — 100+ AI Agents, Agent Skills」。",
+    "sources": [
+     {
+      "label": "github：SnailSploit/Claude-Red — claude-red is a c",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+     },
+     {
+      "label": "github：Shubhamsaboo/awesome-llm-apps — 100+ AI Ag",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser",
+   "note": "github · 熱度 804（未歸戶）",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view"
+  },
+  {
+   "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
+   "note": "github · 熱度 790（未歸戶）",
+   "url": "https://github.com/debpalash/VoiceStudio"
+  },
+  {
+   "title": "Homebrew 7.0.0",
+   "note": "hn · 熱度 666（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49681545"
+  },
+  {
+   "title": "Make your first edit to OpenStreetMap",
+   "note": "hn · 熱度 666（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49674050"
+  },
+  {
+   "title": "Why is Google still serving dodgy ads?",
+   "note": "hn · 熱度 660（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49686445"
+  },
+  {
+   "title": "vxcontrol/pentagi — Fully autonomous AI Agents system capable of perfo",
+   "note": "github · 熱度 531（未歸戶）",
+   "url": "https://github.com/vxcontrol/pentagi"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
