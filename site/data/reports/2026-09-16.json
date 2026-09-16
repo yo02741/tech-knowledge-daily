@@ -1,0 +1,218 @@
+{
+ "date": "2026-09-16",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-message-queue",
+  "domain": "backend",
+  "term": "訊息佇列（Message Queue）",
+  "tagline": "先記下來慢慢做，別讓使用者等",
+  "intro": [
+   "把耗時工作（寄信、轉檔、跑報表）丟進佇列立刻回應使用者，背景 worker 再按序消化——削峰填谷，服務之間也因此解耦。",
+   "代價是複雜度：訊息可能重複投遞（所以消費端要冪等）、可能失序、可能堆積，還多了一個要維運的元件（RabbitMQ、Kafka、Redis Streams…）。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "AWS：What is a Message Queue",
+    "url": "https://aws.amazon.com/message-queue/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] alibaba/open-code-review",
+   "text": "今日未歸戶最熱討論（github、熱度 2480），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 692（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 125（退燒），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "alibaba/open-code-review",
+    "source": "github",
+    "heat": 2480.4,
+    "url": "https://github.com/alibaba/open-code-review",
+    "what": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid archi"
+   },
+   {
+    "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+    "source": "hn",
+    "heat": 1527.0,
+    "url": "https://news.ycombinator.com/item?id=49704132",
+    "what": "The Israeli Effective Altruist firm Irregular caused unsecured AI models to hack real targets."
+   },
+   {
+    "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "source": "hn",
+    "heat": 1089.0,
+    "url": "https://news.ycombinator.com/item?id=49715947",
+    "what": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation."
+   }
+  ],
+  "software": [],
+  "devops": [
+   {
+    "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+    "source": "hn",
+    "heat": 1349.0,
+    "url": "https://news.ycombinator.com/item?id=49711544",
+    "what": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. - arnegiacomo/fugleramme"
+   }
+  ],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 692.1,
+    "heat_trend": [
+     224.1,
+     109.8,
+     375.3,
+     633.6,
+     841.5,
+     521.1,
+     692.1
+    ],
+    "what": "當日 2 則相關討論：「SnailSploit/Claude-Red — claude-red is a curated library of 」；「ComposioHQ/awesome-claude-skills — A curated list of awesome」。",
+    "sources": [
+     {
+      "label": "github：SnailSploit/Claude-Red — claude-red is a c",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+     },
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 125.4,
+    "heat_trend": [
+     65.4,
+     1484.6,
+     16.7,
+     255.9,
+     5019.3,
+     843.9,
+     125.4
+    ],
+    "what": "當日 3 則相關討論：「Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensor」；「Even Fable is done with Opus' verbosity...」；「After seeing a post here about Claude making Risograph illus」。",
+    "sources": [
+     {
+      "label": "r/LocalLLaMA：Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-88",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwh7k/qwen3827bturbofablecoldfusion735882hereticuncensor/"
+     },
+     {
+      "label": "r/ClaudeAI：Even Fable is done with Opus' verbosity...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whf1ba/even_fable_is_done_with_opus_verbosity/"
+     },
+     {
+      "label": "r/ClaudeAI：After seeing a post here about Claude maki",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh5wpe/after_seeing_a_post_here_about_claude_making/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "I can't stop thinking about Papua New Guinea",
+   "note": "hn · 熱度 1224（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49708431"
+  },
+  {
+   "title": "25 years of mass surveillance is enough",
+   "note": "hn · 熱度 928（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49710883"
+  },
+  {
+   "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
+   "note": "github · 熱度 864（未歸戶）",
+   "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+   "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+   "note": "hn · 熱度 840（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49715113"
+  },
+  {
+   "title": "TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financi",
+   "note": "github · 熱度 654（未歸戶）",
+   "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+   "title": "multimodal-art-projection/YuE — YuE2: frontier music generation with s",
+   "note": "github · 熱度 631（未歸戶）",
+   "url": "https://github.com/multimodal-art-projection/YuE"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
