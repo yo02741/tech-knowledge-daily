@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 164（退燒），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 172（退燒），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,14 +51,14 @@
    {
     "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
     "source": "hn",
-    "heat": 1917.0,
+    "heat": 2038.5,
     "url": "https://news.ycombinator.com/item?id=49704132",
     "what": "The Israeli Effective Altruist firm Irregular caused unsecured AI models to hack real targets."
    },
    {
     "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
     "source": "hn",
-    "heat": 1419.0,
+    "heat": 1492.5,
     "url": "https://news.ycombinator.com/item?id=49715947",
     "what": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation."
    }
@@ -68,7 +68,7 @@
    {
     "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
     "source": "hn",
-    "heat": 1538.5,
+    "heat": 1607.5,
     "url": "https://news.ycombinator.com/item?id=49711544",
     "what": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. - arnegiacomo/fugleramme"
    }
@@ -109,7 +109,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 164.3,
+    "heat_today": 172.5,
     "heat_trend": [
      65.4,
      1484.6,
@@ -117,9 +117,9 @@
      255.9,
      5019.3,
      843.9,
-     164.3
+     172.5
     ],
-    "what": "當日 3 則相關討論：「Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensor」；「Even Fable is done with Opus' verbosity...」；「After seeing a post here about Claude making Risograph illus」。",
+    "what": "當日 4 則相關討論：「Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensor」；「Even Fable is done with Opus' verbosity...」；「After seeing a post here about Claude making Risograph illus」。",
     "sources": [
      {
       "label": "r/LocalLLaMA：Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-88",
@@ -132,6 +132,10 @@
      {
       "label": "r/ClaudeAI：After seeing a post here about Claude maki",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh5wpe/after_seeing_a_post_here_about_claude_making/"
+     },
+     {
+      "label": "r/ClaudeAI：I’m a cook and I built a kitchen app with ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whmy4r/im_a_cook_and_i_built_a_kitchen_app_with_fable_to/"
      }
     ]
    }
@@ -160,19 +164,19 @@
  ],
  "radar": [
   {
-   "title": "I can't stop thinking about Papua New Guinea",
-   "note": "hn · 熱度 1252（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49708431"
-  },
-  {
    "title": "Introducing System One Models and Jev",
-   "note": "hn · 熱度 1165（未歸戶）",
+   "note": "hn · 熱度 1312（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49717558"
   },
   {
    "title": "25 years of mass surveillance is enough",
-   "note": "hn · 熱度 982（未歸戶）",
+   "note": "hn · 熱度 993（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49710883"
+  },
+  {
+   "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+   "note": "hn · 熱度 890（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49715113"
   },
   {
    "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
@@ -225,7 +229,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
