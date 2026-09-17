@@ -37,6 +37,12 @@
    "text": "熱度 400（持續），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 245（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
   }
  ],
  "fresh": {
@@ -51,14 +57,14 @@
    {
     "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
     "source": "hn",
-    "heat": 1929.0,
+    "heat": 1957.5,
     "url": "https://news.ycombinator.com/item?id=49723408",
     "what": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse."
    },
    {
     "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
     "source": "hn",
-    "heat": 1252.5,
+    "heat": 1255.5,
     "url": "https://news.ycombinator.com/item?id=49727627",
     "what": "The lead of the ongoing PS5 Linux project has left the homebrew scene following the wave of AI vibe-coders joining open-source spaces."
    }
@@ -67,14 +73,14 @@
    {
     "title": "Nvidia announces native GPU programming in Rust",
     "source": "hn",
-    "heat": 1130.0,
+    "heat": 1280.0,
     "url": "https://news.ycombinator.com/item?id=49724881",
     "what": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and NVIDIA will be growing and maturing CUDA…"
    },
    {
     "title": "Training a 4B model to produce 81% faster query plans than Postgres",
     "source": "hn",
-    "heat": 1025.0,
+    "heat": 1085.0,
     "url": "https://news.ycombinator.com/item?id=49731285",
     "what": "...or how to make Qwen learn query optimization via agentic reinforcement learning"
    },
@@ -90,7 +96,7 @@
    {
     "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
     "source": "hn",
-    "heat": 2243.0,
+    "heat": 2253.5,
     "url": "https://news.ycombinator.com/item?id=49711544",
     "what": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. - arnegiacomo/fugleramme"
    }
@@ -156,30 +162,40 @@
       "url": "https://github.com/google/skills"
      }
     ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 244.7,
+    "heat_trend": [
+     1484.6,
+     16.7,
+     255.9,
+     5019.3,
+     843.9,
+     172.5,
+     244.7
+    ],
+    "what": "當日 2 則相關討論：「PCB is brought to you by Fable 5」；「Anybody have a good instruction for making Fable 5.1 sound l」。",
+    "sources": [
+     {
+      "label": "hn：PCB is brought to you by Fable 5",
+      "url": "https://news.ycombinator.com/item?id=49695689"
+     },
+     {
+      "label": "r/ClaudeAI：Anybody have a good instruction for making",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wid5da/anybody_have_a_good_instruction_for_making_fable/"
+     }
+    ]
    }
   ],
   "software": [],
   "devops": [],
   "uiux": []
  },
- "tracking": [
-  {
-   "slug": "fable5-lifecycle",
-   "title": "Fable 5 使用期限與遷移策略",
-   "status": "fading",
-   "domain": "ai",
-   "heat_today": 201.8,
-   "heat_trend": [
-    1484.6,
-    16.7,
-    255.9,
-    5019.3,
-    843.9,
-    172.5,
-    201.8
-   ]
-  }
- ],
+ "tracking": [],
  "radar": [
   {
    "title": "Tencent/WeKnora — Open-source LLM knowledge platform: turn raw documen",
@@ -188,7 +204,7 @@
   },
   {
    "title": "EU chief opens door for Canada to become 'associate member'",
-   "note": "hn · 熱度 1070（未歸戶）",
+   "note": "hn · 熱度 1075（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49724141"
   },
   {
