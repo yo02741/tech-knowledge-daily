@@ -1,0 +1,260 @@
+{
+ "date": "2026-09-17",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-ia",
+  "domain": "uiux",
+  "term": "資訊架構（IA）",
+  "tagline": "東西放哪裡、叫什麼名字的學問",
+  "intro": [
+   "導覽怎麼分類、頁面怎麼分層、功能叫什麼名字——資訊架構決定使用者「找不找得到」，比視覺美醜更根本。",
+   "經典方法是卡片分類法：把功能寫在卡片上讓真實使用者分組命名，你以為直覺的分類方式常常跟使用者的心智模型完全不同。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "NN/g：Information Architecture",
+    "url": "https://www.nngroup.com/articles/ia-study-guide/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] alibaba/open-code-review",
+   "text": "今日未歸戶最熱討論（github、熱度 2908），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1017（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 400（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
+   "text": "熱度 53（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ux-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "alibaba/open-code-review",
+    "source": "github",
+    "heat": 2907.9,
+    "url": "https://github.com/alibaba/open-code-review",
+    "what": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid archi"
+   },
+   {
+    "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+    "source": "hn",
+    "heat": 1858.5,
+    "url": "https://news.ycombinator.com/item?id=49723408",
+    "what": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse."
+   },
+   {
+    "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+    "source": "hn",
+    "heat": 1222.5,
+    "url": "https://news.ycombinator.com/item?id=49727627",
+    "what": "The lead of the ongoing PS5 Linux project has left the homebrew scene following the wave of AI vibe-coders joining open-source spaces."
+   }
+  ],
+  "software": [
+   {
+    "title": "NationalSecurityAgency/ghidra",
+    "source": "github",
+    "heat": 635.4,
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "what": "Ghidra is a software reverse engineering (SRE) framework"
+   }
+  ],
+  "devops": [
+   {
+    "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+    "source": "hn",
+    "heat": 2178.0,
+    "url": "https://news.ycombinator.com/item?id=49711544",
+    "what": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. - arnegiacomo/fugleramme"
+   }
+  ],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1017.0,
+    "heat_trend": [
+     1808.1,
+     720.9,
+     0,
+     0,
+     33.6,
+     0,
+     1017.0
+    ],
+    "what": "當日 3 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「wshobson/agents — Multi-harness agentic plugin marketplace f」；「Q00/ouroboros — Agent OS: the agent gets smarter on its own.」。",
+    "sources": [
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "github：wshobson/agents — Multi-harness agentic pl",
+      "url": "https://github.com/wshobson/agents"
+     },
+     {
+      "label": "github：Q00/ouroboros — Agent OS: the agent gets s",
+      "url": "https://github.com/Q00/ouroboros"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 399.6,
+    "heat_trend": [
+     109.8,
+     375.3,
+     633.6,
+     841.5,
+     521.1,
+     692.1,
+     399.6
+    ],
+    "what": "當日 2 則相關討論：「SnailSploit/Claude-Red — claude-red is a curated library of 」；「google/skills — Agent Skills for Google products and technol」。",
+    "sources": [
+     {
+      "label": "github：SnailSploit/Claude-Red — claude-red is a c",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+     },
+     {
+      "label": "github：google/skills — Agent Skills for Google pr",
+      "url": "https://github.com/google/skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "id": "ux-1",
+    "slug": "design-ai-prototyping",
+    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+    "status": "rising",
+    "heat_today": 53.3,
+    "heat_trend": [
+     7.7,
+     16.7,
+     0,
+     33.3,
+     0,
+     14.3,
+     53.3
+    ],
+    "what": "當日 2 則相關討論：「Those with a Figma Design System who \"don't touch Figma anym」；「figma auto charged me $192.00, no warning email. tos says no」。",
+    "sources": [
+     {
+      "label": "r/UXDesign：Those with a Figma Design System who \"don'",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1whp0rr/those_with_a_figma_design_system_who_dont_touch/"
+     },
+     {
+      "label": "r/UXDesign：figma auto charged me $192.00, no warning ",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1wi9qb2/figma_auto_charged_me_19200_no_warning_email_tos/"
+     }
+    ]
+   }
+  ]
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "Tencent/WeKnora — Open-source LLM knowledge platform: turn raw documen",
+   "note": "github · 熱度 1077（未歸戶）",
+   "url": "https://github.com/Tencent/WeKnora"
+  },
+  {
+   "title": "EU chief opens door for Canada to become 'associate member'",
+   "note": "hn · 熱度 1058（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49724141"
+  },
+  {
+   "title": "Learning Programming in an Age of LLMs",
+   "note": "hn · 熱度 951（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49723873"
+  },
+  {
+   "title": "alphaXiv/OpenResearch — Turn your coding agents into research agents",
+   "note": "github · 熱度 915（未歸戶）",
+   "url": "https://github.com/alphaXiv/OpenResearch"
+  },
+  {
+   "title": "Claude Cowork and chat are now one Claude",
+   "note": "hn · 熱度 908（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49729412"
+  },
+  {
+   "title": "cloudflare/security-audit-skill — A coding-agent skill for multi-phase",
+   "note": "github · 熱度 834（未歸戶）",
+   "url": "https://github.com/cloudflare/security-audit-skill"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
