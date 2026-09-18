@@ -52,7 +52,7 @@
    {
     "title": "How GLM built its own inference infrastructure",
     "source": "hn",
-    "heat": 1549.5,
+    "heat": 1566.0,
     "url": "https://news.ycombinator.com/item?id=49737922"
    }
   ],
@@ -100,7 +100,7 @@
    "title": "Claude Code skills 生態爆發",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 412.2,
+   "heat_today": 428.9,
    "heat_trend": [
     375.3,
     633.6,
@@ -108,14 +108,14 @@
     521.1,
     692.1,
     399.6,
-    412.2
+    428.9
    ]
   }
  ],
  "radar": [
   {
    "title": "The American Religion of Self-Storage Facilities",
-   "note": "hn · 熱度 1192（未歸戶）",
+   "note": "hn · 熱度 1226（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49740260"
   },
   {
@@ -130,7 +130,7 @@
   },
   {
    "title": "I Don't Like LLMs",
-   "note": "hn · 熱度 1000（未歸戶）",
+   "note": "hn · 熱度 1006（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49740834"
   },
   {
@@ -139,9 +139,9 @@
    "url": "https://github.com/alphaXiv/OpenResearch"
   },
   {
-   "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
-   "note": "hn · 熱度 651（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49715813"
+   "title": "Hacking OpenAI",
+   "note": "hn · 熱度 806（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49749656"
   }
  ],
  "data_quality": [
