@@ -34,15 +34,9 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 91（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 87（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
-  },
-  {
-   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 47（上升），共 3 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ux-1"
   }
  ],
  "fresh": {
@@ -62,25 +56,25 @@
     "what": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybr"
    },
    {
-    "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+    "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
     "source": "hn",
-    "heat": 1699.5,
-    "url": "https://news.ycombinator.com/item?id=49749656",
-    "what": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repositories"
+    "heat": 2046.0,
+    "url": "https://news.ycombinator.com/item?id=49760187",
+    "what": "Release notes for Claude Code, including new features, improvements, and bug fixes by version."
    }
   ],
   "software": [
    {
     "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
     "source": "hn",
-    "heat": 2474.0,
+    "heat": 2514.0,
     "url": "https://news.ycombinator.com/item?id=49752056",
     "what": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers."
    },
    {
     "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
     "source": "hn",
-    "heat": 1126.0,
+    "heat": 1686.0,
     "url": "https://news.ycombinator.com/item?id=49758736",
     "what": "Android 17 QPR1 is the first release since Android Honeycomb (3.x) adding new APIs for app developers without a release to the Android Open Source Project. The new APIs are currently exclusive to the Pixel OS and aren't "
    }
@@ -126,7 +120,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 90.8,
+    "heat_today": 86.8,
     "heat_trend": [
      255.9,
      5019.3,
@@ -134,10 +128,14 @@
      172.5,
      244.7,
      52.3,
-     90.8
+     86.8
     ],
-    "what": "當日 4 則相關討論：「Fable 5.1 is the Goat!」；「Hello Fable my old friend, I've come to talk with you again」；「Need to blow $100 in Fable 5 credits ASAP」。",
+    "what": "當日 4 則相關討論：「Need to blow $100 in Fable 5 credits ASAP」；「Fable 5.1 is the Goat!」；「Hello Fable my old friend, I've come to talk with you again」。",
     "sources": [
+     {
+      "label": "r/ClaudeAI：Need to blow $100 in Fable 5 credits ASAP",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk5nw4/need_to_blow_100_in_fable_5_credits_asap/"
+     },
      {
       "label": "r/ClaudeAI：Fable 5.1 is the Goat!",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjkcqf/fable_51_is_the_goat/"
@@ -145,10 +143,6 @@
      {
       "label": "r/ClaudeAI：Hello Fable my old friend, I've come to ta",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjzz69/hello_fable_my_old_friend_ive_come_to_talk_with/"
-     },
-     {
-      "label": "r/ClaudeAI：Need to blow $100 in Fable 5 credits ASAP",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk5nw4/need_to_blow_100_in_fable_5_credits_asap/"
      },
      {
       "label": "r/ClaudeAI：Keep Claude Code’s cache warm. On Fable 5.",
@@ -159,50 +153,13 @@
   ],
   "software": [],
   "devops": [],
-  "uiux": [
-   {
-    "id": "ux-1",
-    "slug": "design-ai-prototyping",
-    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-    "status": "rising",
-    "heat_today": 46.8,
-    "heat_trend": [
-     0,
-     33.3,
-     0,
-     14.3,
-     0,
-     0,
-     46.8
-    ],
-    "what": "當日 3 則相關討論：「Screen size in Figma」；「Figma: model for the user or for the developer?」；「Figma plugin for accessibility」。",
-    "sources": [
-     {
-      "label": "r/UXDesign：Screen size in Figma",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1wjfzrn/screen_size_in_figma/"
-     },
-     {
-      "label": "r/UXDesign：Figma: model for the user or for the devel",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1wjp03u/figma_model_for_the_user_or_for_the_developer/"
-     },
-     {
-      "label": "r/UXDesign：Figma plugin for accessibility",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1wjj5v1/figma_plugin_for_accessibility/"
-     }
-    ]
-   }
-  ]
+  "uiux": []
  },
  "tracking": [],
  "radar": [
   {
-   "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-   "note": "hn · 熱度 1672（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49760187"
-  },
-  {
    "title": "How to Write with an LLM",
-   "note": "hn · 熱度 1502（未歸戶）",
+   "note": "hn · 熱度 1768（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49747070"
   },
   {
@@ -212,8 +169,13 @@
   },
   {
    "title": "I don't like passkeys",
-   "note": "hn · 熱度 1079（未歸戶）",
+   "note": "hn · 熱度 1111（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49753211"
+  },
+  {
+   "title": "Border agents can search cellphones without a warrant or reasonable su",
+   "note": "hn · 熱度 843（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49758028"
   },
   {
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
@@ -245,7 +207,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
