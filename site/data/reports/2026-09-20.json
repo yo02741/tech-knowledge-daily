@@ -1,0 +1,154 @@
+{
+ "date": "2026-09-20",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-code-splitting",
+  "domain": "frontend",
+  "term": "Code Splitting",
+  "tagline": "別讓使用者為了首頁下載整個網站的 JS",
+  "intro": [
+   "打包工具預設會把所有 JS 打成一大包，首次載入就全部下載。Code splitting 按路由或元件把包切小，用到才載入（lazy loading）。",
+   "實務起手式：路由層級切分 + 大型第三方庫（圖表、編輯器）動態 import。打包分析工具能告訴你哪一包最肥。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：Lazy loading",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] cloudflare/security-audit-skill",
+   "text": "今日未歸戶最熱討論（github、熱度 2840），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "cloudflare/security-audit-skill",
+    "source": "github",
+    "heat": 2839.5,
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "what": "A coding-agent skill for multi-phase security audits wit"
+   },
+   {
+    "title": "How to Write with an LLM",
+    "source": "hn",
+    "heat": 2422.5,
+    "url": "https://news.ycombinator.com/item?id=49747070",
+    "what": "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work."
+   },
+   {
+    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+    "source": "hn",
+    "heat": 1333.5,
+    "url": "https://news.ycombinator.com/item?id=49763987",
+    "what": "Scienceblogs.de, a German science blogging portal, includes a relatively famous list of 50 unsolved ciphers, which range from cryptograms published by serial killers to the famous Voynich manuscript."
+   }
+  ],
+  "software": [
+   {
+    "title": "What Zig felt like, coming from Rust",
+    "source": "hn",
+    "heat": 549.0,
+    "url": "https://news.ycombinator.com/item?id=49766637",
+    "what": "What Zig felt like, coming from Rust Intro I’ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I’d like to think I’ve built a solid feel for the language and its ecosystem along t"
+   },
+   {
+    "title": "vercel-labs/json-render",
+    "source": "github",
+    "heat": 351.0,
+    "url": "https://github.com/vercel-labs/json-render",
+    "what": "The Generative UI framework"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "AI-generated posters don’t have to be horrible",
+   "note": "hn · 熱度 1724（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49764791"
+  },
+  {
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "note": "hn · 熱度 1192（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49765348"
+  },
+  {
+   "title": "Two parallel neural ectoderm progenitors contribute to the developing ",
+   "note": "hn · 熱度 729（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49763697"
+  },
+  {
+   "title": "Tencent/BrowserSkill — Let AI agents use your real, logged-in browser ",
+   "note": "github · 熱度 551（未歸戶）",
+   "url": "https://github.com/Tencent/BrowserSkill"
+  },
+  {
+   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
+   "note": "github · 熱度 500（未歸戶）",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "title": "anthropics/claude-code — Claude Code is an agentic coding tool that li",
+   "note": "github · 熱度 435（未歸戶）",
+   "url": "https://github.com/anthropics/claude-code"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
