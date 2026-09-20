@@ -39,14 +39,14 @@
    {
     "title": "How to Write with an LLM",
     "source": "hn",
-    "heat": 2422.5,
+    "heat": 2529.0,
     "url": "https://news.ycombinator.com/item?id=49747070",
     "what": "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work."
    },
    {
     "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
     "source": "hn",
-    "heat": 1333.5,
+    "heat": 1386.0,
     "url": "https://news.ycombinator.com/item?id=49763987",
     "what": "Scienceblogs.de, a German science blogging portal, includes a relatively famous list of 50 unsolved ciphers, which range from cryptograms published by serial killers to the famous Voynich manuscript."
    }
@@ -55,7 +55,7 @@
    {
     "title": "What Zig felt like, coming from Rust",
     "source": "hn",
-    "heat": 549.0,
+    "heat": 606.0,
     "url": "https://news.ycombinator.com/item?id=49766637",
     "what": "What Zig felt like, coming from Rust Intro I’ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I’d like to think I’ve built a solid feel for the language and its ecosystem along t"
    },
@@ -76,21 +76,38 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 88.0,
+   "heat_trend": [
+    5019.3,
+    843.9,
+    172.5,
+    244.7,
+    52.3,
+    94.5,
+    88.0
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "AI-generated posters don’t have to be horrible",
-   "note": "hn · 熱度 1724（未歸戶）",
+   "note": "hn · 熱度 1874（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49764791"
   },
   {
    "title": "I built non-autoregressive decision models with RL a year ago",
-   "note": "hn · 熱度 1192（未歸戶）",
+   "note": "hn · 熱度 1305（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49765348"
   },
   {
    "title": "Two parallel neural ectoderm progenitors contribute to the developing ",
-   "note": "hn · 熱度 729（未歸戶）",
+   "note": "hn · 熱度 738（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49763697"
   },
   {
@@ -128,7 +145,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -140,7 +157,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
