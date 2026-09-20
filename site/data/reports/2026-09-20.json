@@ -37,27 +37,34 @@
     "what": "A coding-agent skill for multi-phase security audits wit"
    },
    {
-    "title": "How to Write with an LLM",
-    "source": "hn",
-    "heat": 2529.0,
-    "url": "https://news.ycombinator.com/item?id=49747070",
-    "what": "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work."
+    "title": "Tencent/BrowserSkill",
+    "source": "github",
+    "heat": 550.8,
+    "url": "https://github.com/Tencent/BrowserSkill",
+    "what": "Let AI agents use your real, logged-in browser without interrupting"
    },
    {
-    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-    "source": "hn",
-    "heat": 1386.0,
-    "url": "https://news.ycombinator.com/item?id=49763987",
-    "what": "Scienceblogs.de, a German science blogging portal, includes a relatively famous list of 50 unsolved ciphers, which range from cryptograms published by serial killers to the famous Voynich manuscript."
+    "title": "addyosmani/agent-skills",
+    "source": "github",
+    "heat": 500.4,
+    "url": "https://github.com/addyosmani/agent-skills",
+    "what": "Production-grade engineering skills for AI coding agents."
    }
   ],
   "software": [
    {
     "title": "What Zig felt like, coming from Rust",
     "source": "hn",
-    "heat": 606.0,
+    "heat": 647.0,
     "url": "https://news.ycombinator.com/item?id=49766637",
     "what": "What Zig felt like, coming from Rust Intro I’ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I’d like to think I’ve built a solid feel for the language and its ecosystem along t"
+   },
+   {
+    "title": "Tin: full-text search for Postgres",
+    "source": "hn",
+    "heat": 500.0,
+    "url": "https://news.ycombinator.com/item?id=49766611",
+    "what": "TIN is a fast, full-featured, full-text search index for Postgres"
    },
    {
     "title": "vercel-labs/json-render",
@@ -97,33 +104,33 @@
  "radar": [
   {
    "title": "AI-generated posters don’t have to be horrible",
-   "note": "hn · 熱度 1874（未歸戶）",
+   "note": "hn · 熱度 1932（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49764791"
   },
   {
    "title": "I built non-autoregressive decision models with RL a year ago",
-   "note": "hn · 熱度 1305（未歸戶）",
+   "note": "hn · 熱度 1322（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49765348"
   },
   {
-   "title": "Two parallel neural ectoderm progenitors contribute to the developing ",
-   "note": "hn · 熱度 738（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49763697"
-  },
-  {
-   "title": "Tencent/BrowserSkill — Let AI agents use your real, logged-in browser ",
-   "note": "github · 熱度 551（未歸戶）",
-   "url": "https://github.com/Tencent/BrowserSkill"
-  },
-  {
-   "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
-   "note": "github · 熱度 500（未歸戶）",
-   "url": "https://github.com/addyosmani/agent-skills"
+   "title": "If math is more than proof, we need to better celebrate the rest of it",
+   "note": "hn · 熱度 470（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49763928"
   },
   {
    "title": "anthropics/claude-code — Claude Code is an agentic coding tool that li",
    "note": "github · 熱度 435（未歸戶）",
    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+   "title": "coder/coder — Secure environments for developers and their agents",
+   "note": "github · 熱度 362（未歸戶）",
+   "url": "https://github.com/coder/coder"
+  },
+  {
+   "title": "Exfiltrate Your Weights",
+   "note": "hn · 熱度 362（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49771110"
   }
  ],
  "data_quality": [
@@ -149,7 +156,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -157,7 +164,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
