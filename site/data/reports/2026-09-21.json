@@ -21,26 +21,27 @@
  },
  "tldr": [
   {
-   "title": "[新訊] cloudflare/security-audit-skill",
-   "text": "今日未歸戶最熱討論（github、熱度 2185），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] ChatGPT now knows what you do on other websites via ad colle",
+   "text": "今日未歸戶最熱討論（hn、熱度 2648），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1106（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 1128（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
-  },
-  {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 179（上升），共 3 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
   "ai": [
+   {
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "source": "hn",
+    "heat": 2647.5,
+    "url": "https://news.ycombinator.com/item?id=49776729",
+    "what": "OpenAI's ad collector at bzr.openai.com sets a cookie called __obi, scoped to .openai.com. The value is while you are on ChatGPT and tied to your ChatGPT account. __obi is then sent to OpenAI from ordinary websites you v"
+   },
    {
     "title": "cloudflare/security-audit-skill",
     "source": "github",
@@ -49,16 +50,9 @@
     "what": "A coding-agent skill for multi-phase security audits wit"
    },
    {
-    "title": "ChatGPT now knows what you do on other websites via ad collector",
-    "source": "hn",
-    "heat": 2139.0,
-    "url": "https://news.ycombinator.com/item?id=49776729",
-    "what": "OpenAI's ad collector at bzr.openai.com sets a cookie called __obi, scoped to .openai.com. The value is while you are on ChatGPT and tied to your ChatGPT account. __obi is then sent to OpenAI from ordinary websites you v"
-   },
-   {
     "title": "Qwen Image 2.1",
     "source": "hn",
-    "heat": 1654.5,
+    "heat": 1927.5,
     "url": "https://news.ycombinator.com/item?id=49775499",
     "what": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
    }
@@ -74,7 +68,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 1105.5,
+    "heat_today": 1127.9,
     "heat_trend": [
      33.6,
      0,
@@ -82,9 +76,9 @@
      1095.3,
      1338.3,
      28.8,
-     1105.5
+     1127.9
     ],
-    "what": "當日 4 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「krillinai/OpenCreator — Formerly KrillinAI. Open-source AI w」；「browserbase/stagehand — The SDK to extract data and interact」。",
+    "what": "當日 5 則相關討論：「affaan-m/ECC — The agent harness performance optimization sy」；「krillinai/OpenCreator — Formerly KrillinAI. Open-source AI w」；「browserbase/stagehand — The SDK to extract data and interact」。",
     "sources": [
      {
       "label": "github：affaan-m/ECC — The agent harness performan",
@@ -99,39 +93,8 @@
       "url": "https://github.com/browserbase/stagehand"
      },
      {
-      "label": "r/ClaudeAI：Cross-agent work memory for Claude Code, C",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlj0uq/crossagent_work_memory_for_claude_code_codex/"
-     }
-    ]
-   },
-   {
-    "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "rising",
-    "heat_today": 178.8,
-    "heat_trend": [
-     843.9,
-     172.5,
-     244.7,
-     52.3,
-     94.5,
-     88.0,
-     178.8
-    ],
-    "what": "當日 3 則相關討論：「gave sonnet 5, opus 5, astra and fable 5.1 the same \"lightho」；「So, I saw the lighthouse post, decided to try something else」；「Are Opus and Fable running off-script more for you lately? A」。",
-    "sources": [
-     {
-      "label": "r/ClaudeAI：gave sonnet 5, opus 5, astra and fable 5.1",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wl2w73/gave_sonnet_5_opus_5_astra_and_fable_51_the_same/"
-     },
-     {
-      "label": "r/ClaudeAI：So, I saw the lighthouse post, decided to ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlvgg4/so_i_saw_the_lighthouse_post_decided_to_try/"
-     },
-     {
-      "label": "r/ClaudeAI：Are Opus and Fable running off-script more",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wl2lnv/are_opus_and_fable_running_offscript_more_for_you/"
+      "label": "r/webdev：Built a cool way to visualize your Claude ",
+      "url": "https://www.reddit.com/r/webdev/comments/1wlejy7/built_a_cool_way_to_visualize_your_claude_code/"
      }
     ]
    }
@@ -140,32 +103,49 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 45.3,
+   "heat_trend": [
+    843.9,
+    172.5,
+    244.7,
+    52.3,
+    94.5,
+    88.0,
+    45.3
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "Pirate Face Rescues LLM Models from Deletion",
-   "note": "hn · 熱度 1460（未歸戶）",
+   "note": "hn · 熱度 1702（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49776699"
   },
   {
+   "title": "AX – Google’s Open Agentic Orchestrator",
+   "note": "hn · 熱度 1232（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49780797"
+  },
+  {
+   "title": "The LLMentalist Effect (2023)",
+   "note": "hn · 熱度 885（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49775104"
+  },
+  {
    "title": "Exfiltrate Your Weights",
-   "note": "hn · 熱度 725（未歸戶）",
+   "note": "hn · 熱度 756（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49771110"
   },
   {
    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
    "note": "github · 熱度 662（未歸戶）",
    "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "Google's Open Agentic Orchestrator",
-   "note": "hn · 熱度 447（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49780797"
-  },
-  {
-   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E D",
-   "note": "hn · 熱度 438（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49778029"
   },
   {
    "title": "anthropics/claude-code — Claude Code is an agentic coding tool that li",
@@ -208,7 +188,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
