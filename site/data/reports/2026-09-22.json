@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] Kev: Tiny Jev-like family of decision models built on top of",
-   "text": "今日未歸戶最熱討論（hn、熱度 1468），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1552），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 1493（上升），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 1598（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -37,12 +37,6 @@
    "text": "熱度 165（退燒），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
-  },
-  {
-   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 46（上升），共 2 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ux-1"
   }
  ],
  "fresh": {
@@ -50,21 +44,22 @@
    {
     "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
     "source": "hn",
-    "heat": 1468.5,
+    "heat": 1552.5,
     "url": "https://news.ycombinator.com/item?id=49783999",
     "what": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own - jaredpalmer/kev"
    },
    {
-    "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+    "title": "Transformers Explained Visually",
     "source": "hn",
-    "heat": 768.0,
-    "url": "https://news.ycombinator.com/item?id=49787535"
+    "heat": 913.5,
+    "url": "https://news.ycombinator.com/item?id=49792342",
+    "what": "An interactive visualization tool showing you how transformer models work in large language models (LLM) like GPT."
    },
    {
-    "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+    "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
     "source": "hn",
-    "heat": 636.0,
-    "url": "https://news.ycombinator.com/item?id=49789982"
+    "heat": 817.5,
+    "url": "https://news.ycombinator.com/item?id=49787535"
    }
   ],
   "software": [
@@ -86,7 +81,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 1492.8,
+    "heat_today": 1598.2,
     "heat_trend": [
      172.5,
      244.7,
@@ -94,21 +89,21 @@
      94.5,
      88.0,
      48.3,
-     1492.8
+     1598.2
     ],
-    "what": "當日 5 則相關討論：「Fable 5 – Median thinking declined in August」；「If Fable made you buy a second account, this shows which one」；「Use Fable instead of Opus」。",
+    "what": "當日 4 則相關討論：「Fable 5 – Median thinking declined in August」；「Use Fable instead of Opus」；「If Fable made you buy a second account, this shows which one」。",
     "sources": [
      {
       "label": "hn：Fable 5 – Median thinking declined in Augu",
       "url": "https://news.ycombinator.com/item?id=49789224"
      },
      {
-      "label": "r/ClaudeAI：If Fable made you buy a second account, th",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmbjb5/if_fable_made_you_buy_a_second_account_this_shows/"
-     },
-     {
       "label": "r/ClaudeAI：Use Fable instead of Opus",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmij5x/use_fable_instead_of_opus/"
+     },
+     {
+      "label": "r/ClaudeAI：If Fable made you buy a second account, th",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmbjb5/if_fable_made_you_buy_a_second_account_this_shows/"
      },
      {
       "label": "r/ClaudeAI：Live Dark Fantasy SVG art created and anim",
@@ -146,35 +141,7 @@
   ],
   "software": [],
   "devops": [],
-  "uiux": [
-   {
-    "id": "ux-1",
-    "slug": "design-ai-prototyping",
-    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-    "status": "rising",
-    "heat_today": 45.8,
-    "heat_trend": [
-     14.3,
-     0,
-     0,
-     26.8,
-     0,
-     0,
-     45.8
-    ],
-    "what": "當日 2 則相關討論：「I built a framework-free prototype learner that lets local L」；「Dev was let go - scared & how to approach prototype presenta」。",
-    "sources": [
-     {
-      "label": "r/MachineLearning：I built a framework-free prototype learner",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/"
-     },
-     {
-      "label": "r/UXDesign：Dev was let go - scared & how to approach ",
-      "url": "https://www.reddit.com/r/UXDesign/comments/1wmov2y/dev_was_let_go_scared_how_to_approach_prototype/"
-     }
-    ]
-   }
-  ]
+  "uiux": []
  },
  "tracking": [
   {
@@ -192,23 +159,39 @@
     0,
     189.0
    ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 50.0,
+   "heat_trend": [
+    14.3,
+    0,
+    0,
+    26.8,
+    0,
+    0,
+    50.0
+   ]
   }
  ],
  "radar": [
   {
-   "title": "Grok 4.7",
-   "note": "hn · 熱度 681（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49788838"
-  },
-  {
-   "title": "Disney+: New user agreement allows ads before movies in all subscripti",
-   "note": "hn · 熱度 655（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49784336"
+   "title": "MiMo v2.6",
+   "note": "hn · 熱度 863（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49792730"
   },
   {
    "title": "Attention is all you have",
-   "note": "hn · 熱度 639（未歸戶）",
+   "note": "hn · 熱度 762（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49787726"
+  },
+  {
+   "title": "Grok 4.7",
+   "note": "hn · 熱度 761（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49788838"
   },
   {
    "title": "BuilderIO/agent-native — A framework for building agentic apps",
@@ -245,11 +228,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
