@@ -1,0 +1,154 @@
+{
+ "date": "2026-09-23",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-blue-green",
+  "domain": "devops",
+  "term": "藍綠部署與金絲雀發布",
+  "tagline": "新版先小規模試毒，有事秒切回舊版",
+  "intro": [
+   "藍綠：養兩套一模一樣的環境，新版部到閒置那套、驗證後把流量整個切過去，出事切回來就是回滾。金絲雀：先放 1-5% 流量給新版，指標正常再逐步放大。",
+   "兩者都在解同一題：把「部署」和「發布」解耦，讓上線不再是不可逆的驚險一跳。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "Google Cloud：部署策略",
+    "url": "https://cloud.google.com/architecture/application-deployment-and-testing-strategies"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Claude Opus 5.5",
+   "text": "今日未歸戶最熱討論（hn、熱度 4636），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Claude Opus 5.5",
+    "source": "hn",
+    "heat": 4636.5,
+    "url": "https://news.ycombinator.com/item?id=49803892",
+    "what": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads."
+   },
+   {
+    "title": "GPT-6 Sol and Luna",
+    "source": "hn",
+    "heat": 4206.0,
+    "url": "https://news.ycombinator.com/item?id=49805509"
+   },
+   {
+    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+    "source": "hn",
+    "heat": 2172.0,
+    "url": "https://news.ycombinator.com/item?id=49801324"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 191.7,
+   "heat_trend": [
+    1017.0,
+    1095.3,
+    1338.3,
+    28.8,
+    1131.0,
+    164.7,
+    191.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "google/ax — Google's open agentic orchestration runtime",
+   "note": "github · 熱度 2074（未歸戶）",
+   "url": "https://github.com/google/ax"
+  },
+  {
+   "title": "I said no and Apple said yes",
+   "note": "hn · 熱度 1108（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49797982"
+  },
+  {
+   "title": "OpenAI is well positioned to fast-follow Jev",
+   "note": "hn · 熱度 1044（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49802161"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 850（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "Claude Opus 5.5",
+   "note": "hn · 熱度 822（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49803863"
+  },
+  {
+   "title": "BuilderIO/agent-native — A framework for building agentic apps",
+   "note": "github · 熱度 548（未歸戶）",
+   "url": "https://github.com/BuilderIO/agent-native"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

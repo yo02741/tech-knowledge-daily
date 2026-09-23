@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-22",
+ "last_run": "2026-09-23",
  "topics": {
   "fable5-lifecycle": {
    "display": "Fable 5 使用期限與遷移策略",
@@ -8,13 +8,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-22",
+   "last_seen": "2026-09-23",
    "history": [
-    {
-     "date": "2026-08-24",
-     "heat": 0,
-     "mentions": 0
-    },
     {
      "date": "2026-08-25",
      "heat": 0,
@@ -159,9 +154,14 @@
      "date": "2026-09-22",
      "heat": 1632.8,
      "mentions": 4
+    },
+    {
+     "date": "2026-09-23",
+     "heat": 15.0,
+     "mentions": 1
     }
    ],
-   "status": "rising",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -174,13 +174,8 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-22",
+   "last_seen": "2026-09-23",
    "history": [
-    {
-     "date": "2026-08-24",
-     "heat": 4625.1,
-     "mentions": 7
-    },
     {
      "date": "2026-08-25",
      "heat": 3738.6,
@@ -325,6 +320,11 @@
      "date": "2026-09-22",
      "heat": 164.7,
      "mentions": 2
+    },
+    {
+     "date": "2026-09-23",
+     "heat": 191.7,
+     "mentions": 2
     }
    ],
    "status": "fading",
@@ -347,11 +347,6 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-09-22",
    "history": [
-    {
-     "date": "2026-08-24",
-     "heat": 383.4,
-     "mentions": 2
-    },
     {
      "date": "2026-08-25",
      "heat": 36.0,
@@ -496,9 +491,14 @@
      "date": "2026-09-22",
      "heat": 189.0,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-23",
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Agent Skills",
@@ -516,11 +516,6 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-09-22",
    "history": [
-    {
-     "date": "2026-08-22",
-     "heat": 0,
-     "mentions": 0
-    },
     {
      "date": "2026-08-23",
      "heat": 95.0,
@@ -665,9 +660,14 @@
      "date": "2026-09-22",
      "heat": 50.0,
      "mentions": 1
+    },
+    {
+     "date": "2026-09-23",
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
