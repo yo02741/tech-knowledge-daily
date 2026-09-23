@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Claude Opus 5.5",
-   "text": "今日未歸戶最熱討論（hn、熱度 5384），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 5606），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,20 +32,20 @@
    {
     "title": "Claude Opus 5.5",
     "source": "hn",
-    "heat": 5383.5,
+    "heat": 5605.5,
     "url": "https://news.ycombinator.com/item?id=49803892",
     "what": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads."
    },
    {
     "title": "GPT-6 Sol and Luna",
     "source": "hn",
-    "heat": 5034.0,
+    "heat": 5229.0,
     "url": "https://news.ycombinator.com/item?id=49805509"
    },
    {
     "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
     "source": "hn",
-    "heat": 2389.5,
+    "heat": 2473.5,
     "url": "https://news.ycombinator.com/item?id=49801324"
    }
   ],
@@ -84,18 +84,18 @@
    "url": "https://github.com/google/ax"
   },
   {
-   "title": "I said no and Apple said yes",
-   "note": "hn · 熱度 1134（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49797982"
-  },
-  {
    "title": "OpenAI is well positioned to fast-follow Jev",
-   "note": "hn · 熱度 1124（未歸戶）",
+   "note": "hn · 熱度 1152（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49802161"
   },
   {
+   "title": "I said no and Apple said yes",
+   "note": "hn · 熱度 1141（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49797982"
+  },
+  {
    "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-   "note": "hn · 熱度 914（未歸戶）",
+   "note": "hn · 熱度 938（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49801939"
   },
   {
@@ -140,11 +140,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
