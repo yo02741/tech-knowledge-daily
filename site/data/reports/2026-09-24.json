@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] GPT-6 Sol and Luna",
-   "text": "今日未歸戶最熱討論（hn、熱度 6423），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Claude discovers a novel enzyme system with CRISPR-like repe",
+   "text": "今日未歸戶最熱討論（hn、熱度 2601），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 100（退燒），共 1 則討論；重點連結見對應段落。",
+   "text": "熱度 114（退燒），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -42,31 +42,32 @@
  "fresh": {
   "ai": [
    {
-    "title": "GPT-6 Sol and Luna",
-    "source": "hn",
-    "heat": 6423.0,
-    "url": "https://news.ycombinator.com/item?id=49805509"
-   },
-   {
     "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
     "source": "hn",
-    "heat": 2118.0,
+    "heat": 2601.0,
     "url": "https://news.ycombinator.com/item?id=49820134",
     "what": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
    },
    {
     "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
     "source": "hn",
-    "heat": 1704.0,
+    "heat": 1782.0,
     "url": "https://news.ycombinator.com/item?id=49814947",
     "what": "Claude Code 2.1.277 added AGENTS.md support, but the loader sits behind a remote feature flag. With telemetry or nonessential traffic turned off, a local AGENTS.md is skipped without a warning. This is what I measured an"
+   },
+   {
+    "title": "google/ax",
+    "source": "github",
+    "heat": 1388.7,
+    "url": "https://github.com/google/ax",
+    "what": "Google's open agentic orchestration runtime"
    }
   ],
   "software": [
    {
     "title": "Jev in 25 Lines of Python",
     "source": "hn",
-    "heat": 1455.0,
+    "heat": 1482.0,
     "url": "https://news.ycombinator.com/item?id=49812769",
     "what": "Everyone is talking about Jev - here it is in 25 lines of Python."
    }
@@ -112,7 +113,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 100.0,
+    "heat_today": 113.6,
     "heat_trend": [
      52.3,
      94.5,
@@ -120,13 +121,17 @@
      48.3,
      1632.8,
      16.7,
-     100.0
+     113.6
     ],
-    "what": "當日 1 則相關討論：「Stupid question - if Opus 5.5 is better than Fable 5.1, why 」。",
+    "what": "當日 2 則相關討論：「Stupid question - if Opus 5.5 is better than Fable 5.1, why 」；「Opus 5.5 is the real deal: same accuracy as Fable 5.1 on my 」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Stupid question - if Opus 5.5 is better th",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnxeql/stupid_question_if_opus_55_is_better_than_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：Opus 5.5 is the real deal: same accuracy a",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1woicc1/opus_55_is_the_real_deal_same_accuracy_as_fable/"
      }
     ]
    }
@@ -138,14 +143,14 @@
  "tracking": [],
  "radar": [
   {
-   "title": "google/ax — Google's open agentic orchestration runtime",
-   "note": "github · 熱度 1389（未歸戶）",
-   "url": "https://github.com/google/ax"
+   "title": "GPT-6 Astra has gained the ability to drive a car",
+   "note": "hn · 熱度 1191（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49817404"
   },
   {
-   "title": "GPT-6 Astra has gained the ability to drive a car",
-   "note": "hn · 熱度 1144（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49817404"
+   "title": "Tokens too cheap to meter",
+   "note": "hn · 熱度 1089（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49813482"
   },
   {
    "title": "dream-num/univer — The Office Harness for AI Agents — Spreadsheets, Do",
@@ -153,9 +158,9 @@
    "url": "https://github.com/dream-num/univer"
   },
   {
-   "title": "Tokens too cheap to meter",
-   "note": "hn · 熱度 945（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49813482"
+   "title": "Gemini 3.8 text-to-speech",
+   "note": "hn · 熱度 1024（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49817615"
   },
   {
    "title": "browser-use/video-use — Edit videos with coding agents",
@@ -187,7 +192,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",

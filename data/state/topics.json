@@ -157,8 +157,8 @@
     },
     {
      "date": "2026-09-24",
-     "heat": 100.0,
-     "mentions": 1
+     "heat": 113.6,
+     "mentions": 2
     }
    ],
    "status": "fading",
@@ -514,7 +514,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-22",
+   "last_seen": "2026-09-24",
    "history": [
     {
      "date": "2026-08-24",
@@ -663,8 +663,8 @@
     },
     {
      "date": "2026-09-24",
-     "heat": 0,
-     "mentions": 0
+     "heat": 6.7,
+     "mentions": 1
     }
    ],
    "status": "fading",
