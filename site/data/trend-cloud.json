@@ -1,57 +1,57 @@
 {
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "window_days": 14,
  "items": [
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 9984.5,
+   "weight": 8599.9,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-09-24"
+   "last_seen": "2026-09-25"
   },
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 7896.6,
-   "status": "ongoing",
+   "weight": 6174.9,
+   "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-09-24"
-  },
-  {
-   "slug": "codex-claude-interop#1",
-   "display": "OpenAI Codex ↔ Claude Code 互操作",
-   "label": "Claude Code",
-   "weight": 5527.6,
-   "status": "ongoing",
-   "domain": "ai",
-   "last_seen": "2026-09-24"
+   "last_seen": "2026-09-25"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 4199.0,
+   "weight": 4452.8,
+   "status": "rising",
+   "domain": "ai",
+   "last_seen": "2026-09-25"
+  },
+  {
+   "slug": "codex-claude-interop#1",
+   "display": "OpenAI Codex ↔ Claude Code 互操作",
+   "label": "Claude Code",
+   "weight": 4322.4,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-09-22"
+   "last_seen": "2026-09-25"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2939.3,
-   "status": "fading",
+   "weight": 3117.0,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-09-22"
+   "last_seen": "2026-09-25"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 156.5,
+   "weight": 148.8,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-09-24"
@@ -60,7 +60,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 109.5,
+   "weight": 104.2,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-09-24"
