@@ -62,11 +62,11 @@
     "what": "Google's open agentic orchestration runtime"
    },
    {
-    "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-    "source": "hn",
-    "heat": 1152.0,
-    "url": "https://news.ycombinator.com/item?id=49826565",
-    "what": "We found evidence on urlquery that AI agents were active earlier than previously reported and attempted hacks against public data providers."
+    "title": "dream-num/univer",
+    "source": "github",
+    "heat": 973.8,
+    "url": "https://github.com/dream-num/univer",
+    "what": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas,"
    }
   ],
   "software": [],
@@ -157,13 +157,8 @@
  "radar": [
   {
    "title": "F-Droid 2.0",
-   "note": "hn · 熱度 1210（未歸戶）",
+   "note": "hn · 熱度 1258（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49831968"
-  },
-  {
-   "title": "dream-num/univer — The Office Harness for AI Agents — Spreadsheets, Do",
-   "note": "github · 熱度 974（未歸戶）",
-   "url": "https://github.com/dream-num/univer"
   },
   {
    "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
@@ -172,18 +167,23 @@
   },
   {
    "title": "Meta takes down a critical video about meta AI Glasses after filming a",
-   "note": "hn · 熱度 786（未歸戶）",
+   "note": "hn · 熱度 790（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49827794"
   },
   {
    "title": "Opus 5.5 is good at explainer videos",
-   "note": "hn · 熱度 705（未歸戶）",
+   "note": "hn · 熱度 784（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49836374"
   },
   {
    "title": "Best LLM for every budget, updated daily",
-   "note": "hn · 熱度 666（未歸戶）",
+   "note": "hn · 熱度 672（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49830866"
+  },
+  {
+   "title": "Show HN: Make cursed fonts like Times New Bastard",
+   "note": "hn · 熱度 632（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49823738"
   }
  ],
  "data_quality": [
@@ -209,7 +209,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
