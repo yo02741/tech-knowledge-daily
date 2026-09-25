@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Feds Target AI Critics as \"Foreign Agents\"",
-   "text": "今日未歸戶最熱討論（hn、熱度 1728），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] vectorize-io/hindsight",
+   "text": "今日未歸戶最熱討論（github、熱度 1501），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 100（退燒），共 1 則討論；重點連結見對應段落。",
+   "text": "熱度 150（退燒），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
@@ -48,13 +48,6 @@
  "fresh": {
   "ai": [
    {
-    "title": "Feds Target AI Critics as \"Foreign Agents\"",
-    "source": "hn",
-    "heat": 1728.0,
-    "url": "https://news.ycombinator.com/item?id=49824686",
-    "what": "Trump admin sees China behind opposition to AI data centers"
-   },
-   {
     "title": "vectorize-io/hindsight",
     "source": "github",
     "heat": 1501.2,
@@ -67,6 +60,13 @@
     "heat": 1235.7,
     "url": "https://github.com/google/ax",
     "what": "Google's open agentic orchestration runtime"
+   },
+   {
+    "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+    "source": "hn",
+    "heat": 1152.0,
+    "url": "https://news.ycombinator.com/item?id=49826565",
+    "what": "We found evidence on urlquery that AI agents were active earlier than previously reported and attempted hacks against public data providers."
    }
   ],
   "software": [],
@@ -107,7 +107,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 100.0,
+    "heat_today": 150.0,
     "heat_trend": [
      94.5,
      88.0,
@@ -115,7 +115,7 @@
      1632.8,
      16.7,
      14.3,
-     100.0
+     150.0
     ],
     "what": "當日 1 則相關討論：「Anthropic to include Fable 5 usage in Pro plans」。",
     "sources": [
@@ -156,18 +156,8 @@
  "tracking": [],
  "radar": [
   {
-   "title": "Early rogue AI agent activity and attempts to hack found on urlquery.n",
-   "note": "hn · 熱度 1058（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49826565"
-  },
-  {
-   "title": "OpenAI agent hacked Australian government website, PM says",
-   "note": "hn · 熱度 1036（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49825580"
-  },
-  {
    "title": "F-Droid 2.0",
-   "note": "hn · 熱度 1020（未歸戶）",
+   "note": "hn · 熱度 1210（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49831968"
   },
   {
@@ -182,8 +172,18 @@
   },
   {
    "title": "Meta takes down a critical video about meta AI Glasses after filming a",
-   "note": "hn · 熱度 774（未歸戶）",
+   "note": "hn · 熱度 786（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49827794"
+  },
+  {
+   "title": "Opus 5.5 is good at explainer videos",
+   "note": "hn · 熱度 705（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49836374"
+  },
+  {
+   "title": "Best LLM for every budget, updated daily",
+   "note": "hn · 熱度 666（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49830866"
   }
  ],
  "data_quality": [
@@ -209,7 +209,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
