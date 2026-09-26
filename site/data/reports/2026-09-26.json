@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] U.S. appeals court upholds designation of Anthropic as suppl",
-   "text": "今日未歸戶最熱討論（hn、熱度 2370），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2397），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,7 +44,7 @@
    {
     "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
     "source": "hn",
-    "heat": 2370.0,
+    "heat": 2397.0,
     "url": "https://news.ycombinator.com/item?id=49845977",
     "what": "In a 2-1 decision, a federal appeals court upheld the Department of Defense's blacklisting of Anthropic."
    },
@@ -56,18 +56,18 @@
     "what": "The open-source app everyone uses to manage agents at work"
    },
    {
-    "title": "vectorize-io/hindsight",
-    "source": "github",
-    "heat": 1487.7,
-    "url": "https://github.com/vectorize-io/hindsight",
-    "what": "Hindsight: Agent Memory That Learns"
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "source": "hn",
+    "heat": 1488.0,
+    "url": "https://news.ycombinator.com/item?id=49849985",
+    "what": "When a swarm of 700 OpenAI agents hacked Hugging Face in July, they left behind a public trail of evidence."
    }
   ],
   "software": [
    {
     "title": "Platform-independent SIMD in Go",
     "source": "hn",
-    "heat": 883.0,
+    "heat": 895.0,
     "url": "https://news.ycombinator.com/item?id=49843269",
     "what": "Go 1.27 adds an experimental platform-agnostic SIMD API"
    }
@@ -143,14 +143,14 @@
  "tracking": [],
  "radar": [
   {
-   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-   "note": "hn · 熱度 1326（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49848269"
+   "title": "vectorize-io/hindsight — Hindsight: Agent Memory That Learns",
+   "note": "github · 熱度 1488（未歸戶）",
+   "url": "https://github.com/vectorize-io/hindsight"
   },
   {
-   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-   "note": "hn · 熱度 1304（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49849985"
+   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+   "note": "hn · 熱度 1370（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49848269"
   },
   {
    "title": "google/ax — Google's open agentic orchestration runtime",
@@ -159,7 +159,7 @@
   },
   {
    "title": "Dutch governments builds alternative for Microsoft based on NixOS",
-   "note": "hn · 熱度 1218（未歸戶）",
+   "note": "hn · 熱度 1224（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49841563"
   },
   {
@@ -180,7 +180,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -208,7 +208,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
