@@ -52,7 +52,7 @@
    {
     "title": "Sonnet 5.5",
     "source": "hn",
-    "heat": 2187.0,
+    "heat": 2814.0,
     "url": "https://news.ycombinator.com/item?id=49881850",
     "what": "Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work."
    }
@@ -98,11 +98,6 @@
  "tracking": [],
  "radar": [
   {
-   "title": "When did Google get so weird?",
-   "note": "hn · 熱度 2352（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49870367"
-  },
-  {
    "title": "dream-num/univer — The Office Harness for AI Agents — Spreadsheets, Do",
    "note": "github · 熱度 989（未歸戶）",
    "url": "https://github.com/dream-num/univer"
@@ -113,19 +108,24 @@
    "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
-   "title": "Prompting Claude Opus 5.5",
-   "note": "hn · 熱度 912（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49874728"
-  },
-  {
-   "title": "AI companies in race to demonstrate their model most threatening to hu",
-   "note": "hn · 熱度 618（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49875148"
-  },
-  {
    "title": "Coding is not solved",
-   "note": "hn · 熱度 613（未歸戶）",
+   "note": "hn · 熱度 706（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49877988"
+  },
+  {
+   "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+   "note": "hn · 熱度 705（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49882781"
+  },
+  {
+   "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+   "note": "hn · 熱度 692（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49879883"
+  },
+  {
+   "title": "Pirating the Pirates",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49880036"
   }
  ],
  "data_quality": [
@@ -147,7 +147,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -155,11 +155,11 @@
   },
   {
    "source": "reddit-programming",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
