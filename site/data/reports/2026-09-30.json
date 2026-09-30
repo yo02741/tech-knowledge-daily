@@ -1,0 +1,189 @@
+{
+ "date": "2026-09-30",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-service-worker",
+  "domain": "frontend",
+  "term": "Service Worker",
+  "tagline": "站在網頁與網路之間的可程式化代理",
+  "intro": [
+   "一段在背景執行的 JS，能攔截頁面的所有網路請求——快取回應做離線瀏覽、背景同步、推播通知，是 PWA 的核心技術。",
+   "威力大也代表要小心：快取策略寫錯會讓使用者永遠拿到舊版網站，「怎麼安全地更新 service worker」本身就是一門學問。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "MDN：Service Worker API",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the pric",
+   "text": "今日未歸戶最熱討論（hn、熱度 3328），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 674（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "source": "hn",
+    "heat": 3328.5,
+    "url": "https://news.ycombinator.com/item?id=49896586"
+   },
+   {
+    "title": "vectorize-io/hindsight",
+    "source": "github",
+    "heat": 2317.5,
+    "url": "https://github.com/vectorize-io/hindsight",
+    "what": "Hindsight: Agent Memory That Learns"
+   },
+   {
+    "title": "paperclipai/paperclip",
+    "source": "github",
+    "heat": 2212.2,
+    "url": "https://github.com/paperclipai/paperclip",
+    "what": "The open-source app everyone uses to manage agents at work"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 674.1,
+    "heat_trend": [
+     367.2,
+     86.4,
+     521.1,
+     297.9,
+     152.6,
+     791.1,
+     674.1
+    ],
+    "what": "當日 2 則相關討論：「mvschwarz/openrig — Multi-agent harness that runs Claude Cod」；「Q00/ouroboros — Agent OS: the agent gets smarter on its own.」。",
+    "sources": [
+     {
+      "label": "github：mvschwarz/openrig — Multi-agent harness th",
+      "url": "https://github.com/mvschwarz/openrig"
+     },
+     {
+      "label": "github：Q00/ouroboros — Agent OS: the agent gets s",
+      "url": "https://github.com/Q00/ouroboros"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 100.0,
+   "heat_trend": [
+    7.7,
+    0,
+    0,
+    20.0,
+    0,
+    0,
+    100.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Dots: Always-on agents",
+   "note": "hn · 熱度 1874（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49896604"
+  },
+  {
+   "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
+   "note": "github · 熱度 1427（未歸戶）",
+   "url": "https://github.com/debpalash/VoiceStudio"
+  },
+  {
+   "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+   "note": "hn · 熱度 1414（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49890226"
+  },
+  {
+   "title": "Everybody’s home. No one’s coming over",
+   "note": "hn · 熱度 1042（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49891295"
+  },
+  {
+   "title": "NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomo",
+   "note": "github · 熱度 891（未歸戶）",
+   "url": "https://github.com/NVIDIA/OpenShell"
+  },
+  {
+   "title": "ChatGPT Pro 500",
+   "note": "hn · 熱度 884（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49896975"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
