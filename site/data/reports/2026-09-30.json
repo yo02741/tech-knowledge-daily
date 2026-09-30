@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the pric",
-   "text": "今日未歸戶最熱討論（hn、熱度 3328），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3771），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
     "source": "hn",
-    "heat": 3328.5,
+    "heat": 3771.0,
     "url": "https://news.ycombinator.com/item?id=49896586"
    },
    {
@@ -110,13 +110,39 @@
     0,
     100.0
    ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 15.0,
+   "heat_trend": [
+    14.3,
+    150.0,
+    23.1,
+    50.0,
+    26.6,
+    0,
+    15.0
+   ]
   }
  ],
  "radar": [
   {
    "title": "Dots: Always-on agents",
-   "note": "hn · 熱度 1874（未歸戶）",
+   "note": "hn · 熱度 2180（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49896604"
+  },
+  {
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "note": "hn · 熱度 1548（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49901736"
+  },
+  {
+   "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+   "note": "hn · 熱度 1437（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49890226"
   },
   {
    "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
@@ -124,23 +150,13 @@
    "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
-   "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-   "note": "hn · 熱度 1414（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49890226"
-  },
-  {
    "title": "Everybody’s home. No one’s coming over",
-   "note": "hn · 熱度 1042（未歸戶）",
+   "note": "hn · 熱度 1115（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49891295"
   },
   {
-   "title": "NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomo",
-   "note": "github · 熱度 891（未歸戶）",
-   "url": "https://github.com/NVIDIA/OpenShell"
-  },
-  {
    "title": "ChatGPT Pro 500",
-   "note": "hn · 熱度 884（未歸戶）",
+   "note": "hn · 熱度 934（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49896975"
   }
  ],
