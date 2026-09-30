@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the pric",
-   "text": "今日未歸戶最熱討論（hn、熱度 3771），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3872），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
     "source": "hn",
-    "heat": 3771.0,
+    "heat": 3871.5,
     "url": "https://news.ycombinator.com/item?id=49896586"
    },
    {
@@ -49,11 +49,10 @@
     "what": "Hindsight: Agent Memory That Learns"
    },
    {
-    "title": "paperclipai/paperclip",
-    "source": "github",
-    "heat": 2212.2,
-    "url": "https://github.com/paperclipai/paperclip",
-    "what": "The open-source app everyone uses to manage agents at work"
+    "title": "Dots: Always-on agents",
+    "source": "hn",
+    "heat": 2307.0,
+    "url": "https://news.ycombinator.com/item?id=49896604"
    }
   ],
   "software": [],
@@ -96,22 +95,6 @@
  },
  "tracking": [
   {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 100.0,
-   "heat_trend": [
-    7.7,
-    0,
-    0,
-    20.0,
-    0,
-    0,
-    100.0
-   ]
-  },
-  {
    "slug": "fable5-lifecycle",
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
@@ -130,18 +113,18 @@
  ],
  "radar": [
   {
-   "title": "Dots: Always-on agents",
-   "note": "hn · 熱度 2180（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49896604"
+   "title": "paperclipai/paperclip — The open-source app everyone uses to manage ag",
+   "note": "github · 熱度 2212（未歸戶）",
+   "url": "https://github.com/paperclipai/paperclip"
   },
   {
    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-   "note": "hn · 熱度 1548（未歸戶）",
+   "note": "hn · 熱度 1838（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49901736"
   },
   {
    "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-   "note": "hn · 熱度 1437（未歸戶）",
+   "note": "hn · 熱度 1440（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49890226"
   },
   {
@@ -151,12 +134,12 @@
   },
   {
    "title": "Everybody’s home. No one’s coming over",
-   "note": "hn · 熱度 1115（未歸戶）",
+   "note": "hn · 熱度 1118（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49891295"
   },
   {
    "title": "ChatGPT Pro 500",
-   "note": "hn · 熱度 934（未歸戶）",
+   "note": "hn · 熱度 939（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49896975"
   }
  ],
@@ -179,7 +162,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -191,7 +174,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
