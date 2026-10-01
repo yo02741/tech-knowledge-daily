@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Gemini 4 Argon",
-   "text": "今日未歸戶最熱討論（hn、熱度 3642），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4924），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,14 +32,14 @@
    {
     "title": "Gemini 4 Argon",
     "source": "hn",
-    "heat": 3642.0,
+    "heat": 4924.5,
     "url": "https://news.ycombinator.com/item?id=49913571",
     "what": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon."
    },
    {
     "title": "You said no MCP",
     "source": "hn",
-    "heat": 2325.0,
+    "heat": 2415.0,
     "url": "https://news.ycombinator.com/item?id=49906637",
     "what": "Pi now supports MCP. Why we changed our minds, what changed in MCP and in Pi, and what Codemode is."
    },
@@ -117,14 +117,14 @@
    "url": "https://github.com/mattpocock/skills"
   },
   {
+   "title": "September 2026: The world today, as seen by one Polish guy",
+   "note": "hn · 熱度 672（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49905487"
+  },
+  {
    "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
    "note": "github · 熱度 669（未歸戶）",
    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-   "title": "September 2026: The world today, as seen by one Polish guy",
-   "note": "hn · 熱度 667（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49905487"
   }
  ],
  "data_quality": [
@@ -158,7 +158,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
