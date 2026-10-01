@@ -1,0 +1,172 @@
+{
+ "date": "2026-10-01",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-db-index",
+  "domain": "backend",
+  "term": "資料庫索引",
+  "tagline": "書的目錄：查得快，但每次改書都要更新目錄",
+  "intro": [
+   "索引讓查詢從全表掃描（一頁頁翻）變成目錄查找（直接翻到那頁），千萬筆資料的查詢從秒級降到毫秒級。",
+   "代價是寫入變慢（每次 INSERT/UPDATE 都要同步維護索引）與空間佔用。「哪些欄位該建索引」看查詢模式：WHERE、JOIN、ORDER BY 常客優先，低區分度欄位（如性別）通常不值得。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Use The Index, Luke（SQL 索引聖經）",
+    "url": "https://use-the-index-luke.com/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Gemini 4 Argon",
+   "text": "今日未歸戶最熱討論（hn、熱度 3642），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Gemini 4 Argon",
+    "source": "hn",
+    "heat": 3642.0,
+    "url": "https://news.ycombinator.com/item?id=49913571",
+    "what": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon."
+   },
+   {
+    "title": "You said no MCP",
+    "source": "hn",
+    "heat": 2325.0,
+    "url": "https://news.ycombinator.com/item?id=49906637",
+    "what": "Pi now supports MCP. Why we changed our minds, what changed in MCP and in Pi, and what Codemode is."
+   },
+   {
+    "title": "NVIDIA/OpenShell",
+    "source": "github",
+    "heat": 1152.9,
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "what": "OpenShell is the safe, private runtime for autonomous AI agents."
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 786.6,
+   "heat_trend": [
+    86.4,
+    521.1,
+    297.9,
+    152.6,
+    791.1,
+    674.1,
+    786.6
+   ]
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 110.7,
+   "heat_trend": [
+    363.6,
+    170.1,
+    298.5,
+    0,
+    0,
+    0,
+    110.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
+   "note": "github · 熱度 1045（未歸戶）",
+   "url": "https://github.com/debpalash/VoiceStudio"
+  },
+  {
+   "title": "t8y2/dbx — 25 MB lightweight cross-platform database client for 100+ d",
+   "note": "github · 熱度 1024（未歸戶）",
+   "url": "https://github.com/t8y2/dbx"
+  },
+  {
+   "title": "VectifyAI/PageIndex — 📑 PageIndex: Document Index for Vectorless, Reas",
+   "note": "github · 熱度 987（未歸戶）",
+   "url": "https://github.com/VectifyAI/PageIndex"
+  },
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 788（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
+   "note": "github · 熱度 669（未歸戶）",
+   "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+   "title": "September 2026: The world today, as seen by one Polish guy",
+   "note": "hn · 熱度 667（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49905487"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
