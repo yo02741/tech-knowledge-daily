@@ -1,0 +1,280 @@
+{
+ "date": "2026-10-02",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-design-system",
+  "domain": "uiux",
+  "term": "Design System",
+  "tagline": "元件庫 + 規範 + 團隊共識的總和",
+  "intro": [
+   "不只是一包 UI 元件：完整的設計系統包含 design token、元件與其使用規範、內容語氣指南，目標是讓不同團隊做出來的介面像同一個產品。",
+   "知名公開範例：Google Material、Apple HIG、Shopify Polaris。自建與否的分水嶺通常是「多少團隊在重複造同樣的輪子」。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Material Design",
+    "url": "https://m3.material.io/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] NVIDIA/OpenShell",
+   "text": "今日未歸戶最熱討論（github、熱度 2210），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1088（持續），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 436（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 87（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "NVIDIA/OpenShell",
+    "source": "github",
+    "heat": 2210.4,
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "what": "OpenShell is the safe, private runtime for autonomous AI agents."
+   },
+   {
+    "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+    "source": "hn",
+    "heat": 1465.5,
+    "url": "https://news.ycombinator.com/item?id=49923692",
+    "what": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t"
+   },
+   {
+    "title": "ifixai-ai/iFixAi",
+    "source": "github",
+    "heat": 1342.8,
+    "url": "https://github.com/ifixai-ai/iFixAi",
+    "what": "Independent Auditing of AI Agents. Run by human or the agent itself, to"
+   }
+  ],
+  "software": [
+   {
+    "title": "RIP, vector database",
+    "source": "hn",
+    "heat": 613.0,
+    "url": "https://news.ycombinator.com/item?id=49923466",
+    "what": "turbopuffer is pushing the frontier of search. To do that, we have to fundamentally redesign our storage architecture so the vector index is no longer primary."
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 1088.1,
+    "heat_trend": [
+     521.1,
+     297.9,
+     152.6,
+     791.1,
+     674.1,
+     786.6,
+     1088.1
+    ],
+    "what": "當日 5 則相關討論：「mvschwarz/openrig — Build your own network of agents from Cl」；「diegosouzapw/OmniRoute — Never stop coding. Free MIT AI gate」；「alirezarezvani/claude-skills — 380 Claude Code skills & agen」。",
+    "sources": [
+     {
+      "label": "github：mvschwarz/openrig — Build your own network",
+      "url": "https://github.com/mvschwarz/openrig"
+     },
+     {
+      "label": "github：diegosouzapw/OmniRoute — Never stop coding",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+     },
+     {
+      "label": "github：alirezarezvani/claude-skills — 380 Claude ",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+     },
+     {
+      "label": "github：thedotmack/claude-mem — Persistent Context",
+      "url": "https://github.com/thedotmack/claude-mem"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 436.5,
+    "heat_trend": [
+     170.1,
+     298.5,
+     0,
+     0,
+     0,
+     110.7,
+     436.5
+    ],
+    "what": "當日 3 則相關討論：「ComposioHQ/awesome-claude-skills — A curated list of awesome」；「Shubhamsaboo/awesome-llm-apps — 100+ AI Agents, Agent Skills」；「google/skills — Agent Skills for Google products and technol」。",
+    "sources": [
+     {
+      "label": "github：ComposioHQ/awesome-claude-skills — A curat",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+     },
+     {
+      "label": "github：Shubhamsaboo/awesome-llm-apps — 100+ AI Ag",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+     },
+     {
+      "label": "github：google/skills — Agent Skills for Google pr",
+      "url": "https://github.com/google/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 86.7,
+    "heat_trend": [
+     23.1,
+     50.0,
+     26.6,
+     0,
+     15.0,
+     0,
+     86.7
+    ],
+    "what": "當日 3 則相關討論：「PSA: you don't need Fable for everything. Set it as your /ad」；「Fable > Opus 5.5 for orchestration」；「anyone using Fable 5.1 still?」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：PSA: you don't need Fable for everything. ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv4cux/psa_you_dont_need_fable_for_everything_set_it_as/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable > Opus 5.5 for orchestration",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuruui/fable_opus_55_for_orchestration/"
+     },
+     {
+      "label": "r/ClaudeAI：anyone using Fable 5.1 still?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv2cp2/anyone_using_fable_51_still/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 220.0,
+   "heat_trend": [
+    0,
+    20.0,
+    0,
+    0,
+    0,
+    0,
+    220.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
+   "note": "github · 熱度 1075（未歸戶）",
+   "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over pro",
+   "note": "hn · 熱度 816（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49921050"
+  },
+  {
+   "title": "Pi 1.0",
+   "note": "hn · 熱度 804（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49926069"
+  },
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 795（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+   "note": "hn · 熱度 640（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49919910"
+  },
+  {
+   "title": "StreetComplete on iOS is now in public beta",
+   "note": "hn · 熱度 574（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49920160"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
