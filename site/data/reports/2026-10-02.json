@@ -57,7 +57,7 @@
    {
     "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
     "source": "hn",
-    "heat": 1465.5,
+    "heat": 1684.5,
     "url": "https://news.ycombinator.com/item?id=49923692",
     "what": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t"
    },
@@ -73,7 +73,7 @@
    {
     "title": "RIP, vector database",
     "source": "hn",
-    "heat": 613.0,
+    "heat": 684.0,
     "url": "https://news.ycombinator.com/item?id=49923466",
     "what": "turbopuffer is pushing the frontier of search. To do that, we have to fundamentally redesign our storage architecture so the vector index is no longer primary."
    }
@@ -154,7 +154,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 86.7,
+    "heat_today": 87.4,
     "heat_trend": [
      23.1,
      50.0,
@@ -162,7 +162,7 @@
      0,
      15.0,
      0,
-     86.7
+     87.4
     ],
     "what": "當日 3 則相關討論：「PSA: you don't need Fable for everything. Set it as your /ad」；「Fable > Opus 5.5 for orchestration」；「anyone using Fable 5.1 still?」。",
     "sources": [
@@ -191,7 +191,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 220.0,
+   "heat_today": 228.5,
    "heat_trend": [
     0,
     20.0,
@@ -199,11 +199,16 @@
     0,
     0,
     0,
-    220.0
+    228.5
    ]
   }
  ],
  "radar": [
+  {
+   "title": "Pi 1.0",
+   "note": "hn · 熱度 1189（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49926069"
+  },
   {
    "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
    "note": "github · 熱度 1075（未歸戶）",
@@ -211,13 +216,8 @@
   },
   {
    "title": "FTC is investigating OpenAI, Anthropic and other AI companies over pro",
-   "note": "hn · 熱度 816（未歸戶）",
+   "note": "hn · 熱度 832（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49921050"
-  },
-  {
-   "title": "Pi 1.0",
-   "note": "hn · 熱度 804（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49926069"
   },
   {
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
@@ -226,12 +226,12 @@
   },
   {
    "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-   "note": "hn · 熱度 640（未歸戶）",
+   "note": "hn · 熱度 687（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49919910"
   },
   {
    "title": "StreetComplete on iOS is now in public beta",
-   "note": "hn · 熱度 574（未歸戶）",
+   "note": "hn · 熱度 617（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49920160"
   }
  ],
