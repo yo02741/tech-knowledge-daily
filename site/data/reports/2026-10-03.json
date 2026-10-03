@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] DeepSeek Harness Desktop for macOS and Windows",
-   "text": "今日未歸戶最熱討論（hn、熱度 1450），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] DietrichGebert/ponytail",
+   "text": "今日未歸戶最熱討論（github、熱度 1292），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,20 +34,13 @@
   },
   {
    "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 64（持續），共 1 則討論；重點連結見對應段落。",
+   "text": "熱度 88（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ux-1"
   }
  ],
  "fresh": {
   "ai": [
-   {
-    "title": "DeepSeek Harness Desktop for macOS and Windows",
-    "source": "hn",
-    "heat": 1450.5,
-    "url": "https://news.ycombinator.com/item?id=49929489",
-    "what": "Use DeepSeek Harness to work with documents, analyze spreadsheets, write code, and schedule tasks. Extend its capabilities with composable plugins."
-   },
    {
     "title": "DietrichGebert/ponytail",
     "source": "github",
@@ -58,8 +51,15 @@
    {
     "title": "Sites in ChatGPT",
     "source": "hn",
-    "heat": 915.0,
+    "heat": 1075.5,
     "url": "https://news.ycombinator.com/item?id=49927747"
+   },
+   {
+    "title": "mattpocock/skills",
+    "source": "github",
+    "heat": 859.5,
+    "url": "https://github.com/mattpocock/skills",
+    "what": "Skills for Real Engineers. Straight from my .agents directory."
    }
   ],
   "software": [],
@@ -112,7 +112,7 @@
     "slug": "design-ai-prototyping",
     "title": "設計稿 → AI 原型工作流（Figma × Claude）",
     "status": "ongoing",
-    "heat_today": 64.0,
+    "heat_today": 87.5,
     "heat_trend": [
      20.0,
      0,
@@ -120,7 +120,7 @@
      0,
      0,
      229.5,
-     64.0
+     87.5
     ],
     "what": "當日 1 則相關討論：「Our Project Suncatcher prototype satellite is in orbit」。",
     "sources": [
@@ -154,7 +154,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 30.0,
+   "heat_today": 42.9,
    "heat_trend": [
     50.0,
     26.6,
@@ -162,35 +162,35 @@
     15.0,
     0,
     57.2,
-    30.0
+    42.9
    ]
   }
  ],
  "radar": [
   {
-   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
-   "note": "github · 熱度 860（未歸戶）",
-   "url": "https://github.com/mattpocock/skills"
+   "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+   "note": "hn · 熱度 831（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49928566"
   },
   {
-   "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-   "note": "hn · 熱度 652（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49928566"
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "note": "hn · 熱度 718（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49929391"
+  },
+  {
+   "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibilit",
+   "note": "hn · 熱度 704（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49927754"
+  },
+  {
+   "title": "From the creator of Redis; run LLM locally with ds4",
+   "note": "hn · 熱度 678（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49936575"
   },
   {
    "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
    "note": "github · 熱度 626（未歸戶）",
    "url": "https://github.com/Panniantong/Agent-Reach"
-  },
-  {
-   "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibilit",
-   "note": "hn · 熱度 578（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49927754"
-  },
-  {
-   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-   "note": "hn · 熱度 538（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49929391"
   },
   {
    "title": "NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomo",
@@ -221,7 +221,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -229,7 +229,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
