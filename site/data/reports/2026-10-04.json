@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 164（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 154（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,15 +51,14 @@
    {
     "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
     "source": "hn",
-    "heat": 1246.5,
+    "heat": 1252.5,
     "url": "https://news.ycombinator.com/item?id=49943034"
    },
    {
-    "title": "DietrichGebert/ponytail",
-    "source": "github",
-    "heat": 1152.9,
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+    "title": "I quit OpenAI because its culture is broken",
+    "source": "hn",
+    "heat": 1191.0,
+    "url": "https://news.ycombinator.com/item?id=49944227"
    }
   ],
   "software": [],
@@ -108,7 +107,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 163.7,
+    "heat_today": 153.5,
     "heat_trend": [
      26.6,
      0,
@@ -116,7 +115,7 @@
      0,
      57.2,
      50.0,
-     163.7
+     153.5
     ],
     "what": "當日 4 則相關討論：「Fable vs Opus, which do you use?」；「Ask Fable to Optimize Everything you Do!」；「What are y’alls expectations for Fable 5.5 performance if it」。",
     "sources": [
@@ -163,13 +162,13 @@
  ],
  "radar": [
   {
-   "title": "I quit OpenAI because its culture is broken",
-   "note": "hn · 熱度 1077（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49944227"
+   "title": "DietrichGebert/ponytail — Makes your AI agent think like the laziest s",
+   "note": "github · 熱度 1153（未歸戶）",
+   "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
    "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "note": "hn · 熱度 818（未歸戶）",
+   "note": "hn · 熱度 837（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49946567"
   },
   {
@@ -179,7 +178,7 @@
   },
   {
    "title": "Kolibri: A Sovereign Open-Weight Model",
-   "note": "hn · 熱度 722（未歸戶）",
+   "note": "hn · 熱度 742（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49942706"
   },
   {
@@ -212,11 +211,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
