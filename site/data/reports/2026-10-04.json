@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 78（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 164（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,7 +51,7 @@
    {
     "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
     "source": "hn",
-    "heat": 1243.5,
+    "heat": 1246.5,
     "url": "https://news.ycombinator.com/item?id=49943034"
    },
    {
@@ -108,7 +108,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 78.4,
+    "heat_today": 163.7,
     "heat_trend": [
      26.6,
      0,
@@ -116,13 +116,17 @@
      0,
      57.2,
      50.0,
-     78.4
+     163.7
     ],
-    "what": "當日 3 則相關討論：「Fable vs Opus, which do you use?」；「What are y’alls expectations for Fable 5.5 performance if it」；「Fable 5.1 is the default now ?」。",
+    "what": "當日 4 則相關討論：「Fable vs Opus, which do you use?」；「Ask Fable to Optimize Everything you Do!」；「What are y’alls expectations for Fable 5.5 performance if it」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Fable vs Opus, which do you use?",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwqypi/fable_vs_opus_which_do_you_use/"
+     },
+     {
+      "label": "r/ClaudeAI：Ask Fable to Optimize Everything you Do!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx3xrq/ask_fable_to_optimize_everything_you_do/"
      },
      {
       "label": "r/ClaudeAI：What are y’alls expectations for Fable 5.5",
@@ -159,34 +163,34 @@
  ],
  "radar": [
   {
-   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
-   "note": "github · 熱度 676（未歸戶）",
-   "url": "https://github.com/mattpocock/skills"
-  },
-  {
-   "title": "Kolibri: A Sovereign Open-Weight Model",
-   "note": "hn · 熱度 642（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49942706"
-  },
-  {
-   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "note": "hn · 熱度 622（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49946567"
-  },
-  {
-   "title": "I Quit OpenAI Because Its Culture Is Broken",
-   "note": "hn · 熱度 549（未歸戶）",
+   "title": "I quit OpenAI because its culture is broken",
+   "note": "hn · 熱度 1077（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49944227"
   },
   {
-   "title": "Extra Big Ass Intelligence",
-   "note": "hn · 熱度 538（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49941114"
+   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+   "note": "hn · 熱度 818（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49946567"
   },
   {
-   "title": "obra/superpowers — An agentic skills framework & software development ",
-   "note": "github · 熱度 519（未歸戶）",
-   "url": "https://github.com/obra/superpowers"
+   "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+   "note": "hn · 熱度 782（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49948332"
+  },
+  {
+   "title": "Kolibri: A Sovereign Open-Weight Model",
+   "note": "hn · 熱度 722（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49942706"
+  },
+  {
+   "title": "ifixai-ai/iFixAi — Independent Auditing of AI Agents. Run by human or ",
+   "note": "github · 熱度 678（未歸戶）",
+   "url": "https://github.com/ifixai-ai/iFixAi"
+  },
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 676（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
   }
  ],
  "data_quality": [
@@ -208,7 +212,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
