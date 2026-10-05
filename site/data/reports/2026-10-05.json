@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 409",
-   "text": "今日未歸戶最熱討論（hn、熱度 2596），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2746），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
     "source": "hn",
-    "heat": 2596.5,
+    "heat": 2746.5,
     "url": "https://news.ycombinator.com/item?id=49953495",
     "what": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. - Niko1221/Strata"
    },
@@ -61,7 +61,7 @@
    {
     "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
     "source": "hn",
-    "heat": 425.0,
+    "heat": 490.0,
     "url": "https://news.ycombinator.com/item?id=49959869"
    }
   ],
@@ -108,7 +108,7 @@
    "title": "Claude Code skills 生態爆發",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 177.3,
+   "heat_today": 189.3,
    "heat_trend": [
     0,
     0,
@@ -116,30 +116,30 @@
     436.5,
     295.2,
     207.0,
-    177.3
+    189.3
    ]
   }
  ],
  "radar": [
   {
    "title": "Tell HN: Bob Cringely has died",
-   "note": "hn · 熱度 943（未歸戶）",
+   "note": "hn · 熱度 951（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49949438"
   },
   {
    "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-   "note": "hn · 熱度 638（未歸戶）",
+   "note": "hn · 熱度 696（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49957116"
   },
   {
    "title": "Improper redaction reveals Google Data Center water and electricity us",
-   "note": "hn · 熱度 560（未歸戶）",
+   "note": "hn · 熱度 594（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49957068"
   },
   {
-   "title": "What is going on with ceiling fans",
-   "note": "hn · 熱度 392（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49917536"
+   "title": "Why don't more developers “use the platform”?",
+   "note": "hn · 熱度 450（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49950554"
   },
   {
    "title": "earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI",
@@ -159,7 +159,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -183,7 +183,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
