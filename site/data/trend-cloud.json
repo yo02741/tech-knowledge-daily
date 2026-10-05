@@ -21,20 +21,20 @@
    "last_seen": "2026-10-05"
   },
   {
-   "slug": "fable5-lifecycle",
-   "display": "Fable 5 使用期限與遷移策略",
-   "label": "Fable 5",
-   "weight": 2317.0,
-   "status": "ongoing",
-   "domain": "ai",
-   "last_seen": "2026-10-05"
-  },
-  {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
    "weight": 2247.9,
    "status": "ongoing",
+   "domain": "ai",
+   "last_seen": "2026-10-05"
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "display": "Fable 5 使用期限與遷移策略",
+   "label": "Fable 5",
+   "weight": 2217.9,
+   "status": "fading",
    "domain": "ai",
    "last_seen": "2026-10-05"
   },
