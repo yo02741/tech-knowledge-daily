@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic reported diary entry to police, woman faces felony",
-   "text": "今日未歸戶最熱討論（hn、熱度 2805），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2936），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,20 +32,20 @@
    {
     "title": "Anthropic reported diary entry to police, woman faces felony charge",
     "source": "hn",
-    "heat": 2805.0,
+    "heat": 2935.5,
     "url": "https://news.ycombinator.com/item?id=49961057",
     "what": "According to the arrest report, Carli Michelle Heller, of Bonita Springs, Florida, wrote on September 26 that she would attack the Sheriff's office. She later said that..."
    },
    {
     "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
     "source": "hn",
-    "heat": 1563.0,
+    "heat": 1650.0,
     "url": "https://news.ycombinator.com/item?id=49971846"
    },
    {
     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
     "source": "hn",
-    "heat": 1192.5,
+    "heat": 1317.0,
     "url": "https://news.ycombinator.com/item?id=49970667",
     "what": "We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5.5 agents. Both are predicted to have zero net magnetism yet still sort electrons by spin: one a new compound we d"
    }
@@ -54,7 +54,7 @@
    {
     "title": "Web Search API",
     "source": "hn",
-    "heat": 1288.0,
+    "heat": 1309.0,
     "url": "https://news.ycombinator.com/item?id=49963171",
     "what": "Search the web from your AI agents and applications through AI Gateway with Ceramic.ai, Exa, and Linkup."
    },
@@ -96,7 +96,7 @@
  "radar": [
   {
    "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-   "note": "hn · 熱度 1083（未歸戶）",
+   "note": "hn · 熱度 1101（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49968105"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
    "title": "Denmark data breach exposes 8.8M people's personal data",
-   "note": "hn · 熱度 644（未歸戶）",
+   "note": "hn · 熱度 650（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49962012"
   },
   {
@@ -132,7 +132,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -156,7 +156,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
