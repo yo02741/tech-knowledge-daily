@@ -1,0 +1,177 @@
+{
+ "date": "2026-10-06",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-acid",
+  "domain": "backend",
+  "term": "交易與 ACID",
+  "tagline": "轉帳扣了錢卻沒入帳？交易就是防這個",
+  "intro": [
+   "ACID＝原子性（全做或全不做）、一致性（規則不被破壞）、隔離性（並行交易互不干擾）、持久性（提交了就不會消失）。關聯式資料庫的核心賣點。",
+   "隔離性有等級之分（Read Committed、Repeatable Read、Serializable），等級越高越安全也越慢——很多詭異的並發 bug 都源自對預設隔離等級的誤解。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "PostgreSQL：Transaction Isolation",
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Anthropic reported diary entry to police, woman faces felony",
+   "text": "今日未歸戶最熱討論（hn、熱度 2186），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Anthropic reported diary entry to police, woman faces felony charge",
+    "source": "hn",
+    "heat": 2185.5,
+    "url": "https://news.ycombinator.com/item?id=49961057",
+    "what": "According to the arrest report, Carli Michelle Heller, of Bonita Springs, Florida, wrote on September 26 that she would attack the Sheriff's office. She later said that..."
+   },
+   {
+    "title": "Panniantong/Agent-Reach",
+    "source": "github",
+    "heat": 1039.5,
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "what": "Give your AI agent eyes to see the entire internet. Read & searc"
+   },
+   {
+    "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+    "source": "hn",
+    "heat": 1021.5,
+    "url": "https://news.ycombinator.com/item?id=49968105",
+    "what": "Recently, multiple organisations have disclosed how clusters of so-called “rogue” AI agents attempted to break into websites and online services, sometimes successfully. Agents from OpenAI’s enviro…"
+   }
+  ],
+  "software": [
+   {
+    "title": "Web Search API",
+    "source": "hn",
+    "heat": 1173.0,
+    "url": "https://news.ycombinator.com/item?id=49963171",
+    "what": "Search the web from your AI agents and applications through AI Gateway with Ceramic.ai, Exa, and Linkup."
+   },
+   {
+    "title": "tester-army/e2e",
+    "source": "github",
+    "heat": 838.8,
+    "url": "https://github.com/tester-army/e2e",
+    "what": "Next generation e2e testing framework for web and mobile apps."
+   },
+   {
+    "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+    "source": "hn",
+    "heat": 810.0,
+    "url": "https://news.ycombinator.com/item?id=49959869"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 588.6,
+   "heat_trend": [
+    674.1,
+    786.6,
+    1088.1,
+    1055.7,
+    1420.2,
+    774.0,
+    588.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor c",
+   "note": "hn · 熱度 776（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49970667"
+  },
+  {
+   "title": "msitarzewski/agency-agents — A complete AI agency at your fingertips -",
+   "note": "github · 熱度 670（未歸戶）",
+   "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
+   "note": "github · 熱度 668（未歸戶）",
+   "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+   "title": "Denmark data breach exposes 8.8M people's personal data",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49962012"
+  },
+  {
+   "title": "DuarteSantos8/openGym — Self-hosted gym & body-weight tracker — plan r",
+   "note": "github · 熱度 430（未歸戶）",
+   "url": "https://github.com/DuarteSantos8/openGym"
+  },
+  {
+   "title": "earthtojake/text-to-cad — Give your agent CAD superpowers.",
+   "note": "github · 熱度 393（未歸戶）",
+   "url": "https://github.com/earthtojake/text-to-cad"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
