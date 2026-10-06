@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic reported diary entry to police, woman faces felony",
-   "text": "今日未歸戶最熱討論（hn、熱度 2186），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2805），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,30 +32,29 @@
    {
     "title": "Anthropic reported diary entry to police, woman faces felony charge",
     "source": "hn",
-    "heat": 2185.5,
+    "heat": 2805.0,
     "url": "https://news.ycombinator.com/item?id=49961057",
     "what": "According to the arrest report, Carli Michelle Heller, of Bonita Springs, Florida, wrote on September 26 that she would attack the Sheriff's office. She later said that..."
    },
    {
-    "title": "Panniantong/Agent-Reach",
-    "source": "github",
-    "heat": 1039.5,
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "what": "Give your AI agent eyes to see the entire internet. Read & searc"
+    "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+    "source": "hn",
+    "heat": 1563.0,
+    "url": "https://news.ycombinator.com/item?id=49971846"
    },
    {
-    "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+    "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
     "source": "hn",
-    "heat": 1021.5,
-    "url": "https://news.ycombinator.com/item?id=49968105",
-    "what": "Recently, multiple organisations have disclosed how clusters of so-called “rogue” AI agents attempted to break into websites and online services, sometimes successfully. Agents from OpenAI’s enviro…"
+    "heat": 1192.5,
+    "url": "https://news.ycombinator.com/item?id=49970667",
+    "what": "We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5.5 agents. Both are predicted to have zero net magnetism yet still sort electrons by spin: one a new compound we d"
    }
   ],
   "software": [
    {
     "title": "Web Search API",
     "source": "hn",
-    "heat": 1173.0,
+    "heat": 1288.0,
     "url": "https://news.ycombinator.com/item?id=49963171",
     "what": "Search the web from your AI agents and applications through AI Gateway with Ceramic.ai, Exa, and Linkup."
    },
@@ -65,12 +64,6 @@
     "heat": 838.8,
     "url": "https://github.com/tester-army/e2e",
     "what": "Next generation e2e testing framework for web and mobile apps."
-   },
-   {
-    "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-    "source": "hn",
-    "heat": 810.0,
-    "url": "https://news.ycombinator.com/item?id=49959869"
    }
   ],
   "devops": [],
@@ -102,9 +95,14 @@
  ],
  "radar": [
   {
-   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor c",
-   "note": "hn · 熱度 776（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49970667"
+   "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+   "note": "hn · 熱度 1083（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49968105"
+  },
+  {
+   "title": "Panniantong/Agent-Reach — Give your AI agent eyes to see the entire in",
+   "note": "github · 熱度 1040（未歸戶）",
+   "url": "https://github.com/Panniantong/Agent-Reach"
   },
   {
    "title": "msitarzewski/agency-agents — A complete AI agency at your fingertips -",
@@ -118,18 +116,13 @@
   },
   {
    "title": "Denmark data breach exposes 8.8M people's personal data",
-   "note": "hn · 熱度 626（未歸戶）",
+   "note": "hn · 熱度 644（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49962012"
   },
   {
    "title": "DuarteSantos8/openGym — Self-hosted gym & body-weight tracker — plan r",
    "note": "github · 熱度 430（未歸戶）",
    "url": "https://github.com/DuarteSantos8/openGym"
-  },
-  {
-   "title": "earthtojake/text-to-cad — Give your agent CAD superpowers.",
-   "note": "github · 熱度 393（未歸戶）",
-   "url": "https://github.com/earthtojake/text-to-cad"
   }
  ],
  "data_quality": [
@@ -155,7 +148,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -163,7 +156,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
