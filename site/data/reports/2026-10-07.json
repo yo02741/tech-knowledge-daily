@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Mistral Large 4",
-   "text": "今日未歸戶最熱討論（hn、熱度 6602），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6776），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Mistral Large 4",
     "source": "hn",
-    "heat": 6601.5,
+    "heat": 6775.5,
     "url": "https://news.ycombinator.com/item?id=49977979"
    },
    {
@@ -114,17 +114,17 @@
  "radar": [
   {
    "title": "Sharing AI progress in mathematics",
-   "note": "hn · 熱度 1059（未歸戶）",
+   "note": "hn · 熱度 1176（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49984923"
   },
   {
    "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-   "note": "hn · 熱度 910（未歸戶）",
+   "note": "hn · 熱度 950（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49980487"
   },
   {
    "title": "JetBrains reports revenue growth, net financial loss for 2025",
-   "note": "hn · 熱度 844（未歸戶）",
+   "note": "hn · 熱度 848（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49977072"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -174,7 +174,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
