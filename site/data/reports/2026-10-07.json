@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Mistral Large 4",
-   "text": "今日未歸戶最熱討論（hn、熱度 6112），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6602），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Mistral Large 4",
     "source": "hn",
-    "heat": 6112.5,
+    "heat": 6601.5,
     "url": "https://news.ycombinator.com/item?id=49977979"
    },
    {
@@ -113,8 +113,18 @@
  "tracking": [],
  "radar": [
   {
+   "title": "Sharing AI progress in mathematics",
+   "note": "hn · 熱度 1059（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49984923"
+  },
+  {
+   "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+   "note": "hn · 熱度 910（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49980487"
+  },
+  {
    "title": "JetBrains reports revenue growth, net financial loss for 2025",
-   "note": "hn · 熱度 834（未歸戶）",
+   "note": "hn · 熱度 844（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49977072"
   },
   {
@@ -131,16 +141,6 @@
    "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
    "note": "github · 熱度 771（未歸戶）",
    "url": "https://github.com/calesthio/OpenMontage"
-  },
-  {
-   "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-   "note": "hn · 熱度 651（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49980487"
-  },
-  {
-   "title": "Nobel Prize in Physics 2026: Francis Halzen",
-   "note": "hn · 熱度 601（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49976265"
   }
  ],
  "data_quality": [
@@ -166,7 +166,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -174,7 +174,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
