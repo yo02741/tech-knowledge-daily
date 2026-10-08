@@ -45,14 +45,14 @@
    {
     "title": "Claude Haiku 5.5",
     "source": "hn",
-    "heat": 3006.0,
+    "heat": 3139.5,
     "url": "https://news.ycombinator.com/item?id=49996437",
     "what": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use."
    },
    {
     "title": "GPT‑6 and Intelligent UI for everyone",
     "source": "hn",
-    "heat": 2187.0,
+    "heat": 2289.0,
     "url": "https://news.ycombinator.com/item?id=49996425"
    }
   ],
@@ -118,17 +118,17 @@
  "radar": [
   {
    "title": "Sharing AI progress in mathematics",
-   "note": "hn · 熱度 1988（未歸戶）",
+   "note": "hn · 熱度 1996（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49984923"
   },
   {
    "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-   "note": "hn · 熱度 1486（未歸戶）",
+   "note": "hn · 熱度 1506（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49997161"
   },
   {
    "title": "Margaret Hamilton has died",
-   "note": "hn · 熱度 1280（未歸戶）",
+   "note": "hn · 熱度 1422（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49998895"
   },
   {
@@ -138,7 +138,7 @@
   },
   {
    "title": "Docker Agent",
-   "note": "hn · 熱度 789（未歸戶）",
+   "note": "hn · 熱度 824（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=49996259"
   },
   {
@@ -166,11 +166,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
