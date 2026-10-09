@@ -45,14 +45,14 @@
    {
     "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
     "source": "hn",
-    "heat": 2446.5,
+    "heat": 2823.0,
     "url": "https://news.ycombinator.com/item?id=50000488",
     "what": "thoughts, talks, docs and unpopular opinions"
    },
    {
     "title": "OpenAI withdraws three mathematical results",
     "source": "hn",
-    "heat": 1693.5,
+    "heat": 1746.0,
     "url": "https://news.ycombinator.com/item?id=50002650",
     "what": "We've updated our GitHub math repo with 6 new Lean formalizations, 19 modifications, and 3 withdrawals. The repo now has ~42% top-line results formalized. We will continue to update the repo with new formalizations and w"
    }
@@ -139,28 +139,28 @@
  ],
  "radar": [
   {
+   "title": "Trump administration is suspending Microsoft from a green card program",
+   "note": "hn · 熱度 1604（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50006832"
+  },
+  {
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
    "note": "github · 熱度 1597（未歸戶）",
    "url": "https://github.com/mattpocock/skills"
   },
   {
-   "title": "Trump administration is suspending Microsoft from a green card program",
-   "note": "hn · 熱度 1592（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50006832"
-  },
-  {
    "title": "OpenAI annualised revenues $20B less than previously signalled",
-   "note": "hn · 熱度 1518（未歸戶）",
+   "note": "hn · 熱度 1546（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50008187"
   },
   {
    "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-   "note": "hn · 熱度 1437（未歸戶）",
+   "note": "hn · 熱度 1448（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50004790"
   },
   {
    "title": "OpenAI Withdraws 3 Math Papers",
-   "note": "hn · 熱度 1018（未歸戶）",
+   "note": "hn · 熱度 1024（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50003107"
   },
   {
