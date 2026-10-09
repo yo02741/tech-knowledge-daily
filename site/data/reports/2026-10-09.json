@@ -43,18 +43,18 @@
     "what": "Reverse engineer anything with agents, from app behavior down to native bina"
    },
    {
-    "title": "mattpocock/skills",
-    "source": "github",
-    "heat": 1596.6,
-    "url": "https://github.com/mattpocock/skills",
-    "what": "Skills for Real Engineers. Straight from my .agents directory."
-   },
-   {
     "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
     "source": "hn",
-    "heat": 1549.5,
+    "heat": 2446.5,
     "url": "https://news.ycombinator.com/item?id=50000488",
     "what": "thoughts, talks, docs and unpopular opinions"
+   },
+   {
+    "title": "OpenAI withdraws three mathematical results",
+    "source": "hn",
+    "heat": 1693.5,
+    "url": "https://news.ycombinator.com/item?id=50002650",
+    "what": "We've updated our GitHub math repo with 6 new Lean formalizations, 19 modifications, and 3 withdrawals. The repo now has ~42% top-line results formalized. We will continue to update the repo with new formalizations and w"
    }
   ],
   "software": [
@@ -125,7 +125,7 @@
    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
    "status": "ongoing",
    "domain": "uiux",
-   "heat_today": 5.0,
+   "heat_today": 4.0,
    "heat_trend": [
     91.0,
     0,
@@ -133,29 +133,29 @@
     0,
     0,
     0,
-    5.0
+    4.0
    ]
   }
  ],
  "radar": [
   {
-   "title": "OpenAI withdraws three mathematical results",
-   "note": "hn · 熱度 1545（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50002650"
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1597（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
   },
   {
    "title": "Trump administration is suspending Microsoft from a green card program",
-   "note": "hn · 熱度 1514（未歸戶）",
+   "note": "hn · 熱度 1592（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50006832"
   },
   {
    "title": "OpenAI annualised revenues $20B less than previously signalled",
-   "note": "hn · 熱度 1404（未歸戶）",
+   "note": "hn · 熱度 1518（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50008187"
   },
   {
    "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-   "note": "hn · 熱度 1312（未歸戶）",
+   "note": "hn · 熱度 1437（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50004790"
   },
   {
@@ -200,11 +200,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
