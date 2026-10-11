@@ -52,7 +52,7 @@
    {
     "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
     "source": "hn",
-    "heat": 1017.0,
+    "heat": 1041.0,
     "url": "https://news.ycombinator.com/item?id=50031614",
     "what": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no ..."
    }
@@ -112,13 +112,18 @@
   },
   {
    "title": "Lobbying is corruption",
-   "note": "hn · 熱度 612（未歸戶）",
+   "note": "hn · 熱度 621（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50032556"
   },
   {
    "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-   "note": "hn · 熱度 580（未歸戶）",
+   "note": "hn · 熱度 586（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50029123"
+  },
+  {
+   "title": "Grieving the loss of details",
+   "note": "hn · 熱度 584（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49980880"
   },
   {
    "title": "anthropics/knowledge-work-plugins — Open source repository of plugins ",
@@ -126,13 +131,8 @@
    "url": "https://github.com/anthropics/knowledge-work-plugins"
   },
   {
-   "title": "Grieving the loss of details",
-   "note": "hn · 熱度 560（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=49980880"
-  },
-  {
    "title": "I would like the value of my home to rise, while my property taxes fal",
-   "note": "hn · 熱度 511（未歸戶）",
+   "note": "hn · 熱度 519（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50032758"
   }
  ],
@@ -143,7 +143,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -159,7 +159,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
