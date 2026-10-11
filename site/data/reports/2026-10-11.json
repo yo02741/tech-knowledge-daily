@@ -52,7 +52,7 @@
    {
     "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
     "source": "hn",
-    "heat": 894.0,
+    "heat": 1017.0,
     "url": "https://news.ycombinator.com/item?id=50031614",
     "what": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no ..."
    }
@@ -111,14 +111,14 @@
    "url": "https://github.com/storytold/artcraft"
   },
   {
-   "title": "REA Reverse – Engineer Anything",
-   "note": "hn · 熱度 842（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50028275"
+   "title": "Lobbying is corruption",
+   "note": "hn · 熱度 612（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50032556"
   },
   {
-   "title": "Lobbying is corruption",
-   "note": "hn · 熱度 596（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50032556"
+   "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "note": "hn · 熱度 580（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50029123"
   },
   {
    "title": "anthropics/knowledge-work-plugins — Open source repository of plugins ",
@@ -126,14 +126,14 @@
    "url": "https://github.com/anthropics/knowledge-work-plugins"
   },
   {
-   "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-   "note": "hn · 熱度 536（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50029123"
+   "title": "Grieving the loss of details",
+   "note": "hn · 熱度 560（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=49980880"
   },
   {
-   "title": "`123456' password used in Danish CPR data breach",
-   "note": "hn · 熱度 474（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50031269"
+   "title": "I would like the value of my home to rise, while my property taxes fal",
+   "note": "hn · 熱度 511（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50032758"
   }
  ],
  "data_quality": [
@@ -159,7 +159,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -167,7 +167,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
