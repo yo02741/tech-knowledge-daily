@@ -51,7 +51,7 @@
    {
     "title": "The gap in shared understanding of LLM capability is widening",
     "source": "hn",
-    "heat": 1977.0,
+    "heat": 2163.0,
     "url": "https://news.ycombinator.com/item?id=50047422",
     "what": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere "
    },
@@ -172,33 +172,33 @@
  ],
  "radar": [
   {
-   "title": "3rd Yandex Cloud Data Center Was Hit",
-   "note": "hn · 熱度 920（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50040547"
-  },
-  {
    "title": "storytold/artcraft — ArtCraft is an intentional crafting engine for ar",
    "note": "github · 熱度 887（未歸戶）",
    "url": "https://github.com/storytold/artcraft"
   },
   {
    "title": "Bot traffic from Yandex",
-   "note": "hn · 熱度 727（未歸戶）",
+   "note": "hn · 熱度 741（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50041619"
   },
   {
    "title": "Passkeys are a trap",
-   "note": "hn · 熱度 603（未歸戶）",
+   "note": "hn · 熱度 704（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50048312"
   },
   {
    "title": "Terence Tao: Math 2.0 [pdf]",
-   "note": "hn · 熱度 580（未歸戶）",
+   "note": "hn · 熱度 590（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50043026"
   },
   {
+   "title": "Total Annihilation, rebuilt for modern computers",
+   "note": "hn · 熱度 572（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50045984"
+  },
+  {
    "title": "Nitter: Update Oct 10th seeking funding and legal help",
-   "note": "hn · 熱度 558（未歸戶）",
+   "note": "hn · 熱度 566（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50041682"
   }
  ],
@@ -221,7 +221,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -233,7 +233,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
