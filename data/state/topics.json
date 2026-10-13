@@ -157,11 +157,11 @@
     },
     {
      "date": "2026-10-13",
-     "heat": 1179.0,
-     "mentions": 1
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "硬期限 07-07：Fable 5 僅供應至 07/07，社群在討論退役前最大化利用與退役後替代",
    "terms": [
     "Fable 5"
@@ -323,7 +323,7 @@
     },
     {
      "date": "2026-10-13",
-     "heat": 4078.8,
+     "heat": 4447.8,
      "mentions": 3
     }
    ],
@@ -514,7 +514,7 @@
    ],
    "domain": "uiux",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-13",
    "history": [
     {
      "date": "2026-09-14",
@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-10-13",
-     "heat": 0,
-     "mentions": 0
+     "heat": 25.0,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",
