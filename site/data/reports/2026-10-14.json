@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 288（上升），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 296（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   }
@@ -51,13 +51,13 @@
    {
     "title": "Gemini 4 Argon",
     "source": "hn",
-    "heat": 3931.5,
+    "heat": 4677.0,
     "url": "https://news.ycombinator.com/item?id=50073879"
    },
    {
     "title": "Redesigning source control at Anthropic",
     "source": "hn",
-    "heat": 2244.0,
+    "heat": 2853.0,
     "url": "https://news.ycombinator.com/item?id=50073633",
     "what": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
    }
@@ -66,7 +66,7 @@
    {
     "title": "11 year old unsoundness bugs found in Rust borrow checker",
     "source": "hn",
-    "heat": 1702.0,
+    "heat": 1786.0,
     "url": "https://news.ycombinator.com/item?id=50069499",
     "what": "NoteGiven that this issue has been shared online and is currently getting quite a few visitors, here's some additional context. Rust's type system is intended to prevent memory unsafety. Upholding ..."
    }
@@ -112,7 +112,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "rising",
-    "heat_today": 287.8,
+    "heat_today": 296.1,
     "heat_trend": [
      0,
      0,
@@ -120,7 +120,7 @@
      0,
      216.9,
      38.7,
-     287.8
+     296.1
     ],
     "what": "當日 4 則相關討論：「vercel-labs/skills — The open agent skills tool - npx skills」；「ComposioHQ/awesome-claude-skills — A curated list of awesome」；「I built a Claude Code skill that turns biology concepts into」。",
     "sources": [
@@ -168,7 +168,7 @@
  "radar": [
   {
    "title": "OpenAI engineer arrested in bugging of executive conference room",
-   "note": "hn · 熱度 1602（未歸戶）",
+   "note": "hn · 熱度 2106（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50078141"
   },
   {
@@ -178,13 +178,8 @@
   },
   {
    "title": "Apple HomeView",
-   "note": "hn · 熱度 1026（未歸戶）",
+   "note": "hn · 熱度 1119（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50071017"
-  },
-  {
-   "title": "A look at the math that OpenAI claims computes faster Fourier transfor",
-   "note": "hn · 熱度 945（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50065932"
   },
   {
    "title": "lyogavin/airllm — AirLLM 2.8T LLM inference with single 4GB GPU",
@@ -195,6 +190,11 @@
    "title": "mksglu/context-mode — Context window optimization for AI coding agents",
    "note": "github · 熱度 872（未歸戶）",
    "url": "https://github.com/mksglu/context-mode"
+  },
+  {
+   "title": "open-webui/open-webui — User-friendly AI Interface (Supports Ollama, O",
+   "note": "github · 熱度 827（未歸戶）",
+   "url": "https://github.com/open-webui/open-webui"
   }
  ],
  "data_quality": [
@@ -216,11 +216,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
