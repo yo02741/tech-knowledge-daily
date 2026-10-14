@@ -51,13 +51,13 @@
    {
     "title": "Gemini 4 Argon",
     "source": "hn",
-    "heat": 4677.0,
+    "heat": 4848.0,
     "url": "https://news.ycombinator.com/item?id=50073879"
    },
    {
     "title": "Redesigning source control at Anthropic",
     "source": "hn",
-    "heat": 2853.0,
+    "heat": 3075.0,
     "url": "https://news.ycombinator.com/item?id=50073633",
     "what": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
    }
@@ -66,7 +66,7 @@
    {
     "title": "11 year old unsoundness bugs found in Rust borrow checker",
     "source": "hn",
-    "heat": 1786.0,
+    "heat": 1806.0,
     "url": "https://news.ycombinator.com/item?id=50069499",
     "what": "NoteGiven that this issue has been shared online and is currently getting quite a few visitors, here's some additional context. Rust's type system is intended to prevent memory unsafety. Upholding ..."
    }
@@ -153,7 +153,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 75.0,
+   "heat_today": 60.0,
    "heat_trend": [
     0,
     0,
@@ -161,14 +161,14 @@
     0,
     50.5,
     0,
-    75.0
+    60.0
    ]
   }
  ],
  "radar": [
   {
    "title": "OpenAI engineer arrested in bugging of executive conference room",
-   "note": "hn · 熱度 2106（未歸戶）",
+   "note": "hn · 熱度 2210（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50078141"
   },
   {
@@ -178,8 +178,13 @@
   },
   {
    "title": "Apple HomeView",
-   "note": "hn · 熱度 1119（未歸戶）",
+   "note": "hn · 熱度 1132（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50071017"
+  },
+  {
+   "title": "AI is a tool and using it well takes skill",
+   "note": "hn · 熱度 924（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50063427"
   },
   {
    "title": "lyogavin/airllm — AirLLM 2.8T LLM inference with single 4GB GPU",
@@ -190,11 +195,6 @@
    "title": "mksglu/context-mode — Context window optimization for AI coding agents",
    "note": "github · 熱度 872（未歸戶）",
    "url": "https://github.com/mksglu/context-mode"
-  },
-  {
-   "title": "open-webui/open-webui — User-friendly AI Interface (Supports Ollama, O",
-   "note": "github · 熱度 827（未歸戶）",
-   "url": "https://github.com/open-webui/open-webui"
   }
  ],
  "data_quality": [
@@ -220,7 +220,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -228,7 +228,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
