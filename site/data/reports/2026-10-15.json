@@ -58,7 +58,7 @@
    {
     "title": "Anthropic's Scion is heavily inspired by Mononoke",
     "source": "hn",
-    "heat": 1132.5,
+    "heat": 1215.0,
     "url": "https://news.ycombinator.com/item?id=50094694",
     "what": "It is important to provide credit."
    }
@@ -138,7 +138,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 37.5,
+   "heat_today": 42.9,
    "heat_trend": [
     0,
     0,
@@ -146,24 +146,24 @@
     50.5,
     0,
     60.0,
-    37.5
+    42.9
    ]
   }
  ],
  "radar": [
   {
    "title": "Things to know when you get cancer",
-   "note": "hn · 熱度 1138（未歸戶）",
+   "note": "hn · 熱度 1246（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50093568"
   },
   {
    "title": "Containment and monitoring failures are to blame for AI hacking report",
-   "note": "hn · 熱度 1101（未歸戶）",
+   "note": "hn · 熱度 1116（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50091788"
   },
   {
    "title": "How Amazon pushes up prices all across the Internet",
-   "note": "hn · 熱度 1074（未歸戶）",
+   "note": "hn · 熱度 1090（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50084757"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -213,7 +213,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
