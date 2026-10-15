@@ -1,0 +1,227 @@
+{
+ "date": "2026-10-15",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hmr",
+  "domain": "frontend",
+  "term": "HMR（熱模組替換）",
+  "tagline": "改一行 code，畫面即時更新且狀態不丟",
+  "intro": [
+   "開發時存檔後不重新整理頁面，只把改動的模組換掉——表單填到一半、彈窗開著，改完樣式回來狀態都還在。",
+   "Vite 讓 HMR 快到幾乎無感（原生 ESM 按需編譯），這是它取代 webpack 成為新專案預設的最大原因之一。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Vite：HMR API",
+    "url": "https://vitejs.dev/guide/api-hmr"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] morluto/rea",
+   "text": "今日未歸戶最熱討論（github、熱度 36931），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 956（退燒），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 592（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "morluto/rea",
+    "source": "github",
+    "heat": 36930.6,
+    "url": "https://github.com/morluto/rea",
+    "what": "Reverse engineer anything with agents, from app behavior down to native bina"
+   },
+   {
+    "title": "ifixai-ai/iFixAi",
+    "source": "github",
+    "heat": 1898.1,
+    "url": "https://github.com/ifixai-ai/iFixAi",
+    "what": "Independent Auditing of AI Agents. Run by human or the agent itself, to"
+   },
+   {
+    "title": "heygen-com/hyperframes",
+    "source": "github",
+    "heat": 980.1,
+    "url": "https://github.com/heygen-com/hyperframes",
+    "what": "Write HTML. Render video. Built for agents."
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 955.8,
+    "heat_trend": [
+     1890.9,
+     2540.7,
+     1198.8,
+     1430.1,
+     4488.3,
+     3055.5,
+     955.8
+    ],
+    "what": "當日 5 則相關討論：「Alishahryar1/free-claude-code — Use Claude Code, Codex, VSCo」；「K-Dense-AI/scientific-agent-skills — Turn any AI agent into 」；「ruvnet/ruflo — 🌊 The original agent harness. Deploy intellig」。",
+    "sources": [
+     {
+      "label": "github：Alishahryar1/free-claude-code — Use Claude",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+     },
+     {
+      "label": "github：K-Dense-AI/scientific-agent-skills — Turn ",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The original agent harnes",
+      "url": "https://github.com/ruvnet/ruflo"
+     },
+     {
+      "label": "github：wshobson/agents — Multi-harness agentic pl",
+      "url": "https://github.com/wshobson/agents"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 592.2,
+    "heat_trend": [
+     0,
+     0,
+     0,
+     216.9,
+     38.7,
+     296.1,
+     592.2
+    ],
+    "what": "當日 1 則相關討論：「vercel-labs/skills — The open agent skills tool - npx skills」。",
+    "sources": [
+     {
+      "label": "github：vercel-labs/skills — The open agent skills",
+      "url": "https://github.com/vercel-labs/skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 37.5,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    50.5,
+    0,
+    60.0,
+    37.5
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
+   "note": "github · 熱度 1061（未歸戶）",
+   "url": "https://github.com/debpalash/VoiceStudio"
+  },
+  {
+   "title": "Containment and monitoring failures are to blame for AI hacking report",
+   "note": "hn · 熱度 1041（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50091788"
+  },
+  {
+   "title": "How Amazon pushes up prices all across the Internet",
+   "note": "hn · 熱度 995（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50084757"
+  },
+  {
+   "title": "vxcontrol/pentagi — Fully autonomous AI Agents system capable of perfo",
+   "note": "github · 熱度 922（未歸戶）",
+   "url": "https://github.com/vxcontrol/pentagi"
+  },
+  {
+   "title": "mksglu/context-mode — Context window optimization for AI coding agents",
+   "note": "github · 熱度 852（未歸戶）",
+   "url": "https://github.com/mksglu/context-mode"
+  },
+  {
+   "title": "Anthropic's Scion is heavily inspired by Mononoke",
+   "note": "hn · 熱度 840（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50094694"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
