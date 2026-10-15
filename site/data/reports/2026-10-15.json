@@ -56,11 +56,11 @@
     "what": "Independent Auditing of AI Agents. Run by human or the agent itself, to"
    },
    {
-    "title": "heygen-com/hyperframes",
-    "source": "github",
-    "heat": 980.1,
-    "url": "https://github.com/heygen-com/hyperframes",
-    "what": "Write HTML. Render video. Built for agents."
+    "title": "Anthropic's Scion is heavily inspired by Mononoke",
+    "source": "hn",
+    "heat": 1132.5,
+    "url": "https://news.ycombinator.com/item?id=50094694",
+    "what": "It is important to provide credit."
    }
   ],
   "software": [],
@@ -152,34 +152,34 @@
  ],
  "radar": [
   {
+   "title": "Things to know when you get cancer",
+   "note": "hn · 熱度 1138（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50093568"
+  },
+  {
+   "title": "Containment and monitoring failures are to blame for AI hacking report",
+   "note": "hn · 熱度 1101（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50091788"
+  },
+  {
+   "title": "How Amazon pushes up prices all across the Internet",
+   "note": "hn · 熱度 1074（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50084757"
+  },
+  {
    "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
    "note": "github · 熱度 1061（未歸戶）",
    "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
-   "title": "Containment and monitoring failures are to blame for AI hacking report",
-   "note": "hn · 熱度 1041（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50091788"
-  },
-  {
-   "title": "How Amazon pushes up prices all across the Internet",
-   "note": "hn · 熱度 995（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50084757"
+   "title": "heygen-com/hyperframes — Write HTML. Render video. Built for agents.",
+   "note": "github · 熱度 980（未歸戶）",
+   "url": "https://github.com/heygen-com/hyperframes"
   },
   {
    "title": "vxcontrol/pentagi — Fully autonomous AI Agents system capable of perfo",
    "note": "github · 熱度 922（未歸戶）",
    "url": "https://github.com/vxcontrol/pentagi"
-  },
-  {
-   "title": "mksglu/context-mode — Context window optimization for AI coding agents",
-   "note": "github · 熱度 852（未歸戶）",
-   "url": "https://github.com/mksglu/context-mode"
-  },
-  {
-   "title": "Anthropic's Scion is heavily inspired by Mononoke",
-   "note": "hn · 熱度 840（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50094694"
   }
  ],
  "data_quality": [
@@ -201,7 +201,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
