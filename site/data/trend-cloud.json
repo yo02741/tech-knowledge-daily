@@ -6,8 +6,8 @@
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 25489.8,
-   "status": "ongoing",
+   "weight": 26481.6,
+   "status": "rising",
    "domain": "ai",
    "last_seen": "2026-10-17"
   },
@@ -15,8 +15,8 @@
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 17842.9,
-   "status": "ongoing",
+   "weight": 18537.1,
+   "status": "rising",
    "domain": "ai",
    "last_seen": "2026-10-17"
   },
