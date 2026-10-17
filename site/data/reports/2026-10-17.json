@@ -1,0 +1,198 @@
+{
+ "date": "2026-10-17",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-empty-state",
+  "domain": "uiux",
+  "term": "Empty State（空狀態）",
+  "tagline": "沒有資料的畫面，是最常被忘記設計的畫面",
+  "intro": [
+   "新用戶第一眼看到的往往不是精心設計的儀表板，而是「還沒有任何項目」的空白頁——這裡是引導行動的黃金位置，卻常常只放一句冷冰冰的「無資料」。",
+   "好的空狀態回答三件事：這裡會出現什麼、為什麼現在是空的、我下一步該做什麼（附行動按鈕）。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "NN/g：Empty States",
+    "url": "https://www.nngroup.com/articles/empty-state-interface-design/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] morluto/rea",
+   "text": "今日未歸戶最熱討論（github、熱度 21226），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 3017（持續），共 5 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "morluto/rea",
+    "source": "github",
+    "heat": 21225.6,
+    "url": "https://github.com/morluto/rea",
+    "what": "Reverse engineer anything with agents, from app behavior down to native bina"
+   },
+   {
+    "title": "Claude reveals ECDSA curve origins",
+    "source": "hn",
+    "heat": 2280.0,
+    "url": "https://news.ycombinator.com/item?id=50122800",
+    "what": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained."
+   },
+   {
+    "title": "xerj-org/xerj",
+    "source": "github",
+    "heat": 1483.2,
+    "url": "https://github.com/xerj-org/xerj",
+    "what": "XERJ is the new way for AI to search data. Its autoindex capability activa"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 3016.8,
+    "heat_trend": [
+     1198.8,
+     1430.1,
+     4488.3,
+     3055.5,
+     955.8,
+     2025.9,
+     3016.8
+    ],
+    "what": "當日 5 則相關討論：「K-Dense-AI/scientific-agent-skills — Turn any AI agent into 」；「affaan-m/ECC — The agent harness performance optimization sy」；「ruvnet/ruflo — 🌊 The original agent harness. Deploy intellig」。",
+    "sources": [
+     {
+      "label": "github：K-Dense-AI/scientific-agent-skills — Turn ",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+     },
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "github：ruvnet/ruflo — 🌊 The original agent harnes",
+      "url": "https://github.com/ruvnet/ruflo"
+     },
+     {
+      "label": "github：krillinai/OpenCreator — Formerly KrillinAI",
+      "url": "https://github.com/krillinai/OpenCreator"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 189.9,
+   "heat_trend": [
+    0,
+    216.9,
+    38.7,
+    296.1,
+    592.2,
+    189.0,
+    189.9
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Tesla Roadster",
+   "note": "hn · 熱度 2170（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50112657"
+  },
+  {
+   "title": "anthropics/claude-plugins-official — Official, Anthropic-managed direc",
+   "note": "github · 熱度 1397（未歸戶）",
+   "url": "https://github.com/anthropics/claude-plugins-official"
+  },
+  {
+   "title": "stablyai/orca — Orca is the ADE for working with a fleet of parallel a",
+   "note": "github · 熱度 992（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "How the Claude Code team does code review",
+   "note": "hn · 熱度 938（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50122951"
+  },
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development ",
+   "note": "github · 熱度 876（未歸戶）",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "MadsLorentzen/ai-job-search — The job search that runs on your machine",
+   "note": "github · 熱度 808（未歸戶）",
+   "url": "https://github.com/MadsLorentzen/ai-job-search"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
