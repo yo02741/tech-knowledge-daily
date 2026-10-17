@@ -45,7 +45,7 @@
    {
     "title": "Claude reveals ECDSA curve origins",
     "source": "hn",
-    "heat": 2749.5,
+    "heat": 2835.0,
     "url": "https://news.ycombinator.com/item?id=50122800",
     "what": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained."
    },
@@ -124,7 +124,7 @@
  "radar": [
   {
    "title": "Tesla Roadster",
-   "note": "hn · 熱度 2458（未歸戶）",
+   "note": "hn · 熱度 2508（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50112657"
   },
   {
@@ -134,7 +134,7 @@
   },
   {
    "title": "How the Claude Code team does code review",
-   "note": "hn · 熱度 1227（未歸戶）",
+   "note": "hn · 熱度 1316（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50122951"
   },
   {
@@ -143,14 +143,14 @@
    "url": "https://github.com/obra/superpowers"
   },
   {
-   "title": "Anthropic assigned highest junk credit rating in June",
-   "note": "hn · 熱度 808（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50122112"
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the cons",
+   "note": "hn · 熱度 843（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50122431"
   },
   {
-   "title": "MadsLorentzen/ai-job-search — The job search that runs on your machine",
-   "note": "github · 熱度 808（未歸戶）",
-   "url": "https://github.com/MadsLorentzen/ai-job-search"
+   "title": "Anthropic assigned highest junk credit rating in June",
+   "note": "hn · 熱度 832（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50122112"
   }
  ],
  "data_quality": [
@@ -176,7 +176,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -188,7 +188,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
