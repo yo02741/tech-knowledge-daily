@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] DeepSeek-v4.1-Flash-1017",
-   "text": "今日未歸戶最熱討論（hn、熱度 3228），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3324），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,14 +32,14 @@
    {
     "title": "DeepSeek-v4.1-Flash-1017",
     "source": "hn",
-    "heat": 3228.0,
+    "heat": 3324.0,
     "url": "https://news.ycombinator.com/item?id=50129045",
     "what": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
    },
    {
     "title": "You could have invented transformers from memory",
     "source": "hn",
-    "heat": 1768.5,
+    "heat": 1797.0,
     "url": "https://news.ycombinator.com/item?id=50122878"
    },
    {
@@ -66,7 +66,7 @@
    "title": "OpenAI Codex ↔ Claude Code 互操作",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 2976.3,
+   "heat_today": 3006.3,
    "heat_trend": [
     1430.1,
     4488.3,
@@ -74,7 +74,7 @@
     955.8,
     2025.9,
     4008.6,
-    2976.3
+    3006.3
    ]
   },
   {
@@ -112,12 +112,12 @@
   },
   {
    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the ",
-   "note": "hn · 熱度 921（未歸戶）",
+   "note": "hn · 熱度 939（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50127979"
   },
   {
    "title": "OpenCode Hacked: User credentials leaked",
-   "note": "hn · 熱度 897（未歸戶）",
+   "note": "hn · 熱度 909（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50133401"
   },
   {
