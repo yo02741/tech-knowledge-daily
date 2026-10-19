@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] MadsLorentzen/ai-job-search",
-   "text": "今日未歸戶最熱討論（github、熱度 2009），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] DeepSeek search and fetch – $0.75 per 1000 successful reques",
+   "text": "今日未歸戶最熱討論（hn、熱度 2082），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -36,18 +36,18 @@
  "fresh": {
   "ai": [
    {
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "source": "hn",
+    "heat": 2082.0,
+    "url": "https://news.ycombinator.com/item?id=50138531",
+    "what": "The Search API and the Fetch API give agents and RAG applications access to live web content:"
+   },
+   {
     "title": "MadsLorentzen/ai-job-search",
     "source": "github",
     "heat": 2008.8,
     "url": "https://github.com/MadsLorentzen/ai-job-search",
     "what": "The job search that runs on your machine. AI job application"
-   },
-   {
-    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-    "source": "hn",
-    "heat": 1986.0,
-    "url": "https://news.ycombinator.com/item?id=50138531",
-    "what": "The Search API and the Fetch API give agents and RAG applications access to live web content:"
    },
    {
     "title": "anomalyco/opencode",
@@ -57,7 +57,14 @@
     "what": "The open source coding agent."
    }
   ],
-  "software": [],
+  "software": [
+   {
+    "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+    "source": "hn",
+    "heat": 825.0,
+    "url": "https://news.ycombinator.com/item?id=50136150"
+   }
+  ],
   "devops": [],
   "uiux": []
  },
@@ -106,6 +113,11 @@
  "tracking": [],
  "radar": [
   {
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act th",
+   "note": "hn · 熱度 1131（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50145337"
+  },
+  {
    "title": "anthropics/claude-plugins-official — Official, Anthropic-managed direc",
    "note": "github · 熱度 1058（未歸戶）",
    "url": "https://github.com/anthropics/claude-plugins-official"
@@ -116,19 +128,14 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day",
-   "note": "hn · 熱度 758（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50136881"
-  },
-  {
    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B ",
-   "note": "hn · 熱度 704（未歸戶）",
+   "note": "hn · 熱度 717（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50141429"
   },
   {
-   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act th",
-   "note": "hn · 熱度 674（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50145337"
+   "title": "Namecheap just seized and disabled all my domains",
+   "note": "hn · 熱度 640（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50142866"
   },
   {
    "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
@@ -155,11 +162,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
