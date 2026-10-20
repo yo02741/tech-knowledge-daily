@@ -1,0 +1,180 @@
+{
+ "date": "2026-10-20",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hash-routing",
+  "domain": "frontend",
+  "term": "Hash vs History 路由",
+  "tagline": "網址裡那個 # 是有功能的",
+  "intro": [
+   "SPA 換頁不重新載入頁面，路由有兩種做法：hash 路由（#/about，改 # 後面不會觸發請求，純靜態主機就能用）；history 路由（/about，網址乾淨，但伺服器要設定把所有路徑都回應 index.html）。",
+   "部署在靜態空間（GitHub Pages 等）時 hash 路由最省事；有伺服器控制權時 history 路由網址比較漂亮。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：History API",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] MadsLorentzen/ai-job-search",
+   "text": "今日未歸戶最熱討論（github、熱度 3470），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "MadsLorentzen/ai-job-search",
+    "source": "github",
+    "heat": 3470.4,
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "what": "The job search that runs on your machine. AI job application"
+   },
+   {
+    "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+    "source": "hn",
+    "heat": 2410.5,
+    "url": "https://news.ycombinator.com/item?id=50150750",
+    "what": "Newly-obtained documents say a Savannah police officer shared her Flock credentials with her ICE-agent husband, who used them to conduct hundreds of searches across multiple states."
+   },
+   {
+    "title": "Timestral: Mistral's time-series foundation models",
+    "source": "hn",
+    "heat": 1750.5,
+    "url": "https://news.ycombinator.com/item?id=50150434",
+    "what": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "title": "Linux 7.3",
+    "source": "hn",
+    "heat": 721.5,
+    "url": "https://news.ycombinator.com/item?id=50149392",
+    "what": "Linus Torvalds has released the 7.3 kernel, as expected.   \tIt"
+   }
+  ]
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 2102.4,
+   "heat_trend": [
+    3055.5,
+    955.8,
+    2025.9,
+    4008.6,
+    3006.3,
+    2007.9,
+    2102.4
+   ]
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 234.0,
+   "heat_trend": [
+    296.1,
+    592.2,
+    189.0,
+    189.9,
+    0,
+    0,
+    234.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "stablyai/orca — Orca is the place for working with a fleet of agents (",
+   "note": "github · 熱度 1431（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "anomalyco/opencode — The open source coding agent.",
+   "note": "github · 熱度 1180（未歸戶）",
+   "url": "https://github.com/anomalyco/opencode"
+  },
+  {
+   "title": "CERN and Mistral sign a statement of intent to establish a strategic p",
+   "note": "hn · 熱度 1028（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50153630"
+  },
+  {
+   "title": "Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI,",
+   "note": "github · 熱度 910（未歸戶）",
+   "url": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+   "title": "Mercury 3: Diffusion at scale",
+   "note": "hn · 熱度 780（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50155245"
+  },
+  {
+   "title": "DeepSeek V4.1 Flash 1017 (Max)",
+   "note": "hn · 熱度 693（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50148452"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

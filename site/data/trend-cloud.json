@@ -1,42 +1,42 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 29301.6,
+   "weight": 30815.4,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 20511.1,
+   "weight": 21570.8,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 1565.7,
-   "status": "fading",
+   "weight": 1756.8,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-20"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1096.0,
-   "status": "fading",
+   "weight": 1229.8,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-20"
   },
   {
    "slug": "design-ai-prototyping",
