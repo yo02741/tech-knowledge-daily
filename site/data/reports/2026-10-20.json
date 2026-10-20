@@ -39,29 +39,21 @@
    {
     "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
     "source": "hn",
-    "heat": 2436.0,
+    "heat": 2451.0,
     "url": "https://news.ycombinator.com/item?id=50150750",
     "what": "Newly-obtained documents say a Savannah police officer shared her Flock credentials with her ICE-agent husband, who used them to conduct hundreds of searches across multiple states."
    },
    {
     "title": "Timestral: Mistral's time-series foundation models",
     "source": "hn",
-    "heat": 1855.5,
+    "heat": 1887.0,
     "url": "https://news.ycombinator.com/item?id=50150434",
     "what": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
    }
   ],
   "software": [],
   "devops": [],
-  "uiux": [
-   {
-    "title": "Linux 7.3",
-    "source": "hn",
-    "heat": 734.0,
-    "url": "https://news.ycombinator.com/item?id=50149392",
-    "what": "Linus Torvalds has released the 7.3 kernel, as expected.   \tIt"
-   }
-  ]
+  "uiux": []
  },
  "sections": {
   "ai": [],
@@ -116,7 +108,7 @@
   },
   {
    "title": "CERN and Mistral sign a statement of intent to establish a strategic p",
-   "note": "hn · 熱度 1064（未歸戶）",
+   "note": "hn · 熱度 1082（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50153630"
   },
   {
@@ -126,13 +118,13 @@
   },
   {
    "title": "Mercury 3: Diffusion at scale",
-   "note": "hn · 熱度 826（未歸戶）",
+   "note": "hn · 熱度 836（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50155245"
   },
   {
-   "title": "It's still ok to enjoy programming",
-   "note": "hn · 熱度 748（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50134472"
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "note": "hn · 熱度 812（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50159341"
   }
  ],
  "data_quality": [
@@ -142,7 +134,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
@@ -170,7 +162,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
