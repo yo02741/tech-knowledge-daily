@@ -39,14 +39,14 @@
    {
     "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
     "source": "hn",
-    "heat": 2410.5,
+    "heat": 2436.0,
     "url": "https://news.ycombinator.com/item?id=50150750",
     "what": "Newly-obtained documents say a Savannah police officer shared her Flock credentials with her ICE-agent husband, who used them to conduct hundreds of searches across multiple states."
    },
    {
     "title": "Timestral: Mistral's time-series foundation models",
     "source": "hn",
-    "heat": 1750.5,
+    "heat": 1855.5,
     "url": "https://news.ycombinator.com/item?id=50150434",
     "what": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
    }
@@ -57,7 +57,7 @@
    {
     "title": "Linux 7.3",
     "source": "hn",
-    "heat": 721.5,
+    "heat": 734.0,
     "url": "https://news.ycombinator.com/item?id=50149392",
     "what": "Linus Torvalds has released the 7.3 kernel, as expected.   \tIt"
    }
@@ -116,7 +116,7 @@
   },
   {
    "title": "CERN and Mistral sign a statement of intent to establish a strategic p",
-   "note": "hn · 熱度 1028（未歸戶）",
+   "note": "hn · 熱度 1064（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50153630"
   },
   {
@@ -126,13 +126,13 @@
   },
   {
    "title": "Mercury 3: Diffusion at scale",
-   "note": "hn · 熱度 780（未歸戶）",
+   "note": "hn · 熱度 826（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50155245"
   },
   {
-   "title": "DeepSeek V4.1 Flash 1017 (Max)",
-   "note": "hn · 熱度 693（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50148452"
+   "title": "It's still ok to enjoy programming",
+   "note": "hn · 熱度 748（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50134472"
   }
  ],
  "data_quality": [
@@ -158,7 +158,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -170,7 +170,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
