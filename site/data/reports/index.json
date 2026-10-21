@@ -1,5 +1,12 @@
 [
  {
+  "date": "2026-10-21",
+  "weekday": "三",
+  "tldr_count": 3,
+  "topic_count": 2,
+  "top_topic": "設計稿 → AI 原型工作流（Figma × Claude）"
+ },
+ {
   "date": "2026-10-20",
   "weekday": "二",
   "tldr_count": 1,

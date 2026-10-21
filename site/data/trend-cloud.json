@@ -1,31 +1,31 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 30815.4,
+   "weight": 31742.4,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 21570.8,
+   "weight": 22219.7,
    "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
    "weight": 1756.8,
-   "status": "ongoing",
+   "status": "fading",
    "domain": "ai",
    "last_seen": "2026-10-20"
   },
@@ -34,7 +34,7 @@
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
    "weight": 1229.8,
-   "status": "ongoing",
+   "status": "fading",
    "domain": "ai",
    "last_seen": "2026-10-20"
   },
@@ -42,28 +42,28 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 186.0,
-   "status": "fading",
+   "weight": 302.7,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-21"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 167.7,
-   "status": "fading",
+   "weight": 263.4,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-21"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 130.2,
-   "status": "fading",
+   "weight": 211.9,
+   "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-21"
   }
  ]
 }
