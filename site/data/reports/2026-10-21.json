@@ -22,21 +22,21 @@
  "tldr": [
   {
    "title": "[新訊] DeepInfer: High-performance inference framework for DeepSeek",
-   "text": "今日未歸戶最熱討論（hn、熱度 7557），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 7839），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
-   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 117（上升），共 2 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ux-1"
-  },
-  {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 110（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 140（上升），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
+  },
+  {
+   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
+   "text": "熱度 114（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ux-1"
   }
  ],
  "fresh": {
@@ -44,7 +44,7 @@
    {
     "title": "DeepInfer: High-performance inference framework for DeepSeek models",
     "source": "hn",
-    "heat": 7557.0,
+    "heat": 7839.0,
     "url": "https://news.ycombinator.com/item?id=50163277",
     "what": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models - deepseek-ai/DeepInfer"
    },
@@ -67,22 +67,9 @@
    {
     "title": "Tsrs: A Port of TypeScript to Rust",
     "source": "hn",
-    "heat": 833.0,
+    "heat": 937.0,
     "url": "https://news.ycombinator.com/item?id=50165953",
     "what": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory."
-   },
-   {
-    "title": "Lula supporters protest against Meta to denounce its 'electoral interference'",
-    "source": "hn",
-    "heat": 760.0,
-    "url": "https://news.ycombinator.com/item?id=50159993",
-    "what": "Supporters of Brazilian President Luiz Inácio Lula da Silva protested outside the São Paulo headquarters of tech giant Meta on Monday."
-   },
-   {
-    "title": "How I got over 300 Tor exit nodes removed",
-    "source": "hn",
-    "heat": 692.0,
-    "url": "https://news.ycombinator.com/item?id=50166257"
    }
   ],
   "devops": [],
@@ -95,7 +82,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 110.0,
+    "heat_today": 140.0,
     "heat_trend": [
      42.9,
      0,
@@ -103,9 +90,9 @@
      0,
      0,
      0,
-     110.0
+     140.0
     ],
-    "what": "當日 2 則相關討論：「That was the best $48.62 spent on Fable. Thank you Anthropic」；「Fable 5.5: what is actually confirmed vs the \"tomorrow\" rumo」。",
+    "what": "當日 3 則相關討論：「That was the best $48.62 spent on Fable. Thank you Anthropic」；「Fable 5.5: what is actually confirmed vs the \"tomorrow\" rumo」；「I found where Fable 5.1 beats Opus 5.5 decisively」。",
     "sources": [
      {
       "label": "r/ClaudeAI：That was the best $48.62 spent on Fable. T",
@@ -114,6 +101,10 @@
      {
       "label": "r/ClaudeAI：Fable 5.5: what is actually confirmed vs t",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xaqcgn/fable_55_what_is_actually_confirmed_vs_the/"
+     },
+     {
+      "label": "r/ClaudeAI：I found where Fable 5.1 beats Opus 5.5 dec",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xb1xym/i_found_where_fable_51_beats_opus_55_decisively/"
      }
     ]
    }
@@ -126,7 +117,7 @@
     "slug": "design-ai-prototyping",
     "title": "設計稿 → AI 原型工作流（Figma × Claude）",
     "status": "rising",
-    "heat_today": 116.7,
+    "heat_today": 114.3,
     "heat_trend": [
      0,
      33.3,
@@ -134,7 +125,7 @@
      100.0,
      0,
      0,
-     116.7
+     114.3
     ],
     "what": "當日 2 則相關討論：「Has anyone had a positive experience when it comes to PMs no」；「Wireframing is back! Coded prototypes are helping」。",
     "sources": [
@@ -176,7 +167,7 @@
   },
   {
    "title": "Publish fake stats, get cited in LLMs",
-   "note": "hn · 熱度 1215（未歸戶）",
+   "note": "hn · 熱度 1278（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50165801"
   },
   {
@@ -195,8 +186,8 @@
    "url": "https://github.com/Comfy-Org/ComfyUI"
   },
   {
-   "title": "EMudhra Intermediate CA Compromise",
-   "note": "hn · 熱度 756（未歸戶）",
+   "title": "eMudhra intermediate CA compromise",
+   "note": "hn · 熱度 954（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50166579"
   }
  ],
@@ -223,7 +214,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
