@@ -1,0 +1,180 @@
+{
+ "date": "2026-10-22",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-responsive",
+  "domain": "uiux",
+  "term": "響應式設計（RWD）",
+  "tagline": "一份版面，優雅地適應每種螢幕",
+  "intro": [
+   "用彈性網格、相對單位與 media query，讓同一份頁面在手機到大螢幕間流動地重排——而不是為每種裝置做一個版本。",
+   "現代進階武器是 container query：元件根據「自己所在容器」的寬度調整，而非整個視窗，讓元件真正可攜。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：Responsive design",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Eight Bits of Trust: eMudhra's CA keys cracked in millisecon",
+   "text": "今日未歸戶最熱討論（hn、熱度 2061），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "DietrichGebert/ponytail",
+    "source": "github",
+    "heat": 1871.1,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+   },
+   {
+    "title": "cloudflare/security-audit-skill",
+    "source": "github",
+    "heat": 1810.8,
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "what": "A coding-agent skill for multi-phase security audits wit"
+   },
+   {
+    "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+    "source": "hn",
+    "heat": 1462.5,
+    "url": "https://news.ycombinator.com/item?id=50181114",
+    "what": "LiteLLM 1.107.0 on PyPI ships a .pth credential stealer and a sitecustomize.py backdoor that run on every Python start. How the implant got in, what it steals, and indicators of compromise."
+   }
+  ],
+  "software": [
+   {
+    "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+    "source": "hn",
+    "heat": 2061.0,
+    "url": "https://news.ycombinator.com/item?id=50177916",
+    "what": "One of eMudhra's certificate authority private keys is the number 4.\n\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, be"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1840.5,
+   "heat_trend": [
+    2025.9,
+    4008.6,
+    3006.3,
+    2007.9,
+    2102.4,
+    1725.3,
+    1840.5
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 33.3,
+   "heat_trend": [
+    33.3,
+    0,
+    100.0,
+    0,
+    0,
+    0,
+    33.3
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "stablyai/orca — Orca is the place for working with a fleet of agents (",
+   "note": "github · 熱度 1387（未歸戶）",
+   "url": "https://github.com/stablyai/orca"
+  },
+  {
+   "title": "Claude Duet",
+   "note": "hn · 熱度 1278（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50186037"
+  },
+  {
+   "title": "PHP 8.2.35",
+   "note": "hn · 熱度 1227（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50180873"
+  },
+  {
+   "title": "anomalyco/opencode — The open source coding agent.",
+   "note": "github · 熱度 1166（未歸戶）",
+   "url": "https://github.com/anomalyco/opencode"
+  },
+  {
+   "title": "Mistral Large 4",
+   "note": "hn · 熱度 1084（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50186129"
+  },
+  {
+   "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+   "note": "hn · 熱度 984（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50177911"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
