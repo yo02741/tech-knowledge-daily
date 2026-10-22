@@ -157,7 +157,7 @@
     },
     {
      "date": "2026-10-22",
-     "heat": 14.3,
+     "heat": 15.0,
      "mentions": 1
     }
    ],
@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-10-22",
-     "heat": 0,
-     "mentions": 0
+     "heat": 25.0,
+     "mentions": 1
     }
    ],
-   "status": "fading",
+   "status": "ongoing",
    "note": "",
    "terms": [
     "Figma",

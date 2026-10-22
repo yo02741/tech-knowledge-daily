@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Eight Bits of Trust: eMudhra's CA keys cracked in millisecon",
-   "text": "今日未歸戶最熱討論（hn、熱度 2143），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] DietrichGebert/ponytail",
+   "text": "今日未歸戶最熱討論（github、熱度 1871），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -46,20 +46,12 @@
    {
     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
     "source": "hn",
-    "heat": 1645.5,
+    "heat": 1674.0,
     "url": "https://news.ycombinator.com/item?id=50181114",
     "what": "LiteLLM 1.107.0 on PyPI ships a .pth credential stealer and a sitecustomize.py backdoor that run on every Python start. How the implant got in, what it steals, and indicators of compromise."
    }
   ],
-  "software": [
-   {
-    "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-    "source": "hn",
-    "heat": 2143.0,
-    "url": "https://news.ycombinator.com/item?id=50177916",
-    "what": "One of eMudhra's certificate authority private keys is the number 4.\n\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, be"
-   }
-  ],
+  "software": [],
   "devops": [],
   "uiux": []
  },
@@ -85,12 +77,28 @@
     1725.3,
     1840.5
    ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 25.0,
+   "heat_trend": [
+    33.3,
+    0,
+    100.0,
+    0,
+    0,
+    0,
+    25.0
+   ]
   }
  ],
  "radar": [
   {
    "title": "Claude Duet",
-   "note": "hn · 熱度 1476（未歸戶）",
+   "note": "hn · 熱度 1503（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50186037"
   },
   {
@@ -100,7 +108,7 @@
   },
   {
    "title": "PHP 8.2.35",
-   "note": "hn · 熱度 1258（未歸戶）",
+   "note": "hn · 熱度 1265（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50180873"
   },
   {
@@ -110,13 +118,13 @@
   },
   {
    "title": "Mistral Large 4",
-   "note": "hn · 熱度 1092（未歸戶）",
+   "note": "hn · 熱度 1095（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50186129"
   },
   {
-   "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
-   "note": "hn · 熱度 998（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50177911"
+   "title": "Patch the Planet: global response coordination as agents uncover vulne",
+   "note": "hn · 熱度 1000（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50181175"
   }
  ],
  "data_quality": [
@@ -138,7 +146,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
