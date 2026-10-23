@@ -1,0 +1,156 @@
+{
+ "date": "2026-10-23",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-cron",
+  "domain": "devops",
+  "term": "Cron 與排程任務",
+  "tagline": "五個星號的古老咒語，至今仍統治著自動化",
+  "intro": [
+   "「分 時 日 月 週」五個欄位描述執行時間，50 年歷史的語法至今通行於 Linux crontab、GitHub Actions schedule、雲端排程服務。",
+   "實務坑：時區（CI 多半是 UTC）、錯過的執行不會補跑、整點是全世界的尖峰（本站排 08:07 就是為了避開）；重要任務要配監控，沉默失敗的排程等於沒有排程。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "crontab guru（語法試算）",
+    "url": "https://crontab.guru/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] cloudflare/security-audit-skill",
+   "text": "今日未歸戶最熱討論（github、熱度 2681），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "cloudflare/security-audit-skill",
+    "source": "github",
+    "heat": 2681.1,
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "what": "A coding-agent skill for multi-phase security audits wit"
+   },
+   {
+    "title": "DietrichGebert/ponytail",
+    "source": "github",
+    "heat": 1753.2,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "what": "Makes your AI agent think like the laziest senior dev in the roo"
+   },
+   {
+    "title": "stablyai/orca",
+    "source": "github",
+    "heat": 1520.1,
+    "url": "https://github.com/stablyai/orca",
+    "what": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claud"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1460.7,
+   "heat_trend": [
+    4008.6,
+    3006.3,
+    2007.9,
+    2102.4,
+    1725.3,
+    1840.5,
+    1460.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "eMudhra to exit global SSL/TLS certificate business",
+   "note": "hn · 熱度 1222（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50195110"
+  },
+  {
+   "title": "Quad9 (DNS Resolver) to Exit France",
+   "note": "hn · 熱度 1145（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50195959"
+  },
+  {
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "note": "hn · 熱度 1077（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50198675"
+  },
+  {
+   "title": "OpenAI CLI",
+   "note": "hn · 熱度 850（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50191507"
+  },
+  {
+   "title": "Jailbreaking the Switch 2",
+   "note": "hn · 熱度 824（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50192536"
+  },
+  {
+   "title": "Woman faces six years in prison over Cash App account she never opened",
+   "note": "hn · 熱度 697（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50194833"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
