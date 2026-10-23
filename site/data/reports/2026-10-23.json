@@ -81,34 +81,34 @@
  ],
  "radar": [
   {
-   "title": "eMudhra to exit global SSL/TLS certificate business",
-   "note": "hn · 熱度 1320（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50195110"
-  },
-  {
    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-   "note": "hn · 熱度 1302（未歸戶）",
+   "note": "hn · 熱度 1354（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50198675"
   },
   {
-   "title": "Quad9 (DNS Resolver) to Exit France",
-   "note": "hn · 熱度 1272（未歸戶）",
+   "title": "eMudhra to exit global SSL/TLS certificate business",
+   "note": "hn · 熱度 1337（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50195110"
+  },
+  {
+   "title": "Quad9 to exit France",
+   "note": "hn · 熱度 1306（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50195959"
   },
   {
+   "title": "LLMs are making formal software verification feasible at a much larger",
+   "note": "hn · 熱度 980（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50202217"
+  },
+  {
    "title": "Woman charged with computer fraud due to scam CashApp account being in",
-   "note": "hn · 熱度 901（未歸戶）",
+   "note": "hn · 熱度 926（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50194833"
   },
   {
    "title": "Jailbreaking the Switch 2",
-   "note": "hn · 熱度 892（未歸戶）",
+   "note": "hn · 熱度 904（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50192536"
-  },
-  {
-   "title": "OpenAI CLI",
-   "note": "hn · 熱度 861（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50191507"
   }
  ],
  "data_quality": [
@@ -130,7 +130,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -142,7 +142,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
