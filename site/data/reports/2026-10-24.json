@@ -45,7 +45,7 @@
    {
     "title": "Swedish government offices to ban ChatGPT and Claude",
     "source": "hn",
-    "heat": 1116.0,
+    "heat": 1125.0,
     "url": "https://news.ycombinator.com/item?id=50207405"
    },
    {
@@ -58,10 +58,10 @@
   ],
   "software": [
    {
-    "title": "eMudhra's Press Release on the CA Compromise",
-    "source": "r/programming",
+    "title": "Despite all the hype around LLMs as a replacement for tech workers, US software-developmen",
+    "source": "r/ExperiencedDevs",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/programming/comments/1xd9rwe/emudhras_press_release_on_the_ca_compromise/"
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xdw1ou/despite_all_the_hype_around_llms_as_a_replacement/"
    }
   ],
   "devops": [],
@@ -138,8 +138,18 @@
  "radar": [
   {
    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from ",
-   "note": "hn · 熱度 1328（未歸戶）",
+   "note": "hn · 熱度 1426（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50202285"
+  },
+  {
+   "title": "Today, we hacked what we'd set out to hack: the iPhone",
+   "note": "hn · 熱度 1057（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50211474"
+  },
+  {
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "note": "hn · 熱度 1042（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50212065"
   },
   {
    "title": "stablyai/orca — Orca is the place for working with a fleet of agents (",
@@ -147,24 +157,14 @@
    "url": "https://github.com/stablyai/orca"
   },
   {
-   "title": "Today, we hacked what we'd set out to hack: the iPhone",
-   "note": "hn · 熱度 964（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50211474"
-  },
-  {
    "title": "luongnv89/claude-howto — A visual, example-driven guide to Claude Code",
    "note": "github · 熱度 948（未歸戶）",
    "url": "https://github.com/luongnv89/claude-howto"
   },
   {
-   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-   "note": "hn · 熱度 896（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50212065"
-  },
-  {
-   "title": "Investor-owned utilities charge 23% more for electricity than public p",
-   "note": "hn · 熱度 713（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50208837"
+   "title": "Apple Music 404 Not Found",
+   "note": "hn · 熱度 770（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50207910"
   }
  ],
  "data_quality": [
@@ -190,7 +190,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -202,7 +202,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
