@@ -138,17 +138,17 @@
  "radar": [
   {
    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from ",
-   "note": "hn · 熱度 1426（未歸戶）",
+   "note": "hn · 熱度 1448（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50202285"
   },
   {
    "title": "Today, we hacked what we'd set out to hack: the iPhone",
-   "note": "hn · 熱度 1057（未歸戶）",
+   "note": "hn · 熱度 1089（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50211474"
   },
   {
    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-   "note": "hn · 熱度 1042（未歸戶）",
+   "note": "hn · 熱度 1086（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50212065"
   },
   {
@@ -163,7 +163,7 @@
   },
   {
    "title": "Apple Music 404 Not Found",
-   "note": "hn · 熱度 770（未歸戶）",
+   "note": "hn · 熱度 810（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50207910"
   }
  ],
@@ -198,11 +198,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
