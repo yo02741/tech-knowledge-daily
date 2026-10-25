@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 853（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 854（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -65,16 +65,9 @@
   ],
   "software": [
    {
-    "title": "Twelve years of distributed SQLite",
-    "source": "hn",
-    "heat": 788.0,
-    "url": "https://news.ycombinator.com/item?id=50217500",
-    "what": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of th"
-   },
-   {
     "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
     "source": "hn",
-    "heat": 676.0,
+    "heat": 728.0,
     "url": "https://news.ycombinator.com/item?id=50219177",
     "what": "The Brotli flaw behind Node2Shell (CVE-2026-111497) affects many libraries and applications using HTTP with Brotli or brotlicffi installed. Check your versions and upgrade to the fix."
    }
@@ -89,7 +82,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 852.8,
+    "heat_today": 853.7,
     "heat_trend": [
      2007.9,
      2102.4,
@@ -97,7 +90,7 @@
      1840.5,
      1460.7,
      1723.5,
-     852.8
+     853.7
     ],
     "what": "當日 4 則相關討論：「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」；「thedotmack/claude-mem — Persistent Context Across Sessions f」；「Vincentwei1021/video-shotcraft — AI video skill for Claude C」。",
     "sources": [
@@ -155,22 +148,55 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 213.0,
+   "heat_trend": [
+    0,
+    0,
+    140.8,
+    15.0,
+    0,
+    300.0,
+    213.0
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 13.0,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    25.0,
+    0,
+    0,
+    13.0
+   ]
+  }
+ ],
  "radar": [
   {
    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from ",
-   "note": "hn · 熱度 1665（未歸戶）",
+   "note": "hn · 熱度 1684（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50202285"
   },
   {
-   "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
-   "note": "hn · 熱度 756（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50217495"
+   "title": "No signs of AI payoff outside the tech sector",
+   "note": "hn · 熱度 784（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50224463"
   },
   {
-   "title": "No signs of AI payoff outside the tech sector",
-   "note": "hn · 熱度 676（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50224463"
+   "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
+   "note": "hn · 熱度 656（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50220913"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
@@ -178,9 +204,9 @@
    "url": "https://github.com/tashfeenahmed/freellmapi"
   },
   {
-   "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
-   "note": "hn · 熱度 638（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50220913"
+   "title": "Root shell on Samsung TV",
+   "note": "hn · 熱度 600（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50218633"
   },
   {
    "title": "anthropics/sandbox-runtime — A lightweight sandboxing tool for enforci",
@@ -211,7 +237,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -219,7 +245,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
