@@ -33,16 +33,10 @@
    "topic_ref": "ai-1"
   },
   {
-   "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 671（上升），共 2 則討論；重點連結見對應段落。",
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 334（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
-  },
-  {
-   "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 322（持續），共 4 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-3"
   }
  ],
  "fresh": {
@@ -57,16 +51,16 @@
    {
     "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
     "source": "hn",
-    "heat": 1512.0,
+    "heat": 1833.0,
     "url": "https://news.ycombinator.com/item?id=50233779",
     "what": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found tha"
    },
    {
-    "title": "makecindy/cindy",
-    "source": "github",
-    "heat": 607.5,
-    "url": "https://github.com/makecindy/cindy",
-    "what": "Consider it done. The open-source AI agent that works out of the box · 想"
+    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+    "source": "hn",
+    "heat": 1044.0,
+    "url": "https://news.ycombinator.com/item?id=50236102",
+    "what": "What is “the true cost of a token”?"
    }
   ],
   "software": [],
@@ -108,37 +102,10 @@
    },
    {
     "id": "ai-2",
-    "slug": "fable5-lifecycle",
-    "title": "Fable 5 使用期限與遷移策略",
-    "status": "rising",
-    "heat_today": 670.9,
-    "heat_trend": [
-     0,
-     140.8,
-     15.0,
-     0,
-     300.0,
-     453.0,
-     670.9
-    ],
-    "what": "當日 2 則相關討論：「Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness」；「what would actually make you use fable 5.5 over opus 5.5?」。",
-    "sources": [
-     {
-      "label": "hn：Five Qwen3.8-27B models match Fable 5 Usin",
-      "url": "https://news.ycombinator.com/item?id=50228167"
-     },
-     {
-      "label": "r/ClaudeAI：what would actually make you use fable 5.5",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xf2rb5/what_would_actually_make_you_use_fable_55_over/"
-     }
-    ]
-   },
-   {
-    "id": "ai-3",
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "ongoing",
-    "heat_today": 321.9,
+    "heat_today": 334.4,
     "heat_trend": [
      234.0,
      0,
@@ -146,7 +113,7 @@
      0,
      332.1,
      685.8,
-     321.9
+     334.4
     ],
     "what": "當日 4 則相關討論：「SnailSploit/Claude-Red — claude-red is a curated library of 」；「Shubhamsaboo/awesome-llm-apps — 100+ AI Agents, Agent Skills」；「Drop your best Claude skills in here!」。",
     "sources": [
@@ -177,18 +144,18 @@
  "radar": [
   {
    "title": "We should be more ambitious with the software we build",
-   "note": "hn · 熱度 1084（未歸戶）",
+   "note": "hn · 熱度 1118（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50225695"
   },
   {
-   "title": "Root shell on Samsung TV",
-   "note": "hn · 熱度 1046（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50218633"
+   "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+   "note": "hn · 熱度 637（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50229587"
   },
   {
-   "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-   "note": "hn · 熱度 629（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50229587"
+   "title": "makecindy/cindy — Consider it done. The open-source AI agent that work",
+   "note": "github · 熱度 608（未歸戶）",
+   "url": "https://github.com/makecindy/cindy"
   },
   {
    "title": "tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM p",
@@ -201,9 +168,9 @@
    "url": "https://github.com/google-gemini/gemini-cli"
   },
   {
-   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few mo",
-   "note": "hn · 熱度 512（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50236102"
+   "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+   "note": "hn · 熱度 534（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50233929"
   }
  ],
  "data_quality": [
@@ -225,7 +192,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -237,7 +204,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
