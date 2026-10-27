@@ -345,7 +345,7 @@
    ],
    "domain": "ai",
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "history": [
     {
      "date": "2026-09-28",
@@ -494,8 +494,8 @@
     },
     {
      "date": "2026-10-27",
-     "heat": 0,
-     "mentions": 0
+     "heat": 12.0,
+     "mentions": 1
     }
    ],
    "status": "fading",

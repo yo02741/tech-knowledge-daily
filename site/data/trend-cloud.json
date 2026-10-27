@@ -24,19 +24,19 @@
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2863.5,
+   "weight": 2875.5,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2004.4,
+   "weight": 2012.8,
    "status": "fading",
    "domain": "ai",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   {
    "slug": "fable5-lifecycle",
