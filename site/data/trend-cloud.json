@@ -24,7 +24,7 @@
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2875.5,
+   "weight": 2863.5,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-10-27"
@@ -33,7 +33,7 @@
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 2012.8,
+   "weight": 2004.4,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-10-27"
@@ -51,19 +51,19 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 178.8,
-   "status": "fading",
+   "weight": 195.5,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-27"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 125.2,
-   "status": "fading",
+   "weight": 136.8,
+   "status": "ongoing",
    "domain": "uiux",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-27"
   }
  ]
 }

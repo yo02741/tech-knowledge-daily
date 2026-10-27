@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic S-1",
-   "text": "今日未歸戶最熱討論（hn、熱度 6880），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6962），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,13 +38,13 @@
    {
     "title": "Anthropic S-1",
     "source": "hn",
-    "heat": 6880.5,
+    "heat": 6961.5,
     "url": "https://news.ycombinator.com/item?id=50242939"
    },
    {
     "title": "GPT-6.1 Terra",
     "source": "hn",
-    "heat": 2205.0,
+    "heat": 2247.0,
     "url": "https://news.ycombinator.com/item?id=50248124"
    },
    {
@@ -59,7 +59,7 @@
    {
     "title": "Meta Employees Denounce Interference in Brazilian Elections",
     "source": "hn",
-    "heat": 760.0,
+    "heat": 766.0,
     "url": "https://news.ycombinator.com/item?id=50248061",
     "what": "Meta staff are holding the Big Tech company’s leadership accountable for decisions they say could compromise the credibility of the democratic process."
    }
@@ -109,17 +109,34 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    0,
+    25.0,
+    0,
+    0,
+    20.5,
+    0,
+    16.7
+   ]
+  }
+ ],
  "radar": [
+  {
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "note": "hn · 熱度 1298（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50245524"
+  },
   {
    "title": "TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financi",
    "note": "github · 熱度 1256（未歸戶）",
    "url": "https://github.com/TauricResearch/TradingAgents"
-  },
-  {
-   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
-   "note": "hn · 熱度 1252（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50245524"
   },
   {
    "title": "makecindy/cindy — Consider it done. The open-source AI agent that work",
@@ -127,14 +144,14 @@
    "url": "https://github.com/makecindy/cindy"
   },
   {
-   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Pr",
-   "note": "hn · 熱度 855（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50247630"
+   "title": "Three new discoveries in mathematics, computer science, and physics",
+   "note": "hn · 熱度 918（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50251344"
   },
   {
-   "title": "Three new discoveries in mathematics, computer science, and physics",
-   "note": "hn · 熱度 835（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50251344"
+   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Pr",
+   "note": "hn · 熱度 864（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50247630"
   },
   {
    "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
@@ -161,11 +178,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
