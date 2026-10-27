@@ -1,0 +1,187 @@
+{
+ "date": "2026-10-27",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-fitts-law",
+  "domain": "uiux",
+  "term": "Fitts 定律",
+  "tagline": "目標越大越近，越容易點到——聽起來像廢話但處處是應用",
+  "intro": [
+   "點擊時間取決於目標的大小與距離。這條 1954 年的人因定律解釋了：為什麼手機按鈕要至少 44pt、為什麼 Mac 選單列貼在螢幕頂端（邊緣等於無限大）、為什麼刪除鈕要離儲存鈕遠一點。",
+   "違反它的代價每天都在發生：太小的關閉鈕、緊貼的危險操作、手指搆不到的角落。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "NN/g：Fitts's Law",
+    "url": "https://www.nngroup.com/articles/fitts-law/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Anthropic S-1",
+   "text": "今日未歸戶最熱討論（hn、熱度 6460），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 4116（上升），共 9 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Anthropic S-1",
+    "source": "hn",
+    "heat": 6460.5,
+    "url": "https://news.ycombinator.com/item?id=50242939"
+   },
+   {
+    "title": "GPT-6.1 Terra",
+    "source": "hn",
+    "heat": 1891.5,
+    "url": "https://news.ycombinator.com/item?id=50248124"
+   },
+   {
+    "title": "AgriciDaniel/claude-seo",
+    "source": "github",
+    "heat": 1311.3,
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "what": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agen"
+   }
+  ],
+  "software": [
+   {
+    "title": "Meta Employees Denounce Interference in Brazilian Elections",
+    "source": "hn",
+    "heat": 742.0,
+    "url": "https://news.ycombinator.com/item?id=50248061",
+    "what": "Meta staff are holding the Big Tech company’s leadership accountable for decisions they say could compromise the credibility of the democratic process."
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 4115.7,
+    "heat_trend": [
+     1725.3,
+     1840.5,
+     1460.7,
+     1723.5,
+     850.4,
+     1533.6,
+     4115.7
+    ],
+    "what": "當日 9 則相關討論：「Nutlope/hallmark — Anti-AI-slop design skill for Claude Code」；「affaan-m/ECC — The agent harness performance optimization sy」；「Alishahryar1/free-claude-code — Use Claude Code, Codex, Anti」。",
+    "sources": [
+     {
+      "label": "github：Nutlope/hallmark — Anti-AI-slop design ski",
+      "url": "https://github.com/Nutlope/hallmark"
+     },
+     {
+      "label": "github：affaan-m/ECC — The agent harness performan",
+      "url": "https://github.com/affaan-m/ECC"
+     },
+     {
+      "label": "github：Alishahryar1/free-claude-code — Use Claude",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+     },
+     {
+      "label": "github：thedotmack/claude-mem — Persistent Context",
+      "url": "https://github.com/thedotmack/claude-mem"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financi",
+   "note": "github · 熱度 1256（未歸戶）",
+   "url": "https://github.com/TauricResearch/TradingAgents"
+  },
+  {
+   "title": "makecindy/cindy — Consider it done. The open-source AI agent that work",
+   "note": "github · 熱度 1166（未歸戶）",
+   "url": "https://github.com/makecindy/cindy"
+  },
+  {
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "note": "hn · 熱度 1039（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50245524"
+  },
+  {
+   "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+   "note": "hn · 熱度 806（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50238739"
+  },
+  {
+   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Pr",
+   "note": "hn · 熱度 754（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50247630"
+  },
+  {
+   "title": "debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local El",
+   "note": "github · 熱度 689（未歸戶）",
+   "url": "https://github.com/debpalash/VoiceStudio"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
