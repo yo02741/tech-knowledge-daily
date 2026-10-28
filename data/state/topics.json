@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-10-28",
-     "heat": 50.0,
-     "mentions": 1
+     "heat": 0,
+     "mentions": 0
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",

@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic trained Claude on illegally obtained Stanford prof",
-   "text": "今日未歸戶最熱討論（hn、熱度 1708），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1908），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
     "source": "hn",
-    "heat": 1708.5,
+    "heat": 1908.0,
     "url": "https://news.ycombinator.com/item?id=50260814",
     "what": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement."
    },
@@ -61,7 +61,7 @@
    {
     "title": "Python's experimental JIT to be removed",
     "source": "hn",
-    "heat": 1102.0,
+    "heat": 1200.0,
     "url": "https://news.ycombinator.com/item?id=50257419"
    }
   ],
@@ -126,22 +126,6 @@
     0,
     218.7
    ]
-  },
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 50.0,
-   "heat_trend": [
-    25.0,
-    0,
-    0,
-    20.5,
-    0,
-    16.7,
-    50.0
-   ]
   }
  ],
  "radar": [
@@ -151,29 +135,29 @@
    "url": "https://github.com/makecindy/cindy"
   },
   {
-   "title": "AI promised less work. I've never worked more",
-   "note": "hn · 熱度 919（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50257325"
+   "title": "pbakaus/impeccable — The design vocabulary for your coding agent. Stee",
+   "note": "github · 熱度 1304（未歸戶）",
+   "url": "https://github.com/pbakaus/impeccable"
   },
   {
    "title": "Genie 4",
-   "note": "hn · 熱度 905（未歸戶）",
+   "note": "hn · 熱度 1064（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50261319"
   },
   {
    "title": "US Government is hiding a secret court ruling about how it spies on Am",
-   "note": "hn · 熱度 898（未歸戶）",
+   "note": "hn · 熱度 1046（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50259604"
   },
   {
-   "title": "gitroomhq/postiz-app — 📨 The ultimate agentic social media scheduling ",
-   "note": "github · 熱度 856（未歸戶）",
-   "url": "https://github.com/gitroomhq/postiz-app"
+   "title": "Ghostty 1.4",
+   "note": "hn · 熱度 1036（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50261998"
   },
   {
-   "title": "heygen-com/hyperframes — Write HTML. Render video. Built for agents.",
-   "note": "github · 熱度 841（未歸戶）",
-   "url": "https://github.com/heygen-com/hyperframes"
+   "title": "Survival LLM: AI assistant and emergency library that runs on your own",
+   "note": "hn · 熱度 1020（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50264853"
   }
  ],
  "data_quality": [
@@ -195,7 +179,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -207,7 +191,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
