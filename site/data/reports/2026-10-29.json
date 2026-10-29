@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Gemini 4 Carbon",
-   "text": "今日未歸戶最熱討論（hn、熱度 3694），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3792），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,7 +44,7 @@
    {
     "title": "Gemini 4 Carbon",
     "source": "hn",
-    "heat": 3694.5,
+    "heat": 3792.0,
     "url": "https://news.ycombinator.com/item?id=50276792",
     "what": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
    },
@@ -58,7 +58,7 @@
    {
     "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
     "source": "hn",
-    "heat": 1185.0,
+    "heat": 1198.5,
     "url": "https://news.ycombinator.com/item?id=50280864",
     "what": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot."
    }
@@ -67,7 +67,7 @@
    {
     "title": "Apple's git still trusts the compromised eMudhra certificates",
     "source": "hn",
-    "heat": 2569.0,
+    "heat": 2605.0,
     "url": "https://news.ycombinator.com/item?id=50271640",
     "what": "Eleven days after Apple was notified of the eMudhra CA compromise, the git, curl and python3 that Apple ships with macOS still trust the compromised certificates."
    },
@@ -168,18 +168,18 @@
  "radar": [
   {
    "title": "Evidence of a spying operation by ICE against left-wing social movemen",
-   "note": "hn · 熱度 1586（未歸戶）",
+   "note": "hn · 熱度 1589（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50272749"
   },
   {
    "title": "Why is this fingerprinting script creating bioweapons?",
-   "note": "hn · 熱度 1127（未歸戶）",
+   "note": "hn · 熱度 1196（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50276998"
   },
   {
-   "title": "MacBook Pro with PROLED XDR Display and Touch",
-   "note": "hn · 熱度 1012（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50276940"
+   "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "note": "hn · 熱度 1146（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50282838"
   },
   {
    "title": "obra/superpowers — An agentic skills framework & software development ",
@@ -216,7 +216,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
@@ -228,7 +228,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
