@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] We're releasing the weights of Mistral Large 4",
-   "text": "今日未歸戶最熱討論（hn、熱度 4497），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4704），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "We're releasing the weights of Mistral Large 4",
     "source": "hn",
-    "heat": 4497.0,
+    "heat": 4704.0,
     "url": "https://news.ycombinator.com/item?id=50289418",
     "what": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
    },
@@ -52,7 +52,7 @@
    {
     "title": "LLM Voice",
     "source": "hn",
-    "heat": 1551.0,
+    "heat": 1663.5,
     "url": "https://news.ycombinator.com/item?id=50290177"
    }
   ],
@@ -98,17 +98,17 @@
  "radar": [
   {
    "title": "Patrick Stewart has died",
-   "note": "hn · 熱度 3004（未歸戶）",
+   "note": "hn · 熱度 3112（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50294702"
   },
   {
    "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
-   "note": "hn · 熱度 1372（未歸戶）",
+   "note": "hn · 熱度 1524（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50296470"
   },
   {
    "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence ",
-   "note": "hn · 熱度 1353（未歸戶）",
+   "note": "hn · 熱度 1354（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50288019"
   },
   {
@@ -118,7 +118,7 @@
   },
   {
    "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
-   "note": "hn · 熱度 1108（未歸戶）",
+   "note": "hn · 熱度 1112（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50287001"
   },
   {
@@ -158,11 +158,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
