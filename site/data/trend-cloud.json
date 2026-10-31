@@ -51,7 +51,7 @@
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 203.9,
+   "weight": 199.7,
    "status": "rising",
    "domain": "uiux",
    "last_seen": "2026-10-31"
@@ -60,7 +60,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 142.7,
+   "weight": 139.8,
    "status": "rising",
    "domain": "uiux",
    "last_seen": "2026-10-31"
