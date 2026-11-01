@@ -157,7 +157,7 @@
     },
     {
      "date": "2026-11-01",
-     "heat": 657.0,
+     "heat": 742.5,
      "mentions": 1
     }
    ],
@@ -323,8 +323,8 @@
     },
     {
      "date": "2026-11-01",
-     "heat": 3541.8,
-     "mentions": 6
+     "heat": 3682.6,
+     "mentions": 7
     }
    ],
    "status": "rising",
