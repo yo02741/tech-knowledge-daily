@@ -1,69 +1,69 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 32258.9,
-   "status": "fading",
+   "weight": 32548.1,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 22581.2,
-   "status": "fading",
+   "weight": 22783.7,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "claude-code-skills-eco",
    "display": "Claude Code skills 生態爆發",
    "label": "Agent Skills",
-   "weight": 2215.7,
-   "status": "rising",
+   "weight": 2894.3,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "claude-code-skills-eco#1",
    "display": "Claude Code skills 生態爆發",
    "label": "caveman",
-   "weight": 1551.0,
-   "status": "rising",
+   "weight": 2026.0,
+   "status": "ongoing",
    "domain": "ai",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1101.4,
-   "status": "ongoing",
+   "weight": 1515.4,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 199.7,
+   "weight": 256.5,
    "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 139.8,
+   "weight": 179.5,
    "status": "rising",
    "domain": "uiux",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   }
  ]
 }
