@@ -73,23 +73,22 @@
    {
     "title": "The AI cost of JavaScript frameworks",
     "source": "hn",
-    "heat": 953.0,
+    "heat": 994.0,
     "url": "https://news.ycombinator.com/item?id=50323088",
     "what": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…"
    },
    {
-    "title": "U.S. workers took home their smallest share of capital since at least 1947",
-    "source": "hn",
-    "heat": 691.0,
-    "url": "https://news.ycombinator.com/item?id=50330939",
-    "what": "American workers aren’t just getting the smallest share of GDP since records began. Their share of employment is shrinking and shrinking."
-   },
-   {
     "title": "Postgres 19 is late because so many more bugs are being found now",
     "source": "hn",
-    "heat": 688.0,
-    "url": "https://news.ycombinator.com/item?id=50312408",
-    "what": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l..."
+    "heat": 894.0,
+    "url": "https://news.ycombinator.com/item?id=50312408"
+   },
+   {
+    "title": "D4Vinci/Scrapling",
+    "source": "github",
+    "heat": 535.2,
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "what": "🕷️ The BEST Web Scraping framework that handles everything from a sing"
    }
   ],
   "devops": [],
@@ -187,12 +186,12 @@
  "radar": [
   {
    "title": "HackerTube: YouTube built from videos recommended by HN",
-   "note": "hn · 熱度 2718（未歸戶）",
+   "note": "hn · 熱度 2782（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50319510"
   },
   {
    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-   "note": "hn · 熱度 1306（未歸戶）",
+   "note": "hn · 熱度 1402（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50326821"
   },
   {
@@ -201,14 +200,14 @@
    "url": "https://github.com/pingdotgg/t3code"
   },
   {
-   "title": "Restrooms along the Norwegian Scenic Routes",
-   "note": "hn · 熱度 885（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50324388"
+   "title": "An Italian farmer found some unknown seeds in his attic and planted th",
+   "note": "hn · 熱度 901（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50320963"
   },
   {
-   "title": "D4Vinci/Scrapling — 🕷️ The BEST Web Scraping framework that handles ev",
-   "note": "github · 熱度 535（未歸戶）",
-   "url": "https://github.com/D4Vinci/Scrapling"
+   "title": "Restrooms along the Norwegian Scenic Routes",
+   "note": "hn · 熱度 891（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50324388"
   },
   {
    "title": "paperclipai/paperclip — The open-source app everyone uses to manage ag",
@@ -247,11 +246,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
