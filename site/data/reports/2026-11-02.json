@@ -1,0 +1,250 @@
+{
+ "date": "2026-11-02",
+ "weekday": "一",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-feature-flag",
+  "domain": "devops",
+  "term": "Feature Flag",
+  "tagline": "程式碼先上線，功能開關另外控制",
+  "intro": [
+   "新功能包在開關後面部署上去，先對內部或 1% 使用者打開，驗證沒問題再全量——出事關掉開關即可，不用緊急回滾部署。",
+   "進階玩法是 A/B 實驗與按用戶分群；技術債提醒：旗子要定期清，長滿過期開關的程式碼是災難現場。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Martin Fowler：Feature Toggles",
+    "url": "https://martinfowler.com/articles/feature-toggles.html"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] ifixai-ai/iFixAi",
+   "text": "今日未歸戶最熱討論（github、熱度 1426），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1575（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 388（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 250（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "ifixai-ai/iFixAi",
+    "source": "github",
+    "heat": 1425.6,
+    "url": "https://github.com/ifixai-ai/iFixAi",
+    "what": "Independent Auditing of AI Agents. Run by human or the agent itself, to"
+   },
+   {
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+    "source": "hn",
+    "heat": 1239.0,
+    "url": "https://news.ycombinator.com/item?id=50322173",
+    "what": "Two lawyers hid a white-on-white instruction inside a court filing telling the AI to go easy on their case. The court's AI caught it. The fine was $16,000."
+   },
+   {
+    "title": "patchy631/ai-engineering-hub",
+    "source": "github",
+    "heat": 1071.9,
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "what": "In-depth tutorials on LLMs, RAGs and real-world AI agent ap"
+   }
+  ],
+  "software": [
+   {
+    "title": "The AI cost of JavaScript frameworks",
+    "source": "hn",
+    "heat": 805.0,
+    "url": "https://news.ycombinator.com/item?id=50323088",
+    "what": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…"
+   },
+   {
+    "title": "D4Vinci/Scrapling",
+    "source": "github",
+    "heat": 535.2,
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "what": "🕷️ The BEST Web Scraping framework that handles everything from a sing"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 1575.0,
+    "heat_trend": [
+     4115.7,
+     5486.4,
+     3767.4,
+     940.5,
+     1698.3,
+     3682.6,
+     1575.0
+    ],
+    "what": "當日 2 則相關討論：「thedotmack/claude-mem — Persistent Context Across Sessions f」；「ethanplusai/harvey — Autonomous AI sales agent powered by Cl」。",
+    "sources": [
+     {
+      "label": "github：thedotmack/claude-mem — Persistent Context",
+      "url": "https://github.com/thedotmack/claude-mem"
+     },
+     {
+      "label": "github：ethanplusai/harvey — Autonomous AI sales a",
+      "url": "https://github.com/ethanplusai/harvey"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 387.9,
+    "heat_trend": [
+     0,
+     218.7,
+     81.0,
+     20.0,
+     299.7,
+     678.6,
+     387.9
+    ],
+    "what": "當日 1 則相關討論：「anthropics/skills — Public repository for Agent Skills」。",
+    "sources": [
+     {
+      "label": "github：anthropics/skills — Public repository for ",
+      "url": "https://github.com/anthropics/skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "ongoing",
+    "heat_today": 250.0,
+    "heat_trend": [
+     0,
+     0,
+     17.6,
+     0,
+     150.0,
+     742.5,
+     250.0
+    ],
+    "what": "當日 2 則相關討論：「Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on Liv」；「we're actually going to get Fable 5.5 and GPT-6.2 Astra the 」。",
+    "sources": [
+     {
+      "label": "r/LocalLLaMA：Memdoor: A team of 5 Qwen3.8-27B models be",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：we're actually going to get Fable 5.5 and ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl7cyr/were_actually_going_to_get_fable_55_and_gpt62/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "HackerTube: YouTube built from videos recommended by HN",
+   "note": "hn · 熱度 2510（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50319510"
+  },
+  {
+   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+   "note": "hn · 熱度 942（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50326821"
+  },
+  {
+   "title": "pingdotgg/t3code",
+   "note": "github · 熱度 928（未歸戶）",
+   "url": "https://github.com/pingdotgg/t3code"
+  },
+  {
+   "title": "Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game",
+   "note": "github · 熱度 870（未歸戶）",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+  },
+  {
+   "title": "Restrooms along the Norwegian Scenic Routes",
+   "note": "hn · 熱度 868（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50324388"
+  },
+  {
+   "title": "An Italian farmer found some unknown seeds in his attic and planted th",
+   "note": "hn · 熱度 866（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50320963"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
