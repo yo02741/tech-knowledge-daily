@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 250（持續），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 238（持續），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -55,34 +55,41 @@
     "what": "Independent Auditing of AI Agents. Run by human or the agent itself, to"
    },
    {
-    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-    "source": "hn",
-    "heat": 1239.0,
-    "url": "https://news.ycombinator.com/item?id=50322173",
-    "what": "Two lawyers hid a white-on-white instruction inside a court filing telling the AI to go easy on their case. The court's AI caught it. The fine was $16,000."
-   },
-   {
     "title": "patchy631/ai-engineering-hub",
     "source": "github",
     "heat": 1071.9,
     "url": "https://github.com/patchy631/ai-engineering-hub",
     "what": "In-depth tutorials on LLMs, RAGs and real-world AI agent ap"
+   },
+   {
+    "title": "Donchitos/Claude-Code-Game-Studios",
+    "source": "github",
+    "heat": 870.3,
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "what": "Turn Claude Code into a full game dev studio — 49 AI"
    }
   ],
   "software": [
    {
     "title": "The AI cost of JavaScript frameworks",
     "source": "hn",
-    "heat": 805.0,
+    "heat": 953.0,
     "url": "https://news.ycombinator.com/item?id=50323088",
     "what": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…"
    },
    {
-    "title": "D4Vinci/Scrapling",
-    "source": "github",
-    "heat": 535.2,
-    "url": "https://github.com/D4Vinci/Scrapling",
-    "what": "🕷️ The BEST Web Scraping framework that handles everything from a sing"
+    "title": "U.S. workers took home their smallest share of capital since at least 1947",
+    "source": "hn",
+    "heat": 691.0,
+    "url": "https://news.ycombinator.com/item?id=50330939",
+    "what": "American workers aren’t just getting the smallest share of GDP since records began. Their share of employment is shrinking and shrinking."
+   },
+   {
+    "title": "Postgres 19 is late because so many more bugs are being found now",
+    "source": "hn",
+    "heat": 688.0,
+    "url": "https://news.ycombinator.com/item?id=50312408",
+    "what": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l..."
    }
   ],
   "devops": [],
@@ -145,7 +152,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 250.0,
+    "heat_today": 238.0,
     "heat_trend": [
      0,
      0,
@@ -153,9 +160,9 @@
      0,
      150.0,
      742.5,
-     250.0
+     238.0
     ],
-    "what": "當日 2 則相關討論：「Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on Liv」；「we're actually going to get Fable 5.5 and GPT-6.2 Astra the 」。",
+    "what": "當日 3 則相關討論：「Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on Liv」；「we're actually going to get Fable 5.5 and GPT-6.2 Astra the 」；「Fable 5.1 vs Opus 5.5」。",
     "sources": [
      {
       "label": "r/LocalLLaMA：Memdoor: A team of 5 Qwen3.8-27B models be",
@@ -164,6 +171,10 @@
      {
       "label": "r/ClaudeAI：we're actually going to get Fable 5.5 and ",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl7cyr/were_actually_going_to_get_fable_55_and_gpt62/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5.1 vs Opus 5.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xllq08/fable_51_vs_opus_55/"
      }
     ]
    }
@@ -176,12 +187,12 @@
  "radar": [
   {
    "title": "HackerTube: YouTube built from videos recommended by HN",
-   "note": "hn · 熱度 2510（未歸戶）",
+   "note": "hn · 熱度 2718（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50319510"
   },
   {
    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-   "note": "hn · 熱度 942（未歸戶）",
+   "note": "hn · 熱度 1306（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50326821"
   },
   {
@@ -190,19 +201,19 @@
    "url": "https://github.com/pingdotgg/t3code"
   },
   {
-   "title": "Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game",
-   "note": "github · 熱度 870（未歸戶）",
-   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
-  },
-  {
    "title": "Restrooms along the Norwegian Scenic Routes",
-   "note": "hn · 熱度 868（未歸戶）",
+   "note": "hn · 熱度 885（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50324388"
   },
   {
-   "title": "An Italian farmer found some unknown seeds in his attic and planted th",
-   "note": "hn · 熱度 866（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50320963"
+   "title": "D4Vinci/Scrapling — 🕷️ The BEST Web Scraping framework that handles ev",
+   "note": "github · 熱度 535（未歸戶）",
+   "url": "https://github.com/D4Vinci/Scrapling"
+  },
+  {
+   "title": "paperclipai/paperclip — The open-source app everyone uses to manage ag",
+   "note": "github · 熱度 456（未歸戶）",
+   "url": "https://github.com/paperclipai/paperclip"
   }
  ],
  "data_quality": [
@@ -228,7 +239,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -236,7 +247,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
