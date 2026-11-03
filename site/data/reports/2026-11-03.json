@@ -22,13 +22,13 @@
  "tldr": [
   {
    "title": "[新訊] Astra can read and write weights to improve Qwen",
-   "text": "今日未歸戶最熱討論（hn、熱度 6243），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 8312），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2161（持續），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 2156（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -44,7 +44,7 @@
    {
     "title": "Astra can read and write weights to improve Qwen",
     "source": "hn",
-    "heat": 6243.0,
+    "heat": 8311.5,
     "url": "https://news.ycombinator.com/item?id=50341174",
     "what": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
    },
@@ -56,19 +56,26 @@
     "what": "Computer use CLI for AI agents"
    },
    {
-    "title": "Donchitos/Claude-Code-Game-Studios",
-    "source": "github",
-    "heat": 1241.1,
-    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-    "what": "Turn Claude Code into a full game dev studio — 49 AI"
+    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+    "source": "hn",
+    "heat": 1312.5,
+    "url": "https://news.ycombinator.com/item?id=50339494",
+    "what": "Anthropic's IPO filing reveals a striking milestone: Its internal AI usage is now valued above employee compensation."
    }
   ],
   "software": [
    {
     "title": "WTF Ubuntu?",
     "source": "hn",
-    "heat": 3148.0,
+    "heat": 3484.0,
     "url": "https://news.ycombinator.com/item?id=50337608"
+   },
+   {
+    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+    "source": "hn",
+    "heat": 1003.0,
+    "url": "https://news.ycombinator.com/item?id=50341462",
+    "what": "No patched kernels are available yet for 22.04, 24.04, or 26.04 despite a CVSS 9.8 rating."
    },
    {
     "title": "public-apis/public-apis",
@@ -76,13 +83,6 @@
     "heat": 786.6,
     "url": "https://github.com/public-apis/public-apis",
     "what": "A collective list of free APIs"
-   },
-   {
-    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-    "source": "hn",
-    "heat": 655.0,
-    "url": "https://news.ycombinator.com/item?id=50341462",
-    "what": "No patched kernels are available yet for 22.04, 24.04, or 26.04 despite a CVSS 9.8 rating."
    }
   ],
   "devops": [],
@@ -95,7 +95,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2160.6,
+    "heat_today": 2156.3,
     "heat_trend": [
      5486.4,
      3767.4,
@@ -103,7 +103,7 @@
      1698.3,
      3682.6,
      1575.0,
-     2160.6
+     2156.3
     ],
     "what": "當日 5 則相關討論：「thedotmack/claude-mem — Persistent Context Across Sessions f」；「cheaper-inference/OmniRoute — Never stop coding. Free MIT AI」；「mksglu/context-mode — Free, local plugin that keeps tool out」。",
     "sources": [
@@ -156,13 +156,18 @@
  "tracking": [],
  "radar": [
   {
-   "title": "Anthropic's internal AI use, at retail prices, now exceeds its employe",
-   "note": "hn · 熱度 1196（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50339494"
+   "title": "Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game",
+   "note": "github · 熱度 1241（未歸戶）",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+  },
+  {
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "note": "hn · 熱度 1240（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50344919"
   },
   {
    "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised ",
-   "note": "hn · 熱度 1071（未歸戶）",
+   "note": "hn · 熱度 1095（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50337439"
   },
   {
@@ -174,11 +179,6 @@
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
    "note": "github · 熱度 772（未歸戶）",
    "url": "https://github.com/mattpocock/skills"
-  },
-  {
-   "title": "Show HN: Subvocal – Talk to your computer without making noise",
-   "note": "hn · 熱度 658（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50340088"
   },
   {
    "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
@@ -205,11 +205,11 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
