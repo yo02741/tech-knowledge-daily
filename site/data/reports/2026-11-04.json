@@ -28,13 +28,13 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2820（持續），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 2829（持續），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
   {
    "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 135（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 142（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ux-1"
   }
@@ -51,14 +51,14 @@
    {
     "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
     "source": "hn",
-    "heat": 3160.5,
+    "heat": 3186.0,
     "url": "https://news.ycombinator.com/item?id=50351111",
     "what": "The experiments that read raw weights and the ones that fix Qwen use completely different techniques."
    },
    {
     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
     "source": "hn",
-    "heat": 1963.5,
+    "heat": 2029.5,
     "url": "https://news.ycombinator.com/item?id=50355251",
     "what": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, …"
    }
@@ -67,7 +67,7 @@
    {
     "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
     "source": "hn",
-    "heat": 2740.0,
+    "heat": 2801.0,
     "url": "https://news.ycombinator.com/item?id=50354960",
     "what": "Is there an existing issue for this? I have searched the tracker for existing similar issues and I know that duplicates will be closed Describe the Issue Opening Postman on my Mac was followed by u..."
    },
@@ -83,7 +83,7 @@
    {
     "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
     "source": "hn",
-    "heat": 692.5,
+    "heat": 699.5,
     "url": "https://news.ycombinator.com/item?id=50353229",
     "what": "Charges filed as Trump admin tries to save Kalshi from Utah's total ban on gambling."
    }
@@ -97,7 +97,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 2820.1,
+    "heat_today": 2828.9,
     "heat_trend": [
      3767.4,
      940.5,
@@ -105,7 +105,7 @@
      3682.6,
      1575.0,
      2158.9,
-     2820.1
+     2828.9
     ],
     "what": "當日 5 則相關討論：「OpenAI seems to be silently re-enabling model training on Co」；「thedotmack/claude-mem — Persistent Context Across Sessions f」；「liguobao/ds-harness-remote — 基于 DeepSeek Harness 插件机制构建的远程访问」。",
     "sources": [
@@ -136,7 +136,7 @@
     "slug": "design-ai-prototyping",
     "title": "設計稿 → AI 原型工作流（Figma × Claude）",
     "status": "rising",
-    "heat_today": 135.3,
+    "heat_today": 141.6,
     "heat_trend": [
      0,
      0,
@@ -144,7 +144,7 @@
      0,
      0,
      0,
-     135.3
+     141.6
     ],
     "what": "當日 2 則相關討論：「We're training a Figma-fluent editing model」；「Tokens/s? \"World's biggest PCIe graphics card\" discovered, p」。",
     "sources": [
@@ -179,12 +179,12 @@
   },
   {
    "title": "Jailbreaking my car's navigation system just so I can change the time",
-   "note": "hn · 熱度 880（未歸戶）",
+   "note": "hn · 熱度 903（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50339288"
   },
   {
    "title": "Google will turn off search for schools that reject AI",
-   "note": "hn · 熱度 811（未歸戶）",
+   "note": "hn · 熱度 820（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50353192"
   },
   {
@@ -212,7 +212,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -224,7 +224,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
