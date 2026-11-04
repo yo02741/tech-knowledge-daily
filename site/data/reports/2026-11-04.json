@@ -1,0 +1,213 @@
+{
+ "date": "2026-11-04",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-hydration",
+  "domain": "frontend",
+  "term": "Hydration",
+  "tagline": "讓伺服器送來的靜態 HTML「活過來」",
+  "intro": [
+   "SSR 先送出完整 HTML 讓使用者秒看到內容，接著瀏覽器載入 JS、把事件監聽器接回這些 DOM 上——這個接管過程叫 hydration。",
+   "它是效能痛點來源：HTML 都顯示了但按鈕還不能點（可互動時間延遲）。React Server Components、島嶼架構等新方案都在想辦法少做或晚做 hydration。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "React：Hydration",
+    "url": "https://react.dev/reference/react-dom/client/hydrateRoot"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] vercel-labs/agent-desktop",
+   "text": "今日未歸戶最熱討論（github、熱度 3412），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
+   "text": "熱度 82（上升），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ux-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "vercel-labs/agent-desktop",
+    "source": "github",
+    "heat": 3411.9,
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "what": "Computer use CLI for AI agents"
+   },
+   {
+    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+    "source": "hn",
+    "heat": 2919.0,
+    "url": "https://news.ycombinator.com/item?id=50351111",
+    "what": "The experiments that read raw weights and the ones that fix Qwen use completely different techniques."
+   },
+   {
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "source": "hn",
+    "heat": 1629.0,
+    "url": "https://news.ycombinator.com/item?id=50355251",
+    "what": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, …"
+   }
+  ],
+  "software": [
+   {
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "source": "hn",
+    "heat": 2288.0,
+    "url": "https://news.ycombinator.com/item?id=50354960",
+    "what": "Is there an existing issue for this? I have searched the tracker for existing similar issues and I know that duplicates will be closed Describe the Issue Opening Postman on my Mac was followed by u..."
+   },
+   {
+    "title": "D4Vinci/Scrapling",
+    "source": "github",
+    "heat": 994.8,
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "what": "🕷️ The BEST Web Scraping framework that handles everything from a sing"
+   }
+  ],
+  "devops": [
+   {
+    "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+    "source": "hn",
+    "heat": 631.5,
+    "url": "https://news.ycombinator.com/item?id=50353229",
+    "what": "Charges filed as Trump admin tries to save Kalshi from Utah's total ban on gambling."
+   }
+  ],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": [
+   {
+    "id": "ux-1",
+    "slug": "design-ai-prototyping",
+    "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+    "status": "rising",
+    "heat_today": 81.7,
+    "heat_trend": [
+     0,
+     0,
+     37.5,
+     0,
+     0,
+     0,
+     81.7
+    ],
+    "what": "當日 2 則相關討論：「We're Training a Figma-Fluent Editing Model」；「Tokens/s? \"World's biggest PCIe graphics card\" discovered, p」。",
+    "sources": [
+     {
+      "label": "hn：We're Training a Figma-Fluent Editing Mode",
+      "url": "https://news.ycombinator.com/item?id=50322603"
+     },
+     {
+      "label": "r/LocalLLaMA：Tokens/s? \"World's biggest PCIe graphics c",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn40w7/tokenss_worlds_biggest_pcie_graphics_card/"
+     }
+    ]
+   }
+  ]
+ },
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 2664.6,
+   "heat_trend": [
+    3767.4,
+    940.5,
+    1698.3,
+    3682.6,
+    1575.0,
+    2158.9,
+    2664.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game",
+   "note": "github · 熱度 1064（未歸戶）",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+  },
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1048（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "pingdotgg/t3code",
+   "note": "github · 熱度 952（未歸戶）",
+   "url": "https://github.com/pingdotgg/t3code"
+  },
+  {
+   "title": "Google will turn off search for schools that reject AI",
+   "note": "hn · 熱度 744（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50353192"
+  },
+  {
+   "title": "calesthio/OpenMontage — World's first open-source, agentic video produ",
+   "note": "github · 熱度 733（未歸戶）",
+   "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+   "title": "Jailbreaking my car's navigation system just so I can change the time",
+   "note": "hn · 熱度 702（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50339288"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
