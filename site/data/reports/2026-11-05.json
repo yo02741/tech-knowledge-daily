@@ -1,0 +1,180 @@
+{
+ "date": "2026-11-05",
+ "weekday": "四",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-idempotency",
+  "domain": "backend",
+  "term": "冪等性（Idempotency）",
+  "tagline": "同一個請求重送十次，效果跟一次一樣",
+  "intro": [
+   "網路會逾時、使用者會重按、佇列會重投——同一操作被執行多次是常態。冪等設計確保重複執行不會造成重複扣款、重複建單。",
+   "常見做法：客戶端帶唯一的 idempotency key，伺服器記住處理過的 key 直接回快取結果。金流 API（Stripe 等）都強制這個模式。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Stripe：Idempotent requests",
+    "url": "https://docs.stripe.com/api/idempotent_requests"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] vercel-labs/agent-desktop",
+   "text": "今日未歸戶最熱討論（github、熱度 2223），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1263（持續），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "vercel-labs/agent-desktop",
+    "source": "github",
+    "heat": 2223.0,
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "what": "Computer use CLI for AI agents"
+   },
+   {
+    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+    "source": "hn",
+    "heat": 2160.0,
+    "url": "https://news.ycombinator.com/item?id=50362905",
+    "what": "A hands-on look at dual-booting Linux on the Nvidia RTX Spark laptop, the GPU clock throttling bug found, and why WSL still wins."
+   },
+   {
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "source": "hn",
+    "heat": 2116.5,
+    "url": "https://news.ycombinator.com/item?id=50363461"
+   }
+  ],
+  "software": [
+   {
+    "title": "D4Vinci/Scrapling",
+    "source": "github",
+    "heat": 1203.0,
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "what": "🕷️ The BEST Web Scraping framework that handles everything from a sing"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "ongoing",
+    "heat_today": 1262.7,
+    "heat_trend": [
+     940.5,
+     1698.3,
+     3682.6,
+     1575.0,
+     2158.9,
+     2828.9,
+     1262.7
+    ],
+    "what": "當日 2 則相關討論：「thedotmack/claude-mem — Persistent Context Across Sessions f」；「liguobao/ds-harness-remote — 基于 DeepSeek Harness 插件机制构建的远程访问」。",
+    "sources": [
+     {
+      "label": "github：thedotmack/claude-mem — Persistent Context",
+      "url": "https://github.com/thedotmack/claude-mem"
+     },
+     {
+      "label": "github：liguobao/ds-harness-remote — 基于 DeepSeek H",
+      "url": "https://github.com/liguobao/ds-harness-remote"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "NVIDIA/auto-ontology — Auto Ontology is a Python framework for buildin",
+   "note": "github · 熱度 1845（未歸戶）",
+   "url": "https://github.com/NVIDIA/auto-ontology"
+  },
+  {
+   "title": "AI is forcing us to pay off 40 years of technical debt",
+   "note": "hn · 熱度 1343（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50364336"
+  },
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1241（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "note": "hn · 熱度 743（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50365755"
+  },
+  {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "note": "hn · 熱度 724（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50369925"
+  },
+  {
+   "title": "Progress on provable inference for large language models",
+   "note": "hn · 熱度 636（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50368626"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
