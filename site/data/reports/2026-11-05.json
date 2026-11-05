@@ -43,17 +43,17 @@
     "what": "Computer use CLI for AI agents"
    },
    {
-    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-    "source": "hn",
-    "heat": 2160.0,
-    "url": "https://news.ycombinator.com/item?id=50362905",
-    "what": "A hands-on look at dual-booting Linux on the Nvidia RTX Spark laptop, the GPU clock throttling bug found, and why WSL still wins."
-   },
-   {
     "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
     "source": "hn",
-    "heat": 2116.5,
+    "heat": 2220.0,
     "url": "https://news.ycombinator.com/item?id=50363461"
+   },
+   {
+    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+    "source": "hn",
+    "heat": 2209.5,
+    "url": "https://news.ycombinator.com/item?id=50362905",
+    "what": "A hands-on look at dual-booting Linux on the Nvidia RTX Spark laptop, the GPU clock throttling bug found, and why WSL still wins."
    }
   ],
   "software": [
@@ -111,7 +111,7 @@
   },
   {
    "title": "AI is forcing us to pay off 40 years of technical debt",
-   "note": "hn · 熱度 1343（未歸戶）",
+   "note": "hn · 熱度 1486（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50364336"
   },
   {
@@ -120,19 +120,19 @@
    "url": "https://github.com/mattpocock/skills"
   },
   {
-   "title": "North Korean fake job interview led to $6.3B Binance heist",
-   "note": "hn · 熱度 743（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50365755"
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "note": "hn · 熱度 1188（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50366117"
+  },
+  {
+   "title": "Residential proxies detected on White House network",
+   "note": "hn · 熱度 1059（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50371246"
   },
   {
    "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-   "note": "hn · 熱度 724（未歸戶）",
+   "note": "hn · 熱度 976（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50369925"
-  },
-  {
-   "title": "Progress on provable inference for large language models",
-   "note": "hn · 熱度 636（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50368626"
   }
  ],
  "data_quality": [
@@ -170,7 +170,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
