@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] vercel-labs/agent-desktop",
-   "text": "今日未歸戶最熱討論（github、熱度 2223），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Tell HN: Gemini trains on chat history, even for subscribers",
+   "text": "今日未歸戶最熱討論（hn、熱度 2246），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -36,6 +36,12 @@
  "fresh": {
   "ai": [
    {
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "source": "hn",
+    "heat": 2245.5,
+    "url": "https://news.ycombinator.com/item?id=50363461"
+   },
+   {
     "title": "vercel-labs/agent-desktop",
     "source": "github",
     "heat": 2223.0,
@@ -43,15 +49,9 @@
     "what": "Computer use CLI for AI agents"
    },
    {
-    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-    "source": "hn",
-    "heat": 2220.0,
-    "url": "https://news.ycombinator.com/item?id=50363461"
-   },
-   {
     "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
     "source": "hn",
-    "heat": 2209.5,
+    "heat": 2217.0,
     "url": "https://news.ycombinator.com/item?id=50362905",
     "what": "A hands-on look at dual-booting Linux on the Nvidia RTX Spark laptop, the GPU clock throttling bug found, and why WSL still wins."
    }
@@ -111,8 +111,13 @@
   },
   {
    "title": "AI is forcing us to pay off 40 years of technical debt",
-   "note": "hn · 熱度 1486（未歸戶）",
+   "note": "hn · 熱度 1504（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50364336"
+  },
+  {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "note": "hn · 熱度 1346（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50366117"
   },
   {
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
@@ -120,18 +125,13 @@
    "url": "https://github.com/mattpocock/skills"
   },
   {
-   "title": "Ask HN: What's your current AI agentic setup?",
-   "note": "hn · 熱度 1188（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50366117"
-  },
-  {
    "title": "Residential proxies detected on White House network",
-   "note": "hn · 熱度 1059（未歸戶）",
+   "note": "hn · 熱度 1118（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50371246"
   },
   {
    "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-   "note": "hn · 熱度 976（未歸戶）",
+   "note": "hn · 熱度 1002（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50369925"
   }
  ],
@@ -154,7 +154,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -170,7 +170,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
