@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Claude Code sends your email address to websites",
-   "text": "今日未歸戶最熱討論（hn、熱度 3190），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3512），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,7 +38,7 @@
    {
     "title": "Claude Code sends your email address to websites",
     "source": "hn",
-    "heat": 3190.5,
+    "heat": 3511.5,
     "url": "https://news.ycombinator.com/item?id=50385272",
     "what": "Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my perm..."
    },
@@ -76,7 +76,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "fading",
-    "heat_today": 205.5,
+    "heat_today": 206.0,
     "heat_trend": [
      1698.3,
      3682.6,
@@ -84,7 +84,7 @@
      2158.9,
      2828.9,
      1262.7,
-     205.5
+     206.0
     ],
     "what": "當日 2 則相關討論：「liguobao/ds-harness-remote — 基于 DeepSeek Harness 插件机制构建的远程访问」；「Anyone else find themselves switching back and forth between」。",
     "sources": [
@@ -140,7 +140,7 @@
  "radar": [
   {
    "title": "sshole",
-   "note": "hn · 熱度 2885（未歸戶）",
+   "note": "hn · 熱度 2948（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50378228"
   },
   {
@@ -149,24 +149,24 @@
    "url": "https://github.com/mattpocock/skills"
   },
   {
-   "title": "GPT-6 Astra covertly underperforms on safety research",
-   "note": "hn · 熱度 1214（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50376313"
-  },
-  {
    "title": "MCP Explained",
-   "note": "hn · 熱度 1042（未歸戶）",
+   "note": "hn · 熱度 1060（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50379249"
   },
   {
    "title": "Search for everyone",
-   "note": "hn · 熱度 804（未歸戶）",
+   "note": "hn · 熱度 829（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50383740"
   },
   {
    "title": "Hungary: Communist-era files released, up to 60k former agents reveale",
-   "note": "hn · 熱度 684（未歸戶）",
+   "note": "hn · 熱度 704（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50383163"
+  },
+  {
+   "title": "Goodbye from Salon",
+   "note": "hn · 熱度 675（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50383739"
   }
  ],
  "data_quality": [
@@ -176,7 +176,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-LocalLLaMA",
