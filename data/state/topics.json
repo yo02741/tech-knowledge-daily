@@ -323,8 +323,8 @@
     },
     {
      "date": "2026-11-07",
-     "heat": 1089.9,
-     "mentions": 2
+     "heat": 1121.7,
+     "mentions": 4
     }
    ],
    "status": "ongoing",
@@ -663,11 +663,11 @@
     },
     {
      "date": "2026-11-07",
-     "heat": 36.7,
-     "mentions": 2
+     "heat": 11.7,
+     "mentions": 1
     }
    ],
-   "status": "ongoing",
+   "status": "fading",
    "note": "",
    "terms": [
     "Figma",
