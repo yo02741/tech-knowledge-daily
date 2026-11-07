@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 1122（持續），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 1126（持續），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -82,7 +82,7 @@
     "slug": "codex-claude-interop",
     "title": "OpenAI Codex ↔ Claude Code 互操作",
     "status": "ongoing",
-    "heat_today": 1121.7,
+    "heat_today": 1125.5,
     "heat_trend": [
      3682.6,
      1575.0,
@@ -90,7 +90,7 @@
      2828.9,
      1262.7,
      206.0,
-     1121.7
+     1125.5
     ],
     "what": "當日 4 則相關討論：「stablyai/orca — Orca lets you run a fleet of coding agents (」；「ParadevAI/Paradev — Paradev is an open-source Codex App and 」；「Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Co」。",
     "sources": [
@@ -144,33 +144,33 @@
  "radar": [
   {
    "title": "Tesla to wind down Cybertruck production",
-   "note": "hn · 熱度 1850（未歸戶）",
+   "note": "hn · 熱度 1886（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50391456"
   },
   {
    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-   "note": "hn · 熱度 1594（未歸戶）",
+   "note": "hn · 熱度 1624（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50394906"
   },
   {
    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-   "note": "hn · 熱度 1388（未歸戶）",
+   "note": "hn · 熱度 1461（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50397429"
   },
   {
    "title": "Gemini Omni 1.2 Flash",
-   "note": "hn · 熱度 1280（未歸戶）",
+   "note": "hn · 熱度 1304（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50392118"
   },
   {
    "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including Graphen",
-   "note": "hn · 熱度 836（未歸戶）",
+   "note": "hn · 熱度 840（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50390124"
   },
   {
-   "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-   "note": "hn · 熱度 830（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50389333"
+   "title": "Libghostty 1.0",
+   "note": "hn · 熱度 554（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50399933"
   }
  ],
  "data_quality": [
