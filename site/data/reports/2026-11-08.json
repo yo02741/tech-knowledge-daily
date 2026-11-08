@@ -34,7 +34,7 @@
   },
   {
    "title": "[UI/UX] 設計稿 → AI 原型工作流（Figma × Claude）",
-   "text": "熱度 114（上升），共 2 則討論；重點連結見對應段落。",
+   "text": "熱度 111（上升），共 2 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ux-1"
   }
@@ -56,11 +56,11 @@
     "what": "A coding-agent skill for multi-phase security audits wit"
    },
    {
-    "title": "NVIDIA/auto-ontology",
-    "source": "github",
-    "heat": 1039.5,
-    "url": "https://github.com/NVIDIA/auto-ontology",
-    "what": "Auto Ontology is a Python framework for building semantic, graph-ba"
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "source": "hn",
+    "heat": 1263.0,
+    "url": "https://news.ycombinator.com/item?id=50407882",
+    "what": "Secure everything coding agents build, use, and ship - prevent risk before code exists, AutoFix the backlog, and protect the coding agents and supply chain."
    }
   ],
   "software": [],
@@ -105,7 +105,7 @@
     "slug": "design-ai-prototyping",
     "title": "設計稿 → AI 原型工作流（Figma × Claude）",
     "status": "rising",
-    "heat_today": 114.3,
+    "heat_today": 111.1,
     "heat_trend": [
      0,
      0,
@@ -113,7 +113,7 @@
      0,
      53.7,
      11.7,
-     114.3
+     111.1
     ],
     "what": "當日 2 則相關討論：「I stopped using Figma」；「On social media, they say that Figma will die in the future 」。",
     "sources": [
@@ -135,7 +135,7 @@
    "title": "OpenAI Codex ↔ Claude Code 互操作",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 1277.7,
+   "heat_today": 1127.7,
    "heat_trend": [
     1575.0,
     2158.9,
@@ -143,24 +143,29 @@
     1262.7,
     206.0,
     1125.5,
-    1277.7
+    1127.7
    ]
   }
  ],
  "radar": [
+  {
+   "title": "NVIDIA/auto-ontology — Auto Ontology is a Python framework for buildin",
+   "note": "github · 熱度 1040（未歸戶）",
+   "url": "https://github.com/NVIDIA/auto-ontology"
+  },
+  {
+   "title": "Need for Speed Underground 2 online in the browser",
+   "note": "hn · 熱度 1028（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50403052"
+  },
   {
    "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
    "note": "github · 熱度 990（未歸戶）",
    "url": "https://github.com/mattpocock/skills"
   },
   {
-   "title": "Need for Speed Underground 2 online in the browser",
-   "note": "hn · 熱度 894（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50403052"
-  },
-  {
    "title": "Every Mac comes with an (undocumented) family member classifier",
-   "note": "hn · 熱度 748（未歸戶）",
+   "note": "hn · 熱度 861（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50403097"
   },
   {
@@ -169,14 +174,9 @@
    "url": "https://github.com/milind-soni/OpenMausBot"
   },
   {
-   "title": "The Components of Agent Memory",
-   "note": "hn · 熱度 560（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50402212"
-  },
-  {
-   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitH",
-   "note": "hn · 熱度 536（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50407882"
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "note": "hn · 熱度 566（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50406563"
   }
  ],
  "data_quality": [
@@ -210,7 +210,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
