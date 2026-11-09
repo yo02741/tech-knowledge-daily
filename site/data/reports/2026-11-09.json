@@ -1,0 +1,177 @@
+{
+ "date": "2026-11-09",
+ "weekday": "一",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-virtual-dom",
+  "domain": "frontend",
+  "term": "Virtual DOM",
+  "tagline": "先在記憶體裡排練，再動真的畫面",
+  "intro": [
+   "直接操作 DOM 很慢，React 等框架改成先在記憶體維護一份輕量的畫面描述（virtual DOM），狀態變了就產生新版本、跟舊版比對差異，只把「真正變動的部分」寫回 DOM。",
+   "近年 Svelte、Solid 走另一條路：編譯期就算出誰會變，跳過執行期比對——所以「virtual DOM 是否必要」成了框架圈的經典辯論。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "維基百科：Virtual DOM",
+    "url": "https://en.wikipedia.org/wiki/Virtual_DOM"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Goodbye Claude, hello Pi",
+   "text": "今日未歸戶最熱討論（hn、熱度 2703），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Goodbye Claude, hello Pi",
+    "source": "hn",
+    "heat": 2703.0,
+    "url": "https://news.ycombinator.com/item?id=50410107"
+   },
+   {
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "source": "hn",
+    "heat": 2337.0,
+    "url": "https://news.ycombinator.com/item?id=50407882",
+    "what": "Secure everything coding agents build, use, and ship - prevent risk before code exists, AutoFix the backlog, and protect the coding agents and supply chain."
+   },
+   {
+    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+    "source": "hn",
+    "heat": 2197.5,
+    "url": "https://news.ycombinator.com/item?id=50415628"
+   }
+  ],
+  "software": [
+   {
+    "title": "How are you able to push juniors devs to care about code design and architecture?",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xqzbxr/how_are_you_able_to_push_juniors_devs_to_care/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 712.8,
+   "heat_trend": [
+    219.6,
+    0,
+    0,
+    189.9,
+    480.6,
+    749.7,
+    712.8
+   ]
+  },
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 15.0,
+   "heat_trend": [
+    25.0,
+    0,
+    28.7,
+    0,
+    0,
+    0,
+    15.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "note": "hn · 熱度 1268（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50411961"
+  },
+  {
+   "title": "Declarative Dragging",
+   "note": "hn · 熱度 980（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50368481"
+  },
+  {
+   "title": "OpenAI raises $11B at a $1.25T valuation",
+   "note": "hn · 熱度 836（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50413822"
+  },
+  {
+   "title": "meta/astryx — An open source design system that's fully customizable a",
+   "note": "github · 熱度 788（未歸戶）",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "title": "vercel-labs/agent-browser — Browser automation CLI for AI agents",
+   "note": "github · 熱度 734（未歸戶）",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "title": "sherlock-project/sherlock — Hunt down social media accounts by usernam",
+   "note": "github · 熱度 712（未歸戶）",
+   "url": "https://github.com/sherlock-project/sherlock"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
