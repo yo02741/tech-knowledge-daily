@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Goodbye Claude, hello Pi",
-   "text": "今日未歸戶最熱討論（hn、熱度 2883），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2960），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,19 +32,19 @@
    {
     "title": "Goodbye Claude, hello Pi",
     "source": "hn",
-    "heat": 2883.0,
+    "heat": 2959.5,
     "url": "https://news.ycombinator.com/item?id=50410107"
    },
    {
     "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
     "source": "hn",
-    "heat": 2713.5,
+    "heat": 2859.0,
     "url": "https://news.ycombinator.com/item?id=50415628"
    },
    {
     "title": "Declarative Dragging",
     "source": "hn",
-    "heat": 1500.0,
+    "heat": 1626.0,
     "url": "https://news.ycombinator.com/item?id=50368481",
     "what": "Drag-and-drop makes the digital graspable. Horowitz, Blinn & Heer, UIST 2026 Best Paper."
    }
@@ -53,7 +53,7 @@
    {
     "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
     "source": "hn",
-    "heat": 865.0,
+    "heat": 1008.0,
     "url": "https://news.ycombinator.com/item?id=50418176",
     "what": "Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser."
    },
@@ -89,34 +89,18 @@
     749.7,
     712.8
    ]
-  },
-  {
-   "slug": "fable5-lifecycle",
-   "title": "Fable 5 使用期限與遷移策略",
-   "status": "ongoing",
-   "domain": "ai",
-   "heat_today": 17.6,
-   "heat_trend": [
-    25.0,
-    0,
-    28.7,
-    0,
-    0,
-    0,
-    17.6
-   ]
   }
  ],
  "radar": [
   {
    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-   "note": "hn · 熱度 1484（未歸戶）",
+   "note": "hn · 熱度 1514（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50411961"
   },
   {
-   "title": "OpenAI raises $11B at a $1.25T valuation",
-   "note": "hn · 熱度 864（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50413822"
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "note": "hn · 熱度 942（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50418016"
   },
   {
    "title": "meta/astryx — An open source design system that's fully customizable a",
