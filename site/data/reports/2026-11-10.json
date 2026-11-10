@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 9002（上升），共 17 則討論；重點連結見對應段落。",
+   "text": "熱度 9364（上升），共 18 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -51,7 +51,7 @@
    {
     "title": "Google Gemini routes personal Drive files and emails to human annotators",
     "source": "hn",
-    "heat": 1831.5,
+    "heat": 1932.0,
     "url": "https://news.ycombinator.com/item?id=50429426",
     "what": "Documentation of Gemini File Leaking Behavior. Contribute to thisisme6598/gemini_files development by creating an account on GitHub."
    },
@@ -81,7 +81,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 9002.3,
+    "heat_today": 9364.5,
     "heat_trend": [
      0,
      28.7,
@@ -89,9 +89,9 @@
      0,
      0,
      0,
-     9002.3
+     9364.5
     ],
-    "what": "當日 17 則相關討論：「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 scores 65 on Artificial Analysis, highest s」。",
+    "what": "當日 18 則相關討論：「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 and Mythos 5.2」；「Fable 5.2 one-shotted my nephew's dream game」。",
     "sources": [
      {
       "label": "hn：Claude Fable 5.2 and Mythos 5.2",
@@ -102,12 +102,12 @@
       "url": "https://news.ycombinator.com/item?id=50429068"
      },
      {
-      "label": "hn：Claude Fable 5.2 scores 65 on Artificial A",
-      "url": "https://news.ycombinator.com/item?id=50431144"
-     },
-     {
       "label": "hn：Fable 5.2 one-shotted my nephew's dream ga",
       "url": "https://news.ycombinator.com/item?id=50433659"
+     },
+     {
+      "label": "hn：Claude Fable 5.2 scores 65 on Artificial A",
+      "url": "https://news.ycombinator.com/item?id=50431144"
      }
     ]
    },
@@ -148,22 +148,22 @@
   },
   {
    "title": "Foldable Flight: The Best Paper Airplanes",
-   "note": "hn · 熱度 1037（未歸戶）",
+   "note": "hn · 熱度 1073（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50424581"
   },
   {
    "title": "USPS now offers official ZIP Code boundary polygons",
-   "note": "hn · 熱度 748（未歸戶）",
+   "note": "hn · 熱度 762（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50431058"
   },
   {
-   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
-   "note": "hn · 熱度 734（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50422628"
+   "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+   "note": "hn · 熱度 699（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50436640"
   },
   {
    "title": "Humans will never again create a project quite like Wikipedia",
-   "note": "hn · 熱度 684（未歸戶）",
+   "note": "hn · 熱度 686（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50424704"
   },
   {
@@ -195,7 +195,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -203,7 +203,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
