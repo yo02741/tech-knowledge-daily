@@ -28,7 +28,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 5133（上升），共 10 則討論；重點連結見對應段落。",
+   "text": "熱度 9002（上升），共 17 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -49,26 +49,26 @@
     "what": "An open source design system that's fully customizable and agent ready"
    },
    {
-    "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
-    "source": "hn",
-    "heat": 2893.5,
-    "url": "https://news.ycombinator.com/item?id=50422069",
-    "what": "is Opus 5.5 nerfed?\n\nI just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened.\n\nthe model name didn't change, but the way it does reasoning took a sharp "
-   },
-   {
     "title": "Google Gemini routes personal Drive files and emails to human annotators",
     "source": "hn",
-    "heat": 1176.0,
+    "heat": 1831.5,
     "url": "https://news.ycombinator.com/item?id=50429426",
     "what": "Documentation of Gemini File Leaking Behavior. Contribute to thisisme6598/gemini_files development by creating an account on GitHub."
+   },
+   {
+    "title": "vercel-labs/agent-browser",
+    "source": "github",
+    "heat": 824.4,
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "what": "Browser automation CLI for AI agents"
    }
   ],
   "software": [
    {
-    "title": "Thoughts on welcometothejungle (Prev 'Otta') now that they have actually switched over?",
+    "title": "Experienced Devs Weekly Burnout and Venting Thread: A weekly thread for sharing experience",
     "source": "r/ExperiencedDevs",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xs0q7l/thoughts_on_welcometothejungle_prev_otta_now_that/"
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xsbwrz/experienced_devs_weekly_burnout_and_venting/"
    }
   ],
   "devops": [],
@@ -81,7 +81,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "rising",
-    "heat_today": 5133.2,
+    "heat_today": 9002.3,
     "heat_trend": [
      0,
      28.7,
@@ -89,21 +89,21 @@
      0,
      0,
      0,
-     5133.2
+     9002.3
     ],
-    "what": "當日 10 則相關討論：「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest S」；「Fable 5.2 just landed.」。",
+    "what": "當日 17 則相關討論：「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 scores 65 on Artificial Analysis, highest s」。",
     "sources": [
      {
       "label": "hn：Claude Fable 5.2 and Mythos 5.2",
       "url": "https://news.ycombinator.com/item?id=50429906"
      },
      {
-      "label": "hn：Claude Fable 5.2 Scores 65 on Artificial A",
-      "url": "https://news.ycombinator.com/item?id=50431144"
+      "label": "hn：Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://news.ycombinator.com/item?id=50429068"
      },
      {
-      "label": "r/ClaudeAI：Fable 5.2 just landed.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/"
+      "label": "hn：Claude Fable 5.2 scores 65 on Artificial A",
+      "url": "https://news.ycombinator.com/item?id=50431144"
      },
      {
       "label": "hn：Fable 5.2 one-shotted my nephew's dream ga",
@@ -147,24 +147,24 @@
    "url": "https://github.com/sherlock-project/sherlock"
   },
   {
-   "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
-   "note": "hn · 熱度 1048（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50426175"
-  },
-  {
-   "title": "Fold Epic Paper Airplanes",
-   "note": "hn · 熱度 893（未歸戶）",
+   "title": "Foldable Flight: The Best Paper Airplanes",
+   "note": "hn · 熱度 1037（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50424581"
   },
   {
-   "title": "vercel-labs/agent-browser — Browser automation CLI for AI agents",
-   "note": "github · 熱度 824（未歸戶）",
-   "url": "https://github.com/vercel-labs/agent-browser"
+   "title": "USPS now offers official ZIP Code boundary polygons",
+   "note": "hn · 熱度 748（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50431058"
   },
   {
    "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
-   "note": "hn · 熱度 722（未歸戶）",
+   "note": "hn · 熱度 734（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50422628"
+  },
+  {
+   "title": "Humans will never again create a project quite like Wikipedia",
+   "note": "hn · 熱度 684（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50424704"
   },
   {
    "title": "ranxianglei/billion-context — A context-compression plugin for month-l",
@@ -195,7 +195,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -203,7 +203,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
