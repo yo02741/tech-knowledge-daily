@@ -1,0 +1,217 @@
+{
+ "date": "2026-11-10",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "be-connection-pool",
+  "domain": "backend",
+  "term": "連線池（Connection Pool）",
+  "tagline": "資料庫連線很貴，用租的不要用拋棄式",
+  "intro": [
+   "建立資料庫連線要握手、驗證、配置資源，每個請求都新開連線會拖垮效能。連線池預先養一批連線重複租用，用完歸還。",
+   "池子大小是門藝術：太小排隊、太大壓垮資料庫。serverless 環境（每個函式實例都養一池）更是經典翻車點，所以有 PgBouncer 這類外部池化方案。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "PostgreSQL Wiki：Number of Database Connections",
+    "url": "https://wiki.postgresql.org/wiki/Number_Of_Database_Connections"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] meta/astryx",
+   "text": "今日未歸戶最熱討論（github、熱度 2950），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 5133（上升），共 10 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 934（持續），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "meta/astryx",
+    "source": "github",
+    "heat": 2950.2,
+    "url": "https://github.com/meta/astryx",
+    "what": "An open source design system that's fully customizable and agent ready"
+   },
+   {
+    "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+    "source": "hn",
+    "heat": 2893.5,
+    "url": "https://news.ycombinator.com/item?id=50422069",
+    "what": "is Opus 5.5 nerfed?\n\nI just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened.\n\nthe model name didn't change, but the way it does reasoning took a sharp "
+   },
+   {
+    "title": "Google Gemini routes personal Drive files and emails to human annotators",
+    "source": "hn",
+    "heat": 1176.0,
+    "url": "https://news.ycombinator.com/item?id=50429426",
+    "what": "Documentation of Gemini File Leaking Behavior. Contribute to thisisme6598/gemini_files development by creating an account on GitHub."
+   }
+  ],
+  "software": [
+   {
+    "title": "Thoughts on welcometothejungle (Prev 'Otta') now that they have actually switched over?",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xs0q7l/thoughts_on_welcometothejungle_prev_otta_now_that/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "rising",
+    "heat_today": 5133.2,
+    "heat_trend": [
+     0,
+     28.7,
+     0,
+     0,
+     0,
+     0,
+     5133.2
+    ],
+    "what": "當日 10 則相關討論：「Claude Fable 5.2 and Mythos 5.2」；「Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest S」；「Fable 5.2 just landed.」。",
+    "sources": [
+     {
+      "label": "hn：Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://news.ycombinator.com/item?id=50429906"
+     },
+     {
+      "label": "hn：Claude Fable 5.2 Scores 65 on Artificial A",
+      "url": "https://news.ycombinator.com/item?id=50431144"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5.2 just landed.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/"
+     },
+     {
+      "label": "hn：Fable 5.2 one-shotted my nephew's dream ga",
+      "url": "https://news.ycombinator.com/item?id=50433659"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "ongoing",
+    "heat_today": 934.2,
+    "heat_trend": [
+     0,
+     0,
+     189.9,
+     480.6,
+     749.7,
+     712.8,
+     934.2
+    ],
+    "what": "當日 1 則相關討論：「anthropics/skills — Public repository for Agent Skills」。",
+    "sources": [
+     {
+      "label": "github：anthropics/skills — Public repository for ",
+      "url": "https://github.com/anthropics/skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "sherlock-project/sherlock — Hunt down social media accounts by usernam",
+   "note": "github · 熱度 1280（未歸戶）",
+   "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+   "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
+   "note": "hn · 熱度 1048（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50426175"
+  },
+  {
+   "title": "Fold Epic Paper Airplanes",
+   "note": "hn · 熱度 893（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50424581"
+  },
+  {
+   "title": "vercel-labs/agent-browser — Browser automation CLI for AI agents",
+   "note": "github · 熱度 824（未歸戶）",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+   "note": "hn · 熱度 722（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50422628"
+  },
+  {
+   "title": "ranxianglei/billion-context — A context-compression plugin for month-l",
+   "note": "github · 熱度 684（未歸戶）",
+   "url": "https://github.com/ranxianglei/billion-context"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}

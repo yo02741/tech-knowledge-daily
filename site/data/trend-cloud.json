@@ -1,12 +1,12 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "window_days": 14,
  "items": [
   {
    "slug": "codex-claude-interop",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Codex",
-   "weight": 30010.7,
+   "weight": 25895.0,
    "status": "fading",
    "domain": "ai",
    "last_seen": "2026-11-09"
@@ -15,26 +15,8 @@
    "slug": "codex-claude-interop#1",
    "display": "OpenAI Codex ↔ Claude Code 互操作",
    "label": "Claude Code",
-   "weight": 21007.5,
+   "weight": 18126.5,
    "status": "fading",
-   "domain": "ai",
-   "last_seen": "2026-11-09"
-  },
-  {
-   "slug": "claude-code-skills-eco",
-   "display": "Claude Code skills 生態爆發",
-   "label": "Agent Skills",
-   "weight": 4038.5,
-   "status": "ongoing",
-   "domain": "ai",
-   "last_seen": "2026-11-09"
-  },
-  {
-   "slug": "claude-code-skills-eco#1",
-   "display": "Claude Code skills 生態爆發",
-   "label": "caveman",
-   "weight": 2826.9,
-   "status": "ongoing",
    "domain": "ai",
    "last_seen": "2026-11-09"
   },
@@ -42,16 +24,34 @@
    "slug": "fable5-lifecycle",
    "display": "Fable 5 使用期限與遷移策略",
    "label": "Fable 5",
-   "weight": 1201.8,
-   "status": "fading",
+   "weight": 6335.0,
+   "status": "rising",
    "domain": "ai",
-   "last_seen": "2026-11-09"
+   "last_seen": "2026-11-10"
+  },
+  {
+   "slug": "claude-code-skills-eco",
+   "display": "Claude Code skills 生態爆發",
+   "label": "Agent Skills",
+   "weight": 4972.7,
+   "status": "ongoing",
+   "domain": "ai",
+   "last_seen": "2026-11-10"
+  },
+  {
+   "slug": "claude-code-skills-eco#1",
+   "display": "Claude Code skills 生態爆發",
+   "label": "caveman",
+   "weight": 3480.9,
+   "status": "ongoing",
+   "domain": "ai",
+   "last_seen": "2026-11-10"
   },
   {
    "slug": "design-ai-prototyping",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "Figma",
-   "weight": 261.2,
+   "weight": 244.5,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-11-08"
@@ -60,7 +60,7 @@
    "slug": "design-ai-prototyping#1",
    "display": "設計稿 → AI 原型工作流（Figma × Claude）",
    "label": "AI Prototyping",
-   "weight": 182.8,
+   "weight": 171.1,
    "status": "fading",
    "domain": "uiux",
    "last_seen": "2026-11-08"
