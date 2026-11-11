@@ -1,0 +1,241 @@
+{
+ "date": "2026-11-11",
+ "weekday": "三",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ux-a11y",
+  "domain": "uiux",
+  "term": "無障礙（a11y）",
+  "tagline": "不是少數人的需求，是所有人的某些時刻",
+  "intro": [
+   "視障者用螢幕閱讀器、手傷時只能用鍵盤、大太陽下看不清低對比文字——無障礙設計服務的是「所有人都會遇到的受限情境」。",
+   "工程落地：語意化 HTML（按鈕就用 button）、鍵盤可操作、焦點可見、圖片有替代文字、對比達標。a11y 是 accessibility 的縮寫（a 和 y 之間 11 個字母）。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "MDN：Accessibility",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] meta/astryx",
+   "text": "今日未歸戶最熱討論（github、熱度 2797），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 1724（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 1058（退燒），共 16 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "meta/astryx",
+    "source": "github",
+    "heat": 2797.2,
+    "url": "https://github.com/meta/astryx",
+    "what": "An open source design system that's fully customizable and agent ready"
+   },
+   {
+    "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+    "source": "hn",
+    "heat": 2413.5,
+    "url": "https://news.ycombinator.com/item?id=50436640",
+    "what": "Two Amazon engineers swapped Claude Sonnet 4.6 for a decision model in one of the world"
+   },
+   {
+    "title": "AI usage generates a fragile codebase",
+    "source": "hn",
+    "heat": 1641.0,
+    "url": "https://news.ycombinator.com/item?id=50438318"
+   }
+  ],
+  "software": [
+   {
+    "title": "Experienced Devs Weekly Burnout and Venting Thread: A weekly thread for sharing experience",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xsbwrz/experienced_devs_weekly_burnout_and_venting/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 1724.4,
+    "heat_trend": [
+     0,
+     189.9,
+     480.6,
+     749.7,
+     712.8,
+     934.2,
+     1724.4
+    ],
+    "what": "當日 3 則相關討論：「anthropics/skills — Public repository for Agent Skills」；「Imbad0202/academic-research-skills — Academic Research Skill」；「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "sources": [
+     {
+      "label": "github：anthropics/skills — Public repository for ",
+      "url": "https://github.com/anthropics/skills"
+     },
+     {
+      "label": "github：Imbad0202/academic-research-skills — Acade",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+     },
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 1058.1,
+    "heat_trend": [
+     28.7,
+     0,
+     0,
+     0,
+     0,
+     9364.5,
+     1058.1
+    ],
+    "what": "當日 16 則相關討論：「Fable 5.2 not only has guardrails against AI acceleration, i」；「Saltline: First-person shooter built by Fable 5.2」；「I built a webcam X-ray mirror with Claude Fable 5.2」。",
+    "sources": [
+     {
+      "label": "r/LocalLLaMA：Fable 5.2 not only has guardrails against ",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/"
+     },
+     {
+      "label": "hn：Saltline: First-person shooter built by Fa",
+      "url": "https://news.ycombinator.com/item?id=50444850"
+     },
+     {
+      "label": "r/ClaudeAI：I built a webcam X-ray mirror with Claude ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xstews/i_built_a_webcam_xray_mirror_with_claude_fable_52/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 51.8 is UNUSABLE on Pro. Hit my limi",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsjwqc/fable_518_is_unusable_on_pro_hit_my_limit_after/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 2.1,
+   "heat_trend": [
+    0,
+    53.7,
+    11.7,
+    0,
+    0,
+    0,
+    2.1
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "mattpocock/skills — Skills for Real Engineers. Straight from my .agent",
+   "note": "github · 熱度 1102（未歸戶）",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "title": "Gemini 4 Carbon is now available",
+   "note": "hn · 熱度 1035（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50442303"
+  },
+  {
+   "title": "ZhuLinsen/daily_stock_analysis — LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推",
+   "note": "github · 熱度 864（未歸戶）",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web p",
+   "note": "hn · 熱度 822（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50443812"
+  },
+  {
+   "title": "Smart home devices should work without the internet",
+   "note": "hn · 熱度 784（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50441707"
+  },
+  {
+   "title": ".name Grandfathered",
+   "note": "hn · 熱度 725（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50442736"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
