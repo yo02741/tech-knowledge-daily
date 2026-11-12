@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] My AI agents found an unmapped Maya site",
-   "text": "今日未歸戶最熱討論（hn、熱度 3254），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] My AI agents found an unmapped Maya site?",
+   "text": "今日未歸戶最熱討論（hn、熱度 3447），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 548（退燒），共 10 則討論；重點連結見對應段落。",
+   "text": "熱度 388（退燒），共 9 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -48,9 +48,9 @@
  "fresh": {
   "ai": [
    {
-    "title": "My AI agents found an unmapped Maya site",
+    "title": "My AI agents found an unmapped Maya site?",
     "source": "hn",
-    "heat": 3253.5,
+    "heat": 3447.0,
     "url": "https://news.ycombinator.com/item?id=50452455",
     "what": "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet."
    },
@@ -64,24 +64,17 @@
    {
     "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
     "source": "hn",
-    "heat": 1347.0,
+    "heat": 2310.0,
     "url": "https://news.ycombinator.com/item?id=50458900",
     "what": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United."
    }
   ],
-  "software": [
-   {
-    "title": "Forced into a 60-min filler slot at an offsite. How do I survive this?",
-    "source": "r/ExperiencedDevs",
-    "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xtnxp5/forced_into_a_60min_filler_slot_at_an_offsite_how/"
-   }
-  ],
+  "software": [],
   "devops": [
    {
     "title": "AWS emulator",
     "source": "hn",
-    "heat": 727.0,
+    "heat": 916.5,
     "url": "https://news.ycombinator.com/item?id=50456631",
     "what": "AWS Emulator is a local emulator of the AWS APIs. Contribute to aws/aws-emulator development by creating an account on GitHub."
    }
@@ -149,7 +142,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 547.5,
+    "heat_today": 388.0,
     "heat_trend": [
      0,
      0,
@@ -157,25 +150,25 @@
      0,
      9364.5,
      940.3,
-     547.5
+     388.0
     ],
-    "what": "當日 10 則相關討論：「Guys Fable 5.2 is INSANE」；「Getting 3 free fable rst for anniversary」；「Follow the white rabbit: I directed Claude Fable 5.2 to buil」。",
+    "what": "當日 9 則相關討論：「Getting 3 free fable rst for anniversary」；「Will They Nerf Fable 5.2? LiveNerf Day 3 Update for Fable 5.」；「Claude Fable 5.2 is the new best architectural drafting mode」。",
     "sources": [
-     {
-      "label": "r/ClaudeAI：Guys Fable 5.2 is INSANE",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt4fap/guys_fable_52_is_insane/"
-     },
      {
       "label": "r/ClaudeAI：Getting 3 free fable rst for anniversary",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtle19/getting_3_free_fable_rst_for_anniversary/"
      },
      {
-      "label": "r/ClaudeAI：Follow the white rabbit: I directed Claude",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtdqcr/follow_the_white_rabbit_i_directed_claude_fable/"
+      "label": "r/ClaudeAI：Will They Nerf Fable 5.2? LiveNerf Day 3 U",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xu01lm/will_they_nerf_fable_52_livenerf_day_3_update_for/"
      },
      {
       "label": "r/ClaudeAI：Claude Fable 5.2 is the new best architect",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtmhjb/claude_fable_52_is_the_new_best_architectural/"
+     },
+     {
+      "label": "r/ClaudeAI：Follow the white rabbit: I directed Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtdqcr/follow_the_white_rabbit_i_directed_claude_fable/"
      }
     ]
    }
@@ -187,24 +180,24 @@
  "tracking": [],
  "radar": [
   {
-   "title": "Tim Peters has died",
-   "note": "hn · 熱度 857（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50450488"
+   "title": "Nvidia is preparing to oust Jensen Huang",
+   "note": "hn · 熱度 1518（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50459703"
   },
   {
    "title": "Gemini Decisions API",
-   "note": "hn · 熱度 831（未歸戶）",
+   "note": "hn · 熱度 1353（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50456791"
+  },
+  {
+   "title": "Tim Peters has died",
+   "note": "hn · 熱度 1164（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50450488"
   },
   {
    "title": "addyosmani/agent-skills — Production-grade engineering skills for AI c",
    "note": "github · 熱度 708（未歸戶）",
    "url": "https://github.com/addyosmani/agent-skills"
-  },
-  {
-   "title": "Atuin Threads: All your agent sessions on every machine",
-   "note": "hn · 熱度 666（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50453637"
   },
   {
    "title": "ranxianglei/billion-context — A context-compression plugin for month-l",
@@ -248,11 +241,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
