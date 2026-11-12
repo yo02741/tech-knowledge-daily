@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] My AI agents found an unmapped Maya site?",
-   "text": "今日未歸戶最熱討論（hn、熱度 3447），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3478），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 388（退燒），共 9 則討論；重點連結見對應段落。",
+   "text": "熱度 397（退燒），共 9 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -50,7 +50,7 @@
    {
     "title": "My AI agents found an unmapped Maya site?",
     "source": "hn",
-    "heat": 3447.0,
+    "heat": 3478.5,
     "url": "https://news.ycombinator.com/item?id=50452455",
     "what": "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet."
    },
@@ -64,7 +64,7 @@
    {
     "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
     "source": "hn",
-    "heat": 2310.0,
+    "heat": 2406.0,
     "url": "https://news.ycombinator.com/item?id=50458900",
     "what": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United."
    }
@@ -74,7 +74,7 @@
    {
     "title": "AWS emulator",
     "source": "hn",
-    "heat": 916.5,
+    "heat": 940.0,
     "url": "https://news.ycombinator.com/item?id=50456631",
     "what": "AWS Emulator is a local emulator of the AWS APIs. Contribute to aws/aws-emulator development by creating an account on GitHub."
    }
@@ -142,7 +142,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 388.0,
+    "heat_today": 396.9,
     "heat_trend": [
      0,
      0,
@@ -150,9 +150,9 @@
      0,
      9364.5,
      940.3,
-     388.0
+     396.9
     ],
-    "what": "當日 9 則相關討論：「Getting 3 free fable rst for anniversary」；「Will They Nerf Fable 5.2? LiveNerf Day 3 Update for Fable 5.」；「Claude Fable 5.2 is the new best architectural drafting mode」。",
+    "what": "當日 9 則相關討論：「Getting 3 free fable rst for anniversary」；「Will They Nerf Fable 5.2? LiveNerf Day 3 Update for Fable 5.」；「Fable 5.2 built this scene in Blender」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Getting 3 free fable rst for anniversary",
@@ -163,12 +163,12 @@
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xu01lm/will_they_nerf_fable_52_livenerf_day_3_update_for/"
      },
      {
-      "label": "r/ClaudeAI：Claude Fable 5.2 is the new best architect",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtmhjb/claude_fable_52_is_the_new_best_architectural/"
+      "label": "r/ClaudeAI：Fable 5.2 built this scene in Blender",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xu4r5m/fable_52_built_this_scene_in_blender/"
      },
      {
-      "label": "r/ClaudeAI：Follow the white rabbit: I directed Claude",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtdqcr/follow_the_white_rabbit_i_directed_claude_fable/"
+      "label": "r/ClaudeAI：Claude Fable 5.2 is the new best architect",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtmhjb/claude_fable_52_is_the_new_best_architectural/"
      }
     ]
    }
@@ -181,17 +181,17 @@
  "radar": [
   {
    "title": "Nvidia is preparing to oust Jensen Huang",
-   "note": "hn · 熱度 1518（未歸戶）",
+   "note": "hn · 熱度 1602（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50459703"
   },
   {
    "title": "Gemini Decisions API",
-   "note": "hn · 熱度 1353（未歸戶）",
+   "note": "hn · 熱度 1430（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50456791"
   },
   {
    "title": "Tim Peters has died",
-   "note": "hn · 熱度 1164（未歸戶）",
+   "note": "hn · 熱度 1214（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50450488"
   },
   {
@@ -229,7 +229,7 @@
   },
   {
    "source": "reddit-UXDesign",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-devops",
@@ -245,7 +245,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
