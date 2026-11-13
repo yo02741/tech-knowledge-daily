@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic IPO",
-   "text": "今日未歸戶最熱討論（hn、熱度 3974），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4035），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 160（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 158（退燒），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
@@ -50,14 +50,14 @@
    {
     "title": "Anthropic IPO",
     "source": "hn",
-    "heat": 3973.5,
+    "heat": 4035.0,
     "url": "https://news.ycombinator.com/item?id=50465829",
     "what": "Anthropic has filed to become a public company. Read the Founders’ letter and other relevant information."
    },
    {
     "title": "Gemini 4 Hydrogen",
     "source": "hn",
-    "heat": 2013.0,
+    "heat": 2064.0,
     "url": "https://news.ycombinator.com/item?id=50471431",
     "what": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows"
    },
@@ -73,7 +73,7 @@
    {
     "title": "Rust 1.100",
     "source": "hn",
-    "heat": 1437.0,
+    "heat": 1531.0,
     "url": "https://news.ycombinator.com/item?id=50472038",
     "what": "Empowering everyone to build reliable and efficient software."
    }
@@ -119,7 +119,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "fading",
-    "heat_today": 159.5,
+    "heat_today": 158.3,
     "heat_trend": [
      480.6,
      749.7,
@@ -127,7 +127,7 @@
      934.2,
      1724.4,
      945.9,
-     159.5
+     158.3
     ],
     "what": "當日 4 則相關討論：「NVIDIA/SkillEvaluator — Multi-tier framework for evaluating 」；「oaustegard/claude-skills — My collection of Claude skills」；「I made a Claude Code skill that draws by hand, one stroke at」。",
     "sources": [
@@ -192,7 +192,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "fading",
    "domain": "ai",
-   "heat_today": 450.2,
+   "heat_today": 421.5,
    "heat_trend": [
     0,
     0,
@@ -200,24 +200,24 @@
     9364.5,
     940.3,
     396.9,
-    450.2
+    421.5
    ]
   }
  ],
  "radar": [
   {
    "title": "Jensen Huang resigns",
-   "note": "hn · 熱度 4856（未歸戶）",
+   "note": "hn · 熱度 5000（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50467087"
   },
   {
    "title": "Gemini 4 Hydrogen and Orchestrator",
-   "note": "hn · 熱度 1317（未歸戶）",
+   "note": "hn · 熱度 1380（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50472260"
   },
   {
    "title": "I'm making LLMs work on small and old devices",
-   "note": "hn · 熱度 1184（未歸戶）",
+   "note": "hn · 熱度 1250（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50468888"
   },
   {
@@ -259,7 +259,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -271,7 +271,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
