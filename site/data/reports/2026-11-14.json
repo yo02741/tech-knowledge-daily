@@ -58,23 +58,23 @@
    {
     "title": "OpenAI disbands its robotics team as its general models start running robots",
     "source": "hn",
-    "heat": 579.0,
+    "heat": 588.0,
     "url": "https://news.ycombinator.com/item?id=50487184",
     "what": "OpenAI moved its robotics researchers onto other teams representing new thinking about the best way to build general-purpose robots."
    }
   ],
   "software": [
    {
-    "title": "Preparing for system design questions when you haven't worked with the systems on same lev",
-    "source": "r/ExperiencedDevs",
-    "heat": 200.0,
-    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xvbbsy/preparing_for_system_design_questions_when_you/"
-   },
-   {
     "title": "Announcing Rust 1.100.0",
     "source": "r/programming",
     "heat": 200.0,
     "url": "https://www.reddit.com/r/programming/comments/1xvixj7/announcing_rust_11000/"
+   },
+   {
+    "title": "What is this type of prompt called?",
+    "source": "r/webdev",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/webdev/comments/1xvm3kp/what_is_this_type_of_prompt_called/"
    }
   ],
   "devops": [],
@@ -155,7 +155,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 450.5,
+   "heat_today": 450.0,
    "heat_trend": [
     0,
     0,
@@ -163,34 +163,34 @@
     940.3,
     396.9,
     421.5,
-    450.5
+    450.0
    ]
   }
  ],
  "radar": [
   {
    "title": "FAA issues national ground stop – lifted 4.5 hours later",
-   "note": "hn · 熱度 2050（未歸戶）",
+   "note": "hn · 熱度 2080（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50489641"
   },
   {
    "title": "LibreOffice actually works 365 days a year",
-   "note": "hn · 熱度 1000（未歸戶）",
+   "note": "hn · 熱度 1008（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50486482"
   },
   {
    "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-   "note": "hn · 熱度 836（未歸戶）",
+   "note": "hn · 熱度 842（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50474959"
   },
   {
-   "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its",
-   "note": "hn · 熱度 430（未歸戶）",
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its",
+   "note": "hn · 熱度 538（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50493251"
   },
   {
    "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-   "note": "hn · 熱度 428（未歸戶）",
+   "note": "hn · 熱度 434（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50487864"
   },
   {
@@ -206,7 +206,7 @@
   },
   {
    "source": "reddit-ExperiencedDevs",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-LocalLLaMA",
