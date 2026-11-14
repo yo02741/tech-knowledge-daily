@@ -1,0 +1,266 @@
+{
+ "date": "2026-11-14",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "fe-csr-ssr",
+  "domain": "frontend",
+  "term": "CSR vs SSR",
+  "tagline": "畫面在瀏覽器組，還是在伺服器組好再送",
+  "intro": [
+   "CSR（客戶端渲染）送一個空殼 HTML + 一包 JS，畫面在瀏覽器組出來——互動流暢但首屏慢、SEO 吃虧。SSR（伺服器渲染）在伺服器組好 HTML 再送——首屏快，但每次請求都吃伺服器資源。",
+   "現代框架（Next.js、Nuxt）的答案是混搭：首屏 SSR、之後 CSR，再加上靜態生成（SSG）與串流，按頁面性質選策略。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "web.dev：Rendering on the Web",
+    "url": "https://web.dev/articles/rendering-on-the-web"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Elevated errors on claude.ai, Claude Code, and platform.clau",
+   "text": "今日未歸戶最熱討論（hn、熱度 2025），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 1834（上升），共 7 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 74（退燒），共 2 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+    "source": "hn",
+    "heat": 2025.0,
+    "url": "https://news.ycombinator.com/item?id=50481187",
+    "what": "Claude's Status Page - Elevated errors on claude.ai, Claude Code, and platform.claude.com."
+   },
+   {
+    "title": "GoogleChrome/modern-web-guidance-src",
+    "source": "github",
+    "heat": 1732.5,
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "what": "Keep your coding agent up to date with the latest w"
+   },
+   {
+    "title": "Claude Is Down",
+    "source": "hn",
+    "heat": 843.0,
+    "url": "https://news.ycombinator.com/item?id=50481220",
+    "what": "Claude's Incident and Scheduled Maintenance History"
+   }
+  ],
+  "software": [
+   {
+    "title": "AI is destroying the trust between writers and readers",
+    "source": "hn",
+    "heat": 812.0,
+    "url": "https://news.ycombinator.com/item?id=50481870"
+   },
+   {
+    "title": "Preparing for system design questions when you haven't worked with the systems on same lev",
+    "source": "r/ExperiencedDevs",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xvbbsy/preparing_for_system_design_questions_when_you/"
+   },
+   {
+    "title": "How Cloudflare uses QuePaxa—a leaderless, fault-detection-free consensus algorithm—for its",
+    "source": "r/programming",
+    "heat": 200.0,
+    "url": "https://www.reddit.com/r/programming/comments/1xuv4ux/how_cloudflare_uses_quepaxaa_leaderless/"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "rising",
+    "heat_today": 1834.2,
+    "heat_trend": [
+     1127.7,
+     35.1,
+     0,
+     0,
+     619.2,
+     1219.5,
+     1834.2
+    ],
+    "what": "當日 7 則相關討論：「Alishahryar1/free-claude-code — Use Claude Code, Codex, Anti」；「openai/codex-security — OpenAI's Codex Security CLI and Type」；「NVIDIA/SkillSpector — Security scanner for AI agent skills. 」。",
+    "sources": [
+     {
+      "label": "github：Alishahryar1/free-claude-code — Use Claude",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+     },
+     {
+      "label": "github：openai/codex-security — OpenAI's Codex Sec",
+      "url": "https://github.com/openai/codex-security"
+     },
+     {
+      "label": "github：NVIDIA/SkillSpector — Security scanner for",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+     },
+     {
+      "label": "github：kajisho5/ffmpeg-skill — Local video editor",
+      "url": "https://github.com/kajisho5/ffmpeg-skill"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "fading",
+    "heat_today": 73.8,
+    "heat_trend": [
+     749.7,
+     712.8,
+     934.2,
+     1724.4,
+     945.9,
+     158.3,
+     73.8
+    ],
+    "what": "當日 2 則相關討論：「tradermonty/claude-trading-skills — Claude Code skills for e」；「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "sources": [
+     {
+      "label": "github：tradermonty/claude-trading-skills — Claude",
+      "url": "https://github.com/tradermonty/claude-trading-skills"
+     },
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "fable5-lifecycle",
+   "title": "Fable 5 使用期限與遷移策略",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 404.3,
+   "heat_trend": [
+    0,
+    0,
+    9364.5,
+    940.3,
+    396.9,
+    421.5,
+    404.3
+   ]
+  },
+  {
+   "slug": "design-ai-prototyping",
+   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
+   "status": "ongoing",
+   "domain": "uiux",
+   "heat_today": 16.7,
+   "heat_trend": [
+    0,
+    0,
+    0,
+    2.1,
+    0,
+    67.9,
+    16.7
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "FAA issues national ground stop",
+   "note": "hn · 熱度 1550（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50489641"
+  },
+  {
+   "title": "LibreOffice actually works 365 days a year",
+   "note": "hn · 熱度 937（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50486482"
+  },
+  {
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "note": "hn · 熱度 760（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50474959"
+  },
+  {
+   "title": "CopilotKit/OpenBot — Open-source AI coworkers that each get a computer",
+   "note": "github · 熱度 607（未歸戶）",
+   "url": "https://github.com/CopilotKit/OpenBot"
+  },
+  {
+   "title": "QwenLM/qwen-code — An open-source AI coding agent that lives in your t",
+   "note": "github · 熱度 416（未歸戶）",
+   "url": "https://github.com/QwenLM/qwen-code"
+  },
+  {
+   "title": "Stories coming out about Jensen",
+   "note": "r/LocalLLaMA · 熱度 300（未歸戶）",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
