@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Elevated errors on claude.ai, Claude Code, and platform.clau",
-   "text": "今日未歸戶最熱討論（hn、熱度 2025），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] GoogleChrome/modern-web-guidance-src",
+   "text": "今日未歸戶最熱討論（github、熱度 1732），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -42,13 +42,6 @@
  "fresh": {
   "ai": [
    {
-    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-    "source": "hn",
-    "heat": 2025.0,
-    "url": "https://news.ycombinator.com/item?id=50481187",
-    "what": "Claude's Status Page - Elevated errors on claude.ai, Claude Code, and platform.claude.com."
-   },
-   {
     "title": "GoogleChrome/modern-web-guidance-src",
     "source": "github",
     "heat": 1732.5,
@@ -56,20 +49,21 @@
     "what": "Keep your coding agent up to date with the latest w"
    },
    {
-    "title": "Claude Is Down",
+    "title": "CopilotKit/OpenBot",
+    "source": "github",
+    "heat": 606.6,
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "what": "Open-source AI coworkers that each get a computer of their own: a bro"
+   },
+   {
+    "title": "OpenAI disbands its robotics team as its general models start running robots",
     "source": "hn",
-    "heat": 843.0,
-    "url": "https://news.ycombinator.com/item?id=50481220",
-    "what": "Claude's Incident and Scheduled Maintenance History"
+    "heat": 579.0,
+    "url": "https://news.ycombinator.com/item?id=50487184",
+    "what": "OpenAI moved its robotics researchers onto other teams representing new thinking about the best way to build general-purpose robots."
    }
   ],
   "software": [
-   {
-    "title": "AI is destroying the trust between writers and readers",
-    "source": "hn",
-    "heat": 812.0,
-    "url": "https://news.ycombinator.com/item?id=50481870"
-   },
    {
     "title": "Preparing for system design questions when you haven't worked with the systems on same lev",
     "source": "r/ExperiencedDevs",
@@ -77,10 +71,10 @@
     "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1xvbbsy/preparing_for_system_design_questions_when_you/"
    },
    {
-    "title": "How Cloudflare uses QuePaxa—a leaderless, fault-detection-free consensus algorithm—for its",
+    "title": "Announcing Rust 1.100.0",
     "source": "r/programming",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/programming/comments/1xuv4ux/how_cloudflare_uses_quepaxaa_leaderless/"
+    "url": "https://www.reddit.com/r/programming/comments/1xvixj7/announcing_rust_11000/"
    }
   ],
   "devops": [],
@@ -161,7 +155,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 404.3,
+   "heat_today": 450.5,
    "heat_trend": [
     0,
     0,
@@ -169,56 +163,40 @@
     940.3,
     396.9,
     421.5,
-    404.3
-   ]
-  },
-  {
-   "slug": "design-ai-prototyping",
-   "title": "設計稿 → AI 原型工作流（Figma × Claude）",
-   "status": "ongoing",
-   "domain": "uiux",
-   "heat_today": 16.7,
-   "heat_trend": [
-    0,
-    0,
-    0,
-    2.1,
-    0,
-    67.9,
-    16.7
+    450.5
    ]
   }
  ],
  "radar": [
   {
-   "title": "FAA issues national ground stop",
-   "note": "hn · 熱度 1550（未歸戶）",
+   "title": "FAA issues national ground stop – lifted 4.5 hours later",
+   "note": "hn · 熱度 2050（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50489641"
   },
   {
    "title": "LibreOffice actually works 365 days a year",
-   "note": "hn · 熱度 937（未歸戶）",
+   "note": "hn · 熱度 1000（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50486482"
   },
   {
    "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-   "note": "hn · 熱度 760（未歸戶）",
+   "note": "hn · 熱度 836（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50474959"
   },
   {
-   "title": "CopilotKit/OpenBot — Open-source AI coworkers that each get a computer",
-   "note": "github · 熱度 607（未歸戶）",
-   "url": "https://github.com/CopilotKit/OpenBot"
+   "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its",
+   "note": "hn · 熱度 430（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50493251"
+  },
+  {
+   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+   "note": "hn · 熱度 428（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50487864"
   },
   {
    "title": "QwenLM/qwen-code — An open-source AI coding agent that lives in your t",
    "note": "github · 熱度 416（未歸戶）",
    "url": "https://github.com/QwenLM/qwen-code"
-  },
-  {
-   "title": "Stories coming out about Jensen",
-   "note": "r/LocalLLaMA · 熱度 300（未歸戶）",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/"
   }
  ],
  "data_quality": [
@@ -252,7 +230,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
