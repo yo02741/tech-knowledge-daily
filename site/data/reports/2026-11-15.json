@@ -58,16 +58,16 @@
    {
     "title": "The Claude Delusion",
     "source": "hn",
-    "heat": 706.5,
+    "heat": 724.5,
     "url": "https://news.ycombinator.com/item?id=50496921"
    }
   ],
   "software": [
    {
-    "title": "How I accidentally became a millionaire",
+    "title": "It's all about the allocator",
     "source": "r/programming",
     "heat": 200.0,
-    "url": "https://www.reddit.com/r/programming/comments/1xvr455/how_i_accidentally_became_a_millionaire/"
+    "url": "https://www.reddit.com/r/programming/comments/1xw1sem/its_all_about_the_allocator/"
    }
   ],
   "devops": [],
@@ -152,7 +152,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 451.8,
+   "heat_today": 432.8,
    "heat_trend": [
     0,
     9364.5,
@@ -160,40 +160,40 @@
     396.9,
     421.5,
     450.0,
-    451.8
+    432.8
    ]
   }
  ],
  "radar": [
   {
-   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its",
-   "note": "hn · 熱度 1334（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50493251"
-  },
-  {
    "title": "SpaceX catches the Starship to end Flight 15",
-   "note": "hn · 熱度 772（未歸戶）",
+   "note": "hn · 熱度 1398（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50500963"
   },
   {
    "title": "Lovable apps expose passport details and more than 200K private messag",
-   "note": "hn · 熱度 728（未歸戶）",
+   "note": "hn · 熱度 907（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50499017"
   },
   {
    "title": "Why get an expensive Pi when I have an old phone?",
-   "note": "hn · 熱度 634（未歸戶）",
+   "note": "hn · 熱度 688（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50440709"
+  },
+  {
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "note": "hn · 熱度 686（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50497589"
+  },
+  {
+   "title": "Tech companies are trying to shift the concept of privacy again",
+   "note": "hn · 熱度 619（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50496602"
   },
   {
    "title": "ChromeDevTools/chrome-devtools-mcp — Chrome DevTools for coding agents",
    "note": "github · 熱度 598（未歸戶）",
    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-  },
-  {
-   "title": "Monkey Island: all 13 versions side by side",
-   "note": "hn · 熱度 538（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50493904"
   }
  ],
  "data_quality": [
@@ -219,7 +219,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-programming",
@@ -227,7 +227,7 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-webdev",
