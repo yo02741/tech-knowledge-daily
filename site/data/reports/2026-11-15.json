@@ -58,7 +58,7 @@
    {
     "title": "The Claude Delusion",
     "source": "hn",
-    "heat": 724.5,
+    "heat": 726.0,
     "url": "https://news.ycombinator.com/item?id=50496921"
    }
   ],
@@ -152,7 +152,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 432.8,
+   "heat_today": 423.6,
    "heat_trend": [
     0,
     9364.5,
@@ -160,34 +160,34 @@
     396.9,
     421.5,
     450.0,
-    432.8
+    423.6
    ]
   }
  ],
  "radar": [
   {
    "title": "SpaceX catches the Starship to end Flight 15",
-   "note": "hn · 熱度 1398（未歸戶）",
+   "note": "hn · 熱度 1498（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50500963"
   },
   {
    "title": "Lovable apps expose passport details and more than 200K private messag",
-   "note": "hn · 熱度 907（未歸戶）",
+   "note": "hn · 熱度 938（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50499017"
   },
   {
-   "title": "Why get an expensive Pi when I have an old phone?",
-   "note": "hn · 熱度 688（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50440709"
-  },
-  {
    "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-   "note": "hn · 熱度 686（未歸戶）",
+   "note": "hn · 熱度 710（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50497589"
   },
   {
+   "title": "Why get an expensive Pi when I have an old phone?",
+   "note": "hn · 熱度 700（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50440709"
+  },
+  {
    "title": "Tech companies are trying to shift the concept of privacy again",
-   "note": "hn · 熱度 619（未歸戶）",
+   "note": "hn · 熱度 629（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50496602"
   },
   {
