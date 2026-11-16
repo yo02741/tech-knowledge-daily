@@ -22,27 +22,21 @@
  "tldr": [
   {
    "title": "[新訊] Qwen4-Max",
-   "text": "今日未歸戶最熱討論（hn、熱度 1311），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1550），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
-  },
-  {
-   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
-   "text": "熱度 2260（上升），共 5 則討論；重點連結見對應段落。",
-   "deadline": null,
-   "topic_ref": "ai-1"
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
    "text": "熱度 1174（上升），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
-   "topic_ref": "ai-2"
+   "topic_ref": "ai-1"
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 74（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 65（退燒），共 3 則討論；重點連結見對應段落。",
    "deadline": null,
-   "topic_ref": "ai-3"
+   "topic_ref": "ai-2"
   }
  ],
  "fresh": {
@@ -50,7 +44,7 @@
    {
     "title": "Qwen4-Max",
     "source": "hn",
-    "heat": 1311.0,
+    "heat": 1549.5,
     "url": "https://news.ycombinator.com/item?id=50513215",
     "what": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
    },
@@ -74,7 +68,7 @@
    {
     "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
     "source": "hn",
-    "heat": 596.5,
+    "heat": 622.5,
     "url": "https://news.ycombinator.com/item?id=50509411",
     "what": "Wegen der Outlook-Störung am Freitag bekam das Phantasialand nicht mit, dass zu viel Chlor im Pool war. 15 Gäste wurden verletzt."
    }
@@ -85,41 +79,6 @@
   "ai": [
    {
     "id": "ai-1",
-    "slug": "codex-claude-interop",
-    "title": "OpenAI Codex ↔ Claude Code 互操作",
-    "status": "rising",
-    "heat_today": 2259.6,
-    "heat_trend": [
-     0,
-     0,
-     619.2,
-     1219.5,
-     1834.2,
-     993.6,
-     2259.6
-    ],
-    "what": "當日 5 則相關討論：「Claude Code and Codex reverse engineered my 1994 Jeep's ECU 」；「Tencent/LoopForge — Self-hosted workflows for coding-agent d」；「kajisho5/ffmpeg-skill — Local video editor for coding agents」。",
-    "sources": [
-     {
-      "label": "hn：Claude Code and Codex reverse engineered m",
-      "url": "https://news.ycombinator.com/item?id=50463399"
-     },
-     {
-      "label": "github：Tencent/LoopForge — Self-hosted workflows ",
-      "url": "https://github.com/Tencent/LoopForge"
-     },
-     {
-      "label": "github：kajisho5/ffmpeg-skill — Local video editor",
-      "url": "https://github.com/kajisho5/ffmpeg-skill"
-     },
-     {
-      "label": "github：huytieu/COG-second-brain — Self-evolving s",
-      "url": "https://github.com/huytieu/COG-second-brain"
-     }
-    ]
-   },
-   {
-    "id": "ai-2",
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "rising",
@@ -154,11 +113,11 @@
     ]
    },
    {
-    "id": "ai-3",
+    "id": "ai-2",
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 73.7,
+    "heat_today": 65.3,
     "heat_trend": [
      9364.5,
      940.3,
@@ -166,9 +125,9 @@
      421.5,
      450.0,
      423.6,
-     73.7
+     65.3
     ],
-    "what": "當日 4 則相關討論：「I asked Fable 5.2 to mash up Balatro and Diablo II. Things g」；「Fable 5.2 just solved a problem I've been struggling with fo」；「I built Replicator (3d workshop) with Fable 5.2 and Claude O」。",
+    "what": "當日 3 則相關討論：「I asked Fable 5.2 to mash up Balatro and Diablo II. Things g」；「Fable 5.2 just solved a problem I've been struggling with fo」；「I built Replicator (3d workshop) with Fable 5.2 and Claude O」。",
     "sources": [
      {
       "label": "r/ClaudeAI：I asked Fable 5.2 to mash up Balatro and D",
@@ -181,10 +140,6 @@
      {
       "label": "r/ClaudeAI：I built Replicator (3d workshop) with Fabl",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx8mec/i_built_replicator_3d_workshop_with_fable_52_and/"
-     },
-     {
-      "label": "r/ClaudeAI：Chess match: Claude Fable 5.2 vs GPT 6 Ast",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx6y4g/chess_match_claude_fable_52_vs_gpt_6_astra_astra/"
      }
     ]
    }
@@ -193,16 +148,28 @@
   "devops": [],
   "uiux": []
  },
- "tracking": [],
+ "tracking": [
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 732.6,
+   "heat_trend": [
+    0,
+    0,
+    619.2,
+    1219.5,
+    1834.2,
+    993.6,
+    732.6
+   ]
+  }
+ ],
  "radar": [
   {
-   "title": "SpaceX catches the Starship to end Flight 15",
-   "note": "hn · 熱度 2298（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50500963"
-  },
-  {
    "title": "All AI-generated code should be Open Source",
-   "note": "hn · 熱度 1443（未歸戶）",
+   "note": "hn · 熱度 1463（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50507303"
   },
   {
@@ -224,6 +191,11 @@
    "title": "alibaba/open-code-review — Secure, fast, efficient, battle-tested at A",
    "note": "github · 熱度 622（未歸戶）",
    "url": "https://github.com/alibaba/open-code-review"
+  },
+  {
+   "title": "The MacBook Pro's OLED PWM problem",
+   "note": "hn · 熱度 608（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50506719"
   }
  ],
  "data_quality": [
@@ -261,7 +233,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
