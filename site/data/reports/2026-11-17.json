@@ -1,0 +1,254 @@
+{
+ "date": "2026-11-17",
+ "weekday": "二",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-iac",
+  "domain": "devops",
+  "term": "IaC（基礎設施即程式碼）",
+  "tagline": "機房設定寫成程式碼，進版控、可重放",
+  "intro": [
+   "伺服器、網路、資料庫這些基礎設施用宣告式程式碼描述（Terraform、Pulumi），套用工具讓現實環境「長成程式碼描述的樣子」。",
+   "好處跟程式碼版控一樣：可 review、可回滾、可重建整套環境；也終結了「只有離職同事知道那台機器怎麼設定的」的悲劇。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "Terraform 官方文件",
+    "url": "https://developer.hashicorp.com/terraform/intro"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Qwen4-Max",
+   "text": "今日未歸戶最熱討論（hn、熱度 3261），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  },
+  {
+   "title": "[AI] Claude Code skills 生態爆發",
+   "text": "熱度 2015（上升），共 3 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-1"
+  },
+  {
+   "title": "[AI] OpenAI Codex ↔ Claude Code 互操作",
+   "text": "熱度 330（退燒），共 1 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-2"
+  },
+  {
+   "title": "[AI] Fable 5 使用期限與遷移策略",
+   "text": "熱度 86（退燒），共 4 則討論；重點連結見對應段落。",
+   "deadline": null,
+   "topic_ref": "ai-3"
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Qwen4-Max",
+    "source": "hn",
+    "heat": 3261.0,
+    "url": "https://news.ycombinator.com/item?id=50513215",
+    "what": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
+   },
+   {
+    "title": "dream-num/univer",
+    "source": "github",
+    "heat": 1645.2,
+    "url": "https://github.com/dream-num/univer",
+    "what": "Build your own AI office with Univer Office SDK. Bring editing, calcula"
+   },
+   {
+    "title": "GoogleChrome/modern-web-guidance-src",
+    "source": "github",
+    "heat": 1080.0,
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "what": "Keep your coding agent up to date with the latest w"
+   }
+  ],
+  "software": [
+   {
+    "title": "Jiff 1.0: A datetime library for Rust",
+    "source": "hn",
+    "heat": 656.0,
+    "url": "https://news.ycombinator.com/item?id=50519744"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [
+   {
+    "id": "ai-1",
+    "slug": "claude-code-skills-eco",
+    "title": "Claude Code skills 生態爆發",
+    "status": "rising",
+    "heat_today": 2015.1,
+    "heat_trend": [
+     1724.4,
+     945.9,
+     158.3,
+     73.8,
+     729.0,
+     1173.6,
+     2015.1
+    ],
+    "what": "當日 3 則相關討論：「NVIDIA/SkillEvaluator — Multi-tier framework for evaluating 」；「tradermonty/claude-trading-skills — Claude Code skills for e」；「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "sources": [
+     {
+      "label": "github：NVIDIA/SkillEvaluator — Multi-tier framewo",
+      "url": "https://github.com/NVIDIA/SkillEvaluator"
+     },
+     {
+      "label": "github：tradermonty/claude-trading-skills — Claude",
+      "url": "https://github.com/tradermonty/claude-trading-skills"
+     },
+     {
+      "label": "github：google-labs-code/stitch-skills — A library",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+     }
+    ]
+   },
+   {
+    "id": "ai-2",
+    "slug": "codex-claude-interop",
+    "title": "OpenAI Codex ↔ Claude Code 互操作",
+    "status": "fading",
+    "heat_today": 330.3,
+    "heat_trend": [
+     0,
+     619.2,
+     1219.5,
+     1834.2,
+     993.6,
+     732.6,
+     330.3
+    ],
+    "what": "當日 1 則相關討論：「kajisho5/ffmpeg-skill — Local video editor for coding agents」。",
+    "sources": [
+     {
+      "label": "github：kajisho5/ffmpeg-skill — Local video editor",
+      "url": "https://github.com/kajisho5/ffmpeg-skill"
+     }
+    ]
+   },
+   {
+    "id": "ai-3",
+    "slug": "fable5-lifecycle",
+    "title": "Fable 5 使用期限與遷移策略",
+    "status": "fading",
+    "heat_today": 86.4,
+    "heat_trend": [
+     940.3,
+     396.9,
+     421.5,
+     450.0,
+     423.6,
+     65.3,
+     86.4
+    ],
+    "what": "當日 4 則相關討論：「I'm a photogrammetry guy and this Eiffel Tower is not a scan」；「Inspired by the Abyssal Garden post, I gave Fable 5.2 the sa」；「I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of 」。",
+    "sources": [
+     {
+      "label": "r/ClaudeAI：I'm a photogrammetry guy and this Eiffel T",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxqbuw/im_a_photogrammetry_guy_and_this_eiffel_tower_is/"
+     },
+     {
+      "label": "r/ClaudeAI：Inspired by the Abyssal Garden post, I gav",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy28dk/inspired_by_the_abyssal_garden_post_i_gave_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：I gave Claude Fable 5.2 a lazy LiDAR scan ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy30gx/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/"
+     },
+     {
+      "label": "r/ClaudeAI：Fable 5.2 hard mogs GPT Astra in hardware ",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxnddo/fable_52_hard_mogs_gpt_astra_in_hardware_design/"
+     }
+    ]
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [],
+ "radar": [
+  {
+   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savi",
+   "note": "hn · 熱度 1066（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50517488"
+  },
+  {
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for U",
+   "note": "hn · 熱度 982（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50521045"
+  },
+  {
+   "title": "How to make almost anything",
+   "note": "hn · 熱度 902（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50514470"
+  },
+  {
+   "title": "alibaba/open-code-review — Secure, fast, efficient, battle-tested at A",
+   "note": "github · 熱度 856（未歸戶）",
+   "url": "https://github.com/alibaba/open-code-review"
+  },
+  {
+   "title": "ChromeDevTools/chrome-devtools-mcp — Chrome DevTools for coding agents",
+   "note": "github · 熱度 757（未歸戶）",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  },
+  {
+   "title": "ag-ui-protocol/ag-ui — AG-UI: the Agent-User Interaction Protocol. Bri",
+   "note": "github · 熱度 712（未歸戶）",
+   "url": "https://github.com/ag-ui-protocol/ag-ui"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：fallback-rss"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
