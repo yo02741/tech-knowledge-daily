@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Windows 11 Is Collecting Data on Which Coding Agents and Dev",
-   "text": "今日未歸戶最熱討論（hn、熱度 2217），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Windows 11 is collecting data on which coding agents and dev",
+   "text": "今日未歸戶最熱討論（hn、熱度 2430），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 137（退燒），共 5 則討論；重點連結見對應段落。",
+   "text": "熱度 147（退燒），共 6 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -48,9 +48,9 @@
  "fresh": {
   "ai": [
    {
-    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+    "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
     "source": "hn",
-    "heat": 2217.0,
+    "heat": 2430.0,
     "url": "https://news.ycombinator.com/item?id=50524736",
     "what": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report."
    },
@@ -73,13 +73,13 @@
    {
     "title": "Jiff 1.0: A datetime library for Rust",
     "source": "hn",
-    "heat": 821.0,
+    "heat": 835.0,
     "url": "https://news.ycombinator.com/item?id=50519744"
    },
    {
     "title": "Rust changed me as a developer",
     "source": "hn",
-    "heat": 663.0,
+    "heat": 673.0,
     "url": "https://news.ycombinator.com/item?id=50522563",
     "what": "How Rust affected the way I think."
    }
@@ -152,7 +152,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 136.9,
+    "heat_today": 146.6,
     "heat_trend": [
      940.3,
      396.9,
@@ -160,9 +160,9 @@
      450.0,
      423.6,
      65.3,
-     136.9
+     146.6
     ],
-    "what": "當日 5 則相關討論：「Inspired by the Abyssal Garden post, I gave Fable 5.2 the sa」；「I'm a photogrammetry guy and this Eiffel Tower is not a scan」；「I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of 」。",
+    "what": "當日 6 則相關討論：「Inspired by the Abyssal Garden post, I gave Fable 5.2 the sa」；「I'm a photogrammetry guy and this Eiffel Tower is not a scan」；「I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of 」。",
     "sources": [
      {
       "label": "r/ClaudeAI：Inspired by the Abyssal Garden post, I gav",
@@ -191,17 +191,17 @@
  "radar": [
   {
    "title": "Carnegie Mellon is putting computer science courses on YouTube for fre",
-   "note": "hn · 熱度 1459（未歸戶）",
+   "note": "hn · 熱度 1592（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50522980"
   },
   {
    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savi",
-   "note": "hn · 熱度 1149（未歸戶）",
+   "note": "hn · 熱度 1158（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50517488"
   },
   {
    "title": "Technical issue at JPMorgan Chase triggers online banking delays for U",
-   "note": "hn · 熱度 1082（未歸戶）",
+   "note": "hn · 熱度 1096（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50521045"
   },
   {
@@ -243,7 +243,7 @@
   },
   {
    "source": "reddit-devops",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "reddit-programming",
@@ -255,7 +255,7 @@
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "報告產生方式",
