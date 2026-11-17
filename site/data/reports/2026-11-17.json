@@ -21,14 +21,14 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Qwen4-Max",
-   "text": "今日未歸戶最熱討論（hn、熱度 3261），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] Windows 11 Is Collecting Data on Which Coding Agents and Dev",
+   "text": "今日未歸戶最熱討論（hn、熱度 2217），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
   {
    "title": "[AI] Claude Code skills 生態爆發",
-   "text": "熱度 2015（上升），共 3 則討論；重點連結見對應段落。",
+   "text": "熱度 3000（上升），共 4 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-1"
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 86（退燒），共 4 則討論；重點連結見對應段落。",
+   "text": "熱度 137（退燒），共 5 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-3"
   }
@@ -48,11 +48,11 @@
  "fresh": {
   "ai": [
    {
-    "title": "Qwen4-Max",
+    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
     "source": "hn",
-    "heat": 3261.0,
-    "url": "https://news.ycombinator.com/item?id=50513215",
-    "what": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
+    "heat": 2217.0,
+    "url": "https://news.ycombinator.com/item?id=50524736",
+    "what": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report."
    },
    {
     "title": "dream-num/univer",
@@ -73,8 +73,15 @@
    {
     "title": "Jiff 1.0: A datetime library for Rust",
     "source": "hn",
-    "heat": 656.0,
+    "heat": 821.0,
     "url": "https://news.ycombinator.com/item?id=50519744"
+   },
+   {
+    "title": "Rust changed me as a developer",
+    "source": "hn",
+    "heat": 663.0,
+    "url": "https://news.ycombinator.com/item?id=50522563",
+    "what": "How Rust affected the way I think."
    }
   ],
   "devops": [],
@@ -87,7 +94,7 @@
     "slug": "claude-code-skills-eco",
     "title": "Claude Code skills 生態爆發",
     "status": "rising",
-    "heat_today": 2015.1,
+    "heat_today": 2999.7,
     "heat_trend": [
      1724.4,
      945.9,
@@ -95,10 +102,14 @@
      73.8,
      729.0,
      1173.6,
-     2015.1
+     2999.7
     ],
-    "what": "當日 3 則相關討論：「NVIDIA/SkillEvaluator — Multi-tier framework for evaluating 」；「tradermonty/claude-trading-skills — Claude Code skills for e」；「google-labs-code/stitch-skills — A library of Agent Skills d」。",
+    "what": "當日 4 則相關討論：「elementalsouls/Claude-BugHunter — A Claude Code skill bundle」；「NVIDIA/SkillEvaluator — Multi-tier framework for evaluating 」；「tradermonty/claude-trading-skills — Claude Code skills for e」。",
     "sources": [
+     {
+      "label": "github：elementalsouls/Claude-BugHunter — A Claude",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter"
+     },
      {
       "label": "github：NVIDIA/SkillEvaluator — Multi-tier framewo",
       "url": "https://github.com/NVIDIA/SkillEvaluator"
@@ -141,7 +152,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "fading",
-    "heat_today": 86.4,
+    "heat_today": 136.9,
     "heat_trend": [
      940.3,
      396.9,
@@ -149,25 +160,25 @@
      450.0,
      423.6,
      65.3,
-     86.4
+     136.9
     ],
-    "what": "當日 4 則相關討論：「I'm a photogrammetry guy and this Eiffel Tower is not a scan」；「Inspired by the Abyssal Garden post, I gave Fable 5.2 the sa」；「I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of 」。",
+    "what": "當日 5 則相關討論：「Inspired by the Abyssal Garden post, I gave Fable 5.2 the sa」；「I'm a photogrammetry guy and this Eiffel Tower is not a scan」；「I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of 」。",
     "sources": [
-     {
-      "label": "r/ClaudeAI：I'm a photogrammetry guy and this Eiffel T",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxqbuw/im_a_photogrammetry_guy_and_this_eiffel_tower_is/"
-     },
      {
       "label": "r/ClaudeAI：Inspired by the Abyssal Garden post, I gav",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy28dk/inspired_by_the_abyssal_garden_post_i_gave_fable/"
+     },
+     {
+      "label": "r/ClaudeAI：I'm a photogrammetry guy and this Eiffel T",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxqbuw/im_a_photogrammetry_guy_and_this_eiffel_tower_is/"
      },
      {
       "label": "r/ClaudeAI：I gave Claude Fable 5.2 a lazy LiDAR scan ",
       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy30gx/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/"
      },
      {
-      "label": "r/ClaudeAI：Fable 5.2 hard mogs GPT Astra in hardware ",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxnddo/fable_52_hard_mogs_gpt_astra_in_hardware_design/"
+      "label": "r/ClaudeAI：Fable helped me ship a 6-month-old project",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy3g5x/fable_helped_me_ship_a_6monthold_project_in_a/"
      }
     ]
    }
@@ -179,19 +190,19 @@
  "tracking": [],
  "radar": [
   {
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for fre",
+   "note": "hn · 熱度 1459（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50522980"
+  },
+  {
    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savi",
-   "note": "hn · 熱度 1066（未歸戶）",
+   "note": "hn · 熱度 1149（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50517488"
   },
   {
    "title": "Technical issue at JPMorgan Chase triggers online banking delays for U",
-   "note": "hn · 熱度 982（未歸戶）",
+   "note": "hn · 熱度 1082（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50521045"
-  },
-  {
-   "title": "How to make almost anything",
-   "note": "hn · 熱度 902（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50514470"
   },
   {
    "title": "alibaba/open-code-review — Secure, fast, efficient, battle-tested at A",
@@ -240,11 +251,11 @@
   },
   {
    "source": "reddit-web_design",
-   "note": "來源狀態：failed"
+   "note": "來源狀態：fallback-rss"
   },
   {
    "source": "reddit-webdev",
-   "note": "來源狀態：fallback-rss"
+   "note": "來源狀態：failed"
   },
   {
    "source": "報告產生方式",
