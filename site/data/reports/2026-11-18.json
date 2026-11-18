@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] GPT‑6.2 Astra and Sol",
-   "text": "今日未歸戶最熱討論（hn、熱度 4164），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 4842），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,7 +44,7 @@
    {
     "title": "GPT‑6.2 Astra and Sol",
     "source": "hn",
-    "heat": 4164.0,
+    "heat": 4842.0,
     "url": "https://news.ycombinator.com/item?id=50535230"
    },
    {
@@ -146,19 +146,9 @@
  "tracking": [],
  "radar": [
   {
-   "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scor",
-   "note": "hn · 熱度 1430（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50530163"
-  },
-  {
    "title": "ag-ui-protocol/ag-ui — AG-UI: the Agent-User Interaction Protocol. Bri",
    "note": "github · 熱度 1300（未歸戶）",
    "url": "https://github.com/ag-ui-protocol/ag-ui"
-  },
-  {
-   "title": "How the Claude Code team thinks about verification",
-   "note": "hn · 熱度 1066（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50529612"
   },
   {
    "title": "google-research/paper-orchestra — PaperOrchestra is a multi-agent fram",
@@ -166,14 +156,24 @@
    "url": "https://github.com/google-research/paper-orchestra"
   },
   {
-   "title": "Apple Services Down",
-   "note": "hn · 熱度 788（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50535238"
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+   "note": "hn · 熱度 928（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50538240"
   },
   {
    "title": "Highly classified US national security communications network goes dow",
-   "note": "hn · 熱度 708（未歸戶）",
+   "note": "hn · 熱度 880（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50532849"
+  },
+  {
+   "title": "Apple Services Down",
+   "note": "hn · 熱度 874（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50535238"
+  },
+  {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to co",
+   "note": "hn · 熱度 794（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50538303"
   }
  ],
  "data_quality": [
