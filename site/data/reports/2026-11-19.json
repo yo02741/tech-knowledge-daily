@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Gemini 4 Neon",
-   "text": "今日未歸戶最熱討論（hn、熱度 3124），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3399），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -44,14 +44,14 @@
    {
     "title": "Gemini 4 Neon",
     "source": "hn",
-    "heat": 3124.5,
+    "heat": 3399.0,
     "url": "https://news.ycombinator.com/item?id=50552424",
     "what": "Today, we’re introducing Gemini 4 Neon"
    },
    {
     "title": "AI agents ask better questions than KPMG accountants in audit trial",
     "source": "hn",
-    "heat": 1620.0,
+    "heat": 1681.5,
     "url": "https://news.ycombinator.com/item?id=50547777",
     "what": "LONDON, November 18, 2026 — Artificial intelligence has taken another significant step into the world of professional services after KPMG revealed that AI"
    },
@@ -142,7 +142,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 255.0,
+   "heat_today": 264.0,
    "heat_trend": [
     421.5,
     450.0,
@@ -150,15 +150,20 @@
     65.3,
     146.6,
     0,
-    255.0
+    264.0
    ]
   }
  ],
  "radar": [
   {
    "title": "Unauthenticated remote code execution in Nginx",
-   "note": "hn · 熱度 1600（未歸戶）",
+   "note": "hn · 熱度 1656（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50547374"
+  },
+  {
+   "title": "Anthropic prices initial public offering",
+   "note": "hn · 熱度 1042（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50553843"
   },
   {
    "title": "dream-num/univer — Build your own AI office with Univer Office SDK. Br",
@@ -167,7 +172,7 @@
   },
   {
    "title": "Energy-Based Reasoners: 385x more efficient inference",
-   "note": "hn · 熱度 1010（未歸戶）",
+   "note": "hn · 熱度 1012（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50543989"
   },
   {
@@ -177,13 +182,8 @@
   },
   {
    "title": "Advancing chip design with OpenAI models",
-   "note": "hn · 熱度 798（未歸戶）",
+   "note": "hn · 熱度 830（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50549493"
-  },
-  {
-   "title": "DNS resolvers are the wrong place to fight piracy",
-   "note": "hn · 熱度 784（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50545958"
   }
  ],
  "data_quality": [
