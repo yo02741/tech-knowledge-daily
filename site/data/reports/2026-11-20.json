@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] Anthropic’s Nasdaq debut",
-   "text": "今日未歸戶最熱討論（hn、熱度 6266），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 6352），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -34,7 +34,7 @@
   },
   {
    "title": "[AI] Fable 5 使用期限與遷移策略",
-   "text": "熱度 472（持續），共 1 則討論；重點連結見對應段落。",
+   "text": "熱度 484（持續），共 1 則討論；重點連結見對應段落。",
    "deadline": null,
    "topic_ref": "ai-2"
   },
@@ -50,13 +50,13 @@
    {
     "title": "Anthropic’s Nasdaq debut",
     "source": "hn",
-    "heat": 6265.5,
+    "heat": 6352.5,
     "url": "https://news.ycombinator.com/item?id=50562754"
    },
    {
     "title": "Garage Door Spam",
     "source": "hn",
-    "heat": 3033.0,
+    "heat": 3087.0,
     "url": "https://news.ycombinator.com/item?id=50519231",
     "what": "In the beginning, my garage door opener worked fine. When the door opened or closed, I would get a notification. If I'm away from home and the door opens, so..."
    },
@@ -110,7 +110,7 @@
     "slug": "fable5-lifecycle",
     "title": "Fable 5 使用期限與遷移策略",
     "status": "ongoing",
-    "heat_today": 472.5,
+    "heat_today": 484.5,
     "heat_trend": [
      450.0,
      423.6,
@@ -118,7 +118,7 @@
      146.6,
      0,
      264.0,
-     472.5
+     484.5
     ],
     "what": "當日 1 則相關討論：「Two stealth models just appeared on the leaderboard, both ah」。",
     "sources": [
@@ -172,12 +172,12 @@
  "radar": [
   {
    "title": "Claude solves two open problems in the physics of black holes",
-   "note": "hn · 熱度 1746（未歸戶）",
+   "note": "hn · 熱度 1808（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50563148"
   },
   {
    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-   "note": "hn · 熱度 1320（未歸戶）",
+   "note": "hn · 熱度 1353（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50568130"
   },
   {
@@ -186,19 +186,19 @@
    "url": "https://github.com/google-research/paper-orchestra"
   },
   {
-   "title": "Distributed, high-performance blob storage on SQLite",
-   "note": "hn · 熱度 940（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50557537"
-  },
-  {
    "title": "How the European Commission rolled out Matrix to more than 40k staff",
-   "note": "hn · 熱度 859（未歸戶）",
+   "note": "hn · 熱度 868（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50558533"
   },
   {
    "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
    "note": "github · 熱度 859（未歸戶）",
    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "note": "hn · 熱度 822（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50563066"
   }
  ],
  "data_quality": [
