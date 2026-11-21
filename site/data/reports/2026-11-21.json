@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] I'll never buy Framework hardware again",
-   "text": "今日未歸戶最熱討論（hn、熱度 2142），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2152），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,14 +38,14 @@
    {
     "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
     "source": "hn",
-    "heat": 2106.0,
+    "heat": 2122.5,
     "url": "https://news.ycombinator.com/item?id=50572348",
     "what": "Privacy is our mission; it’s why we exist, and we do everything we can to protect it. This means that we are restricting the latest AI agents built into mobile operating systems from potentially capturing and storing you"
    },
    {
     "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
     "source": "hn",
-    "heat": 1564.5,
+    "heat": 1677.0,
     "url": "https://news.ycombinator.com/item?id=50574383",
     "what": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout"
    },
@@ -61,7 +61,7 @@
    {
     "title": "I'll never buy Framework hardware again",
     "source": "hn",
-    "heat": 2142.0,
+    "heat": 2152.0,
     "url": "https://news.ycombinator.com/item?id=50576855",
     "what": "TL;DR: This post ended up on Hacker News and got a lot more attention than I expected. I’m not trying to hurt Framework beyond repaid (pun intended); I want them to fix their support. I want them to give us what we paid "
    }
@@ -132,17 +132,17 @@
  "radar": [
   {
    "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-   "note": "hn · 熱度 3416（未歸戶）",
+   "note": "hn · 熱度 3465（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50574968"
   },
   {
    "title": "Hurried Announcement: Alessandro Masullo GRH",
-   "note": "hn · 熱度 2334（未歸戶）",
+   "note": "hn · 熱度 2415（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50579568"
   },
   {
    "title": "Inkling 2 Mini",
-   "note": "hn · 熱度 988（未歸戶）",
+   "note": "hn · 熱度 1014（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50581260"
   },
   {
