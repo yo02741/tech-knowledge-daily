@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] LLMs can read and write executables byte by byte from a hex ",
-   "text": "今日未歸戶最熱討論（hn、熱度 909），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 932），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,7 +32,7 @@
    {
     "title": "LLMs can read and write executables byte by byte from a hex dump",
     "source": "hn",
-    "heat": 909.0,
+    "heat": 931.5,
     "url": "https://news.ycombinator.com/item?id=50546587",
     "what": "With only a hex dump, no tools and one reply, a frontier LLM explains compiled programs, adds features by editing their bytes, and writes working executables from scratch."
    },
@@ -98,28 +98,28 @@
  "radar": [
   {
    "title": "Hurried Announcement: Alessandro Masullo GRH",
-   "note": "hn · 熱度 2990（未歸戶）",
+   "note": "hn · 熱度 2994（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50579568"
   },
   {
    "title": "Lean verification of the Riemann Hypothesis",
-   "note": "hn · 熱度 1366（未歸戶）",
+   "note": "hn · 熱度 1406（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50589618"
   },
   {
-   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
-   "note": "hn · 熱度 1058（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50583761"
-  },
-  {
    "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in dec",
-   "note": "hn · 熱度 988（未歸戶）",
+   "note": "hn · 熱度 1031（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50582069"
   },
   {
    "title": "Detonating a pile of lead azide",
-   "note": "hn · 熱度 780（未歸戶）",
+   "note": "hn · 熱度 792（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50588982"
+  },
+  {
+   "title": "My monitor was cutting my download speed by 75%",
+   "note": "hn · 熱度 700（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50587875"
   },
   {
    "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
