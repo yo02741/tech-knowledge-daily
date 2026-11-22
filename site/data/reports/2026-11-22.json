@@ -1,0 +1,172 @@
+{
+ "date": "2026-11-22",
+ "weekday": "日",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-blue-green",
+  "domain": "devops",
+  "term": "藍綠部署與金絲雀發布",
+  "tagline": "新版先小規模試毒，有事秒切回舊版",
+  "intro": [
+   "藍綠：養兩套一模一樣的環境，新版部到閒置那套、驗證後把流量整個切過去，出事切回來就是回滾。金絲雀：先放 1-5% 流量給新版，指標正常再逐步放大。",
+   "兩者都在解同一題：把「部署」和「發布」解耦，讓上線不再是不可逆的驚險一跳。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "Google Cloud：部署策略",
+    "url": "https://cloud.google.com/architecture/application-deployment-and-testing-strategies"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] LLMs can read and write executables byte by byte from a hex ",
+   "text": "今日未歸戶最熱討論（hn、熱度 909），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "LLMs can read and write executables byte by byte from a hex dump",
+    "source": "hn",
+    "heat": 909.0,
+    "url": "https://news.ycombinator.com/item?id=50546587",
+    "what": "With only a hex dump, no tools and one reply, a frontier LLM explains compiled programs, adds features by editing their bytes, and writes working executables from scratch."
+   },
+   {
+    "title": "firecrawl/firecrawl",
+    "source": "github",
+    "heat": 905.4,
+    "url": "https://github.com/firecrawl/firecrawl",
+    "what": "Knowledge infrastructure to make your agents smarter. Search, scrape"
+   },
+   {
+    "title": "obra/superpowers",
+    "source": "github",
+    "heat": 794.7,
+    "url": "https://github.com/obra/superpowers",
+    "what": "An agentic skills framework & software development methodology that wor"
+   }
+  ],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 2005.2,
+   "heat_trend": [
+    1173.6,
+    2999.7,
+    2854.8,
+    609.3,
+    1705.5,
+    1874.7,
+    2005.2
+   ]
+  },
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "fading",
+   "domain": "ai",
+   "heat_today": 649.8,
+   "heat_trend": [
+    732.6,
+    330.3,
+    4341.6,
+    2736.9,
+    432.9,
+    755.1,
+    649.8
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "note": "hn · 熱度 2990（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50579568"
+  },
+  {
+   "title": "Lean verification of the Riemann Hypothesis",
+   "note": "hn · 熱度 1366（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50589618"
+  },
+  {
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. Wha",
+   "note": "hn · 熱度 1058（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50583761"
+  },
+  {
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in dec",
+   "note": "hn · 熱度 988（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50582069"
+  },
+  {
+   "title": "Detonating a pile of lead azide",
+   "note": "hn · 熱度 780（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50588982"
+  },
+  {
+   "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
+   "note": "github · 熱度 692（未歸戶）",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
