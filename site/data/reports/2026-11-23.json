@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] 87% of the Anthropic power will come from gas and 11% from c",
-   "text": "今日未歸戶最熱討論（hn、熱度 4286），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] A Beginner's Guide to Local AI with Inkling, Qwen, and Unslo",
+   "text": "今日未歸戶最熱討論（hn、熱度 1785），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -30,25 +30,25 @@
  "fresh": {
   "ai": [
    {
-    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-    "source": "hn",
-    "heat": 4285.5,
-    "url": "https://news.ycombinator.com/item?id=50597612",
-    "what": "A case study of Anthropic’s total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028."
-   },
-   {
     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
     "source": "hn",
-    "heat": 1639.5,
+    "heat": 1785.0,
     "url": "https://news.ycombinator.com/item?id=50603845",
     "what": "We have AI at home! Set up your own free personal ChatGPT on your PC with Unsloth and Inkling or Qwen. It's private, and the whole house can use it."
    },
    {
     "title": "Show HN: I built a game where you are an LLM's subagent",
     "source": "hn",
-    "heat": 1041.0,
+    "heat": 1066.5,
     "url": "https://news.ycombinator.com/item?id=50599762",
     "what": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com - gulivan/worker755"
+   },
+   {
+    "title": "firecrawl/firecrawl",
+    "source": "github",
+    "heat": 823.5,
+    "url": "https://github.com/firecrawl/firecrawl",
+    "what": "Knowledge infrastructure to make your agents smarter. Search, scrape"
    }
   ],
   "software": [],
@@ -98,22 +98,17 @@
  "radar": [
   {
    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-   "note": "hn · 熱度 1627（未歸戶）",
+   "note": "hn · 熱度 1644（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50596133"
   },
   {
-   "title": "firecrawl/firecrawl — Knowledge infrastructure to make your agents sma",
-   "note": "github · 熱度 824（未歸戶）",
-   "url": "https://github.com/firecrawl/firecrawl"
-  },
-  {
    "title": "What Happened to Silicon Valley?",
-   "note": "hn · 熱度 778（未歸戶）",
+   "note": "hn · 熱度 818（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50602947"
   },
   {
    "title": "Perplexity and Intelligence",
-   "note": "hn · 熱度 755（未歸戶）",
+   "note": "hn · 熱度 782（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50601525"
   },
   {
@@ -125,6 +120,11 @@
    "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
    "note": "github · 熱度 629（未歸戶）",
    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "title": "Agent swarm trying to solve P vs. NP",
+   "note": "hn · 熱度 626（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50604314"
   }
  ],
  "data_quality": [
