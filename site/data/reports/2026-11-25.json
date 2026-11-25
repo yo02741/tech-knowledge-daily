@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] LLM agents work for their parent companies, not for you",
-   "text": "今日未歸戶最熱討論（hn、熱度 3510），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 3530），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,20 +38,20 @@
    {
     "title": "LLM agents work for their parent companies, not for you",
     "source": "hn",
-    "heat": 3510.0,
+    "heat": 3529.5,
     "url": "https://news.ycombinator.com/item?id=50627340",
     "what": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy expose"
    },
    {
     "title": "Anthropic breaks below $83 IPO price",
     "source": "hn",
-    "heat": 2305.5,
+    "heat": 2344.5,
     "url": "https://news.ycombinator.com/item?id=50627836"
    },
    {
     "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
     "source": "hn",
-    "heat": 1110.0,
+    "heat": 1192.5,
     "url": "https://news.ycombinator.com/item?id=50630809"
    }
   ],
@@ -123,7 +123,7 @@
    "title": "Fable 5 使用期限與遷移策略",
    "status": "ongoing",
    "domain": "ai",
-   "heat_today": 249.0,
+   "heat_today": 258.0,
    "heat_trend": [
     264.0,
     484.5,
@@ -131,7 +131,7 @@
     0,
     0,
     0,
-    249.0
+    258.0
    ]
   }
  ],
@@ -140,6 +140,11 @@
    "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
    "note": "github · 熱度 967（未歸戶）",
    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "note": "hn · 熱度 926（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50634658"
   },
   {
    "title": "obra/superpowers — An agentic skills framework & software development ",
@@ -152,19 +157,14 @@
    "url": "https://github.com/firecrawl/firecrawl"
   },
   {
-   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "note": "hn · 熱度 878（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50634658"
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "note": "hn · 熱度 854（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50637686"
   },
   {
    "title": "mjmirza/app-store-compliance — Avoid common App Store and Google Play ",
    "note": "github · 熱度 835（未歸戶）",
    "url": "https://github.com/mjmirza/app-store-compliance"
-  },
-  {
-   "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max ",
-   "note": "hn · 熱度 820（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50631210"
   }
  ],
  "data_quality": [
