@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] 1Password Security Incident",
-   "text": "今日未歸戶最熱討論（hn、熱度 1693），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 1729），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   },
@@ -38,21 +38,21 @@
    {
     "title": "Much shorter version of GRH Lean verification from Anthropic",
     "source": "hn",
-    "heat": 1651.5,
+    "heat": 1713.0,
     "url": "https://news.ycombinator.com/item?id=50648050",
     "what": "A short Lean 4 proof of the Generalized Riemann Hypothesis - lsernau/grh-lean"
    },
    {
     "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
     "source": "hn",
-    "heat": 1240.5,
+    "heat": 1279.5,
     "url": "https://news.ycombinator.com/item?id=50601280",
     "what": "go/codegolf benchmark: frontier models vs. Google"
    },
    {
     "title": "Jev is probably Qwen3.5-35B-A3B",
     "source": "hn",
-    "heat": 1050.0,
+    "heat": 1066.5,
     "url": "https://news.ycombinator.com/item?id=50648823",
     "what": "TypeSafe doesn't disclose Jev's backbone. Self-identification, tokenizer, and throughput tests all point to Qwen3.5-35B-A3B."
    }
@@ -62,7 +62,7 @@
    {
     "title": "1Password Security Incident",
     "source": "hn",
-    "heat": 1693.0,
+    "heat": 1729.0,
     "url": "https://news.ycombinator.com/item?id=50644817",
     "what": "1Password identified a security incident involving some of our backend systems. Customer vaults were not accessed and remain secure."
    }
@@ -132,7 +132,7 @@
  "radar": [
   {
    "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now h",
-   "note": "hn · 熱度 2086（未歸戶）",
+   "note": "hn · 熱度 2199（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50646108"
   },
   {
@@ -146,6 +146,11 @@
    "url": "https://github.com/HKUDS/CLI-Anything"
   },
   {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faste",
+   "note": "hn · 熱度 916（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50651117"
+  },
+  {
    "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
    "note": "github · 熱度 850（未歸戶）",
    "url": "https://github.com/mvanhorn/last30days-skill"
@@ -154,11 +159,6 @@
    "title": "obra/superpowers — An agentic skills framework & software development ",
    "note": "github · 熱度 813（未歸戶）",
    "url": "https://github.com/obra/superpowers"
-  },
-  {
-   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faste",
-   "note": "hn · 熱度 776（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50651117"
   }
  ],
  "data_quality": [
