@@ -22,7 +22,7 @@
  "tldr": [
   {
    "title": "[新訊] 1Password Security Incident",
-   "text": "今日未歸戶最熱討論（hn、熱度 2017），詳見對應群集的「今日新訊」。",
+   "text": "今日未歸戶最熱討論（hn、熱度 2022），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -32,14 +32,14 @@
    {
     "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
     "source": "hn",
-    "heat": 1402.5,
+    "heat": 1431.0,
     "url": "https://news.ycombinator.com/item?id=50653477",
     "what": "From February 2027, Google's terms require AI agents to reach Gmail, Drive and the rest of Workspace through Google's own MCP servers. What the rule says, what the servers can and can't do, and what to change before the "
    },
    {
     "title": "AMD-specific fork of llama.cpp",
     "source": "hn",
-    "heat": 1165.5,
+    "heat": 1206.0,
     "url": "https://news.ycombinator.com/item?id=50657265",
     "what": "Miscellaneous bits and bobs from the tech world"
    },
@@ -56,7 +56,7 @@
    {
     "title": "1Password Security Incident",
     "source": "hn",
-    "heat": 2017.0,
+    "heat": 2021.5,
     "url": "https://news.ycombinator.com/item?id=50644817",
     "what": "1Password identified a security incident involving some of our backend systems. Customer vaults were not accessed and remain secure."
    }
@@ -106,7 +106,7 @@
  "radar": [
   {
    "title": "AI made self-hosting fun again",
-   "note": "hn · 熱度 800（未歸戶）",
+   "note": "hn · 熱度 868（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50660180"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
    "title": "Tell HN: Happy Thanksgiving",
-   "note": "hn · 熱度 764（未歸戶）",
+   "note": "hn · 熱度 768（未歸戶）",
    "url": "https://news.ycombinator.com/item?id=50655664"
   },
   {
