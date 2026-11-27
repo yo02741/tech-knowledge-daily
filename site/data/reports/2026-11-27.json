@@ -1,0 +1,180 @@
+{
+ "date": "2026-11-27",
+ "weekday": "五",
+ "generated": "template",
+ "tech_intro": {
+  "id": "do-observability",
+  "domain": "devops",
+  "term": "可觀測性（Observability）",
+  "tagline": "不只知道系統掛了，還知道為什麼掛",
+  "intro": [
+   "三支柱：metrics（數字趨勢，如 CPU、請求量）、logs（事件明細）、traces（一個請求跨服務的完整旅程）。監控告訴你「有事」，可觀測性讓你能問「為什麼」。",
+   "OpenTelemetry 正在統一三者的採集標準，讓你不被特定廠商綁死。"
+  ],
+  "level": "進階",
+  "links": [
+   {
+    "label": "OpenTelemetry 文件",
+    "url": "https://opentelemetry.io/docs/"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] 1Password Security Incident",
+   "text": "今日未歸戶最熱討論（hn、熱度 2017），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "source": "hn",
+    "heat": 1402.5,
+    "url": "https://news.ycombinator.com/item?id=50653477",
+    "what": "From February 2027, Google's terms require AI agents to reach Gmail, Drive and the rest of Workspace through Google's own MCP servers. What the rule says, what the servers can and can't do, and what to change before the "
+   },
+   {
+    "title": "AMD-specific fork of llama.cpp",
+    "source": "hn",
+    "heat": 1165.5,
+    "url": "https://news.ycombinator.com/item?id=50657265",
+    "what": "Miscellaneous bits and bobs from the tech world"
+   },
+   {
+    "title": "firecrawl/firecrawl",
+    "source": "github",
+    "heat": 941.4,
+    "url": "https://github.com/firecrawl/firecrawl",
+    "what": "Knowledge infrastructure to make your agents smarter. Search, scrape"
+   }
+  ],
+  "software": [],
+  "devops": [
+   {
+    "title": "1Password Security Incident",
+    "source": "hn",
+    "heat": 2017.0,
+    "url": "https://news.ycombinator.com/item?id=50644817",
+    "what": "1Password identified a security incident involving some of our backend systems. Customer vaults were not accessed and remain secure."
+   }
+  ],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1823.4,
+   "heat_trend": [
+    1874.7,
+    2005.2,
+    2091.6,
+    2154.6,
+    2152.8,
+    1944.0,
+    1823.4
+   ]
+  },
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 993.6,
+   "heat_trend": [
+    755.1,
+    649.8,
+    594.0,
+    170.1,
+    873.0,
+    1140.3,
+    993.6
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "AI made self-hosting fun again",
+   "note": "hn · 熱度 800（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50660180"
+  },
+  {
+   "title": "obra/superpowers — An agentic skills framework & software development ",
+   "note": "github · 熱度 769（未歸戶）",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "title": "Tell HN: Happy Thanksgiving",
+   "note": "hn · 熱度 764（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50655664"
+  },
+  {
+   "title": "zhouxiaoka/autoclip — AutoClip｜The open-source OpusClip alternative — ",
+   "note": "github · 熱度 697（未歸戶）",
+   "url": "https://github.com/zhouxiaoka/autoclip"
+  },
+  {
+   "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
+   "note": "github · 熱度 683（未歸戶）",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+   "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
+   "note": "github · 熱度 671（未歸戶）",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
