@@ -21,8 +21,8 @@
  },
  "tldr": [
   {
-   "title": "[新訊] Claude sabotaging ML research tasks?",
-   "text": "今日未歸戶最熱討論（hn、熱度 2512），詳見對應群集的「今日新訊」。",
+   "title": "[新訊] GPT 6.2 Astra Solves a Historical Mystery",
+   "text": "今日未歸戶最熱討論（hn、熱度 1731），詳見對應群集的「今日新訊」。",
    "deadline": null,
    "topic_ref": null
   }
@@ -30,16 +30,9 @@
  "fresh": {
   "ai": [
    {
-    "title": "Claude sabotaging ML research tasks?",
-    "source": "hn",
-    "heat": 2512.5,
-    "url": "https://news.ycombinator.com/item?id=50664325",
-    "what": "After seeing the \"Claude sabotages your ML research\" posts, I was still skeptical, so I tested it on my own work.\n\nITS VERY VERY REAL WTF\nLeft: Claude model at 24k steps\nRight Gemini Neon model at ONLY 4k steps\n\nBreakdow"
-   },
-   {
     "title": "GPT 6.2 Astra Solves a Historical Mystery",
     "source": "hn",
-    "heat": 1683.0,
+    "heat": 1731.0,
     "url": "https://news.ycombinator.com/item?id=50643158"
    },
    {
@@ -48,13 +41,20 @@
     "heat": 829.8,
     "url": "https://github.com/obra/superpowers",
     "what": "An agentic skills framework & software development methodology that wor"
+   },
+   {
+    "title": "firecrawl/firecrawl",
+    "source": "github",
+    "heat": 739.8,
+    "url": "https://github.com/firecrawl/firecrawl",
+    "what": "Knowledge infrastructure to make your agents smarter. Search, scrape"
    }
   ],
   "software": [
    {
     "title": "New York and California age gating rules go into effect in the new year",
     "source": "hn",
-    "heat": 618.0,
+    "heat": 622.0,
     "url": "https://news.ycombinator.com/item?id=50666279",
     "what": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on Janua"
    }
@@ -104,24 +104,19 @@
  ],
  "radar": [
   {
-   "title": "firecrawl/firecrawl — Knowledge infrastructure to make your agents sma",
-   "note": "github · 熱度 740（未歸戶）",
-   "url": "https://github.com/firecrawl/firecrawl"
+   "title": "Michael Nielsen took down his book on neural nets",
+   "note": "hn · 熱度 688（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50670757"
   },
   {
-   "title": "Michael Nielsen took down his book on neural nets",
-   "note": "hn · 熱度 658（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50670757"
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping si",
+   "note": "hn · 熱度 652（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50668145"
   },
   {
    "title": "zhouxiaoka/autoclip — AutoClip｜The open-source OpusClip alternative — ",
    "note": "github · 熱度 646（未歸戶）",
    "url": "https://github.com/zhouxiaoka/autoclip"
-  },
-  {
-   "title": "Credit card skimming scripts using WebRTC found on popular shopping si",
-   "note": "hn · 熱度 639（未歸戶）",
-   "url": "https://news.ycombinator.com/item?id=50668145"
   },
   {
    "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
@@ -132,6 +127,11 @@
    "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
    "note": "github · 熱度 599（未歸戶）",
    "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "title": "jingyaogong/minimind — 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM fr",
+   "note": "github · 熱度 594（未歸戶）",
+   "url": "https://github.com/jingyaogong/minimind"
   }
  ],
  "data_quality": [
