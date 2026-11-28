@@ -1,0 +1,179 @@
+{
+ "date": "2026-11-28",
+ "weekday": "六",
+ "generated": "template",
+ "tech_intro": {
+  "id": "ai-embedding",
+  "domain": "ai",
+  "term": "Embedding（向量嵌入）",
+  "tagline": "把文字變成可以算距離的數字座標",
+  "intro": [
+   "Embedding 模型把一段文字轉成幾百到幾千維的向量，語意相近的文字座標也相近——「貓」和「喵星人」會靠得很近。",
+   "這是語意搜尋和 RAG 的地基：查詢時把問題也轉成向量，找座標最近的段落，就是「用意思找資料」而非關鍵字比對。"
+  ],
+  "level": "入門",
+  "links": [
+   {
+    "label": "維基百科：Word embedding",
+    "url": "https://en.wikipedia.org/wiki/Word_embedding"
+   }
+  ]
+ },
+ "tldr": [
+  {
+   "title": "[新訊] Claude sabotaging ML research tasks?",
+   "text": "今日未歸戶最熱討論（hn、熱度 2512），詳見對應群集的「今日新訊」。",
+   "deadline": null,
+   "topic_ref": null
+  }
+ ],
+ "fresh": {
+  "ai": [
+   {
+    "title": "Claude sabotaging ML research tasks?",
+    "source": "hn",
+    "heat": 2512.5,
+    "url": "https://news.ycombinator.com/item?id=50664325",
+    "what": "After seeing the \"Claude sabotages your ML research\" posts, I was still skeptical, so I tested it on my own work.\n\nITS VERY VERY REAL WTF\nLeft: Claude model at 24k steps\nRight Gemini Neon model at ONLY 4k steps\n\nBreakdow"
+   },
+   {
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "source": "hn",
+    "heat": 1683.0,
+    "url": "https://news.ycombinator.com/item?id=50643158"
+   },
+   {
+    "title": "obra/superpowers",
+    "source": "github",
+    "heat": 829.8,
+    "url": "https://github.com/obra/superpowers",
+    "what": "An agentic skills framework & software development methodology that wor"
+   }
+  ],
+  "software": [
+   {
+    "title": "New York and California age gating rules go into effect in the new year",
+    "source": "hn",
+    "heat": 618.0,
+    "url": "https://news.ycombinator.com/item?id=50666279",
+    "what": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on Janua"
+   }
+  ],
+  "devops": [],
+  "uiux": []
+ },
+ "sections": {
+  "ai": [],
+  "software": [],
+  "devops": [],
+  "uiux": []
+ },
+ "tracking": [
+  {
+   "slug": "claude-code-skills-eco",
+   "title": "Claude Code skills 生態爆發",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 1872.9,
+   "heat_trend": [
+    2005.2,
+    2091.6,
+    2154.6,
+    2152.8,
+    1944.0,
+    1823.4,
+    1872.9
+   ]
+  },
+  {
+   "slug": "codex-claude-interop",
+   "title": "OpenAI Codex ↔ Claude Code 互操作",
+   "status": "ongoing",
+   "domain": "ai",
+   "heat_today": 837.0,
+   "heat_trend": [
+    649.8,
+    594.0,
+    170.1,
+    873.0,
+    1140.3,
+    993.6,
+    837.0
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "title": "firecrawl/firecrawl — Knowledge infrastructure to make your agents sma",
+   "note": "github · 熱度 740（未歸戶）",
+   "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+   "title": "Michael Nielsen took down his book on neural nets",
+   "note": "hn · 熱度 658（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50670757"
+  },
+  {
+   "title": "zhouxiaoka/autoclip — AutoClip｜The open-source OpusClip alternative — ",
+   "note": "github · 熱度 646（未歸戶）",
+   "url": "https://github.com/zhouxiaoka/autoclip"
+  },
+  {
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping si",
+   "note": "hn · 熱度 639（未歸戶）",
+   "url": "https://news.ycombinator.com/item?id=50668145"
+  },
+  {
+   "title": "mvanhorn/last30days-skill — AI agent skill that researches any topic a",
+   "note": "github · 熱度 608（未歸戶）",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+   "title": "HKUDS/CLI-Anything — \"CLI-Anything: Making ALL Software Agent-Native\" ",
+   "note": "github · 熱度 599（未歸戶）",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  }
+ ],
+ "data_quality": [
+  {
+   "source": "reddit-ClaudeAI",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-ExperiencedDevs",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-LocalLLaMA",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-MachineLearning",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-UXDesign",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-devops",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-programming",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-web_design",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "reddit-webdev",
+   "note": "來源狀態：failed"
+  },
+  {
+   "source": "報告產生方式",
+   "note": "CI 模板版（純統計）；本機 /daily 可升級為 Claude 敘事版"
+  }
+ ]
+}
